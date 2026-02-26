@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<resource-ref>
+		<description>Oracle Datasource</description>
+		<res-ref-name>jdbc/myoracle2</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	<resource-ref>
+		<description>SQLServer Datasource</description>
+		<res-ref-name>jdbc/sqlserver</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	<resource-ref>
+		<description>SQLServer Datasource</description>
+		<res-ref-name>jdbc/esupplier</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	<context-param>
+		<param-name>log4j-init-file</param-name>
+		<param-value>WEB-INF/classes/log4j.properties</param-value>
+	</context-param>
+	<context-param>
+		<param-name>configFile</param-name>
+		<param-value>/WEB-INF/properties/web.properties</param-value>
+	</context-param>
+	<servlet>
+		<servlet-name>Data Service</servlet-name>
+		<servlet-class>com.senao.warehouse.web.DataServiceServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Picking</servlet-name>
+		<servlet-class>com.senao.warehouse.web.PickingServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Verify</servlet-name>
+		<servlet-class>com.senao.warehouse.web.VerifyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Print</servlet-name>
+		<servlet-class>com.senao.warehouse.web.PrintServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Stock</servlet-name>
+		<servlet-class>com.senao.warehouse.web.StockServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Receiving</servlet-name>
+		<servlet-class>com.senao.warehouse.web.ReceivingServlet</servlet-class>
+	</servlet>
+	<listener>
+		<listener-class>com.senao.warehouse.log.Log4jInit</listener-class>
+	</listener>
+	<listener>
+		<listener-class>com.senao.warehouse.context.APContext</listener-class>
+	</listener>
+	<welcome-file-list>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet-mapping>
+		<servlet-name>Data Service</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Picking</servlet-name>
+		<url-pattern>/picking/*</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+		<servlet-name>Verify</servlet-name>
+		<url-pattern>/verify/*</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+		<servlet-name>Print</servlet-name>
+		<url-pattern>/print/*</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+		<servlet-name>Stock</servlet-name>
+		<url-pattern>/stock/*</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+		<servlet-name>Receiving</servlet-name>
+		<url-pattern>/receiving/*</url-pattern>
+	</servlet-mapping>
+</web-app>

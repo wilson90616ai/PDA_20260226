@@ -1,0 +1,203 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.OutsourcingMaterialShipmentPickingActivity">
+
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#A4C739"
+        android:text="@string/title_activity_outsourceing_material_and_shipment_picking"
+        android:textSize="20sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <LinearLayout
+            android:id="@+id/OperationLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_below="@+id/ap_title"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/label_import_dn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/input_Merge_number"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edittext_merge_no"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/grey"
+                android:clickable="false"
+                android:ems="30"
+                android:gravity="center"
+                android:inputType="text"
+                android:lines="1"
+                android:maxLength="12"
+                android:textColor="@color/blue"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/label_import_pallet"
+                android:layout_width="396dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/label_mode_selection"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radio_add"
+                    style="@style/RadioButtonWh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_and_rivise"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_download"
+                    style="@style/RadioButtonWh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/download_file"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/DownloadLayout"
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:layout_below="@+id/OperationLayout"
+            android:orientation="vertical">
+
+
+            <CheckBox
+                android:id="@+id/cb_email"
+                style="@style/CheckBoxAppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/input_email"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edittext_email"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:background="@color/grey"
+                android:clickable="false"
+                android:ems="30"
+                android:gravity="center"
+                android:inputType="number"
+                android:lines="1"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_store_file"
+                style="@style/CheckBoxAppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/storage_path"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/label_storage_path"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="label_mode_selection"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_cancel"
+        android:layout_alignBottom="@+id/button_cancel"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/button_confirm2"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/button_cancel2"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+
+</RelativeLayout>

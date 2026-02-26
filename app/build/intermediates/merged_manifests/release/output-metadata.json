@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "MERGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "com.senao.warehouse",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 376,
+      "versionName": "3.55.1.2",
+      "outputFile": "AndroidManifest.xml"
+    }
+  ]
+}

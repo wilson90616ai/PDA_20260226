@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/custom_bg">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_item_no"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/label_item_no"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txt_item_no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/label_item_control"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/label_control"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txt_item_control"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_item_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_item_description"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txt_item_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:layout_marginStart="4dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_not_in_storage_qty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_not_in_storage_qty"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/fire_brick" />
+
+        <TextView
+            android:id="@+id/txt_not_in_storage_qty"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/fire_brick"
+            android:layout_marginStart="4dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_temp_receive"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/label_temp_receive_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_temp_receive_qty"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/orange_red" />
+
+            <TextView
+                android:id="@+id/txt_temp_receive_qty"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="4dp"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/orange_red"
+                android:layout_marginStart="4dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_temp_receive_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_wait_inspect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/label_wait_inspect_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_wait_inspect_qty"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/orange_red" />
+
+            <TextView
+                android:id="@+id/txt_wait_inspect_qty"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="4dp"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/orange_red"
+                android:layout_marginStart="4dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_wait_inspect_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_inspected"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/label_inspected_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_inspected_qty"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/orange_red" />
+
+            <TextView
+                android:id="@+id/txt_inspected_qty"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="4dp"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/orange_red"
+                android:layout_marginStart="4dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_inspected_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_storage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/label_storage_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_storage_qty"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/medium_blue" />
+
+            <TextView
+                android:id="@+id/txt_storage_qty"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="4dp"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/medium_blue"
+                android:layout_marginStart="4dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_storage_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+    </LinearLayout>
+
+</LinearLayout>

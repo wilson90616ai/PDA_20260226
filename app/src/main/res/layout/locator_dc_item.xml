@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/tv_on_hand_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_dc_inventory"
+        android:textSize="18sp"
+        android:clickable="false"
+        android:textColor="@color/blue" />
+
+    <TextView
+        android:id="@+id/tv_transfer_qty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:clickable="false"
+        android:textColor="@color/olivedrab" />
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#dddddd"
+tools:context=".ui.TransferLocatorTriggerManualDetailActivity">
+
+<TextView
+    android:id="@+id/ap_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:background="#A4C739"
+    android:text="@string/label_transfer_locator_trigger"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#ffffff" />
+
+<Button
+    android:id="@+id/button_return"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/ap_title"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/custom_button"
+    android:text="@string/button_return"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<LinearLayout
+    android:id="@+id/layoutSummary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/ap_title"
+    android:orientation="horizontal"
+    android:layout_marginTop="4dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp">
+
+    <TextView
+        android:id="@+id/label_total_qty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/label_total_qty"
+        android:textColor="#000000"
+        android:gravity="start"
+        android:textSize="16sp"
+        android:layout_weight="1" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/layout_filter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/layoutSummary"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/label_pn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="@string/label_pn"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/input_search_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_weight="1"
+        android:ems="30"
+        android:inputType="text"
+        android:lines="1"
+        android:textColor="@color/blue" />
+
+    <Button
+        android:id="@+id/button_trigger"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:paddingBottom="10dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip"
+        android:text="@string/button_trigger"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
+
+<ListView
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:choiceMode="multipleChoice"
+    android:divider="@null"
+    android:dividerHeight="4dp"
+    android:orientation="vertical"
+    android:layout_below="@+id/layout_filter"
+    android:layout_above="@+id/label_status"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+<TextView
+    android:id="@+id/label_status"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:background="#A4C739"
+    android:clickable="true"
+    android:gravity="center"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

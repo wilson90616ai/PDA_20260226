@@ -1,0 +1,1276 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:596:9-604:20
+	android:grantUriPermissions
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:600:13-47
+	android:authorities
+		INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:598:13-60
+	android:exported
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:599:13-37
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:597:13-67
+manifest
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:2:1-607:12
+INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:2:1-607:12
+INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:2:1-607:12
+INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:2:1-607:12
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\3df726101b8c5bc978d10a9c799ac2d9\multidex-1.0.3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\f2f0ec9d956502c5ad41608ae44c998e\constraint-layout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\38161208e6d217e6b215c1ee29f46908\navigation-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\39fac559b35eb26a587f67a176359694\design-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\77f96bb19d9f5716174c48c69c163faf\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\f4235ea715a4e14b026641b9cead54f9\navigation-fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\cbed6c4f56ae1a69f5f200f211197c02\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\fce78d79ddefd899c1f099a0fe0d28d8\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\323b6c8c5d1e7c313ca9d73a1161f1e7\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\296bc730b4ad40785a57d8eb088b46a0\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\cd90aa4348a385d812c08a345cef8bdd\navigation-runtime-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\2032472186a40a2a2e7ed726421fdd57\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\9e4828532a2ba68e750713bb064fce51\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\7b023f901bdd4f169ec674c81139a80b\transition-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\567e182b81a567676f18d77a9d4535d7\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\6e3e97f80602dd42879ed15ebd470cbb\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\9adb190b94f0aad9ec4326ed986c3097\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\3ed1708e0dcb6d5aee0e917d9933afe0\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\ddc91aa84d942fcce1a825ee2b8fc7fa\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\a7ec91ab1829bf286ea71328d25ea78a\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\5689741ca617362beae9dd8a0a2d7dd5\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\7eac98cf8ddc7b471f2fa3374e66239e\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\5d0dbb7b5ecb601968fc852ccf84ab09\navigation-common-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\79f86904e5386823d8262fa4e35ff7e5\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\8c8ff9877cd39cddcf418607ea68936b\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\4e967d913379620914cefe5c9f5b1c9d\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\81e7de38ddacf00795f8589f21359f4a\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\074324448cc561ae0c70fabc30d65896\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\201520915f63f1ee9af8483f21a072b8\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\ecdbd07249737769ce5586ce72d6c35b\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\3833694069d29b46e3d4499e1a481472\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\c7aa487166270a603115fd8a115ec280\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\1c3997366727e7bdb68006b2c8828e60\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\88a4104ec57cf57f553494eb0c04ba58\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\9b75642ac25d83d42b98eb690cec8f5a\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\d31afdfcf1da37236aedb6aa01d728f6\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:2:1-607:12
+INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:2:1-607:12
+INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:2:1-607:12
+	package
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:4:5-34
+		INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:6:5-35
+		INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:28:5-76
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:28:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:30:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:31:5-68
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:31:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:32:5-74
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:32:22-71
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:33:5-80
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:33:22-77
+uses-permission#android.permission.INTERNET
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:34:5-67
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:34:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:35:5-75
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:35:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:36:5-68
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:36:22-65
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:37:5-83
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:37:22-80
+application
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:39:5-605:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\f2f0ec9d956502c5ad41608ae44c998e\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\f2f0ec9d956502c5ad41608ae44c998e\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\39fac559b35eb26a587f67a176359694\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\39fac559b35eb26a587f67a176359694\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\79f86904e5386823d8262fa4e35ff7e5\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\79f86904e5386823d8262fa4e35ff7e5\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\8c8ff9877cd39cddcf418607ea68936b\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\8c8ff9877cd39cddcf418607ea68936b\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\79f86904e5386823d8262fa4e35ff7e5\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:47:9-35
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:45:9-41
+	android:hardwareAccelerated
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:43:9-43
+	android:fullBackupContent
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:42:9-42
+	tools:ignore
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:49:9-48
+	tools:targetApi
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:50:9-28
+	android:icon
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:44:9-45
+	android:allowBackup
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:41:9-35
+	android:theme
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:48:9-82
+	android:networkSecurityConfig
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:46:9-69
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:40:9-38
+activity#com.senao.warehouse.ui.LoginActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:66:9-77:20
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:70:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:69:13-45
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:71:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:68:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:67:13-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:72:13-76:29
+action#android.intent.action.MAIN
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:73:17-69
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:73:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:75:17-77
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:75:27-74
+activity#com.senao.warehouse.ui.CustomPrintActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:79:9-84:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:83:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:82:13-64
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:84:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:81:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:80:13-51
+activity#com.senao.warehouse.ui.OobaSnListActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:87:9-92:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:91:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:90:13-50
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:92:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:89:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:88:13-50
+activity#com.senao.warehouse.ui.ConnectionSettingActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:93:9-98:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:97:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:96:13-70
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:98:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:95:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:94:13-57
+activity#com.senao.warehouse.ui.ConnectionSettingMActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:99:9-104:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:103:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:102:13-70
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:104:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:101:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:100:13-58
+activity#com.senao.warehouse.ui.MenuActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:107:9-112:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:111:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:110:13-56
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:112:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:109:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:108:13-44
+activity#com.senao.warehouse.ui.BakeStartActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:113:9-118:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:117:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:116:13-56
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:118:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:115:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:114:13-49
+activity#com.senao.warehouse.ui.HumiditySensorStatusControlActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:119:9-124:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:123:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:122:13-56
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:124:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:121:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:120:13-67
+activity#com.senao.warehouse.ui.BakeCompleteActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:125:9-130:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:129:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:128:13-56
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:130:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:127:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:126:13-52
+activity#com.senao.warehouse.ui.BakeQueryActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:131:9-136:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:135:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:134:13-56
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:136:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:133:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:132:13-49
+activity#com.senao.warehouse.ui.BakeReprintActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:137:9-142:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:141:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:140:13-56
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:142:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:139:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:138:13-51
+activity#com.senao.warehouse.ui.BakeActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:143:9-148:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:147:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:146:13-56
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:148:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:145:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:144:13-44
+activity#com.senao.warehouse.ui.ScannerSettingActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:149:9-154:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:153:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:152:13-67
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:154:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:151:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:150:13-54
+activity#com.senao.warehouse.ui.TestExcelActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:155:9-160:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:159:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:158:13-33
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:160:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:157:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:156:13-49
+activity#com.senao.warehouse.ui.ShipmentActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:163:9-168:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:167:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:166:13-60
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:168:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:165:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:164:13-48
+activity#com.senao.warehouse.ui.ShipmentCartonActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:169:9-174:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:173:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:172:13-67
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:174:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:171:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:170:13-54
+activity#com.senao.warehouse.ui.ShipmentPalletActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:175:9-180:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:179:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:178:13-67
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:180:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:177:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:176:13-54
+activity#com.senao.warehouse.ui.TransferRolloverActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:181:9-186:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:185:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:184:13-69
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:186:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:183:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:182:13-56
+activity#com.senao.warehouse.ui.ShipmentCreatePalletActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:187:9-192:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:191:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:190:13-74
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:192:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:189:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:188:13-60
+activity#com.senao.warehouse.ui.ShipmentPickingActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:193:9-198:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:197:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:196:13-68
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:198:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:195:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:194:13-55
+activity#com.senao.warehouse.ui.ShippingVerifyMainActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:199:9-204:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:203:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:202:13-72
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:204:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:201:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:200:13-58
+activity#com.senao.warehouse.ui.PrinterSettingActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:205:9-210:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:209:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:208:13-67
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:210:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:207:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:206:13-54
+activity#com.senao.warehouse.ui.OverTakeActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:211:9-216:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:215:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:214:13-60
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:216:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:213:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:212:13-48
+activity#com.senao.warehouse.ui.StockInActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:217:9-222:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:221:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:220:13-60
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:222:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:219:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:218:13-47
+activity#com.senao.warehouse.ui.PrintLabelActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:223:9-229:70
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:228:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:227:13-63
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:229:13-67
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:225:13-48
+	android:isScrollContainer
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:226:13-45
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:224:13-50
+activity#com.senao.warehouse.ui.StockInProcessActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:230:9-235:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:234:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:233:13-68
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:235:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:232:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:231:13-54
+activity#com.senao.warehouse.ui.ShipmentPalletLabelPrintActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:236:9-241:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:240:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:239:13-79
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:241:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:238:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:237:13-64
+activity#com.senao.warehouse.ui.ShipmentPalletLabelPrintTestActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:242:9-247:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:246:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:245:13-40
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:247:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:244:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:243:13-68
+activity#com.senao.warehouse.ui.MaterialReceivingActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:248:9-253:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:252:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:251:13-70
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:253:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:250:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:249:13-57
+activity#com.senao.warehouse.ui.MaterialReceivingListActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:254:9-259:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:258:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:257:13-75
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:259:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:256:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:255:13-61
+activity#com.senao.warehouse.ui.MaterialReceivingProcessActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:260:9-265:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:264:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:263:13-78
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:265:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:262:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:261:13-64
+activity#com.senao.warehouse.ui.MaterialSendingActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:266:9-271:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:270:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:269:13-68
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:271:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:268:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:267:13-55
+activity#com.senao.warehouse.ui.MaterialSendingListActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:272:9-277:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:276:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:275:13-73
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:277:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:274:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:273:13-59
+activity#com.senao.warehouse.ui.MaterialSendingProcessActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:278:9-283:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:282:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:281:13-76
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:283:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:280:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:279:13-62
+activity#com.senao.warehouse.ui.MaterialSendingTransferActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:284:9-289:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:288:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:287:13-77
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:289:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:286:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:285:13-63
+activity#com.senao.warehouse.ui.MaterialSendingSubinventoryTransferActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:290:9-295:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:294:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:293:13-90
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:295:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:292:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:291:13-75
+activity#com.senao.warehouse.ui.MaterialLackListActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:296:9-301:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:300:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:299:13-71
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:301:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:298:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:297:13-56
+activity#com.senao.warehouse.ui.BarcodeVerifyActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:302:9-306:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:305:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:306:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:304:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:303:13-53
+activity#com.senao.warehouse.ui.RmaPickingActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:307:9-312:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:311:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:310:13-63
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:312:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:309:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:308:13-50
+activity#com.senao.warehouse.ui.WoLabelPrintActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:313:9-318:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:317:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:316:13-63
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:318:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:315:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:314:13-52
+activity#com.senao.warehouse.ui.AcceptanceActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:319:9-324:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:323:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:322:13-62
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:324:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:321:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:320:13-50
+activity#com.senao.warehouse.ui.AcceptanceListActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:325:9-329:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:328:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:329:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:327:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:326:13-54
+activity#com.senao.warehouse.ui.MaterialReceivingModeActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:330:9-334:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:333:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:334:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:332:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:331:13-61
+activity#com.senao.warehouse.ui.WaitCheckInquiryActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:335:9-340:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:339:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:338:13-70
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:340:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:337:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:336:13-56
+activity#com.senao.warehouse.ui.WaitCheckDetailActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:341:9-346:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:345:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:344:13-67
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:346:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:343:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:342:13-55
+activity#com.senao.warehouse.ui.WaitCheckListActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:347:9-352:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:351:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:350:13-69
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:352:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:349:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:348:13-53
+activity#com.senao.warehouse.ui.AcceptanceProcessActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:353:9-358:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:357:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:356:13-70
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:358:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:355:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:354:13-57
+activity#com.senao.warehouse.ui.MaterialReceivingTempActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:359:9-363:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:362:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:363:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:361:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:360:13-61
+activity#com.senao.warehouse.ui.MaterialReceivingDelActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:364:9-368:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:367:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:368:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:366:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:365:13-60
+activity#com.senao.warehouse.ui.MaterialReceivingSubModeActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:369:9-373:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:372:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:373:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:371:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:370:13-64
+activity#com.senao.warehouse.ui.MaterialSendingVerifyActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:374:9-379:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:378:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:377:13-74
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:379:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:376:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:375:13-61
+activity#com.senao.warehouse.ui.MaterialSendingVerifyListActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:380:9-385:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:384:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:383:13-74
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:385:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:382:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:381:13-65
+activity#com.senao.warehouse.ui.MaterialSendingVerifyProcessActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:386:9-391:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:390:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:389:13-74
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:391:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:388:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:387:13-68
+activity#com.senao.warehouse.ui.TransferSubinventoryLocatorActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:392:9-397:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:396:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:395:13-81
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:397:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:394:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:393:13-67
+activity#com.senao.warehouse.ui.TransferSubinventoryLocatorProcessActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:398:9-403:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:402:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:401:13-81
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:403:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:400:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:399:13-74
+activity#com.senao.warehouse.ui.MaterialReceivingInvoiceActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:404:9-408:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:407:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:408:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:406:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:405:13-64
+activity#com.senao.warehouse.ui.MaterialReceivingInvoiceLocatorActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:409:9-413:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:412:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:413:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:411:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:410:13-71
+activity#com.senao.warehouse.ui.AcceptanceBatchActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:414:9-419:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:418:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:417:13-68
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:419:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:416:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:415:13-55
+activity#com.senao.warehouse.ui.AcceptanceBatchListActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:420:9-425:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:424:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:423:13-68
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:425:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:422:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:421:13-59
+activity#com.senao.warehouse.ui.TestActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:426:9-430:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:429:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:430:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:428:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:427:13-44
+activity#com.senao.warehouse.ui.SamsaraPoActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:431:9-435:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:434:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:435:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:433:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:432:13-49
+activity#com.senao.warehouse.ui.SamsaraPoTestActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:436:9-440:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:439:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:440:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:438:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:437:13-53
+activity#com.senao.warehouse.ui.RmaVerifyActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:441:9-445:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:444:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:445:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:443:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:442:13-49
+activity#com.senao.warehouse.ui.RmaListActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:446:9-450:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:449:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:450:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:448:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:447:13-47
+activity#com.senao.warehouse.ui.ShipmentReturnActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:451:9-455:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:454:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:455:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:453:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:452:13-54
+activity#com.senao.warehouse.ui.StockClosedDateSetActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:456:9-460:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:459:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:460:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:458:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:457:13-58
+activity#com.senao.warehouse.ui.ShipmentQueryPoActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:461:9-465:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:464:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:465:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:463:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:462:13-55
+activity#com.senao.warehouse.ui.PrintMaterialLabelActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:466:9-470:70
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:469:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:470:13-67
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:468:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:467:13-58
+activity#com.senao.warehouse.ui.TestOriginActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:471:9-475:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:474:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:475:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:473:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:472:13-50
+activity#com.senao.warehouse.ui.ShipmentPoActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:476:9-481:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:480:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:479:13-63
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:481:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:478:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:477:13-50
+activity#com.senao.warehouse.ui.SmtPrintMaterialLabelActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:482:9-486:70
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:485:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:486:13-67
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:484:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:483:13-61
+activity#com.senao.warehouse.ui.SmtMaterialSplitPackingActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:487:9-491:70
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:490:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:491:13-67
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:489:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:488:13-63
+activity#com.senao.warehouse.ui.MaterialSplitPackingActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:492:9-496:70
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:495:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:496:13-67
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:494:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:493:13-60
+activity#com.senao.warehouse.ui.PrintInvoiceSeqActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:497:9-501:70
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:500:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:501:13-67
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:499:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:498:13-55
+activity#com.senao.warehouse.ui.CustomerMaterialSplitPackingActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:502:9-506:70
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:505:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:506:13-67
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:504:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:503:13-68
+activity#com.senao.warehouse.ui.CustomerMaterialLabelReprintActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:507:9-511:70
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:510:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:511:13-67
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:509:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:508:13-68
+activity#com.senao.warehouse.ui.CustomerMaterialReceiptsLabelActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:512:9-516:70
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:515:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:516:13-67
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:514:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:513:13-69
+activity#com.senao.warehouse.ui.TransferLocatorTriggerManualActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:517:9-521:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:520:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:521:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:519:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:518:13-68
+activity#com.senao.warehouse.ui.TransferLocatorTriggerPickActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:522:9-526:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:525:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:526:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:524:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:523:13-66
+activity#com.senao.warehouse.ui.TransferLocatorTriggerActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:527:9-531:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:530:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:531:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:529:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:528:13-62
+activity#com.senao.warehouse.ui.TransferLocatorTriggerManualDetailActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:532:9-536:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:535:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:536:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:534:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:533:13-74
+activity#com.senao.warehouse.ui.TransferLocatorRevokeActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:537:9-541:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:540:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:541:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:539:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:538:13-61
+activity#com.senao.warehouse.ui.TransferLocatorRevokeListActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:542:9-546:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:545:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:546:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:544:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:543:13-65
+activity#com.senao.warehouse.ui.OobaSnActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:547:9-551:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:550:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:551:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:549:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:548:13-46
+activity#com.senao.warehouse.ui.TransferLocatorFormActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:552:9-556:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:555:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:556:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:554:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:553:13-59
+activity#com.senao.warehouse.ui.TransferLocatorFormListActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:557:9-561:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:560:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:561:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:559:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:558:13-63
+activity#com.senao.warehouse.ui.TransferLocatorFormProcessActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:562:9-566:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:565:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:566:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:564:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:563:13-66
+activity#com.senao.warehouse.ui.ItemOnHandActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:567:9-571:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:570:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:571:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:569:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:568:13-50
+activity#com.senao.warehouse.ui.ItemOnHandListActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:572:9-576:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:575:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:576:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:574:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:573:13-54
+activity#com.senao.warehouse.ui.Test2Activity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:577:9-54
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:577:19-51
+activity#com.senao.warehouse.ui.OutsourcingMaterialShipmentPickingActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:579:9-584:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:583:13-49
+	android:label
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:582:13-94
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:584:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:581:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:580:13-74
+activity#com.senao.warehouse.ui.OutsourcingPackingMethodActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:585:9-589:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:588:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:589:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:587:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:586:13-64
+activity#com.senao.warehouse.ui.OutsourcingPackingListPalletActivity
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:590:9-594:57
+	android:screenOrientation
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:593:13-49
+	android:windowSoftInputMode
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:594:13-54
+	android:configChanges
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:592:13-48
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:591:13-68
+uses-sdk
+INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\3df726101b8c5bc978d10a9c799ac2d9\multidex-1.0.3\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\3df726101b8c5bc978d10a9c799ac2d9\multidex-1.0.3\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\f2f0ec9d956502c5ad41608ae44c998e\constraint-layout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\f2f0ec9d956502c5ad41608ae44c998e\constraint-layout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\38161208e6d217e6b215c1ee29f46908\navigation-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\38161208e6d217e6b215c1ee29f46908\navigation-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\39fac559b35eb26a587f67a176359694\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\39fac559b35eb26a587f67a176359694\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\77f96bb19d9f5716174c48c69c163faf\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\77f96bb19d9f5716174c48c69c163faf\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\f4235ea715a4e14b026641b9cead54f9\navigation-fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\f4235ea715a4e14b026641b9cead54f9\navigation-fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\cbed6c4f56ae1a69f5f200f211197c02\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\cbed6c4f56ae1a69f5f200f211197c02\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\fce78d79ddefd899c1f099a0fe0d28d8\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\fce78d79ddefd899c1f099a0fe0d28d8\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\323b6c8c5d1e7c313ca9d73a1161f1e7\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\323b6c8c5d1e7c313ca9d73a1161f1e7\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\296bc730b4ad40785a57d8eb088b46a0\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\296bc730b4ad40785a57d8eb088b46a0\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\cd90aa4348a385d812c08a345cef8bdd\navigation-runtime-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\cd90aa4348a385d812c08a345cef8bdd\navigation-runtime-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\2032472186a40a2a2e7ed726421fdd57\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\2032472186a40a2a2e7ed726421fdd57\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\9e4828532a2ba68e750713bb064fce51\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\9e4828532a2ba68e750713bb064fce51\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\7b023f901bdd4f169ec674c81139a80b\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\7b023f901bdd4f169ec674c81139a80b\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\567e182b81a567676f18d77a9d4535d7\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\567e182b81a567676f18d77a9d4535d7\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\6e3e97f80602dd42879ed15ebd470cbb\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\6e3e97f80602dd42879ed15ebd470cbb\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\9adb190b94f0aad9ec4326ed986c3097\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\9adb190b94f0aad9ec4326ed986c3097\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\3ed1708e0dcb6d5aee0e917d9933afe0\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\3ed1708e0dcb6d5aee0e917d9933afe0\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\ddc91aa84d942fcce1a825ee2b8fc7fa\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\ddc91aa84d942fcce1a825ee2b8fc7fa\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\a7ec91ab1829bf286ea71328d25ea78a\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\a7ec91ab1829bf286ea71328d25ea78a\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\5689741ca617362beae9dd8a0a2d7dd5\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\5689741ca617362beae9dd8a0a2d7dd5\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\7eac98cf8ddc7b471f2fa3374e66239e\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\7eac98cf8ddc7b471f2fa3374e66239e\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\5d0dbb7b5ecb601968fc852ccf84ab09\navigation-common-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\5d0dbb7b5ecb601968fc852ccf84ab09\navigation-common-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\79f86904e5386823d8262fa4e35ff7e5\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\79f86904e5386823d8262fa4e35ff7e5\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\8c8ff9877cd39cddcf418607ea68936b\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\8c8ff9877cd39cddcf418607ea68936b\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\4e967d913379620914cefe5c9f5b1c9d\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\4e967d913379620914cefe5c9f5b1c9d\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\81e7de38ddacf00795f8589f21359f4a\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\81e7de38ddacf00795f8589f21359f4a\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\074324448cc561ae0c70fabc30d65896\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\074324448cc561ae0c70fabc30d65896\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\201520915f63f1ee9af8483f21a072b8\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\201520915f63f1ee9af8483f21a072b8\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\ecdbd07249737769ce5586ce72d6c35b\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\ecdbd07249737769ce5586ce72d6c35b\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\3833694069d29b46e3d4499e1a481472\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\3833694069d29b46e3d4499e1a481472\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\c7aa487166270a603115fd8a115ec280\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\c7aa487166270a603115fd8a115ec280\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\1c3997366727e7bdb68006b2c8828e60\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\1c3997366727e7bdb68006b2c8828e60\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\88a4104ec57cf57f553494eb0c04ba58\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\88a4104ec57cf57f553494eb0c04ba58\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\9b75642ac25d83d42b98eb690cec8f5a\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\9b75642ac25d83d42b98eb690cec8f5a\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\d31afdfcf1da37236aedb6aa01d728f6\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\d31afdfcf1da37236aedb6aa01d728f6\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:601:13-603:58
+	android:resource
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:603:17-55
+	android:name
+		ADDED from D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:602:17-67

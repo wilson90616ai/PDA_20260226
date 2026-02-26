@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context=".ui.OobaSnListActivity">
+
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#A4C739"
+        android:text="@string/search_result"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentEnd="true" />
+
+
+    <EditText
+        android:id="@+id/input_search_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ap_title"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:ems="30"
+        android:hint="@string/label_status"
+        android:inputType="text"
+        android:lines="1"
+        android:visibility="gone"
+        android:textColorHint="@color/darkgrey"
+        android:textColor="@color/blue" />
+
+    <ListView
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/label_status"
+        android:layout_below="@+id/input_search_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:background="#FFFFFF"
+        android:choiceMode="multipleChoice"
+        android:divider="@null"
+        android:dividerHeight="4dp"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:focusable="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

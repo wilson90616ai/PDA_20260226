@@ -1,0 +1,299 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context=".ui.MaterialReceivingActivity" >
+
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#A4C739"
+        android:text="@string/label_material_receiving"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label_login_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ap_title"
+        android:paddingLeft="5dp"
+        android:text="@string/label_login_account"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textview_login_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/label_login_account"
+        android:layout_alignBottom="@+id/label_login_account"
+        android:layout_toRightOf="@+id/label_login_account"
+        android:paddingLeft="5dp"
+        android:text="@string/label_login_account"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/blue" />
+
+    <TextView
+        android:id="@+id/label_employee_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/label_login_account"
+        android:paddingLeft="5dp"
+        android:text="@string/label_employee_id"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textview_employee_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/label_employee_id"
+        android:layout_alignBottom="@+id/label_employee_id"
+        android:layout_toRightOf="@+id/label_employee_id"
+        android:paddingLeft="5dp"
+        android:text="@string/label_employee_id"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/blue" />
+
+    <RelativeLayout
+        android:id="@+id/conditionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_below="@+id/label_employee_id"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/vendorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/label_import_vendor_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:text="@string/label_import_vendor_code"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:id="@+id/importVendorCodeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="10dp">
+
+                <RadioButton
+                    android:id="@+id/radio_vendor_code"
+                    style="@style/RadioButtonWh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableBottom="@color/blue"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/edittext_import_vendor_code"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:ems="30"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/import_vendor_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:text="@string/label_import_vendor_name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:id="@+id/importVendorNameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="10dp">
+
+                <RadioButton
+                    android:id="@+id/radio_vendor_name"
+                    style="@style/RadioButtonWh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableBottom="@color/blue"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/edittext_import_vendor_name"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:ems="30"
+                    android:gravity="center"
+                    android:inputType="textCapCharacters"
+                    android:lines="1"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/import_pn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:text="@string/import_pn"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:id="@+id/importPnLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="10dp">
+
+                <RadioButton
+                    android:id="@+id/radio_pn"
+                    style="@style/RadioButtonWh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableBottom="@color/blue"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/edittext_import_pn"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:ems="30"
+                    android:gravity="center"
+                    android:inputType="textCapCharacters"
+                    android:lines="1"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/checkorg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/showorg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="7dp"
+                    android:text="組織(Organization)"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/org_edtxt"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:ems="30"
+                    android:gravity="center"
+                    android:inputType="textCapCharacters"
+                    android:lines="1"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_confirm"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button_cancel"
+            android:layout_alignBottom="@+id/button_cancel"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/custom_button"
+            android:paddingLeft="5dip"
+            android:paddingTop="10dip"
+            android:paddingRight="5dip"
+            android:paddingBottom="10dip"
+            android:text="@string/button_confirm2"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/custom_button"
+            android:paddingLeft="5dip"
+            android:paddingTop="10dip"
+            android:paddingRight="5dip"
+            android:paddingBottom="10dip"
+            android:text="@string/button_cancel2"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

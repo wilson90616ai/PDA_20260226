@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context=".ui.PrinterSettingActivity">
+
+    <TextView
+        android:id="@+id/label_printer_setting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="top"
+        android:paddingBottom="30dip"
+        android:paddingLeft="30dip"
+        android:paddingTop="50dip"
+        android:text="@string/label_printer_setting"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/label_printer_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#ff0000"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:text="@string/label_empty"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/label_printer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/input_enter_enable_rotate"
+        android:layout_below="@+id/label_printer_setting"
+        android:paddingBottom="3dip"
+        android:paddingLeft="1dip"
+        android:paddingRight="10dip"
+        android:paddingTop="3dip"
+        android:text="@string/label_printer_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/input_printer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_printer_setting"
+        android:layout_marginRight="30dp"
+        android:layout_toRightOf="@+id/label_printer_name"
+        android:ems="30"
+        android:inputType="text"
+        android:lines="1"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/button_printer_test"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/input_printer_name"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/custom_button"
+        android:paddingBottom="10dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip"
+        android:text="@string/label_printer_test"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_cancel_printer_setting"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_confirm_printer_setting"
+        android:layout_alignBottom="@+id/button_confirm_printer_setting"
+        android:layout_alignRight="@+id/button_printer_test"
+        android:background="@drawable/custom_button"
+        android:paddingBottom="10dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip"
+        android:text="@string/button_cancel_setting"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_confirm_printer_setting"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_printer_test"
+        android:layout_below="@+id/button_printer_test"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/custom_button"
+        android:paddingBottom="10dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip"
+        android:text="@string/button_confirm_setting"
+        android:textColor="#ffffff" />
+
+    <CheckBox
+        android:id="@+id/input_enter_enable_rotate"
+        style="@style/CheckBoxAppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_printer_test"
+        android:layout_below="@+id/label_printer_name"
+        android:layout_marginTop="24dp"
+        android:checked="false"
+        android:gravity="center_vertical|right"
+        android:text="@string/label_rotate_print"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <!--<CheckBox-->
+    <!--android:id="@+id/input_enter_enable_rotate"-->
+    <!--android:layout_width="40dip"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignLeft="@+id/button_printer_test"-->
+    <!--android:layout_below="@+id/label_printer_name"-->
+    <!--android:background="@color/white"-->
+    <!--android:checked="false"-->
+    <!--android:gravity="center_vertical|right"-->
+    <!--android:paddingLeft="15dip"-->
+    <!--android:paddingTop="15dip"-->
+    <!--android:textColor="@color/blue" />-->
+
+
+</RelativeLayout>

@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sfis_label_status"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/sfis_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/label_work_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oracle_label_status"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/ora_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue"
+            android:layout_marginStart="4dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plan_ship_week"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/plan_ship"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_total_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_item_number"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/item_num"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_form_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item_name"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/item_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sn_name"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/sn_num"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/box_num"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/box_num"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/num"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/box_num_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ban_num"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/ban_num"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/num"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/ban_num_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wo_num"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/wo_num"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sets"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/wo_num_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inspection_form"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/q_no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_warehousing_number"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/sc001"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/production_day"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/mfg_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Inspection_date"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/q_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Storage_day"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/stock_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sales_day"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/salesDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Shipping_DN"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/shippingDN"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Shipping_customers"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/shippingCustom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Shipping_box_number"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/shippingBoxNum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Shipping_board_number"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/shippingVerNum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oe"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/shippingOE"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Shipping_po"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/shippingPo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/blue" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:divider="@drawable/vertical_divider_1"
+        android:showDividers="middle"
+        android:id="@+id/layout_detail" />
+
+</LinearLayout>

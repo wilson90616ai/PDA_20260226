@@ -1,0 +1,314 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    android:gravity="right"
+    tools:context=".ui.LoginActivity">
+
+    <EditText
+        android:id="@+id/input_login_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="36dp"
+        android:layout_toRightOf="@+id/label_login_name"
+        android:ems="30"
+        android:inputType="textCapCharacters"
+        android:lines="1"
+        android:textColor="#000000">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/label_login_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/input_login_name"
+        android:layout_alignBottom="@+id/input_login_name"
+        android:layout_marginLeft="36dp"
+        android:paddingTop="3dip"
+        android:paddingRight="15dip"
+        android:paddingBottom="3dip"
+        android:text="@string/label_login_name"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/label_login_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/input_login_password"
+        android:layout_alignBottom="@+id/input_login_password"
+        android:layout_alignParentLeft="false"
+        android:layout_marginLeft="36dp"
+        android:paddingTop="3dip"
+        android:paddingRight="15dip"
+        android:paddingBottom="3dip"
+        android:text="@string/label_login_password"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/label_main_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/input_login_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/input_login_name"
+        android:layout_below="@+id/input_login_name"
+        android:layout_toRightOf="@+id/label_login_password"
+        android:ems="30"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/label_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/spinnerCompany"
+        android:layout_alignBottom="@+id/spinnerCompany"
+        android:layout_alignRight="@+id/label_login_password"
+        android:paddingTop="3dip"
+        android:paddingRight="15dip"
+        android:paddingBottom="3dip"
+        android:text="@string/label_company"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_login_password"
+        android:layout_alignLeft="@+id/input_login_name"
+        android:layout_alignRight="@+id/input_login_name"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@+id/label_company"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/label_factory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/spinnerFactory"
+        android:layout_alignRight="@+id/label_company"
+        android:paddingTop="3dip"
+        android:paddingRight="15dip"
+        android:paddingBottom="3dip"
+        android:text="@string/label_factory"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerFactory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerCompany"
+        android:layout_alignLeft="@+id/spinnerCompany"
+        android:layout_alignRight="@+id/spinnerCompany"
+        android:layout_toRightOf="@+id/label_factory"
+        android:layout_marginTop="4dp"
+        android:spinnerMode="dropdown" />
+
+    <!--<Button
+        android:id="@+id/button_scanner_setting"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_connection_setting"
+        android:layout_alignRight="@+id/button_connection_setting"
+        android:layout_below="@+id/button_connection_setting"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        android:paddingBottom="10dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip"
+        android:text="@string/label_scanner_setting"
+        android:textColor="#ffffff"
+        android:visibility="invisible"/>-->
+
+    <TextView
+        android:id="@+id/label_Language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/spinnerLanguage"
+        android:layout_alignRight="@+id/label_factory"
+        android:layout_marginRight="0dp"
+        android:paddingTop="3dip"
+        android:paddingRight="15dip"
+        android:paddingBottom="3dip"
+        android:text="@string/label_Language"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerFactory"
+        android:layout_alignLeft="@+id/spinnerFactory"
+        android:layout_alignRight="@+id/spinnerFactory"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="0dp"
+        android:layout_toRightOf="@+id/label_Language"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/language_change"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_bt_connect"
+        android:layout_alignLeft="@+id/button_bt_printer_setting"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/change_language"
+        android:textColor="#ffffff"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerFactory"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/button_login"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_login_cancel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_login"
+        android:layout_alignBottom="@+id/button_login"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/button_login_cancel"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_connection_setting"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_login"
+        android:layout_alignLeft="@+id/button_login"
+        android:layout_alignRight="@+id/button_login_cancel"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/button_connection_setting"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_bt_printer_setting"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_connection_setting"
+        android:layout_alignLeft="@+id/button_connection_setting"
+        android:layout_alignRight="@+id/button_connection_setting"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/label_printer_setting"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_bt_connect"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_bt_printer_setting"
+        android:layout_alignLeft="@+id/button_bt_printer_setting"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/label_bt_connect"
+        android:textColor="#ffffff" />
+
+
+
+    <Button
+        android:id="@+id/button_bt_disconnect"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_bt_connect"
+        android:layout_alignRight="@+id/button_bt_printer_setting"
+        android:layout_alignBottom="@+id/button_bt_connect"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="-1dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="5dip"
+        android:paddingTop="8dp"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/label_bt_disconnect"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textViewIp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IP"
+        android:layout_above="@+id/label_main_status"
+        android:layout_alignParentLeft="true"
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/textViewVersion"
+        android:layout_width="wrap_content"
+        android:text="version"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_main_status"
+        android:layout_alignParentRight="true"
+        android:textColor="#000000" />
+
+</RelativeLayout>

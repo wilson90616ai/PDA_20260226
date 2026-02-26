@@ -1,0 +1,328 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MaterialSendingSubinventoryTransferActivity" >
+
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#A4C739"
+        android:text="@string/title_activity_material_sending_debit"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/summaryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ap_title"
+        android:background="#dddddd"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/label_line_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="@string/label_line_number"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/txt_line_number"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="2">
+
+                <TextView
+                    android:id="@+id/label_merge_wo_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="@string/label_workorder_no"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/txt_merge_wo_number"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/label_part_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/label_part_no"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txt_part_no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/label_subinventory_transfer_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/label_subinventory_transfer_qty"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txt_subinventory_transfer_qty"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/label_subinventory_transfer_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/label_subinventory_transfer_no"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txt_subinventory_transfer_no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_below="@+id/summaryLayout"
+        android:background="@color/white"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:id="@+id/stockLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/label_import_subinventory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:text="@string/import_subinventory"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/edittext_import_subinventory"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/grey"
+                android:clickable="false"
+                android:ems="30"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:lines="1"
+                android:textColor="@color/blue"
+                android:textSize="16sp" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/label_locator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="5dp"
+                android:text="@string/import_locator"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edittext_locator"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/grey"
+                android:clickable="false"
+                android:ems="30"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:lines="1"
+                android:textColor="@color/blue"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/questionLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/label_subinventory_transfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:text="@string/label_subinventory_transfer"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/label_subinventory_transfer_eng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:text="@string/label_subinventory_transfer_eng"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <Button
+            android:id="@+id/button_confirm"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button_cancel"
+            android:layout_alignBottom="@+id/button_cancel"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/custom_button"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="10dip"
+            android:text="@string/button_confirm2"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/custom_button"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="10dip"
+            android:text="@string/button_cancel2"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

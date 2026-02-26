@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context=".ui.WaitCheckDetailActivity">
+
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#A4C739"
+        android:text="@string/label_wait_check_inquiry"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_vendor_name"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label_vendor_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ap_title"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="4dp"
+        android:text="@string/label_vendor_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txt_vendor_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/label_vendor_name"
+        android:layout_alignParentLeft="false"
+        android:layout_toRightOf="@+id/label_vendor_name"
+        android:paddingLeft="4dp"
+        android:text="@string/label_vendor_info"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+
+    <TextView
+        android:id="@+id/label_pn_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/label_vendor_name"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="4dp"
+        android:text="@string/label_part_no"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txt_pn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/label_pn_title"
+        android:layout_toRightOf="@+id/label_pn_title"
+        android:paddingLeft="4dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/label_total_qty_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/label_pn_title"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="4dp"
+        android:text="@string/label_wait_check_qty"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txt_total_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/label_total_qty_title"
+        android:layout_toRightOf="@+id/label_total_qty_title"
+        android:paddingLeft="4dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/label_uncheck_qty_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/label_total_qty_title"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="4dp"
+        android:text="@string/label_received_uncheck"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txt_uncheck_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/label_uncheck_qty_title"
+        android:layout_toRightOf="@+id/label_vendor_name"
+        android:paddingLeft="4dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/label_not_in_qty_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/label_uncheck_qty_title"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="4dp"
+        android:text="@string/label_check_not_in"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txt_not_in_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/label_not_in_qty_title"
+        android:layout_toRightOf="@+id/label_vendor_name"
+        android:paddingLeft="4dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+    <ListView
+        android:id="@+id/list_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/label_not_in_qty_title"
+        android:background="#FFFFFF"
+        android:choiceMode="singleChoice"
+        android:divider="@null"
+        android:dividerHeight="8dp"
+        android:orientation="vertical">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

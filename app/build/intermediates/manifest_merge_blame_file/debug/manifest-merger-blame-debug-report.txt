@@ -1,0 +1,1170 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.senao.warehouse"
+4    android:versionCode="376"
+5    android:versionName="3.55.1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" /> <!-- Tim .8  Ann .2 Wilson .7 -->
+9-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml
+10    <!-- now 374  3.54.22.2 -->
+11    <!-- 367    3.54.15.2   因應神準進料後轉賣給越南神準不換標(20251113) -->
+12    <!-- 368    3.54.16.2   越南不呼叫 apiportal、scmportal(20251126) -->
+13    <!-- 370    3.54.18.2   收料作業，QRCODE增加COO(20260105) -->
+14    <!--
+15         371    3.54.19.2   進貨標籤列印作業:藍芽、Wifi列印標籤增加COO(20260108) PrintMaterialLabelActivity(+欄位)、BtPrintLabel
+16         372    3.54.20.2   材料拆包作業:藍芽、Wifi列印標籤增加COO(20260116) MaterialSplitPackingActivity(+欄位)、BtPrintLabel
+17         373    3.54.21.2   材料標籤補標作業:藍芽、Wifi列印標籤增加COO(20260114) PrintLabelActivity(+欄位)、BtPrintLabel
+18         374    3.54.22.2   製令標籤補標作業:藍芽、Wifi列印標籤增加COO(20260120) WoLabelPrintActivity(+欄位)、BtPrintLabel
+19                            登入時檢查版本需更新時，下載以及安裝方式(20260121) LoginActivity
+20    -->
+21    <!--
+22         375    3.54.23.2   製令發料扣帳作業:(20260122) MaterialSendingProcessActivity(+欄位)、MaterialSendingSubinventoryTransferActivity、BtPrintLabel
+23                            製令發料轉倉作業:(20260126) MaterialSendingTransferActivity
+24                            製令發料檢核作業:(20260128) MaterialSendingVerifyProcessActivity 是否允許新版標籤格式
+25    -->
+26    <!-- 376    3.55.1.2    調整連線設定介面，以便不同環境(台灣、VN)呼叫API的URL更彈性，原寫在連線設定及warehouse.properties(20260213) ConnectionSettingMActivity(+欄位) -->
+27
+28
+29    <!-- 584 3.42 新增列表項 Fortint入庫卡控 變更codesoft網只 -->
+30    <!-- 0219 590 3.44 -->
+31    <!-- 3.49.4 Force Approved 100,76  RMA列印 -->
+32    <!-- 3.49.2 BLD檢查倉別儲位 -->
+33    <!-- 3.49.1 codesoft2 -->
+34    <!-- 634 3.54.12.2  1.增加越文顯示 2.調整選擇語系的方式  20250710 -->
+35    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+35-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:28:5-76
+35-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:28:22-73
+36    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+36-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:28:5-76
+36-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:28:22-73
+37    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+37-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:30:5-81
+37-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:30:22-78
+38    <uses-permission android:name="android.permission.BLUETOOTH" />
+38-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:31:5-68
+38-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:31:22-65
+39    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+39-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:32:5-74
+39-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:32:22-71
+40    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+40-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:33:5-80
+40-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:33:22-77
+41    <uses-permission android:name="android.permission.INTERNET" />
+41-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:34:5-67
+41-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:34:22-64
+42    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+42-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:35:5-75
+42-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:35:22-72
+43    <uses-permission android:name="android.permission.WAKE_LOCK" />
+43-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:36:5-68
+43-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:36:22-65
+44    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+44-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:37:5-83
+44-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:37:22-80
+45
+46    <application
+46-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:39:5-605:19
+47        android:name="com.senao.warehouse.AppController"
+47-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:40:9-38
+48        android:allowBackup="true"
+48-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:41:9-35
+49        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+49-->[com.android.support:support-compat:28.0.0] C:\Users\103382\.gradle\caches\transforms-2\files-2.1\79f86904e5386823d8262fa4e35ff7e5\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+50        android:debuggable="true"
+51        android:fullBackupContent="false"
+51-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:42:9-42
+52        android:hardwareAccelerated="true"
+52-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:43:9-43
+53        android:icon="@drawable/ic_launcher"
+53-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:44:9-45
+54        android:label="@string/app_name"
+54-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:45:9-41
+55        android:networkSecurityConfig="@xml/network_security_config"
+55-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:46:9-69
+56        android:supportsRtl="true"
+56-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:47:9-35
+57        android:testOnly="true"
+58        android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" >
+58-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:48:9-82
+59
+60        <!--
+61        XXX測試
+62        <activity
+63            android:name=".ui.A_test"
+64            android:configChanges="orientation"
+65            android:label="@string/title_test_name"
+66            android:screenOrientation="portrait"
+67            android:windowSoftInputMode="stateHidden" />
+68        <activity
+69            android:name=".ui.A_test2"
+70            android:configChanges="orientation"
+71            android:label="@string/title_test_name"
+72            android:screenOrientation="portrait"
+73            android:windowSoftInputMode="stateHidden" />
+74        -->
+75
+76        <activity
+76-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:66:9-77:20
+77            android:name="com.senao.warehouse.ui.LoginActivity"
+77-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:67:13-45
+78            android:configChanges="orientation"
+78-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:68:13-48
+79            android:label="@string/app_name"
+79-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:69:13-45
+80            android:screenOrientation="portrait"
+80-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:70:13-49
+81            android:windowSoftInputMode="stateHidden" >
+81-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:71:13-54
+82            <intent-filter>
+82-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:72:13-76:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:73:17-69
+83-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:73:25-66
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+85-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:75:17-77
+85-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:75:27-74
+86            </intent-filter>
+87        </activity>
+88        <activity
+88-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:79:9-84:57
+89            android:name="com.senao.warehouse.ui.CustomPrintActivity"
+89-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:80:13-51
+90            android:configChanges="orientation"
+90-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:81:13-48
+91            android:label="@string/title_activity_custom_print"
+91-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:82:13-64
+92            android:screenOrientation="portrait"
+92-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:83:13-49
+93            android:windowSoftInputMode="stateHidden" />
+93-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:84:13-54
+94        <activity
+94-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:87:9-92:57
+95            android:name="com.senao.warehouse.ui.OobaSnListActivity"
+95-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:88:13-50
+96            android:configChanges="orientation"
+96-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:89:13-48
+97            android:label="@string/search_result"
+97-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:90:13-50
+98            android:screenOrientation="portrait"
+98-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:91:13-49
+99            android:windowSoftInputMode="stateHidden" />
+99-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:92:13-54
+100        <activity
+100-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:93:9-98:57
+101            android:name="com.senao.warehouse.ui.ConnectionSettingActivity"
+101-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:94:13-57
+102            android:configChanges="orientation"
+102-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:95:13-48
+103            android:label="@string/title_activity_connection_setting"
+103-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:96:13-70
+104            android:screenOrientation="portrait"
+104-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:97:13-49
+105            android:windowSoftInputMode="stateHidden" />
+105-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:98:13-54
+106        <activity
+106-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:99:9-104:57
+107            android:name="com.senao.warehouse.ui.ConnectionSettingMActivity"
+107-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:100:13-58
+108            android:configChanges="orientation"
+108-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:101:13-48
+109            android:label="@string/title_activity_connection_setting"
+109-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:102:13-70
+110            android:screenOrientation="portrait"
+110-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:103:13-49
+111            android:windowSoftInputMode="stateHidden" />
+111-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:104:13-54
+112        <activity
+112-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:107:9-112:57
+113            android:name="com.senao.warehouse.ui.MenuActivity"
+113-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:108:13-44
+114            android:configChanges="orientation"
+114-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:109:13-48
+115            android:label="@string/title_activity_menu"
+115-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:110:13-56
+116            android:screenOrientation="portrait"
+116-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:111:13-49
+117            android:windowSoftInputMode="stateHidden" />
+117-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:112:13-54
+118        <activity
+118-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:113:9-118:57
+119            android:name="com.senao.warehouse.ui.BakeStartActivity"
+119-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:114:13-49
+120            android:configChanges="orientation"
+120-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:115:13-48
+121            android:label="@string/title_activity_menu"
+121-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:116:13-56
+122            android:screenOrientation="portrait"
+122-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:117:13-49
+123            android:windowSoftInputMode="stateHidden" />
+123-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:118:13-54
+124        <activity
+124-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:119:9-124:57
+125            android:name="com.senao.warehouse.ui.HumiditySensorStatusControlActivity"
+125-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:120:13-67
+126            android:configChanges="orientation"
+126-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:121:13-48
+127            android:label="@string/title_activity_menu"
+127-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:122:13-56
+128            android:screenOrientation="portrait"
+128-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:123:13-49
+129            android:windowSoftInputMode="stateHidden" />
+129-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:124:13-54
+130        <activity
+130-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:125:9-130:57
+131            android:name="com.senao.warehouse.ui.BakeCompleteActivity"
+131-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:126:13-52
+132            android:configChanges="orientation"
+132-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:127:13-48
+133            android:label="@string/title_activity_menu"
+133-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:128:13-56
+134            android:screenOrientation="portrait"
+134-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:129:13-49
+135            android:windowSoftInputMode="stateHidden" />
+135-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:130:13-54
+136        <activity
+136-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:131:9-136:57
+137            android:name="com.senao.warehouse.ui.BakeQueryActivity"
+137-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:132:13-49
+138            android:configChanges="orientation"
+138-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:133:13-48
+139            android:label="@string/title_activity_menu"
+139-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:134:13-56
+140            android:screenOrientation="portrait"
+140-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:135:13-49
+141            android:windowSoftInputMode="stateHidden" />
+141-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:136:13-54
+142        <activity
+142-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:137:9-142:57
+143            android:name="com.senao.warehouse.ui.BakeReprintActivity"
+143-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:138:13-51
+144            android:configChanges="orientation"
+144-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:139:13-48
+145            android:label="@string/title_activity_menu"
+145-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:140:13-56
+146            android:screenOrientation="portrait"
+146-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:141:13-49
+147            android:windowSoftInputMode="stateHidden" />
+147-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:142:13-54
+148        <activity
+148-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:143:9-148:57
+149            android:name="com.senao.warehouse.ui.BakeActivity"
+149-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:144:13-44
+150            android:configChanges="orientation"
+150-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:145:13-48
+151            android:label="@string/title_activity_menu"
+151-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:146:13-56
+152            android:screenOrientation="portrait"
+152-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:147:13-49
+153            android:windowSoftInputMode="stateHidden" />
+153-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:148:13-54
+154        <activity
+154-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:149:9-154:57
+155            android:name="com.senao.warehouse.ui.ScannerSettingActivity"
+155-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:150:13-54
+156            android:configChanges="orientation"
+156-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:151:13-48
+157            android:label="@string/title_activity_scanner_setting"
+157-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:152:13-67
+158            android:screenOrientation="portrait"
+158-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:153:13-49
+159            android:windowSoftInputMode="stateHidden" />
+159-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:154:13-54
+160        <activity
+160-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:155:9-160:57
+161            android:name="com.senao.warehouse.ui.TestExcelActivity"
+161-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:156:13-49
+162            android:configChanges="orientation"
+162-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:157:13-48
+163            android:label="TEST"
+163-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:158:13-33
+164            android:screenOrientation="portrait"
+164-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:159:13-49
+165            android:windowSoftInputMode="stateHidden" />
+165-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:160:13-54
+166        <activity
+166-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:163:9-168:57
+167            android:name="com.senao.warehouse.ui.ShipmentActivity"
+167-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:164:13-48
+168            android:configChanges="orientation"
+168-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:165:13-48
+169            android:label="@string/title_activity_shipment"
+169-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:166:13-60
+170            android:screenOrientation="portrait"
+170-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:167:13-49
+171            android:windowSoftInputMode="stateHidden" />
+171-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:168:13-54
+172        <activity
+172-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:169:9-174:57
+173            android:name="com.senao.warehouse.ui.ShipmentCartonActivity"
+173-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:170:13-54
+174            android:configChanges="orientation"
+174-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:171:13-48
+175            android:label="@string/title_activity_shipment_carton"
+175-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:172:13-67
+176            android:screenOrientation="portrait"
+176-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:173:13-49
+177            android:windowSoftInputMode="stateHidden" />
+177-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:174:13-54
+178        <activity
+178-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:175:9-180:57
+179            android:name="com.senao.warehouse.ui.ShipmentPalletActivity"
+179-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:176:13-54
+180            android:configChanges="orientation"
+180-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:177:13-48
+181            android:label="@string/title_activity_shipment_pallet"
+181-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:178:13-67
+182            android:screenOrientation="portrait"
+182-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:179:13-49
+183            android:windowSoftInputMode="stateHidden" />
+183-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:180:13-54
+184        <activity
+184-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:181:9-186:57
+185            android:name="com.senao.warehouse.ui.TransferRolloverActivity"
+185-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:182:13-56
+186            android:configChanges="orientation"
+186-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:183:13-48
+187            android:label="@string/title_activity_transfer_rollover"
+187-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:184:13-69
+188            android:screenOrientation="portrait"
+188-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:185:13-49
+189            android:windowSoftInputMode="stateHidden" />
+189-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:186:13-54
+190        <activity
+190-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:187:9-192:57
+191            android:name="com.senao.warehouse.ui.ShipmentCreatePalletActivity"
+191-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:188:13-60
+192            android:configChanges="orientation"
+192-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:189:13-48
+193            android:label="@string/title_activity_shipment_create_pallet"
+193-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:190:13-74
+194            android:screenOrientation="portrait"
+194-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:191:13-49
+195            android:windowSoftInputMode="stateHidden" />
+195-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:192:13-54
+196        <activity
+196-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:193:9-198:57
+197            android:name="com.senao.warehouse.ui.ShipmentPickingActivity"
+197-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:194:13-55
+198            android:configChanges="orientation"
+198-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:195:13-48
+199            android:label="@string/title_activity_shipment_picking"
+199-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:196:13-68
+200            android:screenOrientation="portrait"
+200-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:197:13-49
+201            android:windowSoftInputMode="stateHidden" />
+201-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:198:13-54
+202        <activity
+202-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:199:9-204:57
+203            android:name="com.senao.warehouse.ui.ShippingVerifyMainActivity"
+203-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:200:13-58
+204            android:configChanges="orientation"
+204-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:201:13-48
+205            android:label="@string/title_activity_shipping_verify_main"
+205-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:202:13-72
+206            android:screenOrientation="portrait"
+206-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:203:13-49
+207            android:windowSoftInputMode="stateHidden" />
+207-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:204:13-54
+208        <activity
+208-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:205:9-210:57
+209            android:name="com.senao.warehouse.ui.PrinterSettingActivity"
+209-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:206:13-54
+210            android:configChanges="orientation"
+210-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:207:13-48
+211            android:label="@string/title_activity_printer_setting"
+211-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:208:13-67
+212            android:screenOrientation="portrait"
+212-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:209:13-49
+213            android:windowSoftInputMode="stateHidden" />
+213-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:210:13-54
+214        <activity
+214-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:211:9-216:57
+215            android:name="com.senao.warehouse.ui.OverTakeActivity"
+215-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:212:13-48
+216            android:configChanges="orientation"
+216-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:213:13-48
+217            android:label="@string/title_activity_overtake"
+217-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:214:13-60
+218            android:screenOrientation="portrait"
+218-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:215:13-49
+219            android:windowSoftInputMode="stateHidden" />
+219-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:216:13-54
+220        <activity
+220-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:217:9-222:57
+221            android:name="com.senao.warehouse.ui.StockInActivity"
+221-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:218:13-47
+222            android:configChanges="orientation"
+222-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:219:13-48
+223            android:label="@string/title_activity_stock_in"
+223-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:220:13-60
+224            android:screenOrientation="portrait"
+224-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:221:13-49
+225            android:windowSoftInputMode="stateHidden" />
+225-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:222:13-54
+226        <activity
+226-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:223:9-229:70
+227            android:name="com.senao.warehouse.ui.PrintLabelActivity"
+227-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:224:13-50
+228            android:configChanges="orientation"
+228-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:225:13-48
+229            android:isScrollContainer="true"
+229-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:226:13-45
+230            android:label="@string/title_activity_print_label"
+230-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:227:13-63
+231            android:screenOrientation="portrait"
+231-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:228:13-49
+232            android:windowSoftInputMode="stateHidden|adjustResize" />
+232-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:229:13-67
+233        <activity
+233-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:230:9-235:57
+234            android:name="com.senao.warehouse.ui.StockInProcessActivity"
+234-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:231:13-54
+235            android:configChanges="orientation"
+235-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:232:13-48
+236            android:label="@string/title_activity_stock_in_process"
+236-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:233:13-68
+237            android:screenOrientation="portrait"
+237-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:234:13-49
+238            android:windowSoftInputMode="stateHidden" />
+238-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:235:13-54
+239        <activity
+239-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:236:9-241:57
+240            android:name="com.senao.warehouse.ui.ShipmentPalletLabelPrintActivity"
+240-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:237:13-64
+241            android:configChanges="orientation"
+241-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:238:13-48
+242            android:label="@string/title_activity_shipment_pallet_label_print"
+242-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:239:13-79
+243            android:screenOrientation="portrait"
+243-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:240:13-49
+244            android:windowSoftInputMode="stateHidden" />
+244-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:241:13-54
+245        <activity
+245-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:242:9-247:57
+246            android:name="com.senao.warehouse.ui.ShipmentPalletLabelPrintTestActivity"
+246-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:243:13-68
+247            android:configChanges="orientation"
+247-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:244:13-48
+248            android:label="出貨棧板標籤列印-測試"
+248-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:245:13-40
+249            android:screenOrientation="portrait"
+249-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:246:13-49
+250            android:windowSoftInputMode="stateHidden" />
+250-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:247:13-54
+251        <activity
+251-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:248:9-253:57
+252            android:name="com.senao.warehouse.ui.MaterialReceivingActivity"
+252-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:249:13-57
+253            android:configChanges="orientation"
+253-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:250:13-48
+254            android:label="@string/title_activity_material_receiving"
+254-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:251:13-70
+255            android:screenOrientation="portrait"
+255-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:252:13-49
+256            android:windowSoftInputMode="stateHidden" />
+256-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:253:13-54
+257        <activity
+257-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:254:9-259:57
+258            android:name="com.senao.warehouse.ui.MaterialReceivingListActivity"
+258-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:255:13-61
+259            android:configChanges="orientation"
+259-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:256:13-48
+260            android:label="@string/title_activity_material_receiving_list"
+260-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:257:13-75
+261            android:screenOrientation="portrait"
+261-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:258:13-49
+262            android:windowSoftInputMode="stateHidden" />
+262-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:259:13-54
+263        <activity
+263-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:260:9-265:57
+264            android:name="com.senao.warehouse.ui.MaterialReceivingProcessActivity"
+264-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:261:13-64
+265            android:configChanges="orientation"
+265-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:262:13-48
+266            android:label="@string/title_activity_material_receiving_process"
+266-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:263:13-78
+267            android:screenOrientation="portrait"
+267-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:264:13-49
+268            android:windowSoftInputMode="stateHidden" />
+268-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:265:13-54
+269        <activity
+269-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:266:9-271:57
+270            android:name="com.senao.warehouse.ui.MaterialSendingActivity"
+270-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:267:13-55
+271            android:configChanges="orientation"
+271-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:268:13-48
+272            android:label="@string/title_activity_material_sending"
+272-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:269:13-68
+273            android:screenOrientation="portrait"
+273-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:270:13-49
+274            android:windowSoftInputMode="stateHidden" />
+274-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:271:13-54
+275        <activity
+275-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:272:9-277:57
+276            android:name="com.senao.warehouse.ui.MaterialSendingListActivity"
+276-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:273:13-59
+277            android:configChanges="orientation"
+277-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:274:13-48
+278            android:label="@string/title_activity_material_sending_list"
+278-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:275:13-73
+279            android:screenOrientation="portrait"
+279-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:276:13-49
+280            android:windowSoftInputMode="stateHidden" />
+280-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:277:13-54
+281        <activity
+281-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:278:9-283:57
+282            android:name="com.senao.warehouse.ui.MaterialSendingProcessActivity"
+282-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:279:13-62
+283            android:configChanges="orientation"
+283-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:280:13-48
+284            android:label="@string/title_activity_material_sending_process"
+284-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:281:13-76
+285            android:screenOrientation="portrait"
+285-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:282:13-49
+286            android:windowSoftInputMode="stateHidden" />
+286-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:283:13-54
+287        <activity
+287-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:284:9-289:57
+288            android:name="com.senao.warehouse.ui.MaterialSendingTransferActivity"
+288-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:285:13-63
+289            android:configChanges="orientation"
+289-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:286:13-48
+290            android:label="@string/title_activity_material_sending_transfer"
+290-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:287:13-77
+291            android:screenOrientation="portrait"
+291-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:288:13-49
+292            android:windowSoftInputMode="stateHidden" />
+292-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:289:13-54
+293        <activity
+293-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:290:9-295:57
+294            android:name="com.senao.warehouse.ui.MaterialSendingSubinventoryTransferActivity"
+294-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:291:13-75
+295            android:configChanges="orientation"
+295-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:292:13-48
+296            android:label="@string/title_activity_material_sending_subinventory_transfer"
+296-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:293:13-90
+297            android:screenOrientation="portrait"
+297-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:294:13-49
+298            android:windowSoftInputMode="stateHidden" />
+298-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:295:13-54
+299        <activity
+299-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:296:9-301:57
+300            android:name="com.senao.warehouse.ui.MaterialLackListActivity"
+300-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:297:13-56
+301            android:configChanges="orientation"
+301-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:298:13-48
+302            android:label="@string/title_activity_material_lack_query"
+302-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:299:13-71
+303            android:screenOrientation="portrait"
+303-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:300:13-49
+304            android:windowSoftInputMode="stateHidden" />
+304-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:301:13-54
+305        <activity
+305-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:302:9-306:57
+306            android:name="com.senao.warehouse.ui.BarcodeVerifyActivity"
+306-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:303:13-53
+307            android:configChanges="orientation"
+307-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:304:13-48
+308            android:screenOrientation="portrait"
+308-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:305:13-49
+309            android:windowSoftInputMode="stateHidden" />
+309-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:306:13-54
+310        <activity
+310-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:307:9-312:57
+311            android:name="com.senao.warehouse.ui.RmaPickingActivity"
+311-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:308:13-50
+312            android:configChanges="orientation"
+312-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:309:13-48
+313            android:label="@string/title_activity_rma_picking"
+313-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:310:13-63
+314            android:screenOrientation="portrait"
+314-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:311:13-49
+315            android:windowSoftInputMode="stateHidden" />
+315-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:312:13-54
+316        <activity
+316-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:313:9-318:57
+317            android:name="com.senao.warehouse.ui.WoLabelPrintActivity"
+317-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:314:13-52
+318            android:configChanges="orientation"
+318-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:315:13-48
+319            android:label="@string/title_activity_rma_picking"
+319-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:316:13-63
+320            android:screenOrientation="portrait"
+320-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:317:13-49
+321            android:windowSoftInputMode="stateHidden" />
+321-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:318:13-54
+322        <activity
+322-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:319:9-324:57
+323            android:name="com.senao.warehouse.ui.AcceptanceActivity"
+323-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:320:13-50
+324            android:configChanges="orientation"
+324-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:321:13-48
+325            android:label="@string/title_activity_acceptance"
+325-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:322:13-62
+326            android:screenOrientation="portrait"
+326-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:323:13-49
+327            android:windowSoftInputMode="stateHidden" />
+327-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:324:13-54
+328        <activity
+328-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:325:9-329:57
+329            android:name="com.senao.warehouse.ui.AcceptanceListActivity"
+329-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:326:13-54
+330            android:configChanges="orientation"
+330-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:327:13-48
+331            android:screenOrientation="portrait"
+331-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:328:13-49
+332            android:windowSoftInputMode="stateHidden" />
+332-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:329:13-54
+333        <activity
+333-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:330:9-334:57
+334            android:name="com.senao.warehouse.ui.MaterialReceivingModeActivity"
+334-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:331:13-61
+335            android:configChanges="orientation"
+335-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:332:13-48
+336            android:screenOrientation="portrait"
+336-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:333:13-49
+337            android:windowSoftInputMode="stateHidden" />
+337-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:334:13-54
+338        <activity
+338-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:335:9-340:57
+339            android:name="com.senao.warehouse.ui.WaitCheckInquiryActivity"
+339-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:336:13-56
+340            android:configChanges="orientation"
+340-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:337:13-48
+341            android:label="@string/title_activity_wait_check_inquiry"
+341-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:338:13-70
+342            android:screenOrientation="portrait"
+342-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:339:13-49
+343            android:windowSoftInputMode="stateHidden" />
+343-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:340:13-54
+344        <activity
+344-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:341:9-346:57
+345            android:name="com.senao.warehouse.ui.WaitCheckDetailActivity"
+345-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:342:13-55
+346            android:configChanges="orientation"
+346-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:343:13-48
+347            android:label="@string/title_activity_wait_check_list"
+347-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:344:13-67
+348            android:screenOrientation="portrait"
+348-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:345:13-49
+349            android:windowSoftInputMode="stateHidden" />
+349-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:346:13-54
+350        <activity
+350-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:347:9-352:57
+351            android:name="com.senao.warehouse.ui.WaitCheckListActivity"
+351-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:348:13-53
+352            android:configChanges="orientation"
+352-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:349:13-48
+353            android:label="@string/title_activity_wait_check_search"
+353-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:350:13-69
+354            android:screenOrientation="portrait"
+354-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:351:13-49
+355            android:windowSoftInputMode="stateHidden" />
+355-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:352:13-54
+356        <activity
+356-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:353:9-358:57
+357            android:name="com.senao.warehouse.ui.AcceptanceProcessActivity"
+357-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:354:13-57
+358            android:configChanges="orientation"
+358-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:355:13-48
+359            android:label="@string/title_activity_acceptance_process"
+359-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:356:13-70
+360            android:screenOrientation="portrait"
+360-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:357:13-49
+361            android:windowSoftInputMode="stateHidden" />
+361-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:358:13-54
+362        <activity
+362-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:359:9-363:57
+363            android:name="com.senao.warehouse.ui.MaterialReceivingTempActivity"
+363-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:360:13-61
+364            android:configChanges="orientation"
+364-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:361:13-48
+365            android:screenOrientation="portrait"
+365-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:362:13-49
+366            android:windowSoftInputMode="stateHidden" />
+366-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:363:13-54
+367        <activity
+367-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:364:9-368:57
+368            android:name="com.senao.warehouse.ui.MaterialReceivingDelActivity"
+368-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:365:13-60
+369            android:configChanges="orientation"
+369-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:366:13-48
+370            android:screenOrientation="portrait"
+370-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:367:13-49
+371            android:windowSoftInputMode="stateHidden" />
+371-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:368:13-54
+372        <activity
+372-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:369:9-373:57
+373            android:name="com.senao.warehouse.ui.MaterialReceivingSubModeActivity"
+373-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:370:13-64
+374            android:configChanges="orientation"
+374-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:371:13-48
+375            android:screenOrientation="portrait"
+375-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:372:13-49
+376            android:windowSoftInputMode="stateHidden" />
+376-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:373:13-54
+377        <activity
+377-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:374:9-379:57
+378            android:name="com.senao.warehouse.ui.MaterialSendingVerifyActivity"
+378-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:375:13-61
+379            android:configChanges="orientation"
+379-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:376:13-48
+380            android:label="@string/title_activity_material_sending_check"
+380-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:377:13-74
+381            android:screenOrientation="portrait"
+381-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:378:13-49
+382            android:windowSoftInputMode="stateHidden" />
+382-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:379:13-54
+383        <activity
+383-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:380:9-385:57
+384            android:name="com.senao.warehouse.ui.MaterialSendingVerifyListActivity"
+384-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:381:13-65
+385            android:configChanges="orientation"
+385-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:382:13-48
+386            android:label="@string/title_activity_material_sending_check"
+386-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:383:13-74
+387            android:screenOrientation="portrait"
+387-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:384:13-49
+388            android:windowSoftInputMode="stateHidden" />
+388-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:385:13-54
+389        <activity
+389-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:386:9-391:57
+390            android:name="com.senao.warehouse.ui.MaterialSendingVerifyProcessActivity"
+390-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:387:13-68
+391            android:configChanges="orientation"
+391-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:388:13-48
+392            android:label="@string/title_activity_material_sending_check"
+392-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:389:13-74
+393            android:screenOrientation="portrait"
+393-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:390:13-49
+394            android:windowSoftInputMode="stateHidden" />
+394-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:391:13-54
+395        <activity
+395-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:392:9-397:57
+396            android:name="com.senao.warehouse.ui.TransferSubinventoryLocatorActivity"
+396-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:393:13-67
+397            android:configChanges="orientation"
+397-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:394:13-48
+398            android:label="@string/title_activity_transfer_subinventory_locator"
+398-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:395:13-81
+399            android:screenOrientation="portrait"
+399-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:396:13-49
+400            android:windowSoftInputMode="stateHidden" />
+400-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:397:13-54
+401        <activity
+401-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:398:9-403:57
+402            android:name="com.senao.warehouse.ui.TransferSubinventoryLocatorProcessActivity"
+402-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:399:13-74
+403            android:configChanges="orientation"
+403-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:400:13-48
+404            android:label="@string/title_activity_transfer_subinventory_locator"
+404-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:401:13-81
+405            android:screenOrientation="portrait"
+405-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:402:13-49
+406            android:windowSoftInputMode="stateHidden" />
+406-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:403:13-54
+407        <activity
+407-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:404:9-408:57
+408            android:name="com.senao.warehouse.ui.MaterialReceivingInvoiceActivity"
+408-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:405:13-64
+409            android:configChanges="orientation"
+409-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:406:13-48
+410            android:screenOrientation="portrait"
+410-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:407:13-49
+411            android:windowSoftInputMode="stateHidden" />
+411-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:408:13-54
+412        <activity
+412-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:409:9-413:57
+413            android:name="com.senao.warehouse.ui.MaterialReceivingInvoiceLocatorActivity"
+413-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:410:13-71
+414            android:configChanges="orientation"
+414-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:411:13-48
+415            android:screenOrientation="portrait"
+415-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:412:13-49
+416            android:windowSoftInputMode="stateHidden" />
+416-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:413:13-54
+417        <activity
+417-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:414:9-419:57
+418            android:name="com.senao.warehouse.ui.AcceptanceBatchActivity"
+418-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:415:13-55
+419            android:configChanges="orientation"
+419-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:416:13-48
+420            android:label="@string/title_activity_acceptance_batch"
+420-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:417:13-68
+421            android:screenOrientation="portrait"
+421-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:418:13-49
+422            android:windowSoftInputMode="stateHidden" />
+422-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:419:13-54
+423        <activity
+423-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:420:9-425:57
+424            android:name="com.senao.warehouse.ui.AcceptanceBatchListActivity"
+424-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:421:13-59
+425            android:configChanges="orientation"
+425-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:422:13-48
+426            android:label="@string/title_activity_acceptance_batch"
+426-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:423:13-68
+427            android:screenOrientation="portrait"
+427-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:424:13-49
+428            android:windowSoftInputMode="stateHidden" />
+428-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:425:13-54
+429        <activity
+429-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:426:9-430:57
+430            android:name="com.senao.warehouse.ui.TestActivity"
+430-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:427:13-44
+431            android:configChanges="orientation"
+431-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:428:13-48
+432            android:screenOrientation="portrait"
+432-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:429:13-49
+433            android:windowSoftInputMode="stateHidden" />
+433-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:430:13-54
+434        <activity
+434-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:431:9-435:57
+435            android:name="com.senao.warehouse.ui.SamsaraPoActivity"
+435-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:432:13-49
+436            android:configChanges="orientation"
+436-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:433:13-48
+437            android:screenOrientation="portrait"
+437-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:434:13-49
+438            android:windowSoftInputMode="stateHidden" />
+438-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:435:13-54
+439        <activity
+439-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:436:9-440:57
+440            android:name="com.senao.warehouse.ui.SamsaraPoTestActivity"
+440-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:437:13-53
+441            android:configChanges="orientation"
+441-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:438:13-48
+442            android:screenOrientation="portrait"
+442-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:439:13-49
+443            android:windowSoftInputMode="stateHidden" />
+443-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:440:13-54
+444        <activity
+444-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:441:9-445:57
+445            android:name="com.senao.warehouse.ui.RmaVerifyActivity"
+445-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:442:13-49
+446            android:configChanges="orientation"
+446-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:443:13-48
+447            android:screenOrientation="portrait"
+447-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:444:13-49
+448            android:windowSoftInputMode="stateHidden" />
+448-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:445:13-54
+449        <activity
+449-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:446:9-450:57
+450            android:name="com.senao.warehouse.ui.RmaListActivity"
+450-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:447:13-47
+451            android:configChanges="orientation"
+451-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:448:13-48
+452            android:screenOrientation="portrait"
+452-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:449:13-49
+453            android:windowSoftInputMode="stateHidden" />
+453-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:450:13-54
+454        <activity
+454-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:451:9-455:57
+455            android:name="com.senao.warehouse.ui.ShipmentReturnActivity"
+455-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:452:13-54
+456            android:configChanges="orientation"
+456-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:453:13-48
+457            android:screenOrientation="portrait"
+457-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:454:13-49
+458            android:windowSoftInputMode="stateHidden" />
+458-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:455:13-54
+459        <activity
+459-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:456:9-460:57
+460            android:name="com.senao.warehouse.ui.StockClosedDateSetActivity"
+460-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:457:13-58
+461            android:configChanges="orientation"
+461-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:458:13-48
+462            android:screenOrientation="portrait"
+462-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:459:13-49
+463            android:windowSoftInputMode="stateHidden" />
+463-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:460:13-54
+464        <activity
+464-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:461:9-465:57
+465            android:name="com.senao.warehouse.ui.ShipmentQueryPoActivity"
+465-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:462:13-55
+466            android:configChanges="orientation"
+466-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:463:13-48
+467            android:screenOrientation="portrait"
+467-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:464:13-49
+468            android:windowSoftInputMode="stateHidden" />
+468-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:465:13-54
+469        <activity
+469-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:466:9-470:70
+470            android:name="com.senao.warehouse.ui.PrintMaterialLabelActivity"
+470-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:467:13-58
+471            android:configChanges="orientation"
+471-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:468:13-48
+472            android:screenOrientation="portrait"
+472-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:469:13-49
+473            android:windowSoftInputMode="stateHidden|adjustResize" />
+473-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:470:13-67
+474        <activity
+474-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:471:9-475:57
+475            android:name="com.senao.warehouse.ui.TestOriginActivity"
+475-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:472:13-50
+476            android:configChanges="orientation"
+476-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:473:13-48
+477            android:screenOrientation="portrait"
+477-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:474:13-49
+478            android:windowSoftInputMode="stateHidden" />
+478-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:475:13-54
+479        <activity
+479-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:476:9-481:57
+480            android:name="com.senao.warehouse.ui.ShipmentPoActivity"
+480-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:477:13-50
+481            android:configChanges="orientation"
+481-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:478:13-48
+482            android:label="@string/title_activity_shipment_po"
+482-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:479:13-63
+483            android:screenOrientation="portrait"
+483-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:480:13-49
+484            android:windowSoftInputMode="stateHidden" />
+484-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:481:13-54
+485        <activity
+485-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:482:9-486:70
+486            android:name="com.senao.warehouse.ui.SmtPrintMaterialLabelActivity"
+486-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:483:13-61
+487            android:configChanges="orientation"
+487-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:484:13-48
+488            android:screenOrientation="portrait"
+488-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:485:13-49
+489            android:windowSoftInputMode="adjustResize|stateHidden" />
+489-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:486:13-67
+490        <activity
+490-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:487:9-491:70
+491            android:name="com.senao.warehouse.ui.SmtMaterialSplitPackingActivity"
+491-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:488:13-63
+492            android:configChanges="orientation"
+492-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:489:13-48
+493            android:screenOrientation="portrait"
+493-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:490:13-49
+494            android:windowSoftInputMode="adjustResize|stateHidden" />
+494-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:491:13-67
+495        <activity
+495-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:492:9-496:70
+496            android:name="com.senao.warehouse.ui.MaterialSplitPackingActivity"
+496-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:493:13-60
+497            android:configChanges="orientation"
+497-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:494:13-48
+498            android:screenOrientation="portrait"
+498-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:495:13-49
+499            android:windowSoftInputMode="adjustResize|stateHidden" />
+499-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:496:13-67
+500        <activity
+500-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:497:9-501:70
+501            android:name="com.senao.warehouse.ui.PrintInvoiceSeqActivity"
+501-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:498:13-55
+502            android:configChanges="orientation"
+502-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:499:13-48
+503            android:screenOrientation="portrait"
+503-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:500:13-49
+504            android:windowSoftInputMode="adjustResize|stateHidden" />
+504-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:501:13-67
+505        <activity
+505-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:502:9-506:70
+506            android:name="com.senao.warehouse.ui.CustomerMaterialSplitPackingActivity"
+506-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:503:13-68
+507            android:configChanges="orientation"
+507-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:504:13-48
+508            android:screenOrientation="portrait"
+508-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:505:13-49
+509            android:windowSoftInputMode="adjustResize|stateHidden" />
+509-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:506:13-67
+510        <activity
+510-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:507:9-511:70
+511            android:name="com.senao.warehouse.ui.CustomerMaterialLabelReprintActivity"
+511-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:508:13-68
+512            android:configChanges="orientation"
+512-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:509:13-48
+513            android:screenOrientation="portrait"
+513-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:510:13-49
+514            android:windowSoftInputMode="adjustResize|stateHidden" />
+514-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:511:13-67
+515        <activity
+515-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:512:9-516:70
+516            android:name="com.senao.warehouse.ui.CustomerMaterialReceiptsLabelActivity"
+516-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:513:13-69
+517            android:configChanges="orientation"
+517-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:514:13-48
+518            android:screenOrientation="portrait"
+518-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:515:13-49
+519            android:windowSoftInputMode="adjustResize|stateHidden" />
+519-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:516:13-67
+520        <activity
+520-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:517:9-521:57
+521            android:name="com.senao.warehouse.ui.TransferLocatorTriggerManualActivity"
+521-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:518:13-68
+522            android:configChanges="orientation"
+522-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:519:13-48
+523            android:screenOrientation="portrait"
+523-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:520:13-49
+524            android:windowSoftInputMode="stateHidden" />
+524-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:521:13-54
+525        <activity
+525-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:522:9-526:57
+526            android:name="com.senao.warehouse.ui.TransferLocatorTriggerPickActivity"
+526-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:523:13-66
+527            android:configChanges="orientation"
+527-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:524:13-48
+528            android:screenOrientation="portrait"
+528-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:525:13-49
+529            android:windowSoftInputMode="stateHidden" />
+529-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:526:13-54
+530        <activity
+530-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:527:9-531:57
+531            android:name="com.senao.warehouse.ui.TransferLocatorTriggerActivity"
+531-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:528:13-62
+532            android:configChanges="orientation"
+532-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:529:13-48
+533            android:screenOrientation="portrait"
+533-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:530:13-49
+534            android:windowSoftInputMode="stateHidden" />
+534-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:531:13-54
+535        <activity
+535-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:532:9-536:57
+536            android:name="com.senao.warehouse.ui.TransferLocatorTriggerManualDetailActivity"
+536-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:533:13-74
+537            android:configChanges="orientation"
+537-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:534:13-48
+538            android:screenOrientation="portrait"
+538-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:535:13-49
+539            android:windowSoftInputMode="stateHidden" />
+539-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:536:13-54
+540        <activity
+540-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:537:9-541:57
+541            android:name="com.senao.warehouse.ui.TransferLocatorRevokeActivity"
+541-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:538:13-61
+542            android:configChanges="orientation"
+542-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:539:13-48
+543            android:screenOrientation="portrait"
+543-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:540:13-49
+544            android:windowSoftInputMode="stateHidden" />
+544-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:541:13-54
+545        <activity
+545-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:542:9-546:57
+546            android:name="com.senao.warehouse.ui.TransferLocatorRevokeListActivity"
+546-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:543:13-65
+547            android:configChanges="orientation"
+547-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:544:13-48
+548            android:screenOrientation="portrait"
+548-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:545:13-49
+549            android:windowSoftInputMode="stateHidden" />
+549-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:546:13-54
+550        <activity
+550-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:547:9-551:57
+551            android:name="com.senao.warehouse.ui.OobaSnActivity"
+551-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:548:13-46
+552            android:configChanges="orientation"
+552-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:549:13-48
+553            android:screenOrientation="portrait"
+553-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:550:13-49
+554            android:windowSoftInputMode="stateHidden" />
+554-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:551:13-54
+555        <activity
+555-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:552:9-556:57
+556            android:name="com.senao.warehouse.ui.TransferLocatorFormActivity"
+556-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:553:13-59
+557            android:configChanges="orientation"
+557-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:554:13-48
+558            android:screenOrientation="portrait"
+558-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:555:13-49
+559            android:windowSoftInputMode="stateHidden" />
+559-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:556:13-54
+560        <activity
+560-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:557:9-561:57
+561            android:name="com.senao.warehouse.ui.TransferLocatorFormListActivity"
+561-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:558:13-63
+562            android:configChanges="orientation"
+562-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:559:13-48
+563            android:screenOrientation="portrait"
+563-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:560:13-49
+564            android:windowSoftInputMode="stateHidden" />
+564-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:561:13-54
+565        <activity
+565-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:562:9-566:57
+566            android:name="com.senao.warehouse.ui.TransferLocatorFormProcessActivity"
+566-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:563:13-66
+567            android:configChanges="orientation"
+567-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:564:13-48
+568            android:screenOrientation="portrait"
+568-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:565:13-49
+569            android:windowSoftInputMode="stateHidden" />
+569-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:566:13-54
+570        <activity
+570-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:567:9-571:57
+571            android:name="com.senao.warehouse.ui.ItemOnHandActivity"
+571-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:568:13-50
+572            android:configChanges="orientation"
+572-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:569:13-48
+573            android:screenOrientation="portrait"
+573-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:570:13-49
+574            android:windowSoftInputMode="stateHidden" />
+574-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:571:13-54
+575        <activity
+575-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:572:9-576:57
+576            android:name="com.senao.warehouse.ui.ItemOnHandListActivity"
+576-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:573:13-54
+577            android:configChanges="orientation"
+577-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:574:13-48
+578            android:screenOrientation="portrait"
+578-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:575:13-49
+579            android:windowSoftInputMode="stateHidden" />
+579-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:576:13-54
+580        <activity android:name="com.senao.warehouse.ui.Test2Activity" />
+580-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:577:9-54
+580-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:577:19-51
+581        <activity
+581-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:579:9-584:57
+582            android:name="com.senao.warehouse.ui.OutsourcingMaterialShipmentPickingActivity"
+582-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:580:13-74
+583            android:configChanges="orientation"
+583-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:581:13-48
+584            android:label="@string/title_activity_outsourceing_material_and_shipment_picking"
+584-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:582:13-94
+585            android:screenOrientation="portrait"
+585-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:583:13-49
+586            android:windowSoftInputMode="stateHidden" />
+586-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:584:13-54
+587        <activity
+587-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:585:9-589:57
+588            android:name="com.senao.warehouse.ui.OutsourcingPackingMethodActivity"
+588-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:586:13-64
+589            android:configChanges="orientation"
+589-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:587:13-48
+590            android:screenOrientation="portrait"
+590-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:588:13-49
+591            android:windowSoftInputMode="stateHidden" />
+591-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:589:13-54
+592        <activity
+592-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:590:9-594:57
+593            android:name="com.senao.warehouse.ui.OutsourcingPackingListPalletActivity"
+593-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:591:13-68
+594            android:configChanges="orientation"
+594-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:592:13-48
+595            android:screenOrientation="portrait"
+595-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:593:13-49
+596            android:windowSoftInputMode="stateHidden" />
+596-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:594:13-54
+597
+598        <provider
+599            android:name="android.support.v4.content.FileProvider"
+599-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:597:13-67
+600            android:authorities="com.senao.warehouse.provider"
+600-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:598:13-60
+601            android:exported="false"
+601-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:599:13-37
+602            android:grantUriPermissions="true" >
+602-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:600:13-47
+603            <meta-data
+603-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:601:13-603:58
+604                android:name="android.support.FILE_PROVIDER_PATHS"
+604-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:602:17-67
+605                android:resource="@xml/provider_paths" />
+605-->D:\gitlab\pda_android\app\src\main\AndroidManifest.xml:603:17-55
+606        </provider>
+607    </application>
+608
+609</manifest>

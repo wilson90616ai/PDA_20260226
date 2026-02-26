@@ -1,0 +1,902 @@
+[
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_radio_button_selector.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\radio_button_selector.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_custom_menu.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\custom_menu.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_stock_in.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\stock_in.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_shipment_pallet_label_print.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_shipment_pallet_label_print.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_transfer_locator_revoke.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_transfer_locator_revoke.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_wh_btn_radio_off_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\wh_btn_radio_off_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_sending_verify_process.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_sending_verify_process.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_sending_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\sending_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_submenu.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\submenu.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_customer_material_split_packing.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_customer_material_split_packing.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_acceptance_batch.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_acceptance_batch.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_expand_less.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_expand_less.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_ooba_sn_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_ooba_sn_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_receiving_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\receiving_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_wait_check_inquiry.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_wait_check_inquiry.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_apptheme_btn_check_off_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\apptheme_btn_check_off_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_material_sending_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\material_sending_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_transfer_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\transfer_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_wh_btn_radio_on_disabled_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\wh_btn_radio_on_disabled_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_dc_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\dc_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_receiving_temp.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_receiving_temp.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_serial_number_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\serial_number_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_acceptance_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_acceptance_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_transfer_locator_form_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_transfer_locator_form_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_sending_transfer.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_sending_transfer.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_expand_more.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_expand_more.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_scanner_setting.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_scanner_setting.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_shipping_picking_create_pallet.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_shipping_picking_create_pallet.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_custom_button_red.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\custom_button_red.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_simple_list_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\simple_list_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_closed_date_set.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_closed_date_set.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_connection_setting.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\connection_setting.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_receiving_mode.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_receiving_mode.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_outsourcing_packing_method_list_box.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_outsourcing_packing_method_list_box.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_rma_verify.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_rma_verify.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_transfer_locator_form_process.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_transfer_locator_form_process.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_apptheme_btn_check_off_pressed_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\apptheme_btn_check_off_pressed_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_apptheme_btn_check_on_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\apptheme_btn_check_on_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_print_label.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_print_label.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_receiving_sub_mode.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_receiving_sub_mode.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_transfer_detail_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\transfer_detail_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_sending_check_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_sending_check_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_samsara_po.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_samsara_po.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_custom_bg.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\custom_bg.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_menu.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_on_hand_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\on_hand_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_wait_check_detail.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_wait_check_detail.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_custom_bg_grey.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\custom_bg_grey.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_ooba_sn.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_ooba_sn.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_dialog_printer_new.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\dialog_printer_new.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_customer_material_label_reprint.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_customer_material_label_reprint.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_mylistitem.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\mylistitem.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_transfer_form_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\transfer_form_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_apptheme_btn_check_on_focused_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\apptheme_btn_check_on_focused_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_empty_tall_divider.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\empty_tall_divider.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_dialog_transfer.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\dialog_transfer.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_overtake.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\overtake.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_acceptance.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_acceptance.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_humidity_sensor.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_humidity_sensor.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_material_receiving_process.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\material_receiving_process.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_bake.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_bake.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_sn_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\sn_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_apptheme_btn_check_on_disabled_focused_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\apptheme_btn_check_on_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_z_test_upload_material.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\z_test_upload_material.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_apptheme_btn_check_off_disabled_focused_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\apptheme_btn_check_off_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_rma_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_rma_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_shipment_query_po.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_shipment_query_po.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_wo_label_print.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_wo_label_print.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_round_button.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\round_button.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_revoke_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\revoke_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_radio_button_unchecked.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\radio_button_unchecked.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_connection_setting_m.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_connection_setting_m.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_printer_setting.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\printer_setting.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_shipping_picking_way.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_shipping_picking_way.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_sending.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_sending.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_transfer_subinventory_loctor.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_transfer_subinventory_loctor.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_smt_print_material_label.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_smt_print_material_label.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_wh_btn_radio_on_disabled_focused_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\wh_btn_radio_on_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_apptheme_btn_check_on_pressed_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\apptheme_btn_check_on_pressed_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_receiving_del_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\receiving_del_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_outsourcing_packing_method_list_pallet.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_outsourcing_packing_method_list_pallet.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_wh_btn_radio_off_pressed_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\wh_btn_radio_off_pressed_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_context_menu.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\context_menu.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_acceptance_list_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\acceptance_list_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_transfer_locator_form.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_transfer_locator_form.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_material_receving_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\material_receving_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_custom_sub_menu.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\custom_sub_menu.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_print_label.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\print_label.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_dc_item_2.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\dc_item_2.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_ooba_sn_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\ooba_sn_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_receiving_temp_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\receiving_temp_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_locator_item_2.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\locator_item_2.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_transfer_form_item_dc.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\transfer_form_item_dc.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_locator_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\locator_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_shipment.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\shipment.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_dialog_password.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\dialog_password.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_menu.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\menu.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_shipping_picking_pallet_data.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_shipping_picking_pallet_data.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_spinner_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_material_sending_subinventory_transfer.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\material_sending_subinventory_transfer.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_expander_group.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\expander_group.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_dc_locator_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\dc_locator_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_menu.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_smt_material_split_packing.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_smt_material_split_packing.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_wait_check_detail_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\wait_check_detail_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_apptheme_btn_check_off_focused_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\apptheme_btn_check_off_focused_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_receiving_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_receiving_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_acceptance_batch_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_acceptance_batch_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_sending_verify.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_sending_verify.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_dialog_printer.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\dialog_printer.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_scanner_setting.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\scanner_setting.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_wait_check_summary.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\wait_check_summary.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_reprint_bake.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_reprint_bake.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_compare.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\compare.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_wh_btn_radio_off_disabled_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\wh_btn_radio_off_disabled_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_login.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_shipment_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\shipment_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_bake_list_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\bake_list_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_test2.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_test2.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_shipping_verify_main.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_shipping_verify_main.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_wh_btn_radio_on_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\wh_btn_radio_on_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_dc_locator_item2.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\dc_locator_item2.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\xml_provider_paths.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_wh_btn_radio_off_disabled_focused_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\wh_btn_radio_off_disabled_focused_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_excel_test.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_excel_test.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_test.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_simple_list_item_b.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\simple_list_item_b.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_wh_btn_radio_holo_light.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\wh_btn_radio_holo_light.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_sending_summary.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\sending_summary.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_check_dc_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\check_dc_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_sending_process.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_sending_process.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_custom_button_white_circle.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\custom_button_white_circle.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\xml_network_security_config.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_complete_bake.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_complete_bake.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_stock_in.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_stock_in.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_transfer_rollover.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_transfer_rollover.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_reel_id_item_carton.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\reel_id_item_carton.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_start_bake.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_start_bake.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_check_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\check_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_rma_menu.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_rma_menu.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_sending_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_sending_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_transfer_form_item_detail.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\transfer_form_item_detail.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_barcode_verify.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_barcode_verify.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_shipping_po.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_shipping_po.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_query_bake.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_query_bake.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_roi_overlay.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\roi_overlay.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_custom_button_aqua.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\custom_button_aqua.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_receiving.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_receiving.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_locator_dc_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\locator_dc_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_shipment_return.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_shipment_return.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_radio_button_checked.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\radio_button_checked.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_item_on_hand.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_item_on_hand.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_shipment_detail.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\shipment_detail.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_outsourcing_material_and_shipment_picking.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_outsourcing_material_and_shipment_picking.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_material_receving.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\material_receving.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_printer_setting.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_printer_setting.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_custom_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\custom_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_login.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_apptheme_btn_check_off_disabled_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\apptheme_btn_check_off_disabled_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_acceptance_process.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_acceptance_process.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_receiving_invoice_locator.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_receiving_invoice_locator.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_first.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_lack_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_lack_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_apptheme_btn_check_on_disabled_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\apptheme_btn_check_on_disabled_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_wh_btn_radio_on_pressed_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\wh_btn_radio_on_pressed_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_transfer_form_item_locator.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\transfer_form_item_locator.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_solid_shape_bottom_line.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\solid_shape_bottom_line.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_test_origin.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_test_origin.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_shipment_po_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\shipment_po_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_connection_setting.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_connection_setting.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_stock_in_process.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\stock_in_process.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_spinner_item_for_rma.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\spinner_item_for_rma.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_list_item_connection.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\list_item_connection.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_shipping_picking_carton_data.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_shipping_picking_carton_data.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_transfer_locator_trigger_pick.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_transfer_locator_trigger_pick.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_custom_button.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\custom_button.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_split_packing.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_split_packing.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_item_on_hand_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_item_on_hand_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_vertical_divider_1.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\vertical_divider_1.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_receiving_del.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_receiving_del.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_transfer_locator_trigger_manual.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_transfer_locator_trigger_manual.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_transfer_locator_trigger_manual_detail.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_transfer_locator_trigger_manual_detail.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_second.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_stock_in_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\stock_in_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_rma_picking.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_rma_picking.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_custom_button_green.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\custom_button_green.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_a_test.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\a_test.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_wh_btn_radio_off_focused_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\wh_btn_radio_off_focused_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_dialog_msg_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\dialog_msg_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_lack_summary.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\lack_summary.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_custom_button_purple.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\custom_button_purple.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_transfer_locator_revoke_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_transfer_locator_revoke_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_receiving_invoice.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_receiving_invoice.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_customer_material_print.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_customer_material_print.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_stock_in_process.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_stock_in_process.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_sending_subinventory_transfer.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_sending_subinventory_transfer.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_shipping_picking_main.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_shipping_picking_main.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_simple_list_item_2.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\simple_list_item_2.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_print_custom.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_print_custom.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_wait_check_list.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_wait_check_list.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_simple_list_item_multiple_choice.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\simple_list_item_multiple_choice.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_print_material_label.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_print_material_label.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_sub_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\sub_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_content_transfer_revoke.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\content_transfer_revoke.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_menu_return.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_menu_return.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_wh_btn_radio_on_focused_holo_light.png.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable-xxhdpi\\wh_btn_radio_on_focused_holo_light.png"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_apptheme_btn_check_holo_light.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\apptheme_btn_check_holo_light.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_print_invoice_seq.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_print_invoice_seq.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_acceptance_batch_list_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\acceptance_batch_list_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_inputborder.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\inputborder.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_material_receiving_process.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_material_receiving_process.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_outsourcing_packing_method.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_outsourcing_packing_method.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\drawable_edit_text_underline.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\drawable\\edit_text_underline.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_a_test2.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\a_test2.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_transfer_detail_dc_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\transfer_detail_dc_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_locator_inventory_item.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\locator_inventory_item.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_transfer_subinventory_locator_process.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_transfer_subinventory_locator_process.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_material_sending_process.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\material_sending_process.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\menu_main.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_transfer_locator_trigger.xml.flat",
+        "source": "D:\\gitlab\\pda_android\\app\\src\\main\\res\\layout\\activity_transfer_locator_trigger.xml"
+    }
+]

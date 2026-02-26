@@ -1,0 +1,1469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ext_enuText">
+        <item>01.出貨相關作業</item>
+        <item>02.製令相關作業</item>
+        <item>03.收料入庫相關作業</item>
+        <item>04.查詢相關作業</item>
+        <item>05.標籤列印相關作業</item>
+        <item>06.EasyFlow表單相關</item>
+        <item>07.SMT相關作業</item>
+        <item>08.外包相關作業</item>
+        <item>09.Change Organization</item>
+        <item>10.登出</item>
+        <!--XXX測試<item>11.TEST</item>-->
+    </string-array>
+
+    <string-array name="SubMenu1">
+        <item>01-01.出貨撿料作業</item>
+        <item>01-02.出貨核對作業</item>
+        <item>01-03.出貨棧板標籤列印</item>
+        <item>01-04.出貨刷退作業</item>
+        <item>01-05.條碼驗證作業</item>
+        <item>01-06.RMA出貨撿貨作業</item>
+        <item>01-07.RMA出貨確認作業</item>
+        <item>01-08.Samsara的PO標籤列印</item>
+    </string-array>
+
+    <string-array name="SubMenu2">
+        <item>02-01.製令入庫作業</item>
+        <item>02-02.關帳日期設定</item>
+        <item>02-03.製令發料扣帳作業</item>
+        <item>02-04.製令發料轉倉作業</item>
+        <item>02-05.製令發料檢核作業</item>
+        <item>02-06.轉倉轉儲位作業</item>
+    </string-array>
+
+    <string-array name="SubMenu3">
+        <item>03-01.收料作業</item>
+        <item>03-02.外包收料作業</item>
+        <item>03-03.驗收入庫作業</item>
+        <item>03-04.外包驗收入庫作業</item>
+        <item>03-05.驗收入庫批次作業</item>
+    </string-array>
+
+    <string-array name="SubMenu4">
+        <item>04-01.進貨超交查詢作業</item>
+        <item>04-02.庫存查詢作業</item>
+        <item>04-03.製令欠料查詢作業</item>
+        <item>04-04.PO查詢及列印作業</item>
+        <item>04-05.序號狀態查詢作業(OOBA查詢作業)</item>
+    </string-array>
+
+    <string-array name="SubMenu5">
+        <item>05-01.客供材料進貨標籤列印作業</item>
+        <item>05-02.進貨標籤列印作業</item>
+        <item>05-03.客供材料拆包作業</item>
+        <item>05-04.材料拆包作業</item>
+        <item>05-05.客供材料標籤補標作業</item>
+        <item>05-06.材料標籤補標作業</item>
+        <item>05-07.發票流水號補標作業</item>
+        <item>05-08.製令標籤補標作業</item>
+        <item>05-09.自訂標籤列印作業</item>
+    </string-array>
+
+<!--    #轉倉/呆料責任歸屬單,材料耗損,一般領(退)料單,表單查詢,簽核作業,轉倉表單觸發作業,轉倉表單撤銷作業,表單標籤補標作業等作業功能,表單作業(領料/退料/調撥/轉倉)-->
+    <string-array name="SubMenu6">
+        <item>06-01.轉倉/呆料責任歸屬單</item>
+        <item>06-02.材料耗損</item>
+        <item>06-03.一般領(退)料單</item>
+        <item>06-04.表單查詢</item>
+        <item>06-05.簽核作業</item>
+        <item>06-06.轉倉表單觸發作業</item>
+        <item>06-07.轉倉表單撤銷作業</item>
+        <item>06-08.表單標籤補標作業等作業功能</item>
+        <item>06-09.表單作業(領料/退料/調撥/轉倉)</item>
+    </string-array>
+
+<!--    #材料拆包作業,材料標籤補標作業-->
+    <string-array name="SubMenu7">
+        <item>07-01.材料拆包作業</item>
+        <item>07-02.材料標籤補標作業</item>
+        <item>07-03.濕敏元件狀態管制作業</item>
+        <item>07-04.烘烤作業</item>
+    </string-array>
+
+    <string-array name="SubMenu8">
+        <item>08-01.外包材料裝箱作業</item>
+        <item>08-02.外包裝箱刷退作業</item>
+        <item>08-03.外包出貨撿料作業</item>
+        <item>08-04.外包出貨減料刷退作業</item>
+        <item>08-05.外包棧板及外箱標籤列印</item>
+        <item>08-06.外包收料核對作業</item>
+        <item>08-07.外包材料裝箱及出貨撿料離線作業</item>
+        <item>08-08.外包裝箱及出貨撿料明細查詢</item>
+        <item>08-09.外包裝箱及出貨撿料明細下載</item>
+    </string-array>
+
+    <string-array name="SubMenu11">
+        <item>11-01.TEST</item>
+    </string-array>
+
+
+    <string name="title_test_name">Test</string>
+    <string name="title_test_name_production_line">產線測試用</string>
+    <string name="title_test_name2">Test2</string>
+
+
+    <string name="connect_error">連線發生錯誤</string>
+    <string name="db_return_error">伺服器回傳錯誤訊息</string>
+    <string name="can_not_connection">無法連線</string>
+    <string name="sever_return_info">伺服器回傳資訊</string>
+    <string name="title_activity_connection_setting">連線設定</string>
+    <string name="search_result">查詢結果</string>
+    <string name="search_result1">%1$s 查詢結果</string>
+    <string name="action_settings">設定</string>
+    <string name="button_return">返回</string>
+    <string name="button_confirm2">確認(Okay)</string>
+    <string name="button_cancel2">取消(Cancel)</string>
+    <string name="btn_ok">確認</string>
+    <string name="btn_cancel">取消</string>
+    <string name="holdon">請等待...</string>
+    <string name="data_reading">資料讀取中...</string>
+    <string name="label_printer_info">印表機資訊</string>
+    <string name="ok">OK</string>
+    <string name="cancel">取消</string>
+    <string name="input_printer_id">請輸入印表機IP</string>
+    <string name="input_printer_port">請輸入印表機Port</string>
+    <string name="input_printer_qty">請輸入數量</string>
+    <string name="printingLabel">標籤列印中...</string>
+    <string name="cant_conect_printer">無法與印表機連線</string>
+    <string name="reprinting_due_to_issue_with_new_label">列印新標籤出現問題，請重新列印</string>
+    <string name="reprinting_due_to_issue_with_sub_package_label">列印分包標籤出現問題，請重新列印</string>
+    <string name="Print_OK">列印完成</string>
+    <string name="printLabalFailed">標籤列印失敗</string>
+    <string name="printer_connect_error">印表機連線發生錯誤</string>
+    <string name="save_ip_port_qty_error">儲存IP、Port及數量失敗</string>
+    <string name="system_error">系統發生錯誤</string>
+    <string name="downloading_data">資料下載中</string>
+    <string name="print_error">列印出現問題，請重新列印</string>
+    <string name="del_data">資料刪除中</string>
+    <string name="data_uploading">資料上傳中...</string>
+    <string name="data_updated_successfully">資料更新成功</string>
+    <string name="data_chking">資料檢查中...</string>
+    <string name="data_printing">資料列印中...</string>
+    <string name="data_chk_success">資料檢核成功</string>
+    <string name="data_printed_successfully">資料列印成功</string>
+    <string name="saving_remarks">儲存備註中...</string>
+    <string name="saved_successfully">儲存成功</string>
+    <string name="pick_printers">PDF417-選擇印表機</string>
+    <string name="print_with_codesoft">以codesoft列印</string>
+    <string name="print_with_new_type">以新類型列印</string>
+    <string name="New_version_uses_WiFi_for_printing">新版走WIFI列印</string>
+    <string name="Print_Start">開始列印</string>
+    <string name="is_del_data">確定刪除資料?</string>
+    <string name="cant_be_null">不得為空值</string>
+    <string name="print_chk">列印確認</string>
+    <string name="print_error_">藍芽列印失敗，是否重印?</string>
+    <string name="error">錯誤</string>
+    <string name="PDF417_label_for_Meraki_file_has_been_sent_to_file_server">PDF417 label for Meraki檔案已傳送至file server</string>
+    <string name="Pallet_label_for_Tembo_file_has_been_sent_to_file_server">Pallet label for Tembo檔案已傳送至file server</string>
+    <string name="label_enter">輸入</string>
+    <string name="PDF417_label_for_file_has_been_sent_to_file_server">PDF417 label for 檔案已傳送至file server</string>
+    <string name="label_total2">總共</string>
+    <string name="label_pages">張</string>
+    <string name="wo_chk">製令核對中...</string>
+    <string name="verify_data">資料核對中...</string>
+    <string name="wareclerk_verify_data">倉管員資料核對中...</string>
+    <string name="Merge_code_data_verification">合併碼資料核對中...</string>
+    <string name="Checking_line">線別資料核對中...</string>
+    <string name="Month_accounting">月份會計期間核對中...</string>
+    <string name="Data_debiting_processing">資料扣帳處理中...</string>
+    <string name="Debit_processing">扣帳處理中...</string>
+    <string name="issue_processing">發料處理中...</string>
+    <string name="button_confirm3">確認\n(Confirm)</string>
+    <string name="button_cancel3">取消\n(Cancel)</string>
+    <string name="button_deduct3">扣帳\n(Deduction)</string>
+    <string name="Deduction_completed">已扣帳完畢</string>
+    <string name="retrive">收料中...</string>
+    <string name="Receiving_processing">收料處理中...</string>
+    <string name="Perform_delete">確定執行刪除?</string>
+    <string name="choose_u_want_to_del">請先選擇要刪除的項目</string>
+    <string name="recorded">入帳處理中...</string>
+    <string name="sku_verifying">料號資料核對中...</string>
+    <string name="Required">必填</string>
+    <string name="choose_printer">請選擇印表機</string>
+    <string name="data_setting">資料設定中...</string>
+    <string name="button_yes">是(Yes)</string>
+    <string name="button_no">否(No)</string>
+    <string name="chking_form">核對收料單號中...</string>
+    <string name="reading_form_no_data">讀取單號資料中...</string>
+    <string name="sn_checking">核對序號中...</string>
+    <string name="chk_box_no">核對箱號號中...</string>
+    <string name="stock_proccessing">入庫處理中...</string>
+    <string name="set_printer_name">請設定印表機名稱</string>
+    <string name="open_bt">請開啟藍牙</string>
+    <string name="cant_find_printer">找不到配對的印表機，請設定</string>
+    <string name="bt_connect_ok">藍芽印表機連線成功</string>
+    <string name="not_connect_btprinter">無法與藍芽印表機連線</string>
+    <string name="label_printer_ip">印表機IP</string>
+    <string name="label_printer_port">印表機Port</string>
+    <string name="data_updating">資料更新中...</string>
+    <string name="Invoice_checking">檢查發票號碼中...</string>
+
+
+    <!--登入頁-->
+    <string name="label_login_name"><b>帳號</b></string>
+    <string name="label_login_password"><b>密碼</b></string>
+    <string name="label_company">公司別</string>
+    <string name="label_factory">工廠別</string>
+    <string name="label_Language">語系</string>
+    <string name="button_login"><b>登入</b></string>
+    <string name="button_login_cancel"><b>取消</b></string>
+    <string name="label_printer_setting">藍芽印表機設定</string>
+    <string name="label_bt_connect">藍芽連線</string>
+    <string name="label_bt_disconnect">藍芽斷線</string>
+    <string name="change_language">切換英文</string>
+    <string name="account_password_is_not_null">登入帳號或密碼不得為空值</string>
+    <string name="b_t_error">藍芽設置有問題</string>
+    <string name="Disconnected_successfully">斷線成功</string>
+    <string name="Failed_to_disconnect">斷線失敗</string>
+    <string name="processing">資料處理中...</string>
+    <string name="Update">軟體更新</string>
+    <string name="New_version">有最新版本</string>
+    <string name="do_u_want_to_download">可以更新,是否下載?</string>
+    <string name="button_confirm">確定</string>
+    <string name="we_need_permission">請給我寫入檔案的權限吧?</string>
+    <string name="later">稍後下載</string>
+    <string name="file_downloaded">檔案已下載</string>
+    <string name="download_error">"下載錯誤: "</string>
+    <string name="chk_update">檢查更新檔</string>
+    <string name="Logging">登入中</string>
+    <string name="download_new_version">下載新版apk中</string>
+    <string name="button_connection_setting"><b>連線設定</b></string>
+    <string name="set_SFC_IP">請設定 SFC IP</string>
+    <string name="set_API_1">請設定 API 1</string>
+    <string name="set_API_2">請設定 API 2</string>
+    <string name="set_API_3">請設定 API 3</string>
+
+
+    <!--連線設定-->
+    <string name="label_current_connection">當前連線</string>
+    <string name="label_add_connection_settings">新增連線設定</string>
+    <string name="label_select_connection_settings">選擇連線設定</string>
+    <string name="label_connection_name">連線名稱</string>
+    <string name="label_connection_save">保存</string>
+    <string name="label_fill_in_all_required_fields">請填寫所有必填欄位</string>
+    <string name="label_device_updated">設置已更新</string>
+    <string name="label_device_saved">設置已保存</string>
+    <string name="label_delete_settings">刪除設置</string>
+    <string name="label_delete_this_setting">是否刪除設置</string>
+    <string name="label_delete2">刪除</string>
+    <string name="label_setting_deleted">設置已刪除</string>
+    <string name="label_connection_setting_selected">已選擇連接設定</string>
+    <string name="label_select_a_setting">請選擇一個設置</string>
+
+
+    <!--連線設定-設定頁-->
+    <string name="label_connection_setting">連線設定</string>
+    <string name="label_server">伺服器別</string>
+    <string name="label_server_ip">伺服器IP</string>
+    <string name="label_server_port">PORT</string>
+    <string name="button_confirm_setting">確定</string>
+    <string name="button_cancel_setting">取消</string>
+    <string name="label_connect_test">連線測試</string>
+    <string name="setting_connect_server_first">請先設定連線伺服器</string>
+    <string name="ip_or_port_is_not_null">伺服器IP或Port不得為空值</string>
+
+
+    <!--藍芽印表機設定-->
+    <string name="name_of_printer_is_not_null">印表機名稱不得為空</string>
+    <string name="label_printer_name">印表機名稱</string>
+    <string name="cant_find_bt_printer">找不到藍芽印表機裝置</string>
+    <string name="result_of_print">列印結果</string>
+    <string name="label_rotate_print">橫向列印</string>
+    <string name="label_printer_test">列印測試</string>
+    <string name="label_empty"><b></b></string>
+
+
+    <!--選單-->
+    <string name="You_do_not_have_permission">您無此權限使用此功能(You do not have permission)</string>
+
+
+    <!--SMT相關作業 >> 材料拆包作業(Material split packing label)-->
+    <string name="label_smt_material_split_packing_eng">Material split packing label</string>
+    <string name="label_material_split_packing1">%1$s 材料拆包作業 \n%2$s</string>
+    <string name="label_qrcode">輸入QR Code</string>
+    <string name="label_reel_id">Reel ID</string>
+    <string name="label_pn">料號(P/N)</string>
+    <string name="label_import_reel_id">輸入資料(Import Reel ID)</string>
+    <string name="label_import_original_qty">輸入原數量(Import Original Qty)</string>
+    <string name="label_import_split_qty">輸入分包數量(Import Split Qty)</string>
+    <string name="label_import_po">輸入訂單號碼(Import PO)</string>
+    <string name="label_import_qrcode">輸入QR Code(Impport QR Code)</string>
+    <string name="import_qrcode">輸入QR Code(Import QR Code)</string>
+    <string name="label_import_vendor_code">輸入廠商代碼(Import V/C)</string>
+    <string name="label_import_dc">輸入批號(Import D/C)</string>
+    <string name="label_import_pn">輸入料號(Import P/N)</string>
+    <string name="enter_sku">請輸入料號</string>
+    <string name="sku_len_must_be_12">料號的長度必須為12碼</string>
+    <string name="enter_dc">請輸入批號</string>
+    <string name="dc_len_greater_10">批號(DC)的長度必須為10碼</string>
+    <string name="dc_incorrect">批號不正確</string>
+    <string name="enter_vc">請輸入廠商代碼</string>
+    <string name="vc_len_must_be_six">廠商代碼的長度必須為6碼</string>
+    <string name="enter_origin_qty">請輸入原數量</string>
+    <string name="original_qty_must_more_than_0">原數量必須大於0</string>
+    <string name="enter_split_qty">請輸入分包數量</string>
+    <string name="split_qty_more_than_0">分包數量必須大於0</string>
+    <string name="spilt_qty_cant_more_than_original_qty">分包數量不可大於等於原數量</string>
+    <string name="reelid_len_must_be_28_24">ReelID的長度必須為28或34碼</string>
+    <string name="enter_qrcode">請輸入QR Code</string>
+    <string name="reelid_incorrect_len_must_be_34">Reel ID不正確，必須為34碼</string>
+    <string name="qr_qty_is_not_null">QR Code的數量不能為空值</string>
+    <string name="num_has_greater_0">數值必須大於0</string>
+
+
+    <!--SMT相關作業 >> 材料標籤補標作業(Material reprint label)-->
+    <string name="label_smt_print_material_label1">%1$s 材料標籤補標作業 \n%2$s</string>
+    <string name="import_qty">輸入數量(Import Qty)</string>
+    <string name="label_smt_material_label_print_eng">(Material reprint label)</string>
+
+
+    <!--SMT相關作業 >> 濕敏元件狀態管制作業(Humidity sensor operate)-->
+    <string name="title_humidity_sensor">%1$s 濕敏元件狀態管制作業</string>
+    <string name="label_print">印表機(Printer)</string>
+    <string name="label_wifi">Wifi</string>
+    <string name="label_bluetooth">藍芽</string>
+    <string name="label_qrcode2">QR Code</string>
+    <string name="enter_reelid">請輸入Reel ID</string>
+    <string name="label_import_original_pack_qty">輸入原包裝數量(Import original packing Qty)</string>
+    <string name="label_sys_msl">濕敏等級(MSL)/允許最常暴露時間(Floor Life)</string>
+    <string name="label_import_floor_life">輸入允許最長暴露時間(Import Floor Life):</string>
+    <string name="import_original_pack_qty">請輸入原包裝數量</string>
+    <string name="import_msl">請輸入MSL</string>
+    <string name="import_floor_life">請輸入允許最長暴露時間</string>
+
+
+    <!--SMT相關作業 >> 序號狀態查詢作業(含OOBA查詢作業)-->
+    <string name="n_ooba">%1$s 序號狀態查詢作業\n(含OOBA查詢作業)</string>
+    <string name="label_select_query_condition">選擇查詢條件(Select query condition)</string>
+    <string name="label_all">全部</string>
+    <string name="ship">出貨</string>
+    <string name="unship">未出貨</string>
+    <string name="label_import_SN">輸入序號(Import S/N)</string>
+    <string name="label_import_CNo">輸入箱號(Import C/No)</string>
+    <string name="label_import_part_number">輸入料號(Import P/N)</string>
+    <string name="triple_point">...</string>
+    <string name="label_estimated_shipping_date_S">輸入預計出貨日(Estimated shipping date)-起</string>
+    <string name="label_estimated_shipping_date_E">輸入預計出貨日(Estimated shipping date)-訖</string>
+    <string name="enter_WO">輸入製令(W/O number)</string>
+    <string name="label_OOBA_data">只顯示OOBA資料</string>
+    <string name="label_OOBA_data_yyyymmdd">只顯示OOBA資料:yyyymmdd</string>
+    <string name="enter_sn">請填寫輸入序號</string>
+    <string name="enter_box_nu">請輸入裝箱號碼</string>
+    <string name="enter_estimated_shipping_date1">請輸入預計出貨日1</string>
+    <string name="enter_estimated_shipping_date2">請輸入預計出貨日2</string>
+    <string name="enter_wo">請輸入製令</string>
+    <string name="enter_condictions">請輸入條件</string>
+    <string name="cant_query_form_no">查無表單單號</string>
+    <string name="select_form_no">選擇表單單號</string>
+    <string name="cant_query_seq">查無流程序號</string>
+    <string name="select_seq">選擇流程序號</string>
+    <string name="select_no_department">查無申請部門</string>
+    <string name="Select_department">選擇申請部門</string>
+    <string name="Select_no_applicant">查無申請人</string>
+    <string name="Select_the_applicant">選擇申請人</string>
+    <string name="list_item_processs_no">%1$s\n%2$s - %3$s\n%4$s - %5$s</string>
+    <string name="list_item_doc_no">%1$s\n%2$s - %3$s\n%4$s - %5$s</string>
+    <string name="list_item_applicant">"%1$s - %2$s"</string>
+    <string name="list_item_apply_dept">"%1$s - %2$s"</string>
+
+    <!--SMT相關作業 >> 序號狀態查詢作業(含OOBA查詢作業) >> 查詢結果-->
+    <string name="cant_find_condictions">找不到條件資料</string>
+    <string name="no_data">無相關資料</string>
+    <string name="sfis_label_status">SFIS狀態</string>
+    <string name="oracle_label_status">Oracle狀態</string>
+    <string name="plan_ship_week">預計出貨週別</string>
+    <string name="label_item_number">料號</string>
+    <string name="item_name">品名</string>
+    <string name="box_num">箱號</string>
+    <string name="num">數量</string>
+    <string name="wo_num">製令</string>
+    <string name="sets">套數</string>
+    <string name="inspection_form">檢驗單號</string>
+    <string name="production_day">生產日</string>
+    <string name="Inspection_date">檢驗日</string>
+    <string name="Storage_day">入庫日</string>
+    <string name="sales_day">銷貨日</string>
+    <string name="Shipping_DN">出貨DN</string>
+    <string name="Shipping_customers">出貨客戶</string>
+    <string name="Shipping_box_number">出貨箱號</string>
+    <string name="Shipping_board_number">出貨板號</string>
+    <string name="oe">出貨OE</string>
+    <string name="Shipping_po">出貨PO</string>
+    <string name="sn_query_enter_sku">序號查詢-請輸入料號</string>
+
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業-->
+    <string name="label_picking">%1$s 出貨檢料作業</string>
+    <string name="label_employee_id">員工編號</string>
+    <string name="label_dn_number">DN號碼</string>
+    <string name="label_customer">客戶</string>
+    <string name="label_planning_shipping_date">預計出貨日</string>
+    <string name="label_order_status">訂單狀態</string>
+    <string name="label_item_no">料號</string>
+    <string name="button_check_fifo">先進先出檢核</string>
+    <string name="button_delete">刪除</string>
+    <string name="label_status">狀態</string>
+    <string name="dn_num_is_not_null">DN號碼不得為空值</string>
+    <string name="cant_resolve_dn">無法解析DN</string>
+    <string name="del_dn">確定刪除此DN?</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="Make_sure_to_del_SKU">確定刪除此料號?</string>
+    <string name="first_in_first_out">先進先出檢核中...</string>
+    <string name="first_in_first_out_ok">先進先出OK</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 清單-->
+    <string name="label_shipment_id">料號</string>
+    <string name="label_shipment_quantity">數量</string>
+    <string name="label_item_description">品名</string>
+    <string name="label_shipment_control">控管</string>
+    <string name="label_checking_pass">已撿數量</string>
+    <string name="label_wait_for_checking">未撿數量</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 單箱資料確認-->
+    <string name="label_carton_data">單箱資料確認\n(Check carton pack data)</string>
+    <string name="label_part_no">料號</string>
+    <string name="label_pack_qty">單箱數量(Pack Qty)</string>
+    <string name="label_carton_weight">單箱重量(Carton Weight)</string>
+    <string name="label_carton_cuft">單箱材積(Carton CUFT)</string>
+    <string name="label_carton_size">單箱尺寸(Carton Size)</string>
+    <string name="cant_find_single_box">找不到單箱資料</string>
+    <string name="single_box_qty_is_not_null">單箱數量不得為空值</string>
+    <string name="single_box_weight_is_not_null">單箱重量不得為空值</string>
+    <string name="single_box_volume_is_not_null">單箱材積不得為空值</string>
+    <string name="single_box_size_is_not_null">單箱尺寸不得為空值</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 單箱資料確認 >> 棧板資料確認-->
+    <string name="label_pallet_data">棧板資料確認\n(Check pallet data)</string>
+    <string name="label_air_plt_qty">空運單板數量(Air PLT Qty)</string>
+    <string name="label_air_plt_size">空運棧板尺寸(Air PLT size)</string>
+    <string name="label_sea_plt_qty">海運單板數量(Sea PLT Qty)</string>
+    <string name="label_sea_plt_size">海運棧板尺寸(Sea PLT size)</string>
+    <string name="cant_find_sku">找不到料號資料</string>
+    <string name="cant_find_box">找不到裝箱資料</string>
+    <string name="cant_find_pallet">找不到棧板資料</string>
+    <string name="air_pallet_qty_is_not_null">空運單板數量不得為空值</string>
+    <string name="air_pallet_size_is_not_null">空運棧板尺寸不得為空值</string>
+    <string name="shipping_pallet_qty_is_not_null">海運單板數量不得為空值</string>
+    <string name="shipping_pallet_size_is_not_null">海運棧板尺寸不得為空值</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 單箱資料確認 >> 棧板資料確認 >> 棧板資訊-->
+    <string name="label_pallet_number2">棧板號碼</string>
+    <string name="label_checking_quantity">應撿</string>
+    <string name="label_pack_qty2">單箱數量</string>
+    <string name="label_origin">輸入產地(Import country of origin)</string>
+    <string name="label_rev">輸入版本(Import REV)</string>
+    <string name="import_cn">輸入箱號(Import C/No)</string>
+    <string name="import_frac_weight">零數箱重量(Frac figure weight)</string>
+    <string name="location_is_not_null">產地不得為空值</string>
+    <string name="origin_has_problem">輸入的產地名稱有問題，請確認</string>
+    <string name="version_is_not_null">版次不得為空值</string>
+    <string name="format_error_atleast_1_Eng_word">格式錯誤(至少要有一個英文字母)</string>
+    <string name="label_part_no2">料號 %1$s</string>
+    <string name="label_picking_qty">應撿 %1$d 已撿 %2$d 未撿 %3$d</string>
+    <string name="label_pack_qty3">單箱數量 %1$d</string>
+    <string name="pallet_nu_uncorrect">棧板號碼不正確，請重新輸入</string>
+    <string name="lotcode">請輸入Lotcode</string>
+    <string name="enter_version">請填寫輸入版本</string>
+    <string name="enter_origin">請填寫輸入產地</string>
+    <string name="enter_box_no">請填寫輸入箱號</string>
+    <string name="enter_qty">請輸入數量</string>
+    <string name="exceeded_qty_to_be_picked">超出應撿數量</string>
+    <string name="qty_cant_more_than_box_num">輸入數量不得大於單箱數量</string>
+    <string name="enter_zero_carton_weight">請填寫零數箱重量</string>
+    <string name="label_pallet_number4">棧板號碼:%1$s</string>
+    <string name="label_unable_determine_lotcode_permissionC">無法判斷Lotcode權限C</string>
+    <string name="label_unable_determine_lotcode_permission">無法判斷Lotcode權限</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 單箱資料確認 >> 棧板資料確認 >> PO資訊-->
+    <string name="label_box_none_po">不指定PO撿料\n(Not assign po)</string>
+    <string name="label_box_po">指定PO撿料\n(Assign po)</string>
+    <string name="label_part_no_2">料號 %1$s</string>
+    <string name="label_oe_po">OE:%1$s PO:%2$s</string>
+    <string name="label_pick_qty">應撿 %1$s 已撿 %2$s 未撿 %3$s</string>
+    <string name="del_oe">確定刪除此OE?</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 單箱資料確認 >> 棧板資料確認 >> 撿料-->
+    <string name="label_prechecking_quantity">預撿</string>
+    <string name="label_pallet_check2">棧板\n(PLT)</string>
+    <string name="label_box_check2">箱號\n(Box)</string>
+    <string name="label_sn_check2">序號\n(SN)</string>
+    <string name="label_sn_qrcode2">QR\nCode</string>
+    <string name="sn_is_not_null">序號不得為空值</string>
+    <string name="box_num_is_not_null">箱號不得為空值</string>
+    <string name="QR_CODE_is_not_null">QR CODE不得為空值</string>
+    <string name="Unable_parse_SN_from_QR_Code">QRCode無法解析SN</string>
+    <string name="label_pallet_number3">棧板號碼 %1$s</string>
+    <string name="enter_pallet_nu">請輸入棧板號碼</string>
+    <string name="qty_cant_more_than_unchk">輸入數量不可大於未撿數量</string>
+    <string name="enter_box_weight">請填寫單箱重量</string>
+    <string name="Unable_parse_QR_Code">QRCode無法解析</string>
+    <string name="data_chking_plt_carton">檢查同板同箱中...</string>
+    <string name="qr_code_format_incorrect_cant_resolve_sn">QR Code格式不符合，無法解析序號</string>
+    <string name="sn_repeat_check">序號有重複，請檢查！</string>
+    <string name="label_revise_pallet_no">是否修改棧板號碼\n(Do you revise pallet number)</string>
+    <string name="label_input_pallet_no">輸入棧板號碼\n(Import pallet number)</string>
+    <string name="label_sn_seq">%1$d/%2$s</string>
+    <string name="label_prechecking_quantity2">預撿 %1$d</string>
+    <string name="wrong_po_print_oe_po_question">不符合當前要撿的OE，此序號的OE:%1$s, PO:%2$s, 是否列印PO/OE標籤?</string>
+    <string name="data_querying">資料查詢中...</string>
+    <string name="SonicWALL_has_not_completed_OOBA">SonicWALL尚未做OOBA</string>
+    <string name="label_SN">序號</string>
+    <string name="label_Box">箱號</string>
+    <string name="label_pallet2">棧板號</string>
+    <string name="OOBA_already_picked">OOBA已撿</string>
+    <string name="OOBA_not_picked">尚有 </string>
+    <string name="OOBA_not_picked2"> 支OOBA未撿。</string>
+    <string name="OOBA_not_stocked_in">其中有 </string>
+    <string name="OOBA_not_stocked_in2"> 支OOBA未入庫。</string>
+    <string name="warn">警告</string>
+    <string name="OutSourcing">外購品</string>
+    <string name="isOutSourcing">是外購品</string>
+    <string name="is_not_OutSourcing">不是外購品</string>
+    <string name="OutSourcing_info">外購品資訊</string>
+    <string name="hassubloc">可看儲位資訊</string>
+    <string name="Can_not_find_MERAKI_PO">找不到MERAKI的Po, 請聯繫MIS</string>
+    <string name="Can_not_find_Samsara_PO">找不到Samsara的Po, 請聯繫MIS</string>
+    <string name="import_qty2">輸入數量</string>
+    <string name="label_input_pallet_no2">輸入棧板號碼(Pallet No)</string>
+
+
+    <!--01.出貨相關作業 >> 01-02.出貨核對作業-->
+    <string name="label_shipment">出貨核對作業</string>
+    <string name="label_inventory_no">I/V No</string>
+    <string name="label_total_pallet_quantity">總棧板數　%1$d　　未核數　%2$d</string>
+    <string name="label_total_carton_quantity">總箱數　%1$d　　未核數　%2$d</string>
+    <string name="label_pallet_num">輸入棧板號碼(Import pallet number)</string>
+    <string name="label_shipping_way">選擇出貨方式\n(Select shipping way)</string>
+    <string name="label_container">貨櫃(Container)</string>
+    <string name="label_pallet">棧板(Pallet)</string>
+    <string name="label_carton">散貨(Carton)</string>
+    <string name="label_pickup">自取(Pickup)</string>
+    <string name="label_container_condition">輸入資料</string>
+    <string name="label_container_num">輸入貨櫃號碼(Container number)</string>
+    <string name="label_container_size">輸入貨櫃尺寸(Container size)</string>
+    <string name="label_seal_num">輸入封條號碼(Seal number)</string>
+    <string name="label_cargo_num">輸入貨運行號碼(Cargo number)</string>
+    <string name="label_car_size">輸入貨車噸數(Car size)</string>
+    <string name="label_pickup_name">輸入報關行或提貨人姓名\n(Customs broker/ Pickup Name)</string>
+    <string name="import_sn">輸入序號(Import S/N)</string>
+    <string name="label_shipping_remark">輸入出貨備註(Ship remark)</string>
+    <string name="label_print_shipping_doc">是否列印派車單?\n(Do you print ship document)</string>
+    <string name="label_carton_num">輸入箱號號碼(Carton number)</string>
+    <string name="label_serial_num">輸入序號號碼(Serial number)</string>
+    <string name="label_Detail">明細</string>
+    <string name="label_shipment1">%1$s 出貨核對作業</string>
+    <string name="enter_container_num">請填寫輸入貨櫃號碼</string>
+    <string name="enter_container_size">請填寫輸入貨櫃尺寸</string>
+    <string name="enter_seal_num">請填寫輸入封條號碼</string>
+    <string name="enter_freight_num">請填寫輸入貨運行號碼</string>
+    <string name="qrcode_format_incorrect">QR Code格式不符，請重新輸入</string>
+    <string name="QR_Code_container_num_is_empty">QR Code貨櫃號碼為空值</string>
+    <string name="QR_Code_container_size_is_empty">QR Code貨櫃尺寸為空值</string>
+    <string name="QR_Code_seal_num_is_empty">QR Code封條號碼為空值</string>
+    <string name="QR_Code_shipping_line_num_is_empty">QR Code貨運行號碼為空值</string>
+    <string name="enter_truck_tonnage">請填寫輸入貨車噸數</string>
+    <string name="enter_customs_broker_or_consignor">請填寫輸入報關行或提貨人姓名</string>
+    <string name="pallet_num_is_not">棧板號英文字母不是</string>
+    <string name="check">，請確認</string>
+    <string name="Carton_number_mismatch">箱號不一致</string>
+    <string name="default_shipping_remark1">1. 煩請客戶(收件人)於 "派車單" 與 "銷貨單" 上簽名(請簽全名)及蓋章(收發章)，正本再送回神準公司。謝謝！\n2. 統編28496495, 電話03&#8212;3289289, 傳真03&#8212;3274888, 機械使用費由報關行代付 TOTAL 5 PLT.\n下貨完畢後煩請通知報關行貨物擺放位置(艙門或碼頭代碼)。謝謝！
+    </string>
+
+
+    <!--01.出貨相關作業 >> 01-03.出貨棧板標籤列印-->
+    <string name="title_activity_shipment_pallet_label_print">出貨棧板標籤列印</string>
+    <string name="label_barcode2">Barcode</string>
+    <string name="input_dn_number">輸入DN號碼(Import delivery number)</string>
+    <string name="input_pallet_number">輸入棧板號碼(Import pallet number)</string>
+    <string name="hint_dn_pallet">請輸入DN+Pallet No</string>
+    <string name="label_import_pallet_size">棧板尺寸(PLT size)</string>
+    <string name="title_activity_shipment_pallet_label_print1">%1$s 出貨棧板標籤列印</string>
+    <string name="enter_dn">請輸入DN號碼</string>
+    <string name="qrcode_dn_is_null">QR Code中的DN號碼是空值，請重新輸入</string>
+    <string name="qrcode_pallet_is_null">QR Code中的棧板號碼是空值，請重新輸入</string>
+    <string name="org_must_input_num">ORG需要輸入數字</string>
+    <string name="pick_file_server">TEMBO-選擇檔案伺服器</string>
+    <string name="label_extrem_printer_info">Extreme印表機資訊</string>
+    <string name="Not_find_Extreme_description">找不到 Extreme 說明，請聯繫MIS</string>
+    <string name="Samsara_printer_info_total">Samsara印表機資訊:總共 </string>
+    <string name="printer_info_total_pages"> 張</string>
+    <string name="Verkada_LotCode_printer_info_total">Verkada(LotCode)印表機資訊\n總共 </string>
+    <string name="Verkada_Model_SN_printer_info_total">Verkada(Model&amp;SN)印表機資訊\n總共 </string>
+    <string name="label_sophos_printer_info">Sohpos印表機資訊</string>
+    <string name="no_pallet_id_mis">無棧板資訊，請洽MIS</string>
+    <string name="Extreme_pallet_info_not_found">找不到 Extreme 棧板資訊，請聯繫MIS</string>
+
+
+    <!--01.出貨相關作業 >> 01-04.出貨刷退作業-->
+    <string name="label_shipment_return">出貨刷退作業</string>
+    <string name="label_return_quantity">預刷退量</string>
+    <string name="label_retrun_pallet_number">棧板號碼</string>
+    <string name="label_dc_no">其它\n(Other)</string>
+    <string name="label_dn_no">輸入DN號碼(Import DN)</string>
+    <string name="dn_is_not_null">DN不得為空值</string>
+    <string name="label_shipment_return1">%1$s 出貨刷退作業</string>
+    <string name="return_info_is_incorrect">刷退資訊不正確，請重新輸入</string>
+    <string name="Picking_data_has_been_deleted">已刪除撿料資料</string>
+
+
+    <!--01.出貨相關作業 >> 01-05.條碼驗證作業-->
+    <string name="label_barcode_verify">條碼驗證作業</string>
+    <string name="label_sn_no">序號</string>
+    <string name="label_barcode">條碼</string>
+    <string name="enter_barcode">請輸入條碼</string>
+    <string name="barcode_success">成功讀取條碼</string>
+    <string name="barcode_error">"讀取條碼錯誤</string>
+    <string name="label_barcode_verify1">%1$s 條碼驗證作業</string>
+    <string name="barcode_qty">條碼內數量</string>
+    <string name="sn_qty_incorrect">與序號數量不符</string>
+    <string name="format_incorrect">格式不正確</string>
+    <string name="barcode_sn">條碼內序號</string>
+    <string name="repeat">重複</string>
+    <string name="sn_name">序號</string>
+    <string name="already_exist_other_swiped_barcode">已存在其他已刷過的條碼</string>
+    <string name="sn_barcode">條碼序號</string>
+    <string name ="model_name">"機種: %1$s"</string>
+    <string name ="model_quantity">"數量: %1$s"</string>
+    <string name="read_pallet_pdf417_barcode">請讀取棧板PDF417條碼</string>
+    <string name="barcode_2d_sn">二維條碼序號</string>
+    <string name="not_exist_in_this_pallet_data">不存在此棧板資料中</string>
+    <string name="not_exist_in_2d_barcode_missed_brush">不存在於二維條碼中，漏刷?</string>
+    <string name="barcode_verification_error">條碼驗證錯誤</string>
+    <string name="not_exist_in_2d_barcode">不存在於二維條碼中</string>
+    <string name="barcode_verification_ok">條碼驗證正確</string>
+
+
+    <!--01.出貨相關作業 >> 01-06.RMA出貨撿貨作業-->
+    <string name="title_activity_rma_picking">RMA出貨撿貨作業</string>
+    <string name="rma_picking_summary">已撿箱數 %1$d 已撿數量 %2$d</string>
+    <string name="label_pallet_check">棧板(PLT)</string>
+    <string name="label_box_check">箱號(Box)</string>
+    <string name="label_import_pallet">輸入棧板號碼(Import pallet no)</string>
+    <string name="Enter_pallet_no">請先輸入棧板NO</string>
+    <string name="title_activity_rma_picking1">%1$s RMA出貨撿貨作業</string>
+    <string name="box_repeat">箱號重複(包裝錯誤)</string>
+    <string name="wo_type_diff">製令種類不同</string>
+
+
+    <!--01.出貨相關作業 >> 01-07.RMA出貨確認作業-->
+    <string name="title_activity_rma_verify">RMA出貨確認作業</string>
+    <string name="label_import_pallet_id">輸入棧板ID(Import pallet id)</string>
+    <string name="enter_pallet_id">請先輸入棧板ID</string>
+    <string name="Make_sure_to_delete_the_pickup_data">確定刪除撿貨資料?</string>
+    <string name="title_activity_rma_verify1">%1$s RMA出貨確認作業</string>
+
+    <!--01.出貨相關作業 >> 01-07.RMA出貨確認作業 >> 清單-->
+    <string name="sn_list">序號清單</string>
+
+
+    <!--01.出貨相關作業 >> 01-08.Samsara的PO標籤列印-->
+    <string name="title_activity_samsara_po">Samsara的PO標籤列印</string>
+    <string name="label_input_qrcode">輸入QR Code(Import QR code)</string>
+    <string name="title_activity_samsara_po1">%1$s Samsara的PO標籤列印</string>
+
+
+    <!--02.製令相關作業 >> 02-01.製令入庫作業-->
+    <string name="label_stock_in">製令入庫作業</string>
+    <string name="label_login_account">登入帳號</string>
+    <string name="button_stock_in">入庫</string>
+    <string name="query_cons_cant_be_null">查詢條件不得為空值</string>
+    <string name="label_stock_in1">%1$s 製令入庫作業</string>
+    <string name="ru_sure_in_stock">確定執行入庫?</string>
+    <string name="Make_sure_delete_inbound_data">確定刪除入庫資料?</string>
+    <string name="label_stock_quantity">應入 %1$d 已入 %2$d 未入 %3$d</string>
+    <string name="label_prestocking_quantity">預入</string>
+    <string name="label_warehousing_number">入庫單號</string>
+    <string name="import_subinventory">輸入倉別(Subinventory)</string>
+    <string name="import_locator">輸入儲位(Locator)</string>
+    <string name="label_combine_receipts">是否合併收貨入庫?</string>
+    <string name="label_combine_receipts_eng">Do you combine receipts?</string>
+    <string name="label_receipt_no">輸入單號(Receipts number)</string>
+    <string name="label_quantity">輸入數量(Import Qty)</string>
+    <string name="label_import_sn_start">輸入序號-起(Import S/N-first)</string>
+    <string name="label_import_sn_end">輸入序號-止(Import S/N-last)</string>
+    <string name="cant_find_storage">找不到入庫資料</string>
+    <string name="enter_stock_form">請填寫輸入入庫單號</string>
+    <string name="sku_incorrect">料號不正確</string>
+    <string name="enter_multiplier">請填寫輸入乘數</string>
+    <string name="enter_multiplicand">請填寫輸入被乘數</string>
+    <string name="enter_add">請填寫輸入加數</string>
+    <string name="qty_greater_than_stock_qty">數量大於可入庫數</string>
+    <string name="qty_cant_less_or_equals_0">數量不可小於等於0</string>
+    <string name="reelid_incorrect_len_must_be_34_or_28">Reel ID不正確，必須為28或34碼</string>
+    <string name="choose_sn_box">請選擇序號或箱號</string>
+    <string name="enter_sn_start">請填寫輸入序號-起</string>
+    <string name="enter_sn_end">請填寫輸入序號-止</string>
+    <string name="chk_Storage_application_number">核對入庫申請單號中...</string>
+    <string name="reading_sub_lot">讀取倉別、儲位中...</string>
+    <string name="read_in_stock_data">讀取入庫申請單資料中...</string>
+    <string name="chk_sub_locate">核對倉別、儲位中...</string>
+    <string name="sn_not_in_system">有序號不在客戶系統中請確認</string>
+    <string name="sn_has_not_passed_customer_QC_approval">序號沒過客戶QC Approval請確認，SN:</string>
+    <string name="read_datecode">讀取DateCode中...</string>
+    <string name="sku">料號:</string>
+    <string name="chk_ok">已核對完畢</string>
+    <string name="box_no_ok">箱號正確</string>
+    <string name="sn_correct">序號正確</string>
+    <string name="checkOK">核對完成</string>
+    <string name="datathrownerp">資料拋轉ERP中</string>
+    <string name="label_stocking_pass">已入數量</string>
+    <string name="label_wait_for_stocking">未入數量</string>
+    <string name="label_sn_item_no_stock_no">序號 / 料號 / 單號</string>
+
+
+    <!--02.製令相關作業 >> 02-02.關帳日期設定-->
+    <string name="label_closed_date_set">關帳日期設定</string>
+    <string name="button_select_date">選擇日期</string>
+    <string name="button_date_reset">日期解除</string>
+    <string name="button_date_set">日期設定</string>
+    <string name="label_closed_date_set1">%1$s 關帳日期設定</string>
+    <string name="select_a_date_first">請先選擇日期</string>
+    <string name="Determine_the_reset_closing_date">確定重設關帳日期?</string>
+    <string name="set_a_closing_date">確定設定關帳日期?</string>
+
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業-->
+    <string name="label_material_sending">製令發料作業</string>
+    <string name="label_import_line_number">輸入線別(Line number)</string>
+    <string name="label_import_merge_number">輸入合併碼(Merge number)</string>
+    <string name="label_import_wh_number">輸入倉管員(W/H number)</string>
+    <string name="label_import_wo_number">輸入製令(W/O number)</string>
+    <string name="label_import_item_part">輸入料號開頭(P/N Prefix)</string>
+    <string name="cant_find_shipping_info">找不到發料資料</string>
+    <string name="title_activity_material_sending_debit1">%1$s 製令發料扣帳作業</string>
+    <string name="title_activity_material_sending_transfer1">%1$s 製令發料轉倉作業</string>
+    <string name="title_activity_material_lack_query1">%1$s 製令欠料查詢作業</string>
+    <string name="label_material_sending1">%1$s 製令發料作業</string>
+    <string name="enter_line">請輸入線別</string>
+    <string name="label_import_merge_no">輸入合併碼(Import merge no)</string>
+    <string name="enter_warehouse_clerk">請填寫輸入倉管員</string>
+    <string name="qty_greater_than_stock">數量大於庫存數</string>
+    <string name="do_u_want_to_transfer">,是否繼續執行轉倉?</string>
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業 >> 製令欠料查詢作業-->
+    <string name="title_activity_material_lack_query">製令欠料查詢作業</string>
+    <string name="label_sn_item_no">序號 / 料號</string>
+    <string name="No_data_found">找無資料</string>
+    <string name="button_debit">扣帳</string>
+    <string name="confirm_exec_debit">確定執行扣帳?</string>
+    <string name="Insufficient_stock_Qty">庫存數不足</string>
+    <string name="r_u_sure_to_del_data">確定刪除發料資料?</string>
+    <string name="r_u_sure_to_del_transfer_sub_data">確定刪除轉倉資料?</string>
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業 >> 製令發料作業-->
+    <string name="title_activity_material_sending_debit">製令發料扣帳作業</string>
+    <string name="label_line_number">線別</string>
+    <string name="label_merge_number">合併碼</string>
+    <string name="label_total_sending_qty">總發料數</string>
+    <string name="label_send_qty">已發料數</string>
+    <string name="label_unsend_qty">未發料數</string>
+    <string name="label_sn_check">序號(SN)</string>
+    <string name="cant_find_material_stock_data">找不到材料庫存資料</string>
+    <string name="dc_not_in_this_sub_loc">批號不存在此倉別儲位</string>
+    <string name="enter_sub">請填寫輸入倉別</string>
+    <string name="sub_controlled_enter_correct_sub">此倉別為管制倉別，請輸入正確的倉別</string>
+    <string name="enter_loc">請填寫輸入儲位</string>
+    <string name="enter_other_loc">請填寫其它儲位</string>
+    <string name="find_older_dc">有更舊的D/C:</string>
+    <string name="do_u_want_to_transfer_debit">,是否繼續執行扣帳/轉倉?</string>
+    <string name="choose_sku">請選料號</string>
+    <string name="label_workorder_no">製令</string>
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業 >> 製令發料作業 >> 製令發料扣帳作業-->
+    <string name="sub_lot_incorrect">倉別 / 儲位不正確，請重新輸入</string>
+    <string name="shipped_plz_perform_debit">已發料完畢，請執行扣帳</string>
+    <string name="Shipped">已發料完畢</string>
+    <string name="debit_ok">扣帳完成</string>
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業 >> 製令發料作業 >> 製令發料扣帳作業 >> 製令發料扣帳作業-->
+    <string name="label_subinventory_transfer_qty">轉倉數量</string>
+    <string name="label_subinventory_transfer_no">轉倉單號</string>
+    <string name="label_subinventory_transfer">是否執行轉倉作業?</string>
+    <string name="label_subinventory_transfer_eng">Do you execute subinventory transfer?</string>
+    <string name="cant_find_stock">找不到庫存資料</string>
+    <string name="cant_find_debit_data">找不到扣帳資料</string>
+    <string name="this_sub_is_controlled_cant_used">此倉別為管制倉別，請填寫正確的倉別</string>
+    <string name="target_loc_cant_be_the_same_as_source_loc">轉入的儲位不可與轉出的相同</string>
+    <string name="transfer_processing">轉倉處理中...</string>
+    <string name="transfer_ok">轉倉完成</string>
+    <string name="print_error_msg">因沒有Vendor Code，所以無法取得Reel ID來列印標籤</string>
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業 >> 製令發料作業 >> 製令發料轉倉作業-->
+    <string name="title_activity_material_sending_transfer">製令發料轉倉作業</string>
+    <string name="import_subinventory_from">輸入轉出倉別(Subinventory out)</string>
+    <string name="import_locator_from">輸入轉出儲位(Locator out)</string>
+    <string name="import_subinventory_to">輸入轉入倉別(Subinventory in)</string>
+    <string name="import_locator_to">輸入轉入儲位(Locator in)</string>
+    <string name="button_complete">完成</string>
+    <string name="perform_debit">請先執行扣帳</string>
+
+
+    <!--02.製令相關作業 >> 02-05.製令發料檢核作業-->
+    <string name="title_activity_material_sending_check">製令發料檢核作業</string>
+    <string name="title_activity_material_sending_check1">%1$s 製令發料檢核作業</string>
+    <string name="label_inventory">庫存量</string>
+
+    <!--02.製令相關作業 >> 02-05.製令發料檢核作業 >> 清單-->
+    <string name="Delete_chking_data">確定刪除核對資料?</string>
+    <string name="label_datecode">DC</string>
+
+    <!--02.製令相關作業 >> 02-05.製令發料檢核作業 >> 清單 >> 處理-->
+    <string name="label_wo_no">製令號碼</string>
+    <string name="label_temp_issue_qty">暫發數</string>
+    <string name="chk_ok_exec_debit">已檢核完畢，請執行扣帳</string>
+
+
+    <!--02.製令相關作業 >> 02-06.轉倉轉儲位作業-->
+    <string name="title_activity_transfer_subinventory_locator">轉倉轉儲位作業</string>
+    <string name="label_subinventory_from">轉出倉別(Out subinventory)</string>
+    <string name="label_locator_from">轉出儲位(Out locator)</string>
+    <string name="label_subinventory_to">轉入倉別(In subinventory)</string>
+    <string name="label_locator_to">轉入儲位(In locator)</string>
+    <string name="label_reference">備註(Reference)</string>
+    <string name="default_reference">轉倉轉儲位、製令發料</string>
+    <string name="Controlled_subinventory">管制倉</string>
+    <string name="title_activity_transfer_subinventory_locator1">%1$s 轉倉轉儲位作業</string>
+    <string name="out_and_in_loc_not_same">轉出的儲位不可與轉入的相同</string>
+    <string name="Enter_remarks">請輸入備註</string>
+
+    <!--02.製令相關作業 >> 02-06.轉倉轉儲位作業 >> 轉倉轉儲位作業-->
+    <string name="label_total_inventory_qty">庫存總數</string>
+    <string name="label_total_transfer_subinventory_qty">轉倉總數</string>
+    <string name="cant_find_data">找不到資料</string>
+    <string name="label_sn_value">序號:%1$s</string>
+    <string name="label_box_value">箱號:%1$s</string>
+    <string name="continue_with_warehouse_and_location_transfer">,是否繼續執行轉倉轉儲?</string>
+    <string name="sn_box_has_finished">序號 / 箱號已處理過，請務重複輸入</string>
+    <string name="process_ok">處理完成</string>
+    <string name="Processed_OK_plz_perform_debit">已處理完畢，請執行扣帳</string>
+    <string name="label_datecode_qty">DC  %1$s  x  %2$s</string>
+    <string name="label_datecode_pass">( %1$s )</string>
+    <string name="cant_transfer_qty_over_stock">無法轉倉，數量超過庫存</string>
+
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業-->
+    <string name="label_material_receiving">收料作業</string>
+    <string name="label_mode_selection">選擇作業方式\n(Selection operation mode)</string>
+    <string name="label_receipts">收料\n\n(Receipts)\n</string>
+    <string name="label_temporarily_receipts">暫收\n\n(Temporarily\nReceipts)</string>
+    <string name="label_temporarily_employ">暫收入帳\n\n(Temporarily\nemploy)</string>
+    <string name="label_delete">刪除\n\n(Delete)\n</string>
+    <string name="label_error">異常\n\n(Error)</string>
+    <string name="label_delivery">預交\n\n(Delivery)</string>
+    <string name="label_material_receiving_outsourcing1">%1$s 外包收料作業</string>
+    <string name="label_material_receiving1">%1$s 收料作業</string>
+    <string name="label_receiving_outsourcing1">%1$s 外包收料 - %2$s</string>
+    <string name="label_delete3">刪除 </string>
+    <string name="label_receiving1">%1$s 收料作業 - %2$s</string>
+    <string name="server_return_warn">伺服器回傳警告</string>
+    <string name="label_reason">原因</string>
+    <string name="label_receive_temp_qty">暫收數</string>
+    <string name="label_received">已收</string>
+    <string name="label_unreceived">未收</string>
+    <string name="label_total_inventory">總庫存量</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業-->
+    <string name="cant_find_method">找不到作業方式</string>
+    <string name="label_material_receiving_outsourcing">外包收料作業</string>
+    <string name="label_import_vendor_name">輸入廠商名稱(Import V/N)</string>
+    <string name="import_pn">輸入料號(Import P/N)</string>
+    <string name="label_Organization">組織(Organization)</string>
+    <string name="Does_not_match_current_ORG">與當前ORG不符!</string>
+    <string name="enter_vendor_name">請填寫輸入廠商名稱</string>
+    <string name="Receiving">收料</string>
+    <string name="Pending_inspection">暫收</string>
+    <string name="Select_vendor">選擇廠商</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業 >> 收料作業-->
+    <string name="label_vendor_name">廠商名稱</string>
+    <string name="label_remittance_yn">彙開:%1$s</string>
+    <string name="label_vendor_info">%1$s-%2$s</string>
+    <string name="label_combine">合併\n\n(Combine)\n</string>
+    <string name="label_invoice">發票\n\n(Invoice)\n</string>
+    <string name="label_combine_invoice">合併發票\n\n(Combine\nInvoice)</string>
+    <string name="label_po_sec">訂單\n\n(PO)\n</string>
+    <string name="cant_find_vc_data">找不到廠商資料</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業 >> 收料作業 >> 清單-->
+    <string name="label_material_receiving_list">收料作業</string>
+    <string name="hint_receiving_list">篩選:料號(P/N), 發票(Invoice NO), PO</string>
+    <string name="label_rec_id">REC ID:%1$s</string>
+    <string name="label_vendor_site">Vendor site</string>
+    <string name="receiving">收料</string>
+    <string name="combine">合併(Combine)</string>
+    <string name="invoice">發票(Invoice)</string>
+    <string name="po">訂單(PO)</string>
+    <string name="combine_invoice">合併發票(Combine Invoice)</string>
+    <string name="Insufficient_pre_delivery_qty">預交數不足</string>
+    <string name="ru_del_data">是否將此筆輸入資料刪除?</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業 >> 收料作業 >> 清單 >> 收料作業-->
+    <string name="label_invoice_no">發票號碼</string>
+    <string name="label_po">PO</string>
+    <string name="label_control">控管</string>
+    <string name="label_part_number">料號</string>
+    <string name="label_po_qty">PO數</string>
+    <string name="label_deliverable_qty">可交數</string>
+    <string name="label_predeliver">預交</string>
+    <string name="label_pda_received">PDA已收</string>
+    <string name="label_pda_unreceived">PDA未收</string>
+    <string name="label_temp_qty">暫收數</string>
+    <string name="gen_invoice_no">補發票</string>
+    <string name="label_import_invoice_no">輸入發票號碼(Import invoice number)</string>
+    <string name="label_import_locator">輸入儲位(Import locator)</string>
+    <string name="Please_enter_ORG">請輸入ORG:</string>
+    <string name="label_import_x_board_qty">輸入X板數量(Import X Board Qty)</string>
+    <string name="label_import_qty">輸入數量(Import Qty)</string>
+    <string name="label_import_single_box_qty">輸入單箱數量(Import Single Box Qty)</string>
+    <string name="label_import_receipts_qty">輸入收料數量(Import Receipts Qty)</string>
+    <string name="label_import_sn">輸入序號(Import S/N)</string>
+    <string name="cant_find_receipt_data">找不到收料資料</string>
+    <string name="label_Del">刪除(Del)</string>
+    <string name="enter_invoice">請填寫輸入發票號碼</string>
+    <string name="enter_correct_invoice">請填寫輸入正確的發票號碼</string>
+    <string name="qr_code_has_error">QR Code的Reel ID有誤</string>
+    <string name="vc_incorrect">廠商代碼不正確</string>
+    <string name="qrcode_qty_error">QR Code的數量有誤</string>
+    <string name="cant_greater_than_predeliver">不可大於預交數</string>
+    <string name="cant_greater_than_poqty">不可大於PO數</string>
+    <string name="receipts_qty_cant_less_than_or_equals_0">收料數不可小於等於0</string>
+    <string name="greater_than_po_qty">大於PO數</string>
+    <string name="greater_than_deliverable_qty">大於可交數</string>
+    <string name="enter_x_board_qty">請填寫輸入X板數量</string>
+    <string name="Plz_Import_Single_Box_Qty">請填寫輸入單箱數量</string>
+    <string name="Plz_Import_Receipts_Qty">請填寫輸入收料數量</string>
+    <string name="qrcode_has_error_reelid_len_34">QR Code有問題，Reel ID長度不符，應為34碼</string>
+    <string name="qrcode_has_error_qty_is_not_null">QR Code有問題，數量不可為空值</string>
+    <string name="qrcode_has_error_qty_is_greater_than_0">QR Code有問題，數量需大於0</string>
+    <string name="qrcode_has_error_qty_is_not_resolved">QR Code有問題，數量無法解析</string>
+    <string name="org_is_not_null">ORG不可為空值</string>
+    <string name="qrcode_parsing_length_mismatch_unable_proceed">Qrcode 解析長度不同無法執行!</string>
+    <string name="greater_than_deliverable_qty_Overcharge">大於可交數，是否超收?</string>
+    <string name="Label_printing_error_occurred">列印標籤出現問題，請重新列印</string>
+    <string name="This_material_is">此料為:</string>
+    <string name="would_you_like_to_continue">, 是否繼續?</string>
+    <string name="btn_print">補印</string>
+    <string name="material_from_senao">來自神準</string>
+    <string name="DcQrCode_Original">原始QR Code</string>
+    <string name="material_from_senao_YN">是否來自神準?</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業 >> 收料作業 >> 發票/儲位資料-->
+    <string name="txt_gen_invoice_no">補發票-%1$s</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業 >> 收料作業 >> 發票清單-->
+    <string name="label_invoice_no_eng">發票號碼(Invoice No)</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 刪除異常-->
+    <string name="label_del_error">刪除異常(Delete Error Data)</string>
+    <string name="label_pn_po_invoice_vendor">料號 / PO / 發票號碼 / 廠商</string>
+    <string name="label_total_qty">全部筆數 %1$d</string>
+    <string name="label_select_qty">選擇筆數 %1$d</string>
+    <string name="button_select_all">全選</string>
+    <string name="button_select_invert">取消全選</string>
+    <string name="label_receiving">收料作業 - %1$s</string>
+    <string name="label_del_delivery">刪除預交(Delete Delivery Data)</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 暫收入帳-->
+    <string name="label_temp_employ">暫收入帳(Temporarily employ)</string>
+    <string name="label_pn_vendor">料號 / 廠商</string>
+    <string name="ru_sure_to_bill">確定執行入帳?</string>
+    <string name="plz_sel_item">請先選擇要入帳的項目</string>
+
+
+    <!--03.收料入庫相關作業 >> 03-03.驗收入庫作業-->
+    <string name="label_acceptance">驗收入庫作業</string>
+    <string name="label_import_part_no">輸入料號(P/N)</string>
+    <string name="label_import_receipt_no">輸入收料單號(Receipts No)</string>
+    <string name="label_import_receiving_id">輸入收料ID(TRX ID No)</string>
+    <string name="label_acceptance_outsourcing1">%1$s 外包驗收入庫作業</string>
+    <string name="label_acceptance1">%1$s 驗收入庫作業</string>
+    <string name="Receipt_id_number_data_checking">收料ID單號資料核對中...</string>
+    <string name="Material_receipt_number_data_checking">收料單號資料核對中...</string>
+    <string name="enter_recived_num">請輸入收料單號</string>
+    <string name="enter_recived_id">請輸入收料ID</string>
+
+    <!--03.收料入庫相關作業 >> 03-03.驗收入庫作業 >> 清單-->
+    <string name="cant_find_acceptance_stock_data">找不到驗收入庫資料</string>
+    <string name="not_in_day">已驗未入天數%1$d天</string>
+    <string name="label_uncheck_qty">待驗數</string>
+    <string name="label_item_loc">倉管員</string>
+    <string name="label_item_loc_desc">倉別儲位</string>
+    <string name="label_stock_in_qty">暫入數</string>
+    <string name="label_not_in_qty">未入數</string>
+    <string name="label_stock_in_xb_qty">X板暫入數</string>
+    <string name="label_not_in_xb_qty">X板未入數</string>
+    <string name="label_acc_receipt_no">收料單號</string>
+    <string name="label_trx_id">Trx ID</string>
+
+    <!--03.收料入庫相關作業 >> 03-03.驗收入庫作業 >> 清單 >>處理-->
+    <string name="label_xb_quantity">X板應入%1$d已入%2$d未入%3$d</string>
+    <string name="label_receipt_number">收料單號</string>
+    <string name="label_receipt_id">輸入TRX ID</string>
+    <string name="label_sub">倉別(Sub)</string>
+    <string name="label_loc">儲位(Loc)</string>
+    <string name="label_dc">批號(D/C)</string>
+    <string name="label_xb_qty_smaller_than_db">應入數已滿足，但X板數小於X板應入數，是否繼續入庫?</string>
+    <string name="label_xb_qty_larger_than_db">X板數已大於X板應入數</string>
+    <string name="label_acceptance_stockin_quantity">應入%1$s已入%2$s未入%3$s</string>
+    <string name="label_acceptance_xb_quantity">X板應入%1$s已入%2$s未入%3$s</string>
+
+
+    <!--03.收料入庫相關作業 >> 03-05.驗收入庫批次作業-->
+    <string name="Incoming_inspection_and_stocking_batch_process_is_under_construction">03-05.驗收入庫批次作業 正在施工</string>
+
+
+    <!--04.查詢相關作業 >> 04-01.進貨超交查詢作業-->
+    <string name="title_activity_overtake">進貨超交查詢作業</string>
+    <string name="label_import_item_number">輸入料號(Import P/N)</string>
+    <string name="default_shipping_remark">資料如下</string>
+    <string name="title_activity_overtake1">%1$s 進貨超交查詢作業</string>
+    <string name="sku_len_can_not_less_than_12">料號長度不可小於12!</string>
+    <string name="over_delivery">超交</string>
+    <string name="acceptable_for_receipt">可收</string>
+    <string name="total_receivable">可收總數</string>
+    <string name="state">狀態(State)</string>
+    <string name="Demand_range">需求區間(Demand range)</string>
+    <string name="Days_of_control">控管天數(Days of control)</string>
+    <string name="Buyer">採購員(Buyer)</string>
+    <string name="Warehouse_clerk">倉管員(Warehouse clerk)</string>
+    <string name="SKU">料號(SKU)</string>
+    <string name="Description">品名</string>
+    <string name="no_receivable_quantity"> 無可收數量</string>
+
+
+    <!--04.查詢相關作業 >> 04-02.庫存查詢作業-->
+    <string name="label_item_on_hand">庫存查詢作業</string>
+    <string name="label_on_hand_query_conditions">選擇查詢條件\n(Select query contitions)</string>
+    <string name="label_wait_inspect">待驗</string>
+    <string name="label_on_hand">庫存</string>
+    <string name="label_item_on_hand1">%1$s 庫存查詢作業</string>
+    <string name="sku_len_incorrect">料號長度不正確</string>
+    <string name="label_not_in_storage_qty">暫收待驗已驗總數</string>
+    <string name="label_total">總數</string>
+
+    <!--04.查詢相關作業 >> 04-02.庫存查詢作業 >> 清單-->
+    <string name="hint_item_on_hand_list_search">料號</string>
+    <string name="label_qty">數量</string>
+
+
+    <!--04.查詢相關作業 >> 04-04.PO查詢及列印作業-->
+    <string name="title_activity_shippment_query_po">PO查詢及列印作業</string>
+    <string name="txt_po">PO:%1$s</string>
+    <string name="txt_oe">OE:%1$s</string>
+    <string name="title_activity_shippment_query_po1">%1$s PO查詢及列印作業</string>
+    <string name="plz_enter_query_condictions">請先輸入查詢條件</string>
+    <string name="Print">列印</string>
+    <string name="print_oe_po_question">OE:%1$s, PO:%2$s, 是否列印PO/OE標籤?</string>
+    <string name="get_data_success">資料取得成功</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-01.客供材料進貨標籤列印作業-->
+    <string name="label_customer_material_receipts_label">客供材料進貨標籤列印作業\n%1$s</string>
+    <string name="label_rb_pn">神準料號(Senao)</string>
+    <string name="label_rb_cpn">客供料號(Customer)</string>
+    <string name="label_import_pack_qty">輸入包裝基數(Import Pack Qty)</string>
+    <string name="label_import_po_qty">輸入訂單號碼及數量\n(Import PO &amp; Qty)(非必填)</string>
+    <string name="hint_import_po_qty">PO, 數量(請逗點隔開)</string>
+    <string name="btn_input">輸入</string>
+    <string name="label_list_summary">PO數:%1$d, 總合:%2$d</string>
+    <string name="label_customer_material_receipts_label_eng">Customer material receipts label</string>
+    <string name="label_customer_material_receipts_label1">%1$s 客供材料進貨標籤列印作業\n%2$s</string>
+    <string name="plz_enter_po_num_and_qty">請先輸入訂單號碼及數量</string>
+    <string name="enter_orig_qty">請先輸入原數量</string>
+    <string name="format_not_match">格式不符合，請重新輸入</string>
+    <string name="repeat_po">PO重複</string>
+    <string name="enter_po_qty_greater_than_total">輸入的PO數量大於總數量</string>
+    <string name="po_num_has_inputed">PO及數量已輸入</string>
+    <string name="enter_senao_sku">請輸入神準料號</string>
+    <string name="enter_cust_sku">請輸入客供料號</string>
+    <string name="enter_packing_base">請輸入包裝基數</string>
+    <string name="Qty_in_PO_list_does_not_match_total_qty">PO清單的數量與總數量不符</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-02.進貨標籤列印作業-->
+    <string name="title_activity_custom_print">自訂標籤列印功能</string>
+    <string name="label_codesoft">Codesoft</string>
+    <string name="label_print_material_label">%1$s 進貨標籤列印作業</string>
+    <string name="label_import_coo">輸入生產地(Import COO)</string>
+    <string name="enter_coo">請輸入生產地</string>
+    <string name="invalid_update_info">更新資訊無效</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-03.客供材料拆包作業-->
+    <string name="label_customer_material_split_packing">客供材料拆包作業\n%1$s</string>
+    <string name="hint_optional">(非必填)</string>
+    <string name="label_customer_material_split_packing_eng">Customer Material split packing label</string>
+    <string name="label_customer_material_split_packing1">%1$s 客供材料拆包作業\n%2$s</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-04.材料拆包作業-->
+    <string name="label_material_split_packing">材料拆包作業\n%1$s</string>
+    <string name="label_material_split_packing_eng">Material split packing label</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-05.客供材料標籤補標作業-->
+    <string name="label_customer_material_label_reprint">客供材料標籤補標作業\n%1$s</string>
+    <string name="label_customer_material_label_reprint_eng">Customer Material reprint label</string>
+    <string name="label_customer_material_label_reprint1">%1$s 客供材料標籤補標作業\n%2$s</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-06.材料標籤補標作業-->
+    <string name="label_print_label">材料標籤補標作業</string>
+    <string name="label_print_label1">%1$s 材料標籤補標作業</string>
+    <string name="PO_is_empty_do_you_want_to_continue_printing">PO為空值,是否繼續列印?</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-07.發票流水號補標作業-->
+    <string name="label_print_invoice_seq">發票流水號補標作業</string>
+    <string name="label_import_invoice_seq">輸入發票流水號(Import Rec ID)</string>
+    <string name="label_vendor_no_name">廠商名稱\n%1$s</string>
+    <string name="label_print_invoice_seq1">%1$s 發票流水號補標作業</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-08.製令標籤補標作業-->
+    <string name="label_wo_label_print">製令標籤補標作業</string>
+    <string name="label_import_line">輸入線別(Import Line)</string>
+    <string name="label_import_remark">輸入備註(Import Remark)</string>
+    <string name="label_wo_label_print1">%1$s 製令標籤補標作業</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-09.自訂標籤列印作業-->
+    <string name="For_NoInspection_Use_Only">免檢專用(輸入Reelid即可)</string>
+    <string name="Wifi_not_yet_developed">Wifi未開發</string>
+    <string name="Codesoft_not_yet_developed">Codesoft未開發</string>
+    <string name="enter_data">請輸入資料</string>
+
+
+    <!--06.EasyFlow表單相關-->
+    <string name="Transfer_Waste_material_responsibility_form_under_construction">06-01.轉倉/呆料責任歸屬單 正在施工</string>
+    <string name="Material_wear_under_construction">06-02.材料耗損 正在施工</string>
+    <string name="General_receipt_return_material_list_under_construction">06-03.一般領(退)料單 正在施工</string>
+    <string name="Form_query_under_construction">06-04.表單查詢 正在施工</string>
+    <string name="Sign_off_under_construction">06-05.簽核作業 正在施工</string>
+    <string name="Rollover_form_triggers_job_under_construction">06-06.轉倉表單觸發作業 正在施工</string>
+    <string name="Rollover_form_cancels_job_under_construction">06-07.轉倉表單撤銷作業 正在施工</string>
+    <string name="Form_label_labeling_jobs_under_construction">06-08.表單標籤補標作業等作業功能 正在施工</string>
+    <string name="Form_jobs_pick_return_transfer_move_under_construction">06-09.表單作業(領料/退料/調撥/轉倉) 正在施工</string>
+
+
+    <!--07.SMT相關作業 >> 07-04.烘烤作業-->
+    <string name="title_activity_bake">烘烤作業</string>
+    <string name="label_backstart">開始\n\n(Start)\n</string>
+    <string name="label_reprint">補印\n\n(Reprint)\n</string>
+    <string name="label_complete">完成\n\n(Complete)\n</string>
+    <string name="label_inquire">查詢\n\n(Inquire)\n</string>
+
+    <!--07.SMT相關作業 >> 07-04.烘烤作業 >> 烘烤作業-開始-->
+    <string name="title_activity_start_bake">%1$s 烘烤作業-開始</string>
+    <string name="label_Package">包裝方式(Package)</string>
+    <string name="back_PCB">線路板\n(PCB)</string>
+    <string name="back_Tray_BGA">Tray盤\n(BGA)</string>
+    <string name="back_Tray_Other">Tray盤\n(Other)</string>
+    <string name="back_Reel">捲\n(Reel)</string>
+    <string name="label_Bake_Temperature">烘烤溫度(Bake Temperature)</string>
+    <string name="import_bakeloc">輸入烘烤儲位(Bake Locator)</string>
+    <string name="button_start_bake">開始烘烤(start)</string>
+    <string name="Successfully_recorded_baking_start_time">成功寫入烘烤開始時間</string>
+    <string name="enter_bakeloc">請輸入烘烤儲位</string>
+    <string name="plz_input_package">請選擇包裝方式</string>
+    <string name="label_Bake_Time">烘烤時間(Bake Time)</string>
+    <string name="label_No_bake_data">查無烘烤資料(No bake data)</string>
+
+    <!--07.SMT相關作業 >> 07-04.烘烤作業 >> 烘烤作業-完成-->
+    <string name="title_activity_complete_bake">%1$s 烘烤作業-完成</string>
+    <string name="Unable_update_completion_time">更新完成時間失敗!</string>
+    <string name="Baking_not_yet_completed">尚未結束烘烤(Baking not yet completed)!</string>
+    <string name="No_ongoing_baking_data">無烘烤中資料</string>
+    <string name="Still_requires">尚需 </string>
+    <string name="force_end_baking_process_and_send_notification"> 小時, 是否强制结束烘烤且發mail通知?</string>
+    <string name="input_who_dicision">請輸入決定人或是決裁單號</string>
+    <string name="Item_has_been_deleted">項目已刪除</string>
+
+    <!--07.SMT相關作業 >> 07-04.烘烤作業 >> 烘烤作業-補印-->
+    <string name="title_activity_reprint_bake">%1$s 烘烤作業-補印</string>
+
+    <!--07.SMT相關作業 >> 07-04.烘烤作業 >> 烘烤作業-查詢-->
+    <string name="title_activity_query_bake">%1$s 烘烤作業-查詢</string>
+    <string name="Start_Date">開始時間(Start Date)</string>
+    <string name="End_Date">結束時間(End Date)</string>
+    <string name="Still_in_baking_standard_baking_time_is">尚在烘烤中，標準烘烤時間為</string>
+    <string name="Baking_time_reached_but_not_yet_completed">已達到烘烤時間，但未做烘烤完成作業</string>
+    <string name="Remaining_Time">剩餘時間(Remaining Time)</string>
+
+
+    <!--08.外包相關作業-->
+    <string name="Outsourcing_Material_Packing_Work_under_construction">08-01.外包材料裝箱作業 正在施工</string>
+    <string name="Outsourcing_packing_return_under_construction">08-02.外包裝箱刷退作業 正在施工</string>
+    <string name="Outsourcing_Shipment_picking_operations_under_construction">08-03.外包出貨撿料作業 正在施工</string>
+    <string name="Outsourcing_Shipment_picking_return_under_construction">08-04.外包出貨減料刷退作業 正在施工</string>
+    <string name="Outsourcing_Pallet_Box_label_printing_under_construction">08-05.外包棧板及外箱標籤列印 正在施工</string>
+    <string name="Outsourcing_Check_Receiving_operations_under_construction">08-06.外包收料核對作業 正在施工</string>
+    <string name="Outsourcing_Boxing_Shipment_picking_detail_Search_under_construction">08-08.外包裝箱及出貨撿料明細查詢 正在施工</string>
+    <string name="Outsourcing_Boxing_Shipment_picking_detail_download_under_construction">08-09.外包裝箱及出貨撿料明細下載 正在施工</string>
+
+
+    <!--08.外包相關作業 >> 08-07.外包材料裝箱及出貨撿料離線作業-->
+    <string name="title_activity_outsourceing_material_and_shipment_picking">外包材料裝箱及出貨撿料離線作業</string>
+    <string name="input_Merge_number">輸入合併碼(Input Merge number)</string>
+    <string name="add_and_rivise">新增/修改(Add/revise)</string>
+    <string name="download_file">檔案下載(Download file)</string>
+    <string name="input_email">輸入電子郵件(Input E-Mail)</string>
+    <string name="storage_path">存放路徑(Storage path)</string>
+    <string name="merge_no_not_null">合併碼不得為空值</string>
+    <string name="Outsourceing_Merge_Number">合併碼</string>
+    <string name="Outsourceing_Pallet">板號</string>
+    <string name="Outsourceing_Box">箱號</string>
+    <string name="Outsourceing_Carton_Weight">單箱重量</string>
+    <string name="Outsourceing_SKU">料號</string>
+    <string name="Outsourceing_Description">品名</string>
+    <string name="Outsourceing_Qty">數量</string>
+    <string name="Outsourceing_DC">批號(DC)</string>
+    <string name="Outsourceing_Reel_Id">Reel Id</string>
+    <string name="Outsourceing_Pallet2">Pallet</string>
+
+    <!--08.外包相關作業 >> 08-07.外包材料裝箱及出貨撿料離線作業 >> 方法-->
+    <string name="label_picking_package">撿料包裝方式</string>
+    <string name="import_cn2">輸入箱號(C/No)</string>
+
+    <!--08.外包相關作業 >> 08-07.外包材料裝箱及出貨撿料離線作業 >> 方法 >> 清單-->
+    <string name="ban_num">板號</string>
+    <string name="label_carton_qty">箱數</string>
+    <string name="label_reel_id2">Reel ID %1$s</string>
+    <string name="label_carton_weight2">單箱重量</string>
+    <string name="c_weight_is_not_null">單箱重量不得為空值</string>
+    <string name="carton_duplicate">箱號\Reel ID重複</string>
+    <string name="reelid_duplicate">Reel ID 重複</string>
+    <string name="carton_weight_not_equal">箱號重量不同</string>
+    <string name="label_shipment_weight">重量</string>
+    <string name="label_serial_number">箱號</string>
+
+
+    <!--AndroidManifest.xml-->
+    <string name="app_name">倉管</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_scanner_setting">掃瞄器設定</string>
+    <string name="title_activity_shipment">ShipmentActivity</string>
+    <string name="title_activity_shipment_carton">ShipmentCartonActivity</string>
+    <string name="title_activity_shipment_pallet">ShipmentPalletActivity</string>
+    <string name="title_activity_transfer_rollover">TransferRolloverActivity</string>
+    <string name="title_activity_shipment_create_pallet">ShipmentCreatePalletActivity</string>
+    <string name="title_activity_shipment_picking">ShipmentPickingActivity</string>
+    <string name="title_activity_shipping_verify_main">ShippingVerifyMainActivity</string>
+    <string name="title_activity_printer_setting">藍芽印表機設定</string>
+    <string name="title_activity_stock_in">製令入庫作業</string>
+    <string name="title_activity_print_label">材料標籤補標作業</string>
+    <string name="title_activity_stock_in_process">製令入庫作業</string>
+    <string name="title_activity_material_receiving">收料作業</string>
+    <string name="title_activity_material_receiving_list">收料作業</string>
+    <string name="title_activity_material_receiving_process">收料作業</string>
+    <string name="title_activity_material_sending">製令發料作業</string>
+    <string name="title_activity_material_sending_list">製令發料作業</string>
+    <string name="title_activity_material_sending_process">製令發料作業</string>
+    <string name="title_activity_material_sending_subinventory_transfer">製令發料作業</string>
+    <string name="title_activity_acceptance">驗收入庫作業</string>
+    <string name="title_activity_wait_check_inquiry">待驗查詢作業</string>
+    <string name="title_activity_wait_check_list">待驗查詢作業</string>
+    <string name="title_activity_wait_check_search">待驗查詢作業</string>
+    <string name="title_activity_acceptance_process">AcceptanceProcessActivity</string>
+    <string name="title_activity_acceptance_batch">驗收入庫批次作業</string>
+    <string name="title_activity_shipment_po">Shipment Po Activity</string>
+
+
+    <!--還沒處理：
+        1) AcceptanceBatchActivity + AcceptanceBatchListActivity ==>驗收入庫批次作業 (還在施工)
+        2) TransferLocatorFormActivity + TransferLocatorFormListActivity + TransferLocatorFormProcessActivity ==>轉倉/呆料責任歸屬單 (還在施工)
+        3) TransferLocatorRevokeActivity + TransferLocatorRevokeListActivity ==>轉倉表單撤銷作業 (還在施工)
+        4) TransferLocatorTriggerActivity + TransferLocatorTriggerManualActivity + TransferLocatorTriggerManualDetailActivity + TransferLocatorTriggerPickActivity ==>轉倉表單觸發作業 (還在施工)
+        5) TransferRolloverActivity ==>表單作業(領料/退料/調撥/轉倉) (還在施工)
+        6) WaitCheckInquiryActivity + WaitCheckListActivity + WaitCheckDetailActivity + WaitCheckDetailActivity ==>待驗查詢作業 (還在施工)
+    -->
+
+
+    <!--沒有使用-->
+    <string name="label_smt_material_split_packing">材料拆包作業\n%1$s</string>
+    <string name="label_receiving_outsourcing">外包收料 - %1$s</string>
+    <string name="barcode_failure">讀取條碼失敗</string>
+    <string name="label_connection_status"><b>狀態</b></string>
+    <string name="label_connection_status_connected"><b>連線正常</b></string>
+    <string name="label_connection_status_disconnected"><b>連線失敗</b></string>
+    <string name="label_employeeid"><b>員工編號XXX</b></string>
+    <string name="button_cancel">取消</string>
+    <string name="button_show_kb">顯示\n鍵盤</string>
+    <string name="button_hide_kb">隱藏\n鍵盤</string>
+    <string name="button_deduct">扣帳(Deduction)</string>
+    <string name="button_picking">撿貨\n\n(Picking)</string> <!--activity_rma_menu.xml-->
+    <string name="button_confirm4">確認\n\n(Confirm)</string> <!--activity_rma_menu.xml-->
+    <string name="title_activity_shipment_detail">ShipmentDetailActivity</string>
+    <string name="title_activity_shipment_create_pallet_detail">ShipmentCreatePalletDetailActivity</string>
+    <string name="title_activity_compare">CompareActivity</string>
+    <string name="title_activity_shipping_verify">ShippingVerifyActivity</string>
+    <string name="title_activity_shipping_verify_check">ShippingVerifyCheckActivity</string>
+    <string name="title_activity_shipping_verify_container">ShippingVerifyContainerActivity</string>
+    <string name="title_activity_shipping_verify_pallet">ShippingVerifyPalletActivity</string>
+    <string name="title_activity_shipping_verify_pickup">ShippingVerifPickupActivity</string>
+    <string name="title_activity_shipping_verify_print">ShippingVerifyPrintActivity</string>
+    <string name="title_activity_shipping_verify_remark">ShippingVerifyRemartActivity</string>
+    <string name="custom_ui_roi">Camera overlay with ROI</string>
+    <string name="custom_ui">Custom camera overlay</string>
+    <string name="default_ui_no_dialog">Default overlay, no dialog</string>
+    <string name="default_ui_no_logo">Default overlay</string>
+    <string name="Back">Back</string>
+    <string name="LightOff">Light: off</string>
+    <string name="LightOn">Light: on</string>
+    <string name="print_1">印表機 1</string>
+    <string name="print_2">印表機 2</string>
+    <string name="pdf417">PDF417 Label for Meraki</string>
+    <string name="title_activity_wo_label_print">製令標籤補標作業</string>
+    <string name="label_acceptance_batch">驗收入庫批次作業</string> <!--activity_acceptance_batch.xml-->
+    <string name="label_acceptance_batch_outsourcing">外包驗收入庫批次作業</string> <!--AcceptanceBatchActivity + AcceptanceBatchListActivity-->
+    <string name="title_activity_stock_time_set_detail">StockTimeSetDetailActivity</string>
+    <string name="label_import_seq">輸入流水號(Import Serial No)</string>
+    <string name="label_invoice_seq">NO:%1$s</string>
+    <string name="label_transfer_locator_trigger">轉倉表單觸發作業</string> <!--activity_transfer_locator_trigger.xml-->
+    <string name="label_transfer_rollover">%1$s 表單作業(領料/退料/調撥/轉倉)</string> <!--activity_transfer_rollover.xml-->
+    <string name="label_transfer_locator_revoke">轉倉表單撤銷作業</string> <!--activity_transfer_locator_revoke.xml-->
+    <string name="label_transfer_locator_form">轉倉/呆料責任歸屬單</string> <!--activity_transfer_locator_form.xml-->
+    <string name="title_activity_transfer_revoke">TransferRevokeActivity</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="label_ezflow_no">表單單號</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="label_flow_seq">流程序號</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="label_apply_department">申請部門</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="label_applicant">申請人</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="label_number_of_application">申請材料總筆數</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="label_number_of_received">已收材料總筆數</string>
+    <string name="label_work_item_name">目前關卡</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="hint_transfer_form_list">狀態 / 倉管員 / 料號開頭</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_work_item">關卡</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_type">類別</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_form_no">表單單號</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_total_number">總筆數</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_number_of_processed">已入</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_number_of_unprocessed">未入</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_out_subinventory">轉出倉別</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_out_locator">轉出儲位</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_warehouse_clerk">倉管員</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_detail_status">狀態</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_due_number">應入</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_number_of_credited">已入</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_number_of_uncredited">未入</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_onhand">總庫存數</string> <!--TransferLocatorFormListActivity-->
+    <string name="hint_revoke">長按以撤銷表單</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="error_msg_revoke">材料已收無法撤銷表單，明細如下:</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="title_activity_transfer_excess_material_responsibility_duty">轉倉/呆料責任歸屬單</string>
+    <string name="label_in_subinventory">轉入倉別(In Subinventory)</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_in_locator">轉入儲位(In Locator)</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_storage_qty">庫存總數</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_temp_receive_qty">暫收總數</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_wait_inspect_qty">待驗總數</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_inspected_qty">已驗總數</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="get_data">取得資料中</string> <!--TransferLocatorFormActivity-->
+    <string name="chk_del_dc">是否將此筆\n%s %s \nDC %s * %d\n資料刪除?</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="vc_data_chking">廠商代碼資料核對中...</string> <!--AcceptanceBatchActivity-->
+    <string name="chse_warhousing_item">請先選擇要入庫的項目</string> <!--AcceptanceBatchListActivity-->
+    <string name="Make_sure_to_revoke_this_form">確定撤銷此表單?</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="Direct_supervisor">直屬主管</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="cant_enter_this_loc">不可填此儲位</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="Processed_OK">已處理完畢</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="cant_transfer_qty_over_">無法轉倉，數量超過應入數</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="only_307">只可填307</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="qty_more_than_should_num">數量大於應入數</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_acceptance_outsourcing">外包驗收入庫作業</string>
+    <string name="button_read_barcode">讀取條碼</string>
+    <string name="UseWith">Use with</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Barcode Reader Sample</string>
+    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="label_compare">比對作業</string>
+    <string name="label_input_shipment_id">輸入料號</string>
+    <string name="title_activity_login">登入</string>
+    <string name="prompt_issuer_name">請輸入帳號</string>
+    <string name="prompt_issuer_password">請輸入密碼</string>
+    <string name="error_login_failed">帳號不存在或密碼錯誤</string>
+    <string name="error_field_required">此欄位不得為空值</string>
+    <string name="button_connect"><b>連線</b></string>
+    <string name="button_disconnect"><b>斷線</b></string>
+    <string name="pick_vendor">請選擇廠商</string>
+    <string name="delete">刪除(Del)</string>
+    <string name="label_material_receiving_process">收料作業</string>
+    <string name="label_part_desc">品名</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_import_quantity">輸入數量(Import Quantity)</string>
+    <string name="error_data">異常資料</string>
+    <string name="predeliver_data">預交資料</string>
+    <string name="label_unit_price">單價</string>
+    <string name="label_subinventory">倉別</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_locator">儲位</string> <!--TransferLocatorFormListActivity-->
+    <string name="import_transfer_subinventory">輸入轉入倉別(Subinventory in)</string>
+    <string name="import_transfer__locator">輸入轉入儲位(Locator in)</string>
+    <string name="label_remark">備註</string>
+    <string name="label_rma_picking">RMA出貨檢料作業</string>
+    <string name="label_scanner_setting">掃瞄器設定</string> <!--activity_scanner_setting.xml-->
+    <string name="label_enable_enter">尾碼ENTER</string> <!--activity_scanner_setting.xml-->
+    <string name="label_enable_sound">聲音提示</string> <!--activity_scanner_setting.xml-->
+    <string name="label_enable_vibration">震動提示</string> <!--activity_scanner_setting.xml-->
+    <string name="label_shipping_status">目前狀態</string>
+    <string name="label_pallet_number">棧板</string>
+    <string name="label_box_number">料號</string>
+    <string name="label_sn_qrcode">QR Code</string>
+    <string name="label_sn_qrcode_2">QR</string>
+    <string name="label_input_date">輸入資料</string>
+    <string name="label_pass">已撿</string>
+    <string name="label_waiting">未撿</string>
+    <string name="label_show_keyboard">顯示鍵盤</string>
+    <string name="label_hide_keyboard">隱藏鍵盤</string>
+    <string name="label_pallet_no">棧板號碼(Pallet NO)</string>
+    <string name="label_carton_no">裝箱號碼(Carton NO)</string>
+    <string name="label_sn">序號(SN)</string>
+    <string name="label_stock_in_process">製令入庫作業</string>
+    <string name="label_stock_in_os">外包製令入庫作業</string>
+    <string name="label_pn_invoice">料號(P/N) /\n發票(Invoice NO)</string>
+    <string name="title_activity_tembo_pallet_label_print">Tembo棧板標籤列印</string>
+    <string name="input_serial_number">輸入序號(Import SN)</string>
+    <string name="label_samsara_printer_info">Samsara印表機資訊</string>
+    <string name="label_import_ezflow_form_no">輸入表單單號(Enter form document number)</string> <!--TransferLocatorFormActivity-->
+    <string name="label_import_process_no">輸入流程序號(Enter process serial number)</string> <!--TransferLocatorFormActivity-->
+    <string name="label_import_application_department">輸入申請部門(Enter application department)</string> <!--TransferLocatorFormActivity-->
+    <string name="label_import_application_name">輸入申請人(Enter application name)</string> <!--TransferLocatorFormActivity-->
+    <string name="label_select_operation_mode">選擇作業方式\n(select operation mode)</string> <!--TransferLocatorTriggerActivity-->
+    <string name="button_manual_trigger">手動\n觸發</string> <!--TransferLocatorTriggerActivity-->
+    <string name="button_detail_pick">明細\n勾選</string> <!--TransferLocatorTriggerActivity-->
+    <string name="label_transfer_locator_trigger_main">轉倉表單觸發作業-%1$s</string> <!--TransferLocatorTriggerActivity-->
+    <string name="label_transfer_info">料號:%1$s\n品名:%2$s\n倉別:%3$s 儲位:%4$s\nDC:%5$s QTY:%6$d</string>
+    <string name="button_detail">明細\n(DETAIL)</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_item_inventory_summary">總庫存數量%1$d 轉倉總數%2$d</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="msg_input_transfer_qty_larger_than_original">轉倉數量不可大於庫存量</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="msg_input_transfer_qty_larger_than_one">轉倉數量必須大於0</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_manual_trigger">手動觸發</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_manual_trigger_detail">手動觸發明細</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_detail_pick">明細勾選</string> <!--TransferLocatorTriggerPickActivity-->
+    <string name="button_trigger">觸發</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_transfer_qty">轉倉總數</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_import_transfer_qty">轉倉數量(Import Q\'ty)</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_on_hand_qty">庫存數</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_on_hand_dc">DC</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_dc_inventory">DC %1$s * %2$d</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_subinventory_locator">%1$s %2$s</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="tv_transfer_qty">(%1$s)</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_detail_transfer_qty">DC %1$s * %2$d</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_transfer_data">轉倉資料</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="msg_input_transfer_qty">請輸入轉倉數量</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_item_description_2">品名 %1$s</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_wait_check_inquiry">待驗查詢作業</string> <!--WaitCheckDetailActivity-->
+    <string name="label_received_uncheck">已收未驗</string> <!--WaitCheckDetailActivity-->
+    <string name="label_check_not_in">已驗未入</string> <!--WaitCheckDetailActivity-->
+    <string name="label_wait_check_qty">已收數</string> <!--WaitCheckDetailActivity-->
+
+</resources>

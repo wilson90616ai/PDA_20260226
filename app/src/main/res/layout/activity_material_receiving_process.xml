@@ -1,0 +1,1332 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context=".ui.MaterialReceivingProcessActivity">
+
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#A4C739"
+        android:text="@string/label_material_receiving_list"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_vendor_name"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label_vendor_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ap_title"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="4dp"
+        android:text="@string/label_vendor_name"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/label_rec_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ap_title"
+        android:layout_alignParentRight="true"
+        android:paddingRight="4dp"
+        android:text="@string/label_rec_id"
+        android:textColor="@color/blue"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt_vendor_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_vendor_name"
+        android:layout_alignParentLeft="true"
+        android:elevation="1dp"
+        android:paddingLeft="4dp"
+        android:text="@string/label_vendor_info"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/label_vendor_site_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_vendor_info"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="4dp"
+        android:text="@string/label_vendor_site"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/summaryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_vendor_site_code"
+        android:orientation="vertical"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/label_invoice_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/label_invoice_no"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txt_invoice_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/label_po"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/label_po"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txt_po"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/label_control"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/label_control"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txt_control"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/label_part_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/label_part_number"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txt_part_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/label_po_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/label_po_qty"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txt_po_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/label_deliverable_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/label_deliverable_qty"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txt_deliverable_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/label_predeliver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/label_predeliver"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txt_predeliver_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/label_received"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/label_pda_received"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txt_received_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/label_unreceived"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/label_pda_unreceived"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txt_unreceived_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/label_temp_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/label_temp_qty"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txt_temp_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:gravity="left"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/label_from_senao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/material_from_senao"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txt_from_senao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:gravity="left"
+                android:text="N"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dcQrCodeOriginalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/label_DcQrCode_Original"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/DcQrCode_Original"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txt_DcQrCode_Original"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:gravity="left"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnLayout"
+        android:layout_below="@+id/summaryLayout"
+        android:background="@color/white"
+        android:paddingTop="8dip"
+        android:paddingBottom="8dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/conditionLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <CheckBox
+                    android:id="@+id/checkbox_gen_invoice_no"
+                    style="@style/CheckBoxAppTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/gen_invoice_no"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/label_import_invoice_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_import_invoice_no"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edittext_import_invoice_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:ems="30"
+                    android:gravity="center"
+                    android:inputType="textCapCharacters"
+                    android:lines="1"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/label_import_locator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_import_locator"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edittext_import_locator"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:ems="30"
+                    android:gravity="center"
+                    android:inputType="textCapCharacters"
+                    android:lines="1"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/checkorg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/org_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/Please_enter_ORG"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/org_edtxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:ems="30"
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+            <RadioGroup
+                android:id="@+id/radio_group_dc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <RadioButton
+                    android:id="@+id/radio_dc_qrcode"
+                    style="@style/RadioButtonWh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/label_qrcode"
+                    android:textColor="#000000" />
+
+                <RadioButton
+                    android:id="@+id/radio_reel_id"
+                    style="@style/RadioButtonWh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/label_reel_id"
+                    android:textColor="#000000" />
+
+                <RadioButton
+                    android:id="@+id/radio_part_number"
+                    style="@style/RadioButtonWh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/label_pn"
+                    android:textColor="#000000" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/dcQrCodeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/label_import_dc_qrcode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/import_qrcode"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+
+                <EditText
+                    android:id="@+id/edittext_import_dc_qrcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:ems="30"
+                    android:gravity="center"
+                    android:inputType="textCapCharacters"
+                    android:lines="1"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/label_import_x_board_qty_qrcode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_import_x_board_qty"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edittext_import_x_board_qty_qrcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:ems="30"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/reelIdLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/label_import_reel_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_import_reel_id"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edittext_import_reel_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:ems="30"
+                    android:gravity="center"
+                    android:inputType="textCapCharacters"
+                    android:lines="1"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/label_import_qty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_import_qty"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/qtyLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="8dp">
+
+                    <RadioButton
+                        android:id="@+id/radio_button_qty1"
+                        style="@style/RadioButtonWh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/edittext_multiplier"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="2"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:nextFocusDown="@+id/edittext_multiplicand"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/label_multiply"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="X"
+                        android:textAppearance="?android:attr/textAppearance"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/edittext_multiplicand"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="2"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:nextFocusDown="@+id/edittext_addend"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/label_plus"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="+"
+                        android:textAppearance="?android:attr/textAppearance"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/edittext_addend"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="2"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/qtyLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="8dp">
+
+                    <RadioButton
+                        android:id="@+id/radio_button_qty2"
+                        style="@style/RadioButtonWh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/edittext_import_qty"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/label_import_x_board_qty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_import_x_board_qty"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edittext_import_x_board_qty"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:ems="30"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/dcLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/label_import_part_number_dc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_import_part_number"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edittext_import_part_number_dc"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:ems="30"
+                    android:gravity="center"
+                    android:inputType="textCapCharacters"
+                    android:lines="1"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/label_import_pn_dc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_import_dc"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edittext_import_pn_dc"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:ems="30"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/label_import_qty_dc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_import_qty"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/qtyLayout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+
+                    <RadioButton
+                        android:id="@+id/radio_button_qty5"
+                        style="@style/RadioButtonWh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/edittext_multiplier5"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="2"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:nextFocusDown="@+id/edittext_multiplicand5"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/label_multiply5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="X"
+                        android:textAppearance="?android:attr/textAppearance"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/edittext_multiplicand5"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="2"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:nextFocusDown="@+id/edittext_addend5"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/label_plus5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="+"
+                        android:textAppearance="?android:attr/textAppearance"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/edittext_addend5"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="2"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/qtyLayout8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="8dp">
+
+                    <RadioButton
+                        android:id="@+id/radio_button_qty8"
+                        style="@style/RadioButtonWh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/edittext_import_qty8"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/label_import_x_board_qty_dc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_import_x_board_qty"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edittext_import_x_board_qty_dc"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:ems="30"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/partNoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/label_import_part_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_import_part_number"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edittext_import_part_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:ems="30"
+                    android:gravity="center"
+                    android:inputType="textCapCharacters"
+                    android:lines="1"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/label_import_qty2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_import_qty"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/qtyLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="8dp">
+
+                    <RadioButton
+                        android:id="@+id/radio_button_qty3"
+                        style="@style/RadioButtonWh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/edittext_multiplier2"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="2"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:nextFocusDown="@+id/edittext_multiplicand2"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/label_multiply2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="X"
+                        android:textAppearance="?android:attr/textAppearance"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/edittext_multiplicand2"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="2"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:nextFocusDown="@+id/edittext_addend2"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/label_plus2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="+"
+                        android:textAppearance="?android:attr/textAppearance"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/edittext_addend2"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="2"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/qtyLayout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp">
+
+                    <RadioButton
+                        android:id="@+id/radio_button_qty4"
+                        style="@style/RadioButtonWh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/edittext_import_qty2"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/quantityLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/qtyLayout6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/label_import_single_box_qty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:paddingLeft="5dp"
+                        android:text="@string/label_import_single_box_qty"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/edittext_import_single_box_qty"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/qtyLayout7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/label_import_receipts_qty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:paddingLeft="5dp"
+                        android:text="@string/label_import_receipts_qty"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/edittext_import_receipts_qty"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/serialNoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/label_import_sn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_import_sn"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edittext_import_sn"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:ems="30"
+                    android:gravity="center"
+                    android:inputType="textCapCharacters"
+                    android:lines="1"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textview_percentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="24dp"
+                    android:text="0/1"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/blue"
+                    android:textSize="64sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:id="@+id/btnLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:background="@color/white"
+        android:paddingTop="8dip"
+        android:paddingBottom="8dip">
+
+        <Button
+            android:id="@+id/button_confirm"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/custom_button"
+            android:paddingLeft="5dip"
+            android:paddingTop="10dip"
+            android:paddingRight="5dip"
+            android:paddingBottom="10dip"
+            android:text="@string/button_confirm2"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/custom_button"
+            android:paddingLeft="5dip"
+            android:paddingTop="10dip"
+            android:paddingRight="5dip"
+            android:paddingBottom="10dip"
+            android:text="@string/button_cancel2"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

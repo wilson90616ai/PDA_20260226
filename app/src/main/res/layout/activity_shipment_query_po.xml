@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.ShipmentQueryPoActivity">
+
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#A4C739"
+        android:text="@string/title_activity_shippment_query_po"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/conditionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ap_title"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/white"
+            android:focusable="false"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <RadioButton
+                android:id="@+id/radio_box"
+                style="@style/RadioButtonWh"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/label_box_check2"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radio_sn"
+                style="@style/RadioButtonWh"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/label_sn_check2"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radio_sn_code"
+                style="@style/RadioButtonWh"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/label_sn_qrcode2"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+        </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/edittext_value"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/grey"
+            android:clickable="false"
+            android:ems="30"
+            android:gravity="center"
+            android:imeOptions="actionDone|actionUnspecified"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLength="100"
+            android:textColor="@color/blue"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/edittext_qrcode"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="4dp"
+            android:clickable="false"
+            android:background="@color/grey"
+            android:ems="30"
+            android:gravity="center"
+            android:imeOptions="actionDone|actionUnspecified"
+            android:inputType="textMultiLine"
+            android:textColor="@color/blue"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_po"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/conditionLayout"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/txt_po"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_oe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_po"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:paddingLeft="8dp"
+        android:text="@string/txt_oe"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_cancel"
+        android:layout_alignBottom="@+id/button_cancel"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/button_confirm2"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/button_cancel2"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

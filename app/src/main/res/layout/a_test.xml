@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd">
+
+    <TextView
+        android:id="@+id/ap_title2"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:background="#A4C739"
+        android:text="@string/title_test_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="72dp"
+        android:text="資料"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/text_value"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/lbl_value"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/text_value2"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/lbl_value2"
+        app:layout_constraintTop_toBottomOf="@+id/text_value" />
+
+    <TextView
+        android:id="@+id/lbl_value2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="28dp"
+        android:text="下一頁回傳"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_value" />
+
+    <Button
+        android:id="@+id/button_alert_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="顯示資料"
+        app:layout_constraintStart_toEndOf="@+id/button_last_page"
+        app:layout_constraintTop_toTopOf="@+id/button_last_page" />
+
+    <Button
+        android:id="@+id/button_last_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="28dp"
+        android:text="下一頁"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_value2" />
+
+    <TextView
+        android:id="@+id/ap_title3"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="248dp"
+        android:background="#A4C739"
+        android:text="@string/title_test_name_production_line"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_value3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="52dp"
+        android:text="取得的資料"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ap_title3" />
+
+    <Button
+        android:id="@+id/button_alert_value2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="顯示資料"
+        app:layout_constraintStart_toEndOf="@+id/button_get_data"
+        app:layout_constraintTop_toTopOf="@+id/button_get_data" />
+
+    <Button
+        android:id="@+id/button_get_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="212dp"
+        android:text="取得資料"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_value3" />
+
+    <EditText
+        android:id="@+id/text_value3"
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/lbl_value3"
+        app:layout_constraintTop_toBottomOf="@+id/ap_title3" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+</android.support.constraint.ConstraintLayout>

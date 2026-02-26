@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="8dp"
+android:clickable="true"
+android:orientation="horizontal"
+android:focusable="true">
+
+<TextView
+    android:id="@+id/tv_locator"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="@string/label_subinventory_locator"
+    android:layout_weight="35"
+    android:textSize="18sp"
+    android:clickable="false"
+    android:textColor="@color/blue" />
+
+<TextView
+    android:id="@+id/tv_transfer_qty"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="65"
+    android:layout_marginLeft="4dp"
+    android:textSize="18sp"
+    android:clickable="false"
+    android:text="@string/label_dc_inventory"
+    android:textColor="@color/olivedrab" />
+</LinearLayout>

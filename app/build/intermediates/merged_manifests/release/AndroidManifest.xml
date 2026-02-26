@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.senao.warehouse"
+    android:versionCode="376"
+    android:versionName="3.55.1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="28" /> <!-- Tim .8  Ann .2 Wilson .7 -->
+    <!-- now 374  3.54.22.2 -->
+    <!-- 367    3.54.15.2   因應神準進料後轉賣給越南神準不換標(20251113) -->
+    <!-- 368    3.54.16.2   越南不呼叫 apiportal、scmportal(20251126) -->
+    <!-- 370    3.54.18.2   收料作業，QRCODE增加COO(20260105) -->
+    <!--
+         371    3.54.19.2   進貨標籤列印作業:藍芽、Wifi列印標籤增加COO(20260108) PrintMaterialLabelActivity(+欄位)、BtPrintLabel
+         372    3.54.20.2   材料拆包作業:藍芽、Wifi列印標籤增加COO(20260116) MaterialSplitPackingActivity(+欄位)、BtPrintLabel
+         373    3.54.21.2   材料標籤補標作業:藍芽、Wifi列印標籤增加COO(20260114) PrintLabelActivity(+欄位)、BtPrintLabel
+         374    3.54.22.2   製令標籤補標作業:藍芽、Wifi列印標籤增加COO(20260120) WoLabelPrintActivity(+欄位)、BtPrintLabel
+                            登入時檢查版本需更新時，下載以及安裝方式(20260121) LoginActivity
+    -->
+    <!--
+         375    3.54.23.2   製令發料扣帳作業:(20260122) MaterialSendingProcessActivity(+欄位)、MaterialSendingSubinventoryTransferActivity、BtPrintLabel
+                            製令發料轉倉作業:(20260126) MaterialSendingTransferActivity
+                            製令發料檢核作業:(20260128) MaterialSendingVerifyProcessActivity 是否允許新版標籤格式
+    -->
+    <!-- 376    3.55.1.2    調整連線設定介面，以便不同環境(台灣、VN)呼叫API的URL更彈性，原寫在連線設定及warehouse.properties(20260213) ConnectionSettingMActivity(+欄位) -->
+
+
+    <!-- 584 3.42 新增列表項 Fortint入庫卡控 變更codesoft網只 -->
+    <!-- 0219 590 3.44 -->
+    <!-- 3.49.4 Force Approved 100,76  RMA列印 -->
+    <!-- 3.49.2 BLD檢查倉別儲位 -->
+    <!-- 3.49.1 codesoft2 -->
+    <!-- 634 3.54.12.2  1.增加越文顯示 2.調整選擇語系的方式  20250710 -->
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <application
+        android:name="com.senao.warehouse.AppController"
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:fullBackupContent="false"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" >
+
+        <!--
+        XXX測試
+        <activity
+            android:name=".ui.A_test"
+            android:configChanges="orientation"
+            android:label="@string/title_test_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.A_test2"
+            android:configChanges="orientation"
+            android:label="@string/title_test_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        -->
+
+        <activity
+            android:name="com.senao.warehouse.ui.LoginActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.senao.warehouse.ui.CustomPrintActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_custom_print"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.OobaSnListActivity"
+            android:configChanges="orientation"
+            android:label="@string/search_result"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.ConnectionSettingActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_connection_setting"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.ConnectionSettingMActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_connection_setting"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MenuActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.BakeStartActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.HumiditySensorStatusControlActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.BakeCompleteActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.BakeQueryActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.BakeReprintActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.BakeActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.ScannerSettingActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_scanner_setting"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.TestExcelActivity"
+            android:configChanges="orientation"
+            android:label="TEST"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.ShipmentActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_shipment"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.ShipmentCartonActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_shipment_carton"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.ShipmentPalletActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_shipment_pallet"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.TransferRolloverActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_transfer_rollover"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.ShipmentCreatePalletActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_shipment_create_pallet"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.ShipmentPickingActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_shipment_picking"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.ShippingVerifyMainActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_shipping_verify_main"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.PrinterSettingActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_printer_setting"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.OverTakeActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_overtake"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.StockInActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_stock_in"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.PrintLabelActivity"
+            android:configChanges="orientation"
+            android:isScrollContainer="true"
+            android:label="@string/title_activity_print_label"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.senao.warehouse.ui.StockInProcessActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_stock_in_process"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.ShipmentPalletLabelPrintActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_shipment_pallet_label_print"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.ShipmentPalletLabelPrintTestActivity"
+            android:configChanges="orientation"
+            android:label="出貨棧板標籤列印-測試"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialReceivingActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_material_receiving"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialReceivingListActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_material_receiving_list"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialReceivingProcessActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_material_receiving_process"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialSendingActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_material_sending"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialSendingListActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_material_sending_list"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialSendingProcessActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_material_sending_process"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialSendingTransferActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_material_sending_transfer"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialSendingSubinventoryTransferActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_material_sending_subinventory_transfer"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialLackListActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_material_lack_query"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.BarcodeVerifyActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.RmaPickingActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_rma_picking"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.WoLabelPrintActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_rma_picking"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.AcceptanceActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_acceptance"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.AcceptanceListActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialReceivingModeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.WaitCheckInquiryActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_wait_check_inquiry"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.WaitCheckDetailActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_wait_check_list"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.WaitCheckListActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_wait_check_search"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.AcceptanceProcessActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_acceptance_process"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialReceivingTempActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialReceivingDelActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialReceivingSubModeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialSendingVerifyActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_material_sending_check"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialSendingVerifyListActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_material_sending_check"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialSendingVerifyProcessActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_material_sending_check"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.TransferSubinventoryLocatorActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_transfer_subinventory_locator"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.TransferSubinventoryLocatorProcessActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_transfer_subinventory_locator"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialReceivingInvoiceActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialReceivingInvoiceLocatorActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.AcceptanceBatchActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_acceptance_batch"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.AcceptanceBatchListActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_acceptance_batch"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.TestActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.SamsaraPoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.SamsaraPoTestActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.RmaVerifyActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.RmaListActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.ShipmentReturnActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.StockClosedDateSetActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.ShipmentQueryPoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.PrintMaterialLabelActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.senao.warehouse.ui.TestOriginActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.ShipmentPoActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_shipment_po"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.SmtPrintMaterialLabelActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.SmtMaterialSplitPackingActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.MaterialSplitPackingActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.PrintInvoiceSeqActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.CustomerMaterialSplitPackingActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.CustomerMaterialLabelReprintActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.CustomerMaterialReceiptsLabelActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.TransferLocatorTriggerManualActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.TransferLocatorTriggerPickActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.TransferLocatorTriggerActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.TransferLocatorTriggerManualDetailActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.TransferLocatorRevokeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.TransferLocatorRevokeListActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.OobaSnActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.TransferLocatorFormActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.TransferLocatorFormListActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.TransferLocatorFormProcessActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.ItemOnHandActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.ItemOnHandListActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.senao.warehouse.ui.Test2Activity" />
+        <activity
+            android:name="com.senao.warehouse.ui.OutsourcingMaterialShipmentPickingActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_outsourceing_material_and_shipment_picking"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.OutsourcingPackingMethodActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.senao.warehouse.ui.OutsourcingPackingListPalletActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.senao.warehouse.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

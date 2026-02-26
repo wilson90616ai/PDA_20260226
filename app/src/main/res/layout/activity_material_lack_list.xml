@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context=".ui.MaterialSendingListActivity" >
+
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#A4C739"
+        android:text="@string/title_activity_material_lack_query"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label_part_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/input_search_text"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ap_title"
+        android:paddingLeft="5dp"
+        android:text="@string/label_sn_item_no"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/input_search_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ap_title"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/label_part_no"
+        android:ems="30"
+        android:inputType="text"
+        android:lines="1"
+        android:textColor="@color/blue" />
+
+    <TextView
+        android:id="@+id/label_login_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/textview_login_account"
+        android:paddingLeft="5dp"
+        android:text="@string/label_login_account"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textview_login_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_check_fifo"
+        android:layout_toRightOf="@+id/label_login_account"
+        android:paddingLeft="5dp"
+        android:text="@string/label_login_account"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/blue" />
+
+    <TextView
+        android:id="@+id/label_employee_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/label_login_account"
+        android:paddingLeft="5dp"
+        android:text="@string/label_employee_id"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textview_employee_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/label_employee_id"
+        android:layout_alignBottom="@+id/label_employee_id"
+        android:layout_toRightOf="@+id/label_employee_id"
+        android:paddingLeft="5dp"
+        android:text="@string/label_employee_id"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/blue" />
+
+    <Button
+        android:id="@+id/button_check_fifo"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_search_text"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/custom_button_red"
+        android:paddingBottom="10dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip"
+        android:text="@string/button_check_fifo"
+        android:textColor="#ffffff"
+        android:visibility="invisible"
+        android:layout_alignRight="@+id/input_search_text" />
+
+    <ListView
+        android:id="@+id/list_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_check_fifo"
+        android:layout_marginTop="4dp"
+        android:background="#FFFFFF"
+        android:choiceMode="singleChoice"
+        android:divider="@null"
+        android:dividerHeight="4dp"
+        android:orientation="vertical" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

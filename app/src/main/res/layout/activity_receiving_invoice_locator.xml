@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context=".ui.MaterialReceivingInvoiceLocatorActivity">
+
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#A4C739"
+        android:text="@string/label_material_receiving_list"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/label_status"
+        android:layout_below="@+id/ap_title"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".ui.MaterialReceivingInvoiceLocatorActivity">
+
+        <CheckBox
+            android:id="@+id/checkbox_gen_invoice_no"
+            style="@style/CheckBoxAppTheme"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gen_invoice_no"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/label_import_invoice_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:text="@string/label_import_invoice_no"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/edittext_import_invoice_no"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/grey"
+            android:clickable="false"
+            android:ems="30"
+            android:gravity="center"
+            android:inputType="textCapCharacters"
+            android:lines="1"
+            android:textColor="@color/blue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/label_import_locator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="5dp"
+            android:text="@string/label_import_locator"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edittext_import_locator"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/grey"
+            android:clickable="false"
+            android:ems="30"
+            android:gravity="center"
+            android:inputType="textCapCharacters"
+            android:lines="1"
+            android:textColor="@color/blue"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_cancel"
+        android:layout_alignBottom="@+id/button_cancel"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/button_confirm2"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/button_cancel2"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

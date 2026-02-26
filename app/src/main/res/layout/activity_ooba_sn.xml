@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context=".ui.OobaSnActivity">
+
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="#A4C739"
+        android:text="@string/n_ooba"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RelativeLayout
+        android:id="@+id/conditionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_below="@+id/ap_title"
+        android:background="@color/white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button_confirm"
+            android:layout_alignParentTop="true"
+            >
+
+            <LinearLayout
+                android:id="@+id/inputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_select_query_condition"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/radio_group_import"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/label_conditions"
+                        android:layout_margin="10dp"
+                        android:focusable="false"
+                        android:orientation="horizontal"
+                        android:visibility="visible">
+
+                        <RadioButton
+                            android:id="@+id/importall"
+                            style="@style/RadioButtonWh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/label_all"
+                            android:checked="true"
+                            android:textColor="#000000" />
+
+
+                        <RadioButton
+                            android:id="@+id/importnoship"
+                            style="@style/RadioButtonWh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/ship"
+                            android:textColor="#000000" />
+
+
+                        <RadioButton
+                            android:id="@+id/importship"
+                            style="@style/RadioButtonWh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/unship"
+                            android:textColor="#000000" />
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/label_import_wh_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_import_SN"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cb_wh_number"
+                        style="@style/CheckBoxAppTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/edittext_import_wh_number"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="textCapCharacters"
+                        android:lines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/label_import_part_numbe_prefix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_import_CNo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/importPartNoLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="10dp">
+
+                    <CheckBox
+                        android:id="@+id/cb_part_number_prefix"
+                        style="@style/CheckBoxAppTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/edittext_import_part_number_prefix"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="textCapCharacters"
+                        android:lines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/itemNoerpcon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="10dp"
+                    android:visibility="gone"
+                    >
+
+                    <CheckBox
+                        android:id="@+id/cb_part_number_prefix01"
+                        style="@style/CheckBoxAppTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="invisible"
+                        />
+
+                    <EditText
+                        android:id="@+id/itemNoerpcon01"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="textCapCharacters"
+                        android:lines="1"
+                        android:hint="@string/sn_query_enter_sku"
+                        android:textColorHint="@color/red"
+                        android:singleLine="true"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/label_import_ezflow_form_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_import_part_number"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cb_ezflow_form_no"
+                        style="@style/CheckBoxAppTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/edittext_import_ezflow_form_no"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="textCapCharacters"
+                        android:lines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btn_ezflow_form_no"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginLeft="4dp"
+                        android:background="@drawable/custom_button_green"
+                        android:text="@string/triple_point"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/label_import_process_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_estimated_shipping_date_S"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/importMergeNoLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="10dp">
+
+                    <CheckBox
+                        android:id="@+id/cb_process_no"
+                        style="@style/CheckBoxAppTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/edittext_import_process_no"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="textCapCharacters"
+                        android:lines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btn_process_no"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginLeft="4dp"
+                        android:background="@drawable/custom_button_green"
+                        android:text="@string/triple_point"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/label_import_process_no_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/label_estimated_shipping_date_E"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/importMergeNoLayout_end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="10dp">
+
+                    <CheckBox
+                        android:id="@+id/cb_process_no_end"
+                        style="@style/CheckBoxAppTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/edittext_import_process_no_end"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="textCapCharacters"
+                        android:lines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btn_process_no_end"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginLeft="4dp"
+                        android:background="@drawable/custom_button_green"
+                        android:text="@string/triple_point"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/label_import_application_department"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:paddingLeft="5dp"
+                    android:text="輸入製令(W/O number)"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cb_application_department"
+                        style="@style/CheckBoxAppTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/edittext_import_application_department"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:background="@color/grey"
+                        android:clickable="false"
+                        android:ems="30"
+                        android:gravity="center"
+                        android:inputType="textCapCharacters"
+                        android:lines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btn_application_dept"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginLeft="4dp"
+                        android:background="@drawable/custom_button_green"
+                        android:text="@string/triple_point"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/button_confirm"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button_cancel"
+            android:layout_alignBottom="@+id/button_cancel"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/custom_button"
+            android:paddingLeft="4dip"
+            android:paddingTop="8dip"
+            android:paddingRight="4dip"
+            android:paddingBottom="8dip"
+            android:text="@string/button_confirm2"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/custom_button"
+            android:paddingLeft="4dip"
+            android:paddingTop="8dip"
+            android:paddingRight="4dip"
+            android:paddingBottom="8dip"
+            android:text="@string/button_cancel2"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

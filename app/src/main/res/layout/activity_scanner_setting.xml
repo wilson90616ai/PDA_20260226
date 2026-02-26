@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.ScannerSettingActivity" >
+
+    <TextView
+        android:id="@+id/label_scanner_setting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@color/grey"
+        android:gravity="left"
+        android:paddingBottom="30dip"
+        android:paddingLeft="30dip"
+        android:paddingTop="30dip"
+        android:text="@string/label_scanner_setting"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/label_space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/input_enter_enable_sound"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/label_sound_setting"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/label_space"
+        android:layout_below="@+id/label_scanner_setting"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dip"
+        android:text="@string/label_enable_sound"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_confirm_setting"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/custom_button"
+        android:paddingBottom="10dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip"
+        android:layout_marginLeft="30dp"
+        android:text="@string/button_confirm_setting"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_cancel_setting"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_confirm_setting"
+        android:layout_alignBottom="@+id/button_confirm_setting"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/custom_button"
+        android:paddingBottom="10dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip"
+          android:layout_marginRight="30dp"
+        android:text="@string/button_cancel_setting"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_alignLeft="@+id/label_sound_setting"
+        android:layout_alignRight="@+id/label_sound_setting"
+        android:layout_below="@+id/label_sound_setting"
+        android:background="@color/white"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dip"
+        android:text="@string/label_enable_enter"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/input_enter_enable_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView01"
+        android:layout_toRightOf="@+id/label_sound_setting"
+        android:background="@color/white"
+        android:checked="true"
+        android:gravity="center_vertical|right"
+        android:paddingLeft="60dip"
+        android:textColor="@color/blue" />
+
+    <CheckBox
+        android:id="@+id/input_enter_enable_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TextView01"
+        android:layout_toRightOf="@+id/TextView01"
+        android:background="@color/white"
+        android:checked="true"
+        android:gravity="center_vertical|right"
+        android:paddingLeft="60dip"
+        android:textColor="@color/blue" />
+
+</RelativeLayout>

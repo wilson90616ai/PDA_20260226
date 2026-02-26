@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\gitlab\\pda_android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\103382\\.gradle\\caches\\transforms-2\\files-2.1\\77f96bb19d9f5716174c48c69c163faf\\appcompat-v7-28.0.0\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                }
+            ]
+        }
+    ]
+}

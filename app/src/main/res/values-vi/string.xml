@@ -1,0 +1,1469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ext_enuText">
+        <item>01.Thao tác liên quan đến xuất hàng</item>
+        <item>02.Thao tác liên quan đến công lệnh</item>
+        <item>03.Thao tác liên quan đến tiếp nhận liệu và lưu kho</item>
+        <item>04.Thao tác liên quan đến tìm kiếm</item>
+        <item>05.Thao tác liên quan đến in tem</item>
+        <item>06.Biểu mẫu EasyFlow liên quan</item>
+        <item>07.Thao tác liên quan SMT</item>
+        <item>08.Thao tác liên quan gia công ngoài</item>
+        <item>09.Thay đổi tổ chức</item>
+        <item>10.Đăng xuất</item>
+        <!--XXX測試<item>11.TEST</item>-->
+    </string-array>
+
+    <string-array name="SubMenu1">
+        <item>01-01.Thao tác chọn liệu xuất hàng</item>
+        <item>01-02.Thao tác đối chiếu xuất hàng</item>
+        <item>01-03.In nhãn pallet vận chuyển</item>
+        <item>01-04.Trả lại hàng xuất</item>
+        <item>01-05.Kiểm tra mã vạch</item>
+        <item>01-06.Thao tác chọn liệu xuất hàng RMA</item>
+        <item>01-07.Xác nhận xuất hàng RMA</item>
+        <item>01-08.In tem PO của Samsara</item>
+    </string-array>
+
+    <string-array name="SubMenu2">
+        <item>02-01.Nhập kho theo công lệnh</item>
+        <item>02-02.Cài đặt ngày khoá sổ</item>
+        <item>02-03.Trừ kho phát liệu công lệnh</item>
+        <item>02-04.Chuyển kho phát liệu công lệnh</item>
+        <item>02-05.Đối chiếu phát liệu công lệnh</item>
+        <item>02-06.Chuyển kho, chuyển vị trí</item>
+    </string-array>
+
+    <string-array name="SubMenu3">
+        <item>03-01.Nhận liệu</item>
+        <item>03-02.Gia công ngoài nhận liệu</item>
+        <item>03-03.Kiểm nghiệm nhập kho</item>
+        <item>03-04.Gia công ngoài kiểm nghiệm nhập kho</item>
+        <item>03-05.Thao tác hàng loạt kiểm nghiệm nhập kho</item>
+    </string-array>
+
+    <string-array name="SubMenu4">
+        <item>04-01.Tra cứu giao hàng vượt mức nhập</item>
+        <item>04-02.Tra cứu kho</item>
+        <item>04-03.Tra cứu liệu thiếu theo công lệnh</item>
+        <item>04-04.Tra cứu PO và in</item>
+        <item>04-05.Tra cứ trạng thái số sê-ri (tra cứu OOBA)</item>
+    </string-array>
+
+    <string-array name="SubMenu5">
+        <item>05-01.In tem nhập liệu khách hàng cung cấp</item>
+        <item>05-02.In tem nhập liệu</item>
+        <item>05-03.Bốc dỡ các vật liệu do khách hàng cung cấp</item>
+        <item>05-04.Bốc dỡ vật liệu</item>
+        <item>05-05.Bù tem liệu khách hàng cung cấp</item>
+        <item>05-06.Bù tem liệu</item>
+        <item>05-07.Bù số seri invoice</item>
+        <item>05-08.Bù tem công lệnh</item>
+        <item>05-09.In tem tùy chỉnh</item>
+    </string-array>
+
+    <!--    #轉倉/呆料責任歸屬單,材料耗損,一般領(退)料單,表單查詢,簽核作業,轉倉表單觸發作業,轉倉表單撤銷作業,表單標籤補標作業等作業功能,表單作業(領料/退料/調撥/轉倉)-->
+    <string-array name="SubMenu6">
+        <item>06-01.Đơn chuyển kho/quy trách nhiệm liệu không dùng đến</item>
+        <item>06-02.Tổn hao liệu</item>
+        <item>06-03.Đơn lĩnh (trả) liệu thông thường</item>
+        <item>06-04.Tra cứu đơn</item>
+        <item>06-05.Thao tác kí duyệt</item>
+        <item>06-06.Kích hoạt biểu mẫu chuyển kho</item>
+        <item>06-07.Rút biểu mẫu chuyển kho</item>
+        <item>06-08.Thao tác khác: bù tem</item>
+        <item>06-09.Biểu mẫu (Lĩnh liệu/Trả liệu/Điều liệu/Chuyển kho)</item>
+    </string-array>
+
+    <!--    #材料拆包作業,材料標籤補標作業-->
+    <string-array name="SubMenu7">
+        <item>07-01.Bốc dỡ liệu</item>
+        <item>07-02.Bù tem liệu</item>
+        <item>07-03.Bù tem sấy</item>
+        <item>07-04.Công đoạn sấy</item>
+    </string-array>
+
+    <string-array name="SubMenu8">
+        <item>08-01.Đóng thùng liệu gia công ngoài</item>
+        <item>08-02.Hủy đóng thùng gia công ngoài</item>
+        <item>08-03.Chọn hàng xuất hàng gia công ngoài</item>
+        <item>08-04.Trả lại liệu giảm số lượng xuất hàng gia công ngoài</item>
+        <item>08-05.In tem thùng và pallet gia công ngoài</item>
+        <item>08-06.Đối chiếu nhận liệu gia công ngoài</item>
+        <item>08-07.Offline Đóng thùng liệu và chọn hàng xuất hàng gia công ngoài</item>
+        <item>08-08.Tra cứu danh sách liệu xuất và đóng thùng gia công ngoài</item>
+        <item>08-09.Tải danh sách liệu xuất và đóng thùng gia công ngoài</item>
+    </string-array>
+
+    <string-array name="SubMenu11">
+        <item>11-01.TEST</item>
+    </string-array>
+
+
+    <string name="title_test_name">Test</string>
+    <string name="title_test_name_production_line">For production line testing</string>
+    <string name="title_test_name2">Test2</string>
+
+
+    <string name="connect_error">Liên kết mạng lỗi</string>
+    <string name="db_return_error">Máy chủ trả về thông báo lỗi</string>
+    <string name="can_not_connection">Không thể kết nối</string>
+    <string name="sever_return_info">Máy chủ trả về thông tin.</string>
+    <string name="title_activity_connection_setting">Cài đặt online</string>
+    <string name="search_result">Kết quả tra cứu</string>
+    <string name="search_result1">%1$s Kết quả tra cứu</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="button_return">Quay lại</string>
+    <string name="button_confirm2">Xác nhận</string>
+    <string name="button_cancel2">Hủy</string>
+    <string name="btn_ok">Xác nhận</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="holdon">Vui lòng đợi...</string>
+    <string name="data_reading">Đang xử lí dữ liệu...</string>
+    <string name="label_printer_info">Thông tin máy in</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Hủy</string>
+    <string name="input_printer_id">Vui lòng nhập IP máy in</string>
+    <string name="input_printer_port">Vui lòng nhập Port máy in</string>
+    <string name="input_printer_qty">Vui lòng nhập số lượng</string>
+    <string name="printingLabel">Tem đang in...</string>
+    <string name="cant_conect_printer">Không thể kết nối máy in</string>
+    <string name="reprinting_due_to_issue_with_new_label">Có sự cố khi in nhãn mới, vui lòng in lại</string>
+    <string name="reprinting_due_to_issue_with_sub_package_label">Có sự cố khi in nhãn chia gói, vui lòng in lại</string>
+    <string name="Print_OK">Hoàn thành in ấn</string>
+    <string name="printLabalFailed">In tem thất bại</string>
+    <string name="printer_connect_error">Máy in kết nối lỗi</string>
+    <string name="save_ip_port_qty_error">Lưu IP, Port và số lượng thất bại.</string>
+    <string name="system_error">Hệ thống xảy ra lỗi.</string>
+    <string name="downloading_data">Đang tải dữ liệu</string>
+    <string name="print_error">In ấn lỗi, vui lòng in lại</string>
+    <string name="del_data">Đang xóa dữ liệu</string>
+    <string name="data_uploading">Đang tải dữ liệu...</string>
+    <string name="data_updated_successfully">Cập nhật dữ liệu thành công</string>
+    <string name="data_chking">Đang kiểm tra dữ liệu...</string>
+    <string name="data_printing">Đang in...</string>
+    <string name="data_chk_success">Kiểm tra dữ liệu thành công</string>
+    <string name="data_printed_successfully">In dữ liệu thành công</string>
+    <string name="saving_remarks">Đang lưu ghi chú...</string>
+    <string name="saved_successfully">Lưu thành công</string>
+    <string name="pick_printers">PDF417-Chọn máy in</string>
+    <string name="print_with_codesoft">In bằng CodeSoft</string>
+    <string name="print_with_new_type">In theo loại mới</string>
+    <string name="New_version_uses_WiFi_for_printing">Phiên bản mới in qua WIFI</string>
+    <string name="Print_Start">Bắt đầu in</string>
+    <string name="is_del_data">Xác nhận xóa dữ liệu?</string>
+    <string name="cant_be_null">Không được để trống</string>
+    <string name="print_chk">Xác nhận in</string>
+    <string name="print_error_">In Bluetooth thất bại, có in lại không?</string>
+    <string name="error">Lỗi</string>
+    <string name="PDF417_label_for_Meraki_file_has_been_sent_to_file_server">Tệp nhãn PDF417 cho Meraki đã được gửi đến máy chủ tệp</string>
+    <string name="Pallet_label_for_Tembo_file_has_been_sent_to_file_server">Tệp nhãn pallet cho Tembo đã được gửi đến máy chủ tệp</string>
+    <string name="label_enter">Nhập</string>
+    <string name="PDF417_label_for_file_has_been_sent_to_file_server">Tệp nhãn PDF417 đã được gửi đến máy chủ tệp</string>
+    <string name="label_total2">Tổng cộng</string>
+    <string name="label_pages">nhãn</string>
+    <string name="wo_chk">Đang đối chiếu công lệnh...</string>
+    <string name="verify_data">Đang đối chiếu dữ liệu...</string>
+    <string name="wareclerk_verify_data">Đang đối chiếu dữ liệu của nhân viên kho...</string>
+    <string name="Merge_code_data_verification">Đang đối chiếu dữ liệu gộp mã...</string>
+    <string name="Checking_line">Đối chiếu dữ liệu dây chuyền...</string>
+    <string name="Month_accounting">Đang đối chiếu kỳ kế toán tháng...</string>
+    <string name="Data_debiting_processing">Đang xử lý trừ dữ liệu...</string>
+    <string name="Debit_processing">Đang xử lý trừ tiền...</string>
+    <string name="issue_processing">Đang xử lí phát liệu...</string>
+    <string name="button_confirm3">Xác nhận</string>
+    <string name="button_cancel3">Hủy</string>
+    <string name="button_deduct3">Khấu trừ tài khoản</string>
+    <string name="Deduction_completed">Đã trừ tài khoản xong</string>
+    <string name="retrive">Đang nhận liệu...</string>
+    <string name="Receiving_processing">Đang xử lý nhận hàng...</string>
+    <string name="Perform_delete">Xác nhận thực hiện xóa?</string>
+    <string name="choose_u_want_to_del">Vui lòng chọn mục cần xóa trước</string>
+    <string name="recorded">Đang xử lí nhập sổ kế toán...</string>
+    <string name="sku_verifying">Đang đối chiếu mã liệu...</string>
+    <string name="Required">Bắt buộc nhập</string>
+    <string name="choose_printer">Vui lòng chọn máy in</string>
+    <string name="data_setting">Đang cài đặt dữ liệu...</string>
+    <string name="button_yes">Đúng</string>
+    <string name="button_no">Không</string>
+    <string name="chking_form">Đối chiếu mã đơn nhận liệu...</string>
+    <string name="reading_form_no_data">Đọc dữ liệu mã đơn...</string>
+    <string name="sn_checking">Đối chiếu số se-ri...</string>
+    <string name="chk_box_no">Đối chiếu mã thùng...</string>
+    <string name="stock_proccessing">Xử lí nhập kho...</string>
+    <string name="set_printer_name">Vui lòng cài đặt tên máy in</string>
+    <string name="open_bt">Vui lòng bật bluetooth</string>
+    <string name="cant_find_printer">Không tìm thấy máy in kết nối, vui lòng cài đặt</string>
+    <string name="bt_connect_ok">Đã kết nối bluetooth máy in</string>
+    <string name="not_connect_btprinter">Không thể kết nối bluetooth máy in</string>
+    <string name="label_printer_ip">IP máy in</string>
+    <string name="label_printer_port">Port máy in</string>
+    <string name="data_updating">Đang cập nhật dữ liệu...</string>
+    <string name="Invoice_checking">Đang kiểm tra số hóa đơn...</string>
+
+
+    <!--登入頁-->
+    <string name="label_login_name"><b>Tài khoản</b></string>
+    <string name="label_login_password"><b>Mật khẩu</b></string>
+    <string name="label_company">Công ty</string>
+    <string name="label_factory">Xưởng</string>
+    <string name="label_Language">Ngôn ngữ</string>
+    <string name="button_login"><b>Đăng nhập</b></string>
+    <string name="button_login_cancel"><b>Hủy</b></string>
+    <string name="label_printer_setting">Cài đặt máy in bluetooth</string>
+    <string name="label_bt_connect">Kết nối bluetooth</string>
+    <string name="label_bt_disconnect">Ngắt kết nối bluetooth</string>
+    <string name="change_language">Chuyển sang tiếng Việt</string>
+    <string name="account_password_is_not_null">Tên đăng nhập hoặc mật khẩu không được để trống</string>
+    <string name="b_t_error">Cài đặt Bluetooth có vấn đề</string>
+    <string name="Disconnected_successfully">Ngắt kết nối thành công</string>
+    <string name="Failed_to_disconnect">Ngắt kết nối thất bại</string>
+    <string name="processing">Đang xử lí dữ liệu...</string>
+    <string name="Update">Cập nhật phần mềm</string>
+    <string name="New_version">Có phiên bản mới nhất</string>
+    <string name="do_u_want_to_download">Có thể cập nhật, có muốn tải xuống không?</string>
+    <string name="button_confirm">Xác nhận</string>
+    <string name="we_need_permission">we_need_permission?</string>
+    <string name="later">Tải xuống sau</string>
+    <string name="file_downloaded">Tệp đã được tải xuống</string>
+    <string name="download_error">"Lỗi tải xuống: "</string>
+    <string name="chk_update">Kiểm tra bản cập nhật</string>
+    <string name="Logging">Đang đăng nhập</string>
+    <string name="download_new_version">Đang tải xuống phiên bản mới của APK</string>
+    <string name="button_connection_setting"><b>Cài đặt kết nối</b></string>
+    <string name="set_SFC_IP">Vui lòng thiết lập IP của SFC</string>
+    <string name="set_API_1">Vui lòng thiết lập API 1</string>
+    <string name="set_API_2">Vui lòng thiết lập API 2</string>
+    <string name="set_API_3">Vui lòng thiết lập API 3</string>
+
+
+    <!--連線設定-->
+    <string name="label_current_connection">Kết nối hiện tại</string>
+    <string name="label_add_connection_settings">Thêm thiết lập kết nối mới</string>
+    <string name="label_select_connection_settings">Chọn thiết lập kết nối</string>
+    <string name="label_connection_name">Tên kết nối</string>
+    <string name="label_connection_save">Lưu</string>
+    <string name="label_fill_in_all_required_fields">Vui lòng điền đầy đủ các trường bắt buộc</string>
+    <string name="label_device_updated">Thiết lập đã được cập nhật</string>
+    <string name="label_device_saved">Thiết lập đã được lưu</string>
+    <string name="label_delete_settings">Xóa thiết lập</string>
+    <string name="label_delete_this_setting">Có muốn xóa thiết lập không</string>
+    <string name="label_delete2">Xóa</string>
+    <string name="label_setting_deleted">Thiết lập đã bị xóa</string>
+    <string name="label_connection_setting_selected">Đã chọn thiết lập kết nối</string>
+    <string name="label_select_a_setting">Vui lòng chọn một thiết lập</string>
+
+
+    <!--連線設定-設定頁-->
+    <string name="label_connection_setting">Cài đặt online</string>
+    <string name="label_server">Máy chủ</string>
+    <string name="label_server_ip">IP máy chủ</string>
+    <string name="label_server_port">PORT</string>
+    <string name="button_confirm_setting">Xác nhận</string>
+    <string name="button_cancel_setting">Hủy</string>
+    <string name="label_connect_test">Kiểm tra kết nối</string>
+    <string name="setting_connect_server_first">Vui lòng thiết lập máy chủ kết nối trước</string>
+    <string name="ip_or_port_is_not_null">Địa chỉ IP hoặc cổng của máy chủ không được để trống</string>
+
+
+    <!--藍芽印表機設定-->
+    <string name="name_of_printer_is_not_null">Tên máy in không được để trống</string>
+    <string name="label_printer_name">Tên máy in</string>
+    <string name="cant_find_bt_printer">Không tìm thấy thiết bị máy in Bluetooth</string>
+    <string name="result_of_print">Kết quả in</string>
+    <string name="label_rotate_print">In ngang</string>
+    <string name="label_printer_test">In thử</string>
+    <string name="label_empty"><b></b></string>
+
+
+    <!--選單-->
+    <string name="You_do_not_have_permission">Bạn không có quyền sử dụng chức năng này</string>
+
+
+    <!--SMT相關作業 >> 材料拆包作業(Material split packing label)-->
+    <string name="label_smt_material_split_packing_eng">Material split packing label</string>
+    <string name="label_material_split_packing1">%1$s Bốc dỡ liệu \n%2$s</string>
+    <string name="label_qrcode">Nhập QR Code</string>
+    <string name="label_reel_id">Reel ID</string>
+    <string name="label_pn">Mã hàng (P/N)</string>
+    <string name="label_import_reel_id">Vui lòng nhập dữ liệu</string>
+    <string name="label_import_original_qty">Vui lòng nhập số lượng gốc</string>
+    <string name="label_import_split_qty">Vui lòng nhập số lượng chia nhỏ</string>
+    <string name="label_import_po">Nhập số đơn hàng</string>
+    <string name="label_import_qrcode">Nhập QR Code</string>
+    <string name="import_qrcode">Nhập QR Code</string>
+    <string name="label_import_vendor_code">Nhập mã nhà cung cấp</string>
+    <string name="label_import_dc">Nhập số lô</string>
+    <string name="label_import_pn">Nhập mã liệu</string>
+    <string name="enter_sku">Vui lòng nhập mã liệu</string>
+    <string name="sku_len_must_be_12">Độ dài mã hàng phải là 12 ký tự</string>
+    <string name="enter_dc">Vui lòng nhập mã lô</string>
+    <string name="dc_len_greater_10">Độ dài mã lô (DC) là 10 kí tự</string>
+    <string name="dc_incorrect">Mã lô không đúng</string>
+    <string name="enter_vc">Vui lòng nhập mã nhà cung cấp</string>
+    <string name="vc_len_must_be_six">Độ dài mã nhà cung cấp bắt buộc là 6 mã</string>
+    <string name="enter_origin_qty">Vui lòng nhập số lượng gốc</string>
+    <string name="original_qty_must_more_than_0">Số lượng gốc phải lớn hơn 0</string>
+    <string name="enter_split_qty">Vui lòng nhập số lượng đóng gói chia nhỏ</string>
+    <string name="split_qty_more_than_0">Số lượng đóng gói chia nhỏ phải lớn hơn 0</string>
+    <string name="spilt_qty_cant_more_than_original_qty">Số lượng đóng gói lại không được lớn hơn hoặc bằng số lượng gốc</string>
+    <string name="reelid_len_must_be_28_24">Độ dài ReelID 28 hoặc 34 kí tự</string>
+    <string name="enter_qrcode">Vui lòng nhập QR code</string>
+    <string name="reelid_incorrect_len_must_be_34">Reel ID không đúng, phải có 34 ký tự</string>
+    <string name="qr_qty_is_not_null">Số lượng QR code không thể trống</string>
+    <string name="num_has_greater_0">Giá trị bắt buộc lớn hơn 0</string>
+
+
+    <!--SMT相關作業 >> 材料標籤補標作業(Material reprint label)-->
+    <string name="label_smt_print_material_label1">%1$s Bổ sung tem vật liệu \n%2$s</string>
+    <string name="import_qty">Nhập số lượng</string>
+    <string name="label_smt_material_label_print_eng">(Material reprint label)</string>
+
+
+    <!--SMT相關作業 >> 濕敏元件狀態管制作業(Humidity sensor operate)-->
+    <string name="title_humidity_sensor">%1$s Công việc quản lý trạng \nthái linh kiện nhạy ẩm</string>
+    <string name="label_print">Máy in</string>
+    <string name="label_wifi">Wifi</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="label_qrcode2">QR Code</string>
+    <string name="enter_reelid">Vui lòng nhập Reel ID</string>
+    <string name="label_import_original_pack_qty">Nhập số lượng đóng gói ban đầu</string>
+    <string name="label_sys_msl">Cấp độ nhạy ẩm / Thời gian phơi tối đa cho phép</string>
+    <string name="label_import_floor_life">Nhập thời gian phơi tối đa cho phép:</string>
+    <string name="import_original_pack_qty">Vui lòng nhập số lượng đóng gói ban đầu</string>
+    <string name="import_msl">Vui lòng nhập MSL</string>
+    <string name="import_floor_life">Vui lòng nhập thời gian phơi tối đa cho phép</string>
+
+
+    <!--SMT相關作業 >> 序號狀態查詢作業(含OOBA查詢作業)-->
+    <string name="n_ooba">%1$s Tra cứu trạng thái mã seri\n(bao gồm tra cứu OOBA)</string>
+    <string name="label_select_query_condition">Lựa chọn điều kiện tìm kiếm</string>
+    <string name="label_all">Toàn bộ</string>
+    <string name="ship">Xuất hàng</string>
+    <string name="unship">Chưa xuất hàng</string>
+    <string name="label_import_SN">Nhập số serial</string>
+    <string name="label_import_CNo">Nhập mã số thùng hàng</string>
+    <string name="label_import_part_number">Nhập mã liệu</string>
+    <string name="triple_point">...</string>
+    <string name="label_estimated_shipping_date_S">Nhập ngày dự kiến xuất hàng-bắt đầu</string>
+    <string name="label_estimated_shipping_date_E">Nhập ngày dự kiến xuất hàng-kết thúc</string>
+    <string name="enter_WO">Nhập lệnh sản xuất</string>
+    <string name="label_OOBA_data">Chỉ hiển thị dữ liệu OOBA</string>
+    <string name="label_OOBA_data_yyyymmdd">Chỉ hiển thị dữ liệu OOBA:yyyymmdd</string>
+    <string name="enter_sn">Vui lòng nhập số sê-ri</string>
+    <string name="enter_box_nu">Vui lòng nhập số thùng đóng gói</string>
+    <string name="enter_estimated_shipping_date1">Vui lòng nhập ngày dự kiến xuất hàng 1</string>
+    <string name="enter_estimated_shipping_date2">Vui lòng nhập ngày dự kiến xuất hàng 2</string>
+    <string name="enter_wo">Vui lòng nhập số lệnh sản xuất</string>
+    <string name="enter_condictions">Vui lòng nhập điều kiện</string>
+    <string name="cant_query_form_no">Không tìm thấy mã biểu đơn</string>
+    <string name="select_form_no">Chọn mã biểu đơn</string>
+    <string name="cant_query_seq">Không tìm thấy số se-ri lưu trình</string>
+    <string name="select_seq">Lựa chọn số se-ri lưu trình</string>
+    <string name="select_no_department">Không có bộ phận này</string>
+    <string name="Select_department">Chọn bộ phận đăng kí</string>
+    <string name="Select_no_applicant">Không có người này</string>
+    <string name="Select_the_applicant">Chọn người đăng kí</string>
+    <string name="list_item_processs_no">%1$s\n%2$s - %3$s\n%4$s - %5$s</string>
+    <string name="list_item_doc_no">%1$s\n%2$s - %3$s\n%4$s - %5$s</string>
+    <string name="list_item_applicant">"%1$s - %2$s"</string>
+    <string name="list_item_apply_dept">"%1$s - %2$s"</string>
+
+    <!--SMT相關作業 >> 序號狀態查詢作業(含OOBA查詢作業) >> 查詢結果-->
+    <string name="cant_find_condictions">Không tìm thấy dữ liệu điều kiện</string>
+    <string name="no_data">Không có dữ liệu liên quan</string>
+    <string name="sfis_label_status">Trạng thái SFIS</string>
+    <string name="oracle_label_status">Trạng thái Oracle</string>
+    <string name="plan_ship_week">Dự kiến tuần xuất hàng</string>
+    <string name="label_item_number">Mã liệu</string>
+    <string name="item_name">Tên sản phẩm</string>
+    <string name="box_num">Số thùng</string>
+    <string name="num">Số lượng</string>
+    <string name="wo_num">Công lệnh</string>
+    <string name="sets">Số bộ</string>
+    <string name="inspection_form">Mã đơn kiểm nghiệm</string>
+    <string name="production_day">Ngày sản xuất</string>
+    <string name="Inspection_date">Ngày kiểm tra</string>
+    <string name="Storage_day">Ngày nhập kho</string>
+    <string name="sales_day">Ngày bán hàng</string>
+    <string name="Shipping_DN">DN xuất hàng</string>
+    <string name="Shipping_customers">Khách hàng xuất hàng</string>
+    <string name="Shipping_box_number">Số thùng xuất hàng</string>
+    <string name="Shipping_board_number">Số pallet xuất hàng</string>
+    <string name="oe">OE xuất hàng</string>
+    <string name="Shipping_po">PO xuất hàng</string>
+    <string name="sn_query_enter_sku">Tìm kiếm số sê-ri-Vui lòng nhập mã liệu</string>
+
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業-->
+    <string name="label_picking">%1$s Kiểm hàng xuất kho</string>
+    <string name="label_employee_id">Mã nhân viên</string>
+    <string name="label_dn_number">Số DN</string>
+    <string name="label_customer">Khách hàng</string>
+    <string name="label_planning_shipping_date">Ngày xuất dự kiến</string>
+    <string name="label_order_status">Trạng thái đơn hàng</string>
+    <string name="label_item_no">Mã liệu</string>
+    <string name="button_check_fifo">Kiểm tra FIFO (First In First Out)</string>
+    <string name="button_delete">Xóa</string>
+    <string name="label_status">Trạng thái</string>
+    <string name="dn_num_is_not_null">Số DN không được để trống</string>
+    <string name="cant_resolve_dn">Không thể phân tích DN</string>
+    <string name="del_dn">Bạn có chắc chắn muốn xóa DN này không?</string>
+    <string name="yes">Đúng</string>
+    <string name="no">Không</string>
+    <string name="Make_sure_to_del_SKU">Xác nhận xóa mã liệu này?</string>
+    <string name="first_in_first_out">Đang đối chiếu vào trước ra trước...</string>
+    <string name="first_in_first_out_ok">Nhập trước xuất trước OK</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 清單-->
+    <string name="label_shipment_id">Mã liệu</string>
+    <string name="label_shipment_quantity">Số lượng</string>
+    <string name="label_item_description">Tên sản phẩm</string>
+    <string name="label_shipment_control">Kiểm soát</string>
+    <string name="label_checking_pass">Số lượng đã kiểm</string>
+    <string name="label_wait_for_checking">Số lượng chưa kiểm</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 單箱資料確認-->
+    <string name="label_carton_data">Xác nhận dữ liệu thùng hàng</string>
+    <string name="label_part_no">Mã liệu</string>
+    <string name="label_pack_qty">Số lượng trong thùng</string>
+    <string name="label_carton_weight">Trọng lượng thùng hàng</string>
+    <string name="label_carton_cuft">Thể tích thùng hàng</string>
+    <string name="label_carton_size">Kích thước thùng hàng</string>
+    <string name="cant_find_single_box">Không tìm thấy dữ liệu thùng đơn</string>
+    <string name="single_box_qty_is_not_null">Số lượng thùng không được để trống</string>
+    <string name="single_box_weight_is_not_null">Cân nặng thùng không được để trống</string>
+    <string name="single_box_volume_is_not_null">Thể tích thùng không được để trống</string>
+    <string name="single_box_size_is_not_null">Kích thước thùng không được để trống</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 單箱資料確認 >> 棧板資料確認-->
+    <string name="label_pallet_data">Xác nhận dữ liệu pallet</string>
+    <string name="label_air_plt_qty">Số lượng pallet hàng không</string>
+    <string name="label_air_plt_size">Kích thước pallet hàng không</string>
+    <string name="label_sea_plt_qty">Số lượng pallet đường biển</string>
+    <string name="label_sea_plt_size">Kích thước pallet đường biển</string>
+    <string name="cant_find_sku">Không tìm thấy dữ liệu mã liệu</string>
+    <string name="cant_find_box">Không tìm thấy dữ liệu đóng gói</string>
+    <string name="cant_find_pallet">Không tìm thấy dữ liệu pallet</string>
+    <string name="air_pallet_qty_is_not_null">Số lượng pallet đơn vận chuyển đường hàng không không được để trống</string>
+    <string name="air_pallet_size_is_not_null">Kích thước pallet vận chuyển đường hàng không không được để trống</string>
+    <string name="shipping_pallet_qty_is_not_null">Số lượng pallet đơn vận chuyển đường biển không được để trống</string>
+    <string name="shipping_pallet_size_is_not_null">Kích thước pallet vận chuyển đường biển không được để trống</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 單箱資料確認 >> 棧板資料確認 >> 棧板資訊-->
+    <string name="label_pallet_number2">Số pallet</string>
+    <string name="label_checking_quantity">Cần kiểm</string>
+    <string name="label_pack_qty2">Số lượng trong thùng</string>
+    <string name="label_origin">Nhập nước xuất xứ</string>
+    <string name="label_rev">Nhập phiên bản</string>
+    <string name="import_cn">Nhập mã số thùng hàng</string>
+    <string name="import_frac_weight">Trọng lượng thùng lẻ</string>
+    <string name="location_is_not_null">Xuất xứ không được để trống</string>
+    <string name="origin_has_problem">Tên nơi sản xuất nhập vào không hợp lệ, vui lòng kiểm tra lại</string>
+    <string name="version_is_not_null">Phiên bản không được để trống</string>
+    <string name="format_error_atleast_1_Eng_word">Định dạng sai (phải có ít nhất một chữ cái)</string>
+    <string name="label_part_no2">Mã liệu %1$s</string>
+    <string name="label_picking_qty">Cần kiểm %1$d Đã kiểm %2$d Chưa kiểm %3$d</string>
+    <string name="label_pack_qty3">Số lượng trong thùng %1$d</string>
+    <string name="pallet_nu_uncorrect">Số pallet không hợp lệ, vui lòng nhập lại</string>
+    <string name="lotcode">Vui lòng nhập Lotcode</string>
+    <string name="enter_version">Vui lòng nhập phiên bản</string>
+    <string name="enter_origin">Vui lòng nhập nơi sản xuất</string>
+    <string name="enter_box_no">Vui lòng nhập số thùng</string>
+    <string name="enter_qty">Vui lòng nhập số lượng</string>
+    <string name="exceeded_qty_to_be_picked">Vượt quá số lượng cần kiểm</string>
+    <string name="qty_cant_more_than_box_num">Số lượng nhập không được lớn hơn số lượng trong thùng</string>
+    <string name="enter_zero_carton_weight">Vui lòng nhập trọng lượng thùng lẻ</string>
+    <string name="label_pallet_number4">Số pallet:%1$s</string>
+    <string name="label_unable_determine_lotcode_permissionC">Không thể xác định quyền Lotcode C</string>
+    <string name="label_unable_determine_lotcode_permission">Không thể xác định quyền Lotcode</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 單箱資料確認 >> 棧板資料確認 >> PO資訊-->
+    <string name="label_box_none_po">Nhặt liệu không chỉ định PO</string>
+    <string name="label_box_po">Nhặt liệu theo PO chỉ định</string>
+    <string name="label_part_no_2">Mã liệu %1$s</string>
+    <string name="label_oe_po">OE:%1$s PO:%2$s</string>
+    <string name="label_pick_qty">Cần kiểm %1$s Đã kiểm %2$s Chưa kiểm %3$s</string>
+    <string name="del_oe">Bạn có chắc chắn muốn xóa OE này không?</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 單箱資料確認 >> 棧板資料確認 >> 撿料-->
+    <string name="label_prechecking_quantity">Kiểm tra trước</string>
+    <string name="label_pallet_check2">Pallet</string>
+    <string name="label_box_check2">Mã số thùng</string>
+    <string name="label_sn_check2">Số se-ri</string>
+    <string name="label_sn_qrcode2">QR\nCode</string>
+    <string name="sn_is_not_null">Số sê-ri không được để trống</string>
+    <string name="box_num_is_not_null">Số thùng không được để trống</string>
+    <string name="QR_CODE_is_not_null">Mã QR không được để trống</string>
+    <string name="Unable_parse_SN_from_QR_Code">QRCode không thể giải mã SN</string>
+    <string name="label_pallet_number3">Số pallet %1$s</string>
+    <string name="enter_pallet_nu">Vui lòng nhập số pallet</string>
+    <string name="qty_cant_more_than_unchk">Số lượng nhập không được lớn hơn số lượng chưa nhặt</string>
+    <string name="enter_box_weight">Vui lòng nhập trọng lượng thùng đơn</string>
+    <string name="Unable_parse_QR_Code">QRCode không thể giải mã</string>
+    <string name="data_chking_plt_carton">Đang kiểm tra cùng pallet cùng thùng...</string>
+    <string name="qr_code_format_incorrect_cant_resolve_sn">Định dạng mã QR không hợp lệ, không thể phân tích số sê-ri</string>
+    <string name="sn_repeat_check">Số sê-ri bị trùng lặp, vui lòng kiểm tra！</string>
+    <string name="label_revise_pallet_no">Có sửa đổi số pallet không</string>
+    <string name="label_input_pallet_no">Nhập số pallet</string>
+    <string name="label_sn_seq">%1$d/%2$s</string>
+    <string name="label_prechecking_quantity2">Kiểm trước %1$d</string>
+    <string name="wrong_po_print_oe_po_question">Không phù hợp OE，OE của số seri:%1$s, PO:%2$s, có in tem PO/OE không?</string>
+    <string name="data_querying">Đang tra cứu dữ liệu...</string>
+    <string name="SonicWALL_has_not_completed_OOBA">SonicWALL chưa thực hiện OOBA</string>
+    <string name="label_SN">Số se-ri</string>
+    <string name="label_Box">Mã số thùng</string>
+    <string name="label_pallet2">Pallet</string>
+    <string name="OOBA_already_picked">OOBA đã được kiểm</string>
+    <string name="OOBA_not_picked">Vẫn còn </string>
+    <string name="OOBA_not_picked2"> cái OOBA chưa kiểm.</string>
+    <string name="OOBA_not_stocked_in">Trong đó có </string>
+    <string name="OOBA_not_stocked_in2"> cái OOBA chưa nhập kho.</string>
+    <string name="warn">Cảnh báo</string>
+    <string name="OutSourcing">Hàng mua ngoài</string>
+    <string name="isOutSourcing">Là đồ mua ngoài</string>
+    <string name="is_not_OutSourcing">Không phải hàng mua ngoài</string>
+    <string name="OutSourcing_info">Thông tin hàng mua ngoài</string>
+    <string name="hassubloc">Có thể xem thông tin vị trí lưu trữ</string>
+    <string name="Can_not_find_MERAKI_PO">Không tìm thấy PO của MERAKI, vui lòng liên hệ MIS</string>
+    <string name="Can_not_find_Samsara_PO">Không tìm thấy PO của Samsara, vui lòng liên hệ MIS</string>
+    <string name="import_qty2">Nhập số lượng</string>
+    <string name="label_input_pallet_no2">Nhập số pallet</string>
+
+
+    <!--01.出貨相關作業 >> 01-02.出貨核對作業-->
+    <string name="label_shipment">Đối chiếu xuất hàng</string>
+    <string name="label_inventory_no">I/V No</string>
+    <string name="label_total_pallet_quantity">Tổng số pallet %1$d Chưa kiểm %2$d</string>
+    <string name="label_total_carton_quantity">Tổng số thùng %1$d Chưa kiểm %2$d</string>
+    <string name="label_pallet_num">Nhập số pallet</string>
+    <string name="label_shipping_way">Chọn phương thức xuất hàng</string>
+    <string name="label_container">Container</string>
+    <string name="label_pallet">Pallet</string>
+    <string name="label_carton">Hàng lẻ</string>
+    <string name="label_pickup">Tự lấy</string>
+    <string name="label_container_condition">Nhập dữ liệu</string>
+    <string name="label_container_num">Nhập số container</string>
+    <string name="label_container_size">Nhập kích thước container</string>
+    <string name="label_seal_num">Nhập số niêm phong</string>
+    <string name="label_cargo_num">Nhập số vận đơn</string>
+    <string name="label_car_size">Nhập trọng tải xe</string>
+    <string name="label_pickup_name">Nhập tên công ty khai báo hải quan hoặc người nhận hàng</string>
+    <string name="import_sn">Nhập số serial</string>
+    <string name="label_shipping_remark">Nhập ghi chú xuất hàng</string>
+    <string name="label_print_shipping_doc">Có in phiếu điều xe không?</string>
+    <string name="label_carton_num">Nhập số thùng hàng</string>
+    <string name="label_serial_num">Nhập số serial</string>
+    <string name="label_Detail">Chi tiết</string>
+    <string name="label_shipment1">%1$s Thao tác đối chiếu xuất \nhàng</string>
+    <string name="enter_container_num">Vui lòng nhập số container</string>
+    <string name="enter_container_size">Vui lòng nhập kích thước container</string>
+    <string name="enter_seal_num">Vui lòng nhập số niêm phong</string>
+    <string name="enter_freight_num">Vui lòng nhập số vận đơn</string>
+    <string name="qrcode_format_incorrect">Mã QR không đúng định dạng, vui lòng nhập lại</string>
+    <string name="QR_Code_container_num_is_empty">Số container trong mã QR trống</string>
+    <string name="QR_Code_container_size_is_empty">Kích thước container trong mã QR trống</string>
+    <string name="QR_Code_seal_num_is_empty">Số niêm phong trong mã QR trống</string>
+    <string name="QR_Code_shipping_line_num_is_empty">Số vận đơn trong mã QR trống</string>
+    <string name="enter_truck_tonnage">Vui lòng nhập trọng tải xe tải</string>
+    <string name="enter_customs_broker_or_consignor">Vui lòng nhập tên công ty khai báo hải quan hoặc người nhận hàng</string>
+    <string name="pallet_num_is_not">Số pallet không chứa chữ cái tiếng Anh hợp lệ</string>
+    <string name="check">, Vui lòng xác nhận</string>
+    <string name="Carton_number_mismatch">Số thùng không khớp</string>
+    <string name="default_shipping_remark1">1. Vui lòng yêu cầu khách hàng (người nhận) ký tên đầy đủ và đóng dấu (dấu nhận hàng) trên "Phiếu điều xe" và "Hóa đơn bán hàng", sau đó gửi lại bản gốc cho công ty Senao Networks VN. Cảm ơn!\n2. Mã số thuế 28496495, điện thoại 03-3289289, fax 03-3274888, phí sử dụng máy móc do công ty khai báo hải quan thanh toán, tổng cộng 5 PLT.\nSau khi dỡ hàng xong, vui lòng thông báo cho công ty khai báo hải quan về vị trí đặt hàng (mã cửa kho hoặc mã bến cảng) Cảm ơn！
+</string>
+
+
+    <!--01.出貨相關作業 >> 01-03.出貨棧板標籤列印-->
+    <string name="title_activity_shipment_pallet_label_print">In tem pallet xuất hàng</string>
+    <string name="label_barcode2">Mã vạch</string>
+    <string name="input_dn_number">Nhập số DN</string>
+    <string name="input_pallet_number">Nhập số pallet</string>
+    <string name="hint_dn_pallet">Vui lòng nhập DN+mã pallet</string>
+    <string name="label_import_pallet_size">Kích thước pallet</string>
+    <string name="title_activity_shipment_pallet_label_print1">%1$s In nhãn pallet vận chuyển</string>
+    <string name="enter_dn">Vui lòng nhập số DN</string>
+    <string name="qrcode_dn_is_null">Số DN trong mã QR trống, vui lòng nhập lại</string>
+    <string name="qrcode_pallet_is_null">Số pallet trong mã QR trống, vui lòng nhập lại</string>
+    <string name="org_must_input_num">ORG cần nhập số</string>
+    <string name="pick_file_server">TEMBO-Chọn máy chủ tệp</string>
+    <string name="label_extrem_printer_info">Thông tin máy in Extreme</string>
+    <string name="Not_find_Extreme_description">Không tìm thấy hướng dẫn Extreme, vui lòng liên hệ MIS</string>
+    <string name="Samsara_printer_info_total">Thông tin máy in Samsara: Tổng cộng </string>
+    <string name="printer_info_total_pages"> tờ</string>
+    <string name="Verkada_LotCode_printer_info_total">Thông tin máy in Verkada (LotCode)\nTổng cộng </string>
+    <string name="Verkada_Model_SN_printer_info_total">Thông tin máy in Verkada (Model&amp;SN)\nTổng cộng </string>
+    <string name="label_sophos_printer_info">Thông tin máy in Sophos</string>
+    <string name="no_pallet_id_mis">Không có dữ liệu pallet, vui lòng liên hệ MIS</string>
+    <string name="Extreme_pallet_info_not_found">Không tìm thấy thông tin pallet Extreme, vui lòng liên hệ MIS</string>
+
+
+    <!--01.出貨相關作業 >> 01-04.出貨刷退作業-->
+    <string name="label_shipment_return">Quét hoàn trả xuất hàng</string>
+    <string name="label_return_quantity">Số lượng hoàn trả dự kiến</string>
+    <string name="label_retrun_pallet_number">Số pallet</string>
+    <string name="label_dc_no">Khác</string>
+    <string name="label_dn_no">Nhập số DN</string>
+    <string name="dn_is_not_null">DN không được để trống</string>
+    <string name="label_shipment_return1">%1$s Quét hoàn trả xuất hàng</string>
+    <string name="return_info_is_incorrect">Thông tin trả lại không chính xác, vui lòng nhập lại</string>
+    <string name="Picking_data_has_been_deleted">Đã xóa dữ liệu nhặt hàng</string>
+
+
+    <!--01.出貨相關作業 >> 01-05.條碼驗證作業-->
+    <string name="label_barcode_verify">Quy trình xác minh mã vạch</string>
+    <string name="label_sn_no">Số se-ri</string>
+    <string name="label_barcode">Mã vạch</string>
+    <string name="enter_barcode">Vui lòng nhập mã vạch</string>
+    <string name="barcode_success">Đọc mã vạch thành công</string>
+    <string name="barcode_error">"Lỗi đọc mã vạch</string>
+    <string name="label_barcode_verify1">%1$s Quy trình xác minh mã vạch</string>
+    <string name="barcode_qty">Số lượng trong mã vạch</string>
+    <string name="sn_qty_incorrect">Không khớp với số lượng số sê-ri</string>
+    <string name="format_incorrect">Định dạng không hợp lệ</string>
+    <string name="barcode_sn">Số sê-ri trong mã vạch</string>
+    <string name="repeat">Trùng lặp</string>
+    <string name="sn_name">Số se-ri</string>
+    <string name="already_exist_other_swiped_barcode">Đã tồn tại mã vạch đã quét khác</string>
+    <string name="sn_barcode">Số sê-ri trong mã vạch</string>
+    <string name ="model_name">"Model: %1$s"</string>
+    <string name ="model_quantity">"Số lượng: %1$s"</string>
+    <string name="read_pallet_pdf417_barcode">Vui lòng quét mã vạch PDF417 của pallet</string>
+    <string name="barcode_2d_sn">Số sê-ri trong mã QR</string>
+    <string name="not_exist_in_this_pallet_data">Không tồn tại trong dữ liệu pallet này</string>
+    <string name="not_exist_in_2d_barcode_missed_brush">Không tồn tại trong mã QR, quét thiếu?</string>
+    <string name="barcode_verification_error">Xác minh mã vạch thất bại</string>
+    <string name="not_exist_in_2d_barcode">Không tồn tại trong mã QR</string>
+    <string name="barcode_verification_ok">Xác minh mã vạch thành công</string>
+
+
+    <!--01.出貨相關作業 >> 01-06.RMA出貨撿貨作業-->
+    <string name="title_activity_rma_picking">Thao tác chọn liệu xuất hàng RMA</string>
+    <string name="rma_picking_summary">Số thùng đã kiểm %1$d Số lượng đã kiểm %2$d</string>
+    <string name="label_pallet_check">Padlet</string>
+    <string name="label_box_check">Mã số thùng</string>
+    <string name="label_import_pallet">Nhập số pallet</string>
+    <string name="Enter_pallet_no">Vui lòng nhập số pallet trước</string>
+    <string name="title_activity_rma_picking1">%1$s Thao tác chọn liệu xuất \nhàng RMA</string>
+    <string name="box_repeat">Số thùng trùng lặp (lỗi đóng gói)</string>
+    <string name="wo_type_diff">Loại lệnh sản xuất khác nhau</string>
+
+
+    <!--01.出貨相關作業 >> 01-07.RMA出貨確認作業-->
+    <string name="title_activity_rma_verify">Xác nhận xuất hàng RMA</string>
+    <string name="label_import_pallet_id">Nhập ID pallet</string>
+    <string name="enter_pallet_id">Vui lòng nhập ID pallet</string>
+    <string name="Make_sure_to_delete_the_pickup_data">Xác nhận xóa dữ liệu nhặt hàng?</string>
+    <string name="title_activity_rma_verify1">%1$s Xác nhận xuất hàng RMA</string>
+
+    <!--01.出貨相關作業 >> 01-07.RMA出貨確認作業 >> 清單-->
+    <string name="sn_list">Danh sách số sê-ri</string>
+
+
+    <!--01.出貨相關作業 >> 01-08.Samsara的PO標籤列印-->
+    <string name="title_activity_samsara_po">In tem PO của Samsara</string>
+    <string name="label_input_qrcode">Vui lòng nhập QR code</string>
+    <string name="title_activity_samsara_po1">%1$s In tem PO của Samsara</string>
+
+
+    <!--02.製令相關作業 >> 02-01.製令入庫作業-->
+    <string name="label_stock_in">Nhập kho theo lệnh sản xuất</string>
+    <string name="label_login_account">Đăng nhập tài khoản</string>
+    <string name="button_stock_in">Nhập kho</string>
+    <string name="query_cons_cant_be_null">Điều kiện tìm kiếm không được để trống</string>
+    <string name="label_stock_in1">%1$s Nhập kho theo lệnh sản \nxuất</string>
+    <string name="ru_sure_in_stock">Xác nhận thực hiện nhập kho?</string>
+    <string name="Make_sure_delete_inbound_data">Xác nhận xóa dữ liệu nhập kho?</string>
+    <string name="label_stock_quantity">Phải nhập %1$d Đã nhập %2$d Chưa nhập %3$d</string>
+    <string name="label_prestocking_quantity">Dự nhập</string>
+    <string name="label_warehousing_number">Số đơn nhập kho</string>
+    <string name="import_subinventory">Nhập loại kho</string>
+    <string name="import_locator">Nhập vị trí kho</string>
+    <string name="label_combine_receipts">Có hợp nhất hàng nhập kho không?</string>
+    <string name="label_combine_receipts_eng">Do you combine receipts?</string>
+    <string name="label_receipt_no">Nhập mã số chứng từ</string>
+    <string name="label_quantity">Nhập số lượng</string>
+    <string name="label_import_sn_start">Nhập số serial-bắt đầu</string>
+    <string name="label_import_sn_end">Nhập số serial-kết thúc</string>
+    <string name="cant_find_storage">Không tìm thấy dữ liệu nhập kho</string>
+    <string name="enter_stock_form">Vui lòng nhập số đơn nhập kho</string>
+    <string name="sku_incorrect">Mã liệu không đúng</string>
+    <string name="enter_multiplier">Vui lòng nhập số nhân</string>
+    <string name="enter_multiplicand">Vui lòng nhập số bị nhân</string>
+    <string name="enter_add">Vui lòng nhập số thêm vào</string>
+    <string name="qty_greater_than_stock_qty">Số lượng lớn hơn số lượng có thể nhập kho</string>
+    <string name="qty_cant_less_or_equals_0">Số lượng không được nhỏ hơn hoặc bằng 0</string>
+    <string name="reelid_incorrect_len_must_be_34_or_28">Reel ID không đúng, phải có 28 hoặc 34 ký tự</string>
+    <string name="choose_sn_box">Vui lòng chọn số sê-ri hoặc số thùng</string>
+    <string name="enter_sn_start">Vui lòng nhập số sê-ri-Bắt đầu</string>
+    <string name="enter_sn_end">Vui lòng nhập số sê-ri-Kết thúc</string>
+    <string name="chk_Storage_application_number">Đang đối chiếu số đơn nhập kho...</string>
+    <string name="reading_sub_lot">Đọc kho, vị trí lưu trữ...</string>
+    <string name="read_in_stock_data">Đang đọc dữ liệu phiếu yêu cầu nhập kho...</string>
+    <string name="chk_sub_locate">Đang đối chiếu loại kho, vị trí...</string>
+    <string name="sn_not_in_system">Có số sê-ri không tồn tại trong hệ thống khách hàng, vui lòng kiểm tra</string>
+    <string name="sn_has_not_passed_customer_QC_approval">Số serial chưa qua kiểm duyệt QC của khách hàng, vui lòng kiểm tra, SN:</string>
+    <string name="read_datecode">Đang đọc DateCode...</string>
+    <string name="sku">Mã liệu:</string>
+    <string name="chk_ok">Đối chiếu hoàn tất</string>
+    <string name="box_no_ok">Mã thùng đúng</string>
+    <string name="sn_correct">Số sê-ri hợp lệ</string>
+    <string name="checkOK">Đối chiếu hoàn tất</string>
+    <string name="datathrownerp">Dữ liệu đang chuyển ERP</string>
+    <string name="label_stocking_pass">Số lượng đã nhập</string>
+    <string name="label_wait_for_stocking">Số lượng chưa nhập</string>
+    <string name="label_sn_item_no_stock_no">SN / Mã liệu / Mã đơn</string>
+
+
+    <!--02.製令相關作業 >> 02-02.關帳日期設定-->
+    <string name="label_closed_date_set">Cài đặt ngày khoá sổ</string>
+    <string name="button_select_date">Lựa chọn ngày</string>
+    <string name="button_date_reset">Xoá bỏ thời gian</string>
+    <string name="button_date_set">Cài đặt thời gian</string>
+    <string name="label_closed_date_set1">%1$s Cài đặt ngày khoá sổ</string>
+    <string name="select_a_date_first">Vui lòng chọn ngày trước</string>
+    <string name="Determine_the_reset_closing_date">Xác nhận đặt lại ngày khóa sổ?</string>
+    <string name="set_a_closing_date">Xác nhận thiết lập ngày khóa sổ?</string>
+
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業-->
+    <string name="label_material_sending">Phát liệu công lệnh</string>
+    <string name="label_import_line_number">Nhập số tuyến</string>
+    <string name="label_import_merge_number">Nhập mã hợp nhất</string>
+    <string name="label_import_wh_number">Nhập mã NV quản lý kho</string>
+    <string name="label_import_wo_number">Nhập lệnh sản xuất</string>
+    <string name="label_import_item_part">Nhập mã đầu mã vật liệu</string>
+    <string name="cant_find_shipping_info">Không tìm thấy dữ liệu phát liệu</string>
+    <string name="title_activity_material_sending_debit1">%1$s Trừ kho phát liệu công \nlệnh</string>
+    <string name="title_activity_material_sending_transfer1">%1$s Chuyển kho phát liệu công \nlệnh</string>
+    <string name="title_activity_material_lack_query1">%1$s Tra cứu liệu thiếu theo \ncông lệnh</string>
+    <string name="label_material_sending1">%1$s Phát liệu công lệnh</string>
+    <string name="enter_line">Vui lòng nhập line</string>
+    <string name="label_import_merge_no">Nhập mã hợp nhất</string>
+    <string name="enter_warehouse_clerk">Vui lòng nhập nhân viên quản lý kho</string>
+    <string name="qty_greater_than_stock">Số lượng lớn hơn số tồn kho</string>
+    <string name="do_u_want_to_transfer">, Có tiếp tục thực hiện chuyển kho không?</string>
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業 >> 製令欠料查詢作業-->
+    <string name="title_activity_material_lack_query">Tra cứu liệu thiếu theo công lệnh</string>
+    <string name="label_sn_item_no">SN / Mã liệu</string>
+    <string name="No_data_found">Không tìm thấy dữ liệu</string>
+    <string name="button_debit">Khấu trừ</string>
+    <string name="confirm_exec_debit">Xác nhận thực hiện trừ tiền?</string>
+    <string name="Insufficient_stock_Qty">Số lượng tồn kho không đủ</string>
+    <string name="r_u_sure_to_del_data">Xác nhận xóa dữ liệu phát liệu?</string>
+    <string name="r_u_sure_to_del_transfer_sub_data">Xác nhận xóa dữ liệu chuyển kho?</string>
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業 >> 製令發料作業-->
+    <string name="title_activity_material_sending_debit">Trừ kho phát liệu công lệnh</string>
+    <string name="label_line_number">Chuyền</string>
+    <string name="label_merge_number">Mã hợp nhất</string>
+    <string name="label_total_sending_qty">Tổng số lượng xuất kho</string>
+    <string name="label_send_qty">Số lượng đã xuất kho</string>
+    <string name="label_unsend_qty">Số lượng chưa xuất kho</string>
+    <string name="label_sn_check">Số se-ri</string>
+    <string name="cant_find_material_stock_data">Không tìm thấy dữ liệu tồn kho nguyên vật liệu</string>
+    <string name="dc_not_in_this_sub_loc">Số lô không tồn tại trong vị trí kho này</string>
+    <string name="enter_sub">Vui lòng nhập mã kho</string>
+    <string name="sub_controlled_enter_correct_sub">Kho này là kho kiểm soát, vui lòng nhập mã kho chính xác</string>
+    <string name="enter_loc">Vui lòng nhập vị trí lưu trữ</string>
+    <string name="enter_other_loc">Vui lòng nhập vị trí lưu trữ khác</string>
+    <string name="find_older_dc">Có D/C cũ hơn:</string>
+    <string name="do_u_want_to_transfer_debit">, Có tiếp tục thực hiện chuyển kho không?</string>
+    <string name="choose_sku">Vui lòng chọn mã liệu</string>
+    <string name="label_workorder_no">Công lệnh</string>
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業 >> 製令發料作業 >> 製令發料扣帳作業-->
+    <string name="sub_lot_incorrect">Loại kho / vị trí không đúng, vui lòng nhập lại</string>
+    <string name="shipped_plz_perform_debit">Đã phát hàng xong, vui lòng thực hiện trừ tiền</string>
+    <string name="Shipped">Đã phát hàng xong</string>
+    <string name="debit_ok">Hoàn tất khấu trừ tài khoản</string>
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業 >> 製令發料作業 >> 製令發料扣帳作業 >> 製令發料扣帳作業-->
+    <string name="label_subinventory_transfer_qty">Số lượng chuyển kho</string>
+    <string name="label_subinventory_transfer_no">Số đơn chuyển kho</string>
+    <string name="label_subinventory_transfer">Có thực hiện chuyển kho không?</string>
+    <string name="label_subinventory_transfer_eng">Do you execute subinventory transfer?</string>
+    <string name="cant_find_stock">Không tìm thấy dữ liệu tồn kho</string>
+    <string name="cant_find_debit_data">Không tìm thấy dữ liệu trừ tiền</string>
+    <string name="this_sub_is_controlled_cant_used">Kho này là kho kiểm soát, vui lòng nhập mã kho chính xác</string>
+    <string name="target_loc_cant_be_the_same_as_source_loc">Vị trí nhập không được trùng với vị trí xuất</string>
+    <string name="transfer_processing">Đang xử lí chuyển kho...</string>
+    <string name="transfer_ok">Hoàn tất chuyển kho</string>
+    <string name="print_error_msg">Không thể lấy Reel ID để in nhãn do không có Vendor Code</string>
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業 >> 製令發料作業 >> 製令發料轉倉作業-->
+    <string name="title_activity_material_sending_transfer">Chuyển kho phát liệu công lệnh</string>
+    <string name="import_subinventory_from">Nhập kho xuất</string>
+    <string name="import_locator_from">Nhập vị trí xuất kho</string>
+    <string name="import_subinventory_to">Nhập kho đích</string>
+    <string name="import_locator_to">Nhập vị trí nhập kho</string>
+    <string name="button_complete">Hoàn tất</string>
+    <string name="perform_debit">Vui lòng thực hiện trừ tài khoản trước</string>
+
+
+    <!--02.製令相關作業 >> 02-05.製令發料檢核作業-->
+    <string name="title_activity_material_sending_check">Đối chiếu phát liệu công lệnh</string>
+    <string name="title_activity_material_sending_check1">%1$s Đối chiếu phát liệu công \nlệnh</string>
+    <string name="label_inventory">Số lượng tồn kho</string>
+
+    <!--02.製令相關作業 >> 02-05.製令發料檢核作業 >> 清單-->
+    <string name="Delete_chking_data">Xác nhận xóa dữ liệu đối chiếu?</string>
+    <string name="label_datecode">DC</string>
+
+    <!--02.製令相關作業 >> 02-05.製令發料檢核作業 >> 清單 >> 處理-->
+    <string name="label_wo_no">Mã công lệnh</string>
+    <string name="label_temp_issue_qty">Số lượng xuất tạm</string>
+    <string name="chk_ok_exec_debit">Đã kiểm tra xong, vui lòng thực hiện trừ tiền</string>
+
+
+    <!--02.製令相關作業 >> 02-06.轉倉轉儲位作業-->
+    <string name="title_activity_transfer_subinventory_locator">Chuyển kho, chuyển vị trí</string>
+    <string name="label_subinventory_from">Kho xuất</string>
+    <string name="label_locator_from">Vị trí xuất kho</string>
+    <string name="label_subinventory_to">Kho nhập</string>
+    <string name="label_locator_to">Vị trí nhập kho</string>
+    <string name="label_reference">Ghi chú</string>
+    <string name="default_reference">Chuyển kho, chuyển vị trí kho, xuất vật liệu theo lệnh sản xuất</string>
+    <string name="Controlled_subinventory">Kho kiểm soát</string>
+    <string name="title_activity_transfer_subinventory_locator1">%1$s Chuyển kho, chuyển vị trí</string>
+    <string name="out_and_in_loc_not_same">Vị trí chuyển đi không được trùng với vị trí chuyển đến</string>
+    <string name="Enter_remarks">Vui lòng nhập ghi chú</string>
+
+    <!--02.製令相關作業 >> 02-06.轉倉轉儲位作業 >> 轉倉轉儲位作業-->
+    <string name="label_total_inventory_qty">Tổng số lượng kho</string>
+    <string name="label_total_transfer_subinventory_qty">Tổng số lượng chuyển kho</string>
+    <string name="cant_find_data">Không tìm thấy dữ liệu</string>
+    <string name="label_sn_value">Số se-ri:%1$s</string>
+    <string name="label_box_value">Số thùng:%1$s</string>
+    <string name="continue_with_warehouse_and_location_transfer">, Bạn có muốn tiếp tục thực hiện chuyển kho không?</string>
+    <string name="sn_box_has_finished">Số se-ri / mã thùng đã từng xử lí, vui lòng không nhập trùng</string>
+    <string name="process_ok">Xử lí hoàn thành</string>
+    <string name="Processed_OK_plz_perform_debit">Đã xử lý xong, vui lòng thực hiện trừ tiền</string>
+    <string name="label_datecode_qty">DC  %1$s  x  %2$s</string>
+    <string name="label_datecode_pass">( %1$s )</string>
+    <string name="cant_transfer_qty_over_stock">Không thể chuyển kho, số lượng vượt quá tồn kho</string>
+
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業-->
+    <string name="label_material_receiving">Quy trình nhận hàng</string>
+    <string name="label_mode_selection">Chọn phương thức thao tác</string>
+    <string name="label_receipts">\n\n\nNhận hàng\n</string>
+    <string name="label_temporarily_receipts">\n\n\nTạm nhận\n</string>
+    <string name="label_temporarily_employ">\n\n\nTạm nhập kho\n</string>
+    <string name="label_delete">\n\n\nXóa\n</string>
+    <string name="label_error">\n\n\nLỗi\n</string>
+    <string name="label_delivery">\n\n\nGiao hàng dự kiến\n</string>
+    <string name="label_material_receiving_outsourcing1">%1$s Quy trình nhận hàng thuê ngoài</string>
+    <string name="label_material_receiving1">%1$s Quy trình nhận hàng</string>
+    <string name="label_receiving_outsourcing1">%1$s Nhận hàng thuê ngoài - \n%2$s</string>
+    <string name="label_delete3">Xóa </string>
+    <string name="label_receiving1">%1$s Quy trình nhận hàng - \n%2$s</string>
+    <string name="server_return_warn">Máy chủ trả về cảnh báo</string>
+    <string name="label_reason">Lý do</string>
+    <string name="label_receive_temp_qty">Số lượng tạm nhận</string>
+    <string name="label_received">Đã nhận</string>
+    <string name="label_unreceived">Chưa nhận</string>
+    <string name="label_total_inventory">Tổng số lượng tồn kho</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業-->
+    <string name="cant_find_method">Không tìm thấy phương thức thao tác</string>
+    <string name="label_material_receiving_outsourcing">Quy trình nhận hàng thuê ngoài</string>
+    <string name="label_import_vendor_name">Nhập tên nhà cung cấp</string>
+    <string name="import_pn">Nhập mã vật liệu</string>
+    <string name="label_Organization">Tổ chức</string>
+    <string name="Does_not_match_current_ORG">Không khớp với ORG hiện tại!</string>
+    <string name="enter_vendor_name">Vui lòng nhập tên nhà cung cấp</string>
+    <string name="Receiving">Nhận hàng</string>
+    <string name="Pending_inspection">Nhận tạm</string>
+    <string name="Select_vendor">Chọn nhà cung cấp</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業 >> 收料作業-->
+    <string name="label_vendor_name">Tên nhà cung cấp</string>
+    <string name="label_remittance_yn">Mở:%1$s</string>
+    <string name="label_vendor_info">%1$s-%2$s</string>
+    <string name="label_combine">\n\n\nGộp\n</string>
+    <string name="label_invoice">\n\n\nHóa đơn\n</string>
+    <string name="label_combine_invoice">\n\n\nGộp hóa đơn\n</string>
+    <string name="label_po_sec">\n\n\nĐơn hàng\n</string>
+    <string name="cant_find_vc_data">Không tìm thấy dữ liệu nhà cung cấp</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業 >> 收料作業 >> 清單-->
+    <string name="label_material_receiving_list">Quy trình nhận hàng</string>
+    <string name="hint_receiving_list">Lọc: Mã liệu (P/N), Hóa đơn, PO</string>
+    <string name="label_rec_id">REC ID:%1$s</string>
+    <string name="label_vendor_site">Vendor site</string>
+    <string name="receiving">Nhận hàng</string>
+    <string name="combine">Gộp</string>
+    <string name="invoice">Hóa đơn</string>
+    <string name="po">Đơn hàng</string>
+    <string name="combine_invoice">Gộp hóa đơn</string>
+    <string name="Insufficient_pre_delivery_qty">Số lượng giao trước không đủ</string>
+    <string name="ru_del_data">Có muốn xóa dữ liệu nhập này không?</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業 >> 收料作業 >> 清單 >> 收料作業-->
+    <string name="label_invoice_no">Số hóa đơn</string>
+    <string name="label_po">PO</string>
+    <string name="label_control">Kiểm soát</string>
+    <string name="label_part_number">Mã vật liệu</string>
+    <string name="label_po_qty">Số lượng PO</string>
+    <string name="label_deliverable_qty">Số lượng có thể giao</string>
+    <string name="label_predeliver">Giao hàng dự kiến</string>
+    <string name="label_pda_received">PDA đã nhận</string>
+    <string name="label_pda_unreceived">PDA chưa nhận</string>
+    <string name="label_temp_qty">Số lượng tạm nhận</string>
+    <string name="gen_invoice_no">Bù invoice</string>
+    <string name="label_import_invoice_no">Nhập số hóa đơn</string>
+    <string name="label_import_locator">Nhập vị trí lưu trữ</string>
+    <string name="Please_enter_ORG">Vui lòng nhập ORG:</string>
+    <string name="label_import_x_board_qty">Nhập số lượng X padlet</string>
+    <string name="label_import_qty">Nhập số lượng</string>
+    <string name="label_import_single_box_qty">Nhập số lượng mỗi thùng</string>
+    <string name="label_import_receipts_qty">Nhập số lượng nhận hàng</string>
+    <string name="label_import_sn">Nhập số serial</string>
+    <string name="cant_find_receipt_data">Không tìm thấy dữ liệu nhận hàng</string>
+    <string name="label_Del">Xóa</string>
+    <string name="enter_invoice">Vui lòng nhập số hóa đơn</string>
+    <string name="enter_correct_invoice">Vui lòng nhập số hóa đơn chính xác</string>
+    <string name="qr_code_has_error">Mã QR của Reel ID không đúng</string>
+    <string name="vc_incorrect">Mã nhà cung cấp không đúng</string>
+    <string name="qrcode_qty_error">Số lượng mã QR không đúng</string>
+    <string name="cant_greater_than_predeliver">Không được lớn hơn số lượng dự kiến giao</string>
+    <string name="cant_greater_than_poqty">Không được lớn hơn số lượng PO</string>
+    <string name="receipts_qty_cant_less_than_or_equals_0">Số lượng nhận không được nhỏ hơn hoặc bằng 0</string>
+    <string name="greater_than_po_qty">Lớn hơn số lượng PO</string>
+    <string name="greater_than_deliverable_qty">大於可交數</string>
+    <string name="enter_x_board_qty">Lớn hơn số lượng có thể giao</string>
+    <string name="Plz_Import_Single_Box_Qty">Vui lòng nhập số lượng mỗi thùng</string>
+    <string name="Plz_Import_Receipts_Qty">Vui lòng nhập số lượng nhận hàng</string>
+    <string name="qrcode_has_error_reelid_len_34">Mã QR có vấn đề, độ dài Reel ID không hợp lệ, phải là 34 ký tự</string>
+    <string name="qrcode_has_error_qty_is_not_null">Mã QR có vấn đề, số lượng không được để trống</string>
+    <string name="qrcode_has_error_qty_is_greater_than_0">Mã QR có vấn đề, số lượng phải lớn hơn 0</string>
+    <string name="qrcode_has_error_qty_is_not_resolved">Mã QR có vấn đề, không thể phân tích số lượng</string>
+    <string name="org_is_not_null">ORG không thể để trống</string>
+    <string name="qrcode_parsing_length_mismatch_unable_proceed">Độ dài giải mã Qrcode không đúng, không thể thực hiện!</string>
+    <string name="greater_than_deliverable_qty_Overcharge">Lớn hơn số lượng có thể giao, có muốn nhận vượt mức không?</string>
+    <string name="Label_printing_error_occurred">Có sự cố khi in nhãn, vui lòng in lại</string>
+    <string name="This_material_is">Loại vật liệu này là:</string>
+    <string name="would_you_like_to_continue">, bạn có muốn tiếp tục không?</string>
+    <string name="btn_print">In bù</string>
+    <string name="material_from_senao">Đến từ SENAO</string>
+    <string name="DcQrCode_Original">QR Code gốc</string>
+    <string name="material_from_senao_YN">Có phải đến từ Senao không?</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業 >> 收料作業 >> 發票/儲位資料-->
+    <string name="txt_gen_invoice_no">Bù invoice-%1$s</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業 >> 收料作業 >> 發票清單-->
+    <string name="label_invoice_no_eng">Số hóa đơn</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 刪除異常-->
+    <string name="label_del_error">Xóa dữ liệu lỗi</string>
+    <string name="label_pn_po_invoice_vendor">Mã vật liệu / PO / Số hóa đơn / Nhà cung cấp</string>
+    <string name="label_total_qty">Tổng số mục %1$d</string>
+    <string name="label_select_qty">Số mục đã chọn %1$d</string>
+    <string name="button_select_all">Chọn tất cả</string>
+    <string name="button_select_invert">Bỏ chọn tất cả</string>
+    <string name="label_receiving">Nhận liệu - %1$s</string>
+    <string name="label_del_delivery">Xóa dữ liệu giao hàng dự kiến (Delete Delivery Data)</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 暫收入帳-->
+    <string name="label_temp_employ">Tạm nhập kho (Temporarily employ)</string>
+    <string name="label_pn_vendor">Mã vật liệu / Nhà cung cấp</string>
+    <string name="ru_sure_to_bill">Xác nhận vào sổ?</string>
+    <string name="plz_sel_item">Vui lòng chọn hạng mục cần vào sổ</string>
+
+
+    <!--03.收料入庫相關作業 >> 03-03.驗收入庫作業-->
+    <string name="label_acceptance">Kiểm tra và nhập kho</string>
+    <string name="label_import_part_no">Nhập mã vật liệu</string>
+    <string name="label_import_receipt_no">Nhập số đơn nhận hàng</string>
+    <string name="label_import_receiving_id">Nhập ID nhận hàng</string>
+    <string name="label_acceptance_outsourcing1">%1$s Kiểm tra và nhập kho \nthuê ngoài</string>
+    <string name="label_acceptance1">%1$s Kiểm tra và nhập kho</string>
+    <string name="Receipt_id_number_data_checking">Đang đối chiếu dữ liệu ID mã đơn nhận liệu...</string>
+    <string name="Material_receipt_number_data_checking">Đang đối chiếu dữ liệu mã đơn nhận liệu...</string>
+    <string name="enter_recived_num">Vui lòng nhập số đơn nhận hàng</string>
+    <string name="enter_recived_id">Vui lòng nhập ID nhận hàng</string>
+
+    <!--03.收料入庫相關作業 >> 03-03.驗收入庫作業 >> 清單-->
+    <string name="cant_find_acceptance_stock_data">Không tìm thấy dữ liệu kiểm nhận nhập kho</string>
+    <string name="not_in_day">Số ngày chưa nhập kho sau khi kiểm tra %1$d ngày</string>
+    <string name="label_uncheck_qty">Số lượng chờ kiểm tra</string>
+    <string name="label_item_loc">Quản lý kho</string>
+    <string name="label_item_loc_desc">Loại kho / vị trí lưu trữ</string>
+    <string name="label_stock_in_qty">Số lượng tạm nhập</string>
+    <string name="label_not_in_qty">Số lượng chưa nhập</string>
+    <string name="label_stock_in_xb_qty">Số lượng tạm nhập X padlet</string>
+    <string name="label_not_in_xb_qty">Số lượng chưa nhập X padlet</string>
+    <string name="label_acc_receipt_no">Mã số đơn nhận hàng</string>
+    <string name="label_trx_id">Trx ID</string>
+
+    <!--03.收料入庫相關作業 >> 03-03.驗收入庫作業 >> 清單 >>處理-->
+    <string name="label_xb_quantity">X Số lượng Padlet phải nhập %1$d Đã nhập %2$d Chưa nhập %3$d</string>
+    <string name="label_receipt_number">Mã số chứng từ nhập kho</string>
+    <string name="label_receipt_id">Nhập TRX ID</string>
+    <string name="label_sub">Kho phụ</string>
+    <string name="label_loc">Vị trí lưu trữ</string>
+    <string name="label_dc">Lô hàng</string>
+    <string name="label_xb_qty_smaller_than_db">Số lượng cần nhập đã đủ, nhưng số pallet X nhỏ hơn số pallet X cần nhập, có tiếp tục nhập kho không?</string>
+    <string name="label_xb_qty_larger_than_db">Số lượng pallet X đã lớn hơn số lượng pallet X phải nhập</string>
+    <string name="label_acceptance_stockin_quantity">Phải nhập %1$s, đã nhập %2$s, chưa nhập %3$s</string>
+    <string name="label_acceptance_xb_quantity">X số pallet phải nhập %1$s, đã nhập %2$s, chưa nhập %3$s</string>
+
+
+    <!--03.收料入庫相關作業 >> 03-05.驗收入庫批次作業-->
+    <string name="Incoming_inspection_and_stocking_batch_process_is_under_construction">03-05.Công việc nhập kho kiểm nhận đang thi công</string>
+
+
+    <!--04.查詢相關作業 >> 04-01.進貨超交查詢作業-->
+    <string name="title_activity_overtake">Tra cứu giao hàng vượt mức nhập</string>
+    <string name="label_import_item_number">Nhập mã vật liệu</string>
+    <string name="default_shipping_remark">Dữ liệu như sau</string>
+    <string name="title_activity_overtake1">%1$s Tra cứu giao hàng vượt \nmức nhập</string>
+    <string name="sku_len_can_not_less_than_12">Độ dài mã liệu không được nhỏ hơn 12 ký tự!</string>
+    <string name="over_delivery">Giao vượt</string>
+    <string name="acceptable_for_receipt">Có thể nhận</string>
+    <string name="total_receivable">Tổng số có thể nhận</string>
+    <string name="state">Trạng thái</string>
+    <string name="Demand_range">Khoảng nhu cầu</string>
+    <string name="Days_of_control">Số ngày kiểm soát</string>
+    <string name="Buyer">Người mua hàng</string>
+    <string name="Warehouse_clerk">Nhân viên quản kho</string>
+    <string name="SKU">Mã liệu</string>
+    <string name="Description">Tên sản phẩm</string>
+    <string name="no_receivable_quantity"> Không có số lượng có thể nhận</string>
+
+
+    <!--04.查詢相關作業 >> 04-02.庫存查詢作業-->
+    <string name="label_item_on_hand">Tra cứu kho</string>
+    <string name="label_on_hand_query_conditions">Lựa chọn điều kiện tìm kiếm</string>
+    <string name="label_wait_inspect">Chờ kiểm nghiệm</string>
+    <string name="label_on_hand">Tồn kho</string>
+    <string name="label_item_on_hand1">%1$s Tra cứu kho</string>
+    <string name="sku_len_incorrect">Độ dài mã liệu không hợp lệ</string>
+    <string name="label_not_in_storage_qty">Tổng số đã thu chờ kiểm nghiệm, đã kiểm nghiệm</string>
+    <string name="label_total">Tổng số</string>
+
+    <!--04.查詢相關作業 >> 04-02.庫存查詢作業 >> 清單-->
+    <string name="hint_item_on_hand_list_search">Mã liệu</string>
+    <string name="label_qty">Số lượng</string>
+
+
+    <!--04.查詢相關作業 >> 04-04.PO查詢及列印作業-->
+    <string name="title_activity_shippment_query_po">Tra cứu PO và in</string>
+    <string name="txt_po">PO:%1$s</string>
+    <string name="txt_oe">OE:%1$s</string>
+    <string name="title_activity_shippment_query_po1">%1$s Tra cứu PO và in</string>
+    <string name="plz_enter_query_condictions">Vui lòng nhập điều kiện tìm kiếm trước</string>
+    <string name="Print">In</string>
+    <string name="print_oe_po_question">OE:%1$s, PO:%2$s, có in tem PO/OE không?</string>
+    <string name="get_data_success">Lấy dữ liệu thành công</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-01.客供材料進貨標籤列印作業-->
+    <string name="label_customer_material_receipts_label">In tem nhập liệu khách hàng cung cấp\n%1$s</string>
+    <string name="label_rb_pn">Mã liệu Senao</string>
+    <string name="label_rb_cpn">Mã liệu khách hàng</string>
+    <string name="label_import_pack_qty">Vui lòng nhập số lượng đóng gói</string>
+    <string name="label_import_po_qty">Nhập mã PO và số lượng \n(Không bắt buộc)</string>
+    <string name="hint_import_po_qty">PO, số lượng (ngăn cách bằng dấu phẩy)</string>
+    <string name="btn_input">Nhập</string>
+    <string name="label_list_summary">Số PO:%1$d, tổng hợp:%2$d</string>
+    <string name="label_customer_material_receipts_label_eng">Customer material receipts label</string>
+    <string name="label_customer_material_receipts_label1">%1$s In tem nhập liệu khách \nhàng cung cấp\n %2$s</string>
+    <string name="plz_enter_po_num_and_qty">Vui lòng nhập số đơn hàng và số lượng</string>
+    <string name="enter_orig_qty">Vui lòng nhập số lượng gốc</string>
+    <string name="format_not_match">Không phù hợp quy cách, vui lòng điền lại</string>
+    <string name="repeat_po">Trùng lặp PO</string>
+    <string name="enter_po_qty_greater_than_total">Số lượng PO nhập vào lớn hơn tổng số lượng</string>
+    <string name="po_num_has_inputed">Đã nhập PO và số lượng</string>
+    <string name="enter_senao_sku">Vui lòng nhập mã liệu Senao</string>
+    <string name="enter_cust_sku">Vui lòng nhập mã liệu khách hàng cung cấp</string>
+    <string name="enter_packing_base">Vui lòng nhập số lượng đóng gói</string>
+    <string name="Qty_in_PO_list_does_not_match_total_qty">Số lượng trong danh sách PO không khớp với tổng số lượng</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-02.進貨標籤列印作業-->
+    <string name="title_activity_custom_print">Tự cài đặt công năng in tem</string>
+    <string name="label_codesoft">Codesoft</string>
+    <string name="label_print_material_label">%1$s In tem nhập hàng</string>
+    <string name="label_import_coo">Nhập xuất xứ sản xuất (COO)</string>
+    <string name="enter_coo">Vui lòng nhập xuất xứ (COO)</string>
+    <string name="invalid_update_info">Thông tin cập nhật không hợp lệ</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-03.客供材料拆包作業-->
+    <string name="label_customer_material_split_packing">Bốc dỡ các vật liệu do khách hàng cung cấp\n%1$s</string>
+    <string name="hint_optional">(Không bắt buộc)</string>
+    <string name="label_customer_material_split_packing_eng">Customer Material split packing label</string>
+    <string name="label_customer_material_split_packing1">%1$s Bốc dỡ các vật liệu do \nkhách hàng cung cấp\n%2$s</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-04.材料拆包作業-->
+    <string name="label_material_split_packing">Bốc dỡ vật liệu\n%1$s</string>
+    <string name="label_material_split_packing_eng">Material split packing label</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-05.客供材料標籤補標作業-->
+    <string name="label_customer_material_label_reprint">Bù tem liệu khách hàng cung cấp\n%1$s</string>
+    <string name="label_customer_material_label_reprint_eng">Customer Material reprint label</string>
+    <string name="label_customer_material_label_reprint1">%1$s Bù tem liệu khách hàng \ncung cấp\n%2$s</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-06.材料標籤補標作業-->
+    <string name="label_print_label">Bù tem liệu</string>
+    <string name="label_print_label1">%1$s Bù tem liệu</string>
+    <string name="PO_is_empty_do_you_want_to_continue_printing">PO đang để trống, bạn có muốn tiếp tục in không?</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-07.發票流水號補標作業-->
+    <string name="label_print_invoice_seq">Bù số seri invoice</string>
+    <string name="label_import_invoice_seq">Nhập Rec ID</string>
+    <string name="label_vendor_no_name">Tên nhà cung ứng\n%1$s</string>
+    <string name="label_print_invoice_seq1">%1$s Bù số seri invoice</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-08.製令標籤補標作業-->
+    <string name="label_wo_label_print">Bổ sung tem công lệnh</string>
+    <string name="label_import_line">Nhập Line sản xuất</string>
+    <string name="label_import_remark">Nhập chú thích</string>
+    <string name="label_wo_label_print1">%1$s Bổ sung tem công lệnh</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-09.自訂標籤列印作業-->
+    <string name="For_NoInspection_Use_Only">Dành cho miễn kiểm tra (chỉ cần nhập Reelid)</string>
+    <string name="Wifi_not_yet_developed">Wifi chưa phát triển</string>
+    <string name="Codesoft_not_yet_developed">Codesoft chưa phát triển</string>
+    <string name="enter_data">Vui lòng nhập dữ liệu</string>
+
+
+    <!--06.EasyFlow表單相關-->
+    <string name="Transfer_Waste_material_responsibility_form_under_construction">06-01.Chuyển kho / Đơn trách nhiệm vật liệu tồn đang thi công</string>
+    <string name="Material_wear_under_construction">06-02.Hao hụt vật liệu đang thi công</string>
+    <string name="General_receipt_return_material_list_under_construction">06-03.Đơn nhận (trả) vật liệu chung đang thi công</string>
+    <string name="Form_query_under_construction">06-04.Tra cứu biểu mẫu đang thi công</string>
+    <string name="Sign_off_under_construction">06-05.Quy trình phê duyệt đang thi công</string>
+    <string name="Rollover_form_triggers_job_under_construction">06-06.Kích hoạt biểu mẫu chuyển kho đang thi công</string>
+    <string name="Rollover_form_cancels_job_under_construction">06-07.Hủy biểu mẫu chuyển kho đang thi công</string>
+    <string name="Form_label_labeling_jobs_under_construction">06-08.Chức năng bổ sung nhãn biểu mẫu và các chức năng khác đang thi công</string>
+    <string name="Form_jobs_pick_return_transfer_move_under_construction">06-09.Các nghiệp vụ biểu mẫu (nhận vật liệu / trả vật liệu / điều chuyển / chuyển kho) đang thi công</string>
+
+
+    <!--07.SMT相關作業 >> 07-04.烘烤作業-->
+    <string name="title_activity_bake">Công đoạn sấy</string>
+    <string name="label_backstart">\nBắt đầu\n</string>
+    <string name="label_reprint">\nIn bù\n</string>
+    <string name="label_complete">\nHoàn tất\n</string>
+    <string name="label_inquire">\nTra cứu\n</string>
+
+    <!--07.SMT相關作業 >> 07-04.烘烤作業 >> 烘烤作業-開始-->
+    <string name="title_activity_start_bake">%1$s Công đoạn sấy-Bắt đầu</string>
+    <string name="label_Package">Phương thức đóng gói</string>
+    <string name="back_PCB">Bảng mạch</string>
+    <string name="back_Tray_BGA">Khay\n(BGA)</string>
+    <string name="back_Tray_Other">Khay\n(Khác)</string>
+    <string name="back_Reel">Cuộn\n(Reel)</string>
+    <string name="label_Bake_Temperature">Nhiệt độ sấy</string>
+    <string name="import_bakeloc">Nhập vị trí sấy</string>
+    <string name="button_start_bake">Bắt đầu sấy</string>
+    <string name="Successfully_recorded_baking_start_time">Thời gian bắt đầu sấy đã được ghi thành công</string>
+    <string name="enter_bakeloc">Vui lòng nhập vị trí sấy</string>
+    <string name="plz_input_package">Vui lòng chọn phương thức đóng gói</string>
+    <string name="label_Bake_Time">Thời gian sấy</string>
+    <string name="label_No_bake_data">Không tìm thấy dữ liệu sấy</string>
+
+    <!--07.SMT相關作業 >> 07-04.烘烤作業 >> 烘烤作業-完成-->
+    <string name="title_activity_complete_bake">%1$s Công đoạn sấy-Hoàn tất</string>
+    <string name="Unable_update_completion_time">Cập nhật thời gian hoàn thành thất bại!</string>
+    <string name="Baking_not_yet_completed">Sấy chưa kết thúc!</string>
+    <string name="No_ongoing_baking_data">Không có dữ liệu đang sấy</string>
+    <string name="Still_requires">Còn cần </string>
+    <string name="force_end_baking_process_and_send_notification"> giờ, bạn có muốn kết thúc sấy cưỡng bức và gửi email thông báo không?</string>
+    <string name="input_who_dicision">Vui lòng nhập người quyết định hoặc số phiếu phê duyệt</string>
+    <string name="Item_has_been_deleted">Mục đã bị xóa</string>
+
+    <!--07.SMT相關作業 >> 07-04.烘烤作業 >> 烘烤作業-補印-->
+    <string name="title_activity_reprint_bake">%1$s Công đoạn sấy-In bù</string>
+
+    <!--07.SMT相關作業 >> 07-04.烘烤作業 >> 烘烤作業-查詢-->
+    <string name="title_activity_query_bake">%1$s Công đoạn sấy-Tra cứu</string>
+    <string name="Start_Date">Thời gian bắt đầu</string>
+    <string name="End_Date">Thời gian kết thúc</string>
+    <string name="Still_in_baking_standard_baking_time_is">Đang trong quá trình sấy, thời gian sấy tiêu chuẩn là</string>
+    <string name="Baking_time_reached_but_not_yet_completed">Đã đạt thời gian sấy nhưng chưa thực hiện thao tác hoàn tất sấy</string>
+    <string name="Remaining_Time">Thời gian còn lại</string>
+
+
+    <!--08.外包相關作業-->
+    <string name="Outsourcing_Material_Packing_Work_under_construction">08-01.Đóng gói vật liệu gia công ngoài đang thi công</string>
+    <string name="Outsourcing_packing_return_under_construction">08-02.Quét trả lại thùng đóng gói gia công ngoài đang thi công</string>
+    <string name="Outsourcing_Shipment_picking_operations_under_construction">08-03.Nhặt liệu xuất hàng gia công ngoài đang thi công</string>
+    <string name="Outsourcing_Shipment_picking_return_under_construction">08-04.Quét trả giảm liệu xuất hàng gia công ngoài đang thi công</string>
+    <string name="Outsourcing_Pallet_Box_label_printing_under_construction">08-05.In nhãn pallet và thùng ngoài gia công đang thi công</string>
+    <string name="Outsourcing_Check_Receiving_operations_under_construction">08-06.Đối chiếu nhận liệu gia công ngoài đang thi công</string>
+    <string name="Outsourcing_Boxing_Shipment_picking_detail_Search_under_construction">08-08.Tra cứu chi tiết đóng gói và nhặt liệu xuất hàng gia công ngoài đang thi công</string>
+    <string name="Outsourcing_Boxing_Shipment_picking_detail_download_under_construction">08-09.Tải xuống chi tiết đóng gói và nhặt liệu xuất hàng gia công ngoài đang thi công</string>
+
+
+    <!--08.外包相關作業 >> 08-07.外包材料裝箱及出貨撿料離線作業-->
+    <string name="title_activity_outsourceing_material_and_shipment_picking">Offline Đóng thùng liệu và chọn hàng xuất hàng gia công ngoài</string>
+    <string name="input_Merge_number">Nhập mã hợp nhất</string>
+    <string name="add_and_rivise">Thêm/Sửa đổi</string>
+    <string name="download_file">Tải xuống tệp</string>
+    <string name="input_email">Nhập email</string>
+    <string name="storage_path">Đường dẫn lưu trữ</string>
+    <string name="merge_no_not_null">Mã hợp nhất không được để trống</string>
+    <string name="Outsourceing_Merge_Number">Mã hợp nhất</string>
+    <string name="Outsourceing_Pallet">Số pallet</string>
+    <string name="Outsourceing_Box">Số thùng</string>
+    <string name="Outsourceing_Carton_Weight">Trọng lượng thùng hàng</string>
+    <string name="Outsourceing_SKU">Mã liệu</string>
+    <string name="Outsourceing_Description">Tên sản phẩm</string>
+    <string name="Outsourceing_Qty">Số lượng</string>
+    <string name="Outsourceing_DC">Lô hàng</string>
+    <string name="Outsourceing_Reel_Id">Reel Id</string>
+    <string name="Outsourceing_Pallet2">Pallet</string>
+
+    <!--08.外包相關作業 >> 08-07.外包材料裝箱及出貨撿料離線作業 >> 方法-->
+    <string name="label_picking_package">Phương thức đóng gói nhặt hàng</string>
+    <string name="import_cn2">Nhập mã số thùng hàng</string>
+
+    <!--08.外包相關作業 >> 08-07.外包材料裝箱及出貨撿料離線作業 >> 方法 >> 清單-->
+    <string name="ban_num">Số pallet</string>
+    <string name="label_carton_qty">Số thùng</string>
+    <string name="label_reel_id2">Reel ID %1$s</string>
+    <string name="label_carton_weight2">Trọng lượng thùng hàng</string>
+    <string name="c_weight_is_not_null">Trọng lượng thùng đơn không được để trống</string>
+    <string name="carton_duplicate">Số thùng/Reel ID bị trùng</string>
+    <string name="reelid_duplicate">Reel ID bị trùng</string>
+    <string name="carton_weight_not_equal">Trọng lượng thùng khác nhau</string>
+    <string name="label_shipment_weight">Trọng lượng</string>
+    <string name="label_serial_number">Số thùng</string>
+
+
+    <!--AndroidManifest.xml-->
+    <string name="app_name">Kho</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_scanner_setting">Cài đặt thiết bị scan</string>
+    <string name="title_activity_shipment">ShipmentActivity</string>
+    <string name="title_activity_shipment_carton">ShipmentCartonActivity</string>
+    <string name="title_activity_shipment_pallet">ShipmentPalletActivity</string>
+    <string name="title_activity_transfer_rollover">TransferRolloverActivity</string>
+    <string name="title_activity_shipment_create_pallet">ShipmentCreatePalletActivity</string>
+    <string name="title_activity_shipment_picking">ShipmentPickingActivity</string>
+    <string name="title_activity_shipping_verify_main">ShippingVerifyMainActivity</string>
+    <string name="title_activity_printer_setting">Cài đặt máy in bluetooth</string>
+    <string name="title_activity_stock_in">Nhập kho công lệnh</string>
+    <string name="title_activity_print_label">Bù tem liệu</string>
+    <string name="title_activity_stock_in_process">Nhập kho công lệnh</string>
+    <string name="title_activity_material_receiving">Nhận liệu</string>
+    <string name="title_activity_material_receiving_list">Nhận liệu</string>
+    <string name="title_activity_material_receiving_process">Nhận liệu</string>
+    <string name="title_activity_material_sending">Phát liệu công lệnh</string>
+    <string name="title_activity_material_sending_list">Phát liệu công lệnh</string>
+    <string name="title_activity_material_sending_process">Phát liệu công lệnh</string>
+    <string name="title_activity_material_sending_subinventory_transfer">Phát liệu công lệnh</string>
+    <string name="title_activity_acceptance">Kiểm nghiệm nhập kho</string>
+    <string name="title_activity_wait_check_inquiry">Tra cứu chờ kiểm nghiệm</string>
+    <string name="title_activity_wait_check_list">Tra cứu chờ kiểm nghiệm</string>
+    <string name="title_activity_wait_check_search">Tra cứu chờ kiểm nghiệm</string>
+    <string name="title_activity_acceptance_process">AcceptanceProcessActivity</string>
+    <string name="title_activity_acceptance_batch">Thao tác hàng loạt kiểm nghiệm nhập kho</string>
+    <string name="title_activity_shipment_po">Shipment Po Activity</string>
+
+
+    <!--還沒處理：
+        1) AcceptanceBatchActivity + AcceptanceBatchListActivity ==>驗收入庫批次作業 (還在施工)
+        2) TransferLocatorFormActivity + TransferLocatorFormListActivity + TransferLocatorFormProcessActivity ==>轉倉/呆料責任歸屬單 (還在施工)
+        3) TransferLocatorRevokeActivity + TransferLocatorRevokeListActivity ==>轉倉表單撤銷作業 (還在施工)
+        4) TransferLocatorTriggerActivity + TransferLocatorTriggerManualActivity + TransferLocatorTriggerManualDetailActivity + TransferLocatorTriggerPickActivity ==>轉倉表單觸發作業 (還在施工)
+        5) TransferRolloverActivity ==>表單作業(領料/退料/調撥/轉倉) (還在施工)
+        6) WaitCheckInquiryActivity + WaitCheckListActivity + WaitCheckDetailActivity + WaitCheckDetailActivity ==>待驗查詢作業 (還在施工)
+    -->
+
+
+    <!--沒有使用-->
+    <string name="label_smt_material_split_packing">Bốc dỡ liệu\n%1$s</string>
+    <string name="label_receiving_outsourcing">Nhận hàng thuê ngoài - %1$s</string>
+    <string name="barcode_failure">Đọc mã vạch thất bại</string>
+    <string name="label_connection_status"><b>Trạng thái</b></string>
+    <string name="label_connection_status_connected"><b>Kết nối bình thường</b></string>
+    <string name="label_connection_status_disconnected"><b>Kết nối thất bại</b></string>
+    <string name="label_employeeid"><b>Mã nhân viên XXX</b></string>
+    <string name="button_cancel">Hủy</string>
+    <string name="button_show_kb">Hiển thị\nbàn phím</string>
+    <string name="button_hide_kb">Ẩn\nbàn phím</string>
+    <string name="button_deduct">Trừ kho</string>
+    <string name="button_picking">Nhặt liệu</string> <!--activity_rma_menu.xml-->
+    <string name="button_confirm4">Xác nhận</string> <!--activity_rma_menu.xml-->
+    <string name="title_activity_shipment_detail">ShipmentDetailActivity</string>
+    <string name="title_activity_shipment_create_pallet_detail">ShipmentCreatePalletDetailActivity</string>
+    <string name="title_activity_compare">CompareActivity</string>
+    <string name="title_activity_shipping_verify">ShippingVerifyActivity</string>
+    <string name="title_activity_shipping_verify_check">ShippingVerifyCheckActivity</string>
+    <string name="title_activity_shipping_verify_container">ShippingVerifyContainerActivity</string>
+    <string name="title_activity_shipping_verify_pallet">ShippingVerifyPalletActivity</string>
+    <string name="title_activity_shipping_verify_pickup">ShippingVerifPickupActivity</string>
+    <string name="title_activity_shipping_verify_print">ShippingVerifyPrintActivity</string>
+    <string name="title_activity_shipping_verify_remark">ShippingVerifyRemartActivity</string>
+    <string name="custom_ui_roi">Camera overlay with ROI</string>
+    <string name="custom_ui">Custom camera overlay</string>
+    <string name="default_ui_no_dialog">Default overlay, no dialog</string>
+    <string name="default_ui_no_logo">Default overlay</string>
+    <string name="Back">Back</string>
+    <string name="LightOff">Light: off</string>
+    <string name="LightOn">Light: on</string>
+    <string name="print_1">Máy in 1</string>
+    <string name="print_2">Máy in 2</string>
+    <string name="pdf417">PDF417 Label for Meraki</string>
+    <string name="title_activity_wo_label_print">Bù tem công lệnh</string>
+    <string name="label_acceptance_batch">Thao tác hàng loạt kiểm nghiệm nhập kho</string> <!--activity_acceptance_batch.xml-->
+    <string name="label_acceptance_batch_outsourcing">Thao tác nhập kho theo lô kiểm nhận gia công ngoài</string> <!--AcceptanceBatchActivity + AcceptanceBatchListActivity-->
+    <string name="title_activity_stock_time_set_detail">StockTimeSetDetailActivity</string>
+    <string name="label_import_seq">Nhập số serial</string>
+    <string name="label_invoice_seq">NO:%1$s</string>
+    <string name="label_transfer_locator_trigger">Kích hoạt biểu mẫu chuyển kho</string> <!--activity_transfer_locator_trigger.xml-->
+    <string name="label_transfer_rollover">%1$s Biểu mẫu (Lĩnh liệu/\nTrả liệu/Điều liệu/\nChuyển kho)</string> <!--activity_transfer_rollover.xml-->
+    <string name="label_transfer_locator_revoke">Rút biểu mẫu chuyển kho</string> <!--activity_transfer_locator_revoke.xml-->
+    <string name="label_transfer_locator_form">Đơn chuyển kho/quy trách nhiệm liệu không dùng đến</string> <!--activity_transfer_locator_form.xml-->
+    <string name="title_activity_transfer_revoke">TransferRevokeActivity</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="label_ezflow_no">Mã biểu đơn</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="label_flow_seq">Số se-ri lưu trình</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="label_apply_department">Bộ phận đăng ký</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="label_applicant">Người đăng ký</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="label_number_of_application">Tổng số dòng vật liệu đăng ký</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="label_number_of_received">Tổng số dòng vật liệu đã nhận</string>
+    <string name="label_work_item_name">Giai đoạn hiện tại</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="hint_transfer_form_list">Trạng thái / Nhân viên quản kho / Phần đầu mã hàng</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_work_item">Trạm kiểm tra</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_type">Loại</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_form_no">Mã biểu đơn</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_total_number">Tổng số dòng</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_number_of_processed">Đã nhập</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_number_of_unprocessed">Chưa nhập</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_out_subinventory">Kho chuyển đi</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_out_locator">Vị trí chuyển đi</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_warehouse_clerk">Nhân viên quản kho</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_detail_status">Trạng thái</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_due_number">Phải nhập</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_number_of_credited">Đã nhập</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_number_of_uncredited">Chưa nhập</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_onhand">Tổng số tồn kho</string> <!--TransferLocatorFormListActivity-->
+    <string name="hint_revoke">Nhấn giữ để hủy biểu mẫu</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="error_msg_revoke">Vật liệu đã nhận, không thể hủy biểu mẫu, chi tiết như sau:</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="title_activity_transfer_excess_material_responsibility_duty">Đơn chuyển kho/quy trách nhiệm liệu không dùng đến</string>
+    <string name="label_in_subinventory">Kho nhập</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_in_locator">Vị trí nhập kho</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_storage_qty">Tổng số lượng kho</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_temp_receive_qty">Tổng số tạm nhận</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_wait_inspect_qty">Tổng số chờ kiểm tra</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_inspected_qty">Tổng số đã kiểm tra</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="get_data">Đang lấy dữ liệu</string> <!--TransferLocatorFormActivity-->
+    <string name="chk_del_dc">Bạn có muốn xóa dữ liệu \n%s %s \nDC %s * %d \nkhông?</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="vc_data_chking">Đang kiểm tra dữ liệu mã nhà cung cấp...</string> <!--AcceptanceBatchActivity-->
+    <string name="chse_warhousing_item">Vui lòng chọn mục cần nhập kho trước</string> <!--AcceptanceBatchListActivity-->
+    <string name="Make_sure_to_revoke_this_form">Bạn có chắc chắn muốn hủy biểu mẫu này không?</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="Direct_supervisor">Cấp trên trực tiếp</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="cant_enter_this_loc">Không được nhập vị trí lưu trữ này</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="Processed_OK">Đã xử lý xong</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="cant_transfer_qty_over_">Không thể chuyển kho, số lượng vượt quá số lượng nhập dự kiến</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="only_307">Chỉ được nhập 307</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="qty_more_than_should_num">Số lượng lớn hơn số lượng nhập dự kiến</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_acceptance_outsourcing">Gia công ngoài kiểm nghiệm nhập kho</string>
+    <string name="button_read_barcode">Đọc mã vạch</string>
+    <string name="UseWith">Use with</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Barcode Reader Sample</string>
+    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="label_compare">Công việc đối chiếu</string>
+    <string name="label_input_shipment_id">Nhập mã hàng</string>
+    <string name="title_activity_login">Đăng nhập</string>
+    <string name="prompt_issuer_name">Vui lòng nhập tài khoản</string>
+    <string name="prompt_issuer_password">Vui lòng nhập mật khẩu</string>
+    <string name="error_login_failed">Tài khoản không tồn tại hoặc mật khẩu sai</string>
+    <string name="error_field_required">Trường này không được để trống</string>
+    <string name="button_connect"><b>Kết nối</b></string>
+    <string name="button_disconnect"><b>Mất kết nối</b></string>
+    <string name="pick_vendor">Vui lòng chọn nhà cung cấp</string>
+    <string name="delete">Xoá</string>
+    <string name="label_material_receiving_process">Nhận liệu</string>
+    <string name="label_part_desc">Tên sản phẩm</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_import_quantity">Nhập số lượng</string>
+    <string name="error_data">Dữ liệu bất thường</string>
+    <string name="predeliver_data">Dữ liệu giao trước</string>
+    <string name="label_unit_price">Đơn giá</string>
+    <string name="label_subinventory">Loại kho</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_locator">Vị trí lưu trữ</string> <!--TransferLocatorFormListActivity-->
+    <string name="import_transfer_subinventory">Nhập kho đích</string>
+    <string name="import_transfer__locator">Nhập vị trí nhập kho</string>
+    <string name="label_remark">Ghi chú</string>
+    <string name="label_rma_picking">Thao tác kiểm tra xuất hàng RMA</string>
+    <string name="label_scanner_setting">Cài đặt thiết bị scan</string> <!--activity_scanner_setting.xml-->
+    <string name="label_enable_enter">Nhấn phím ENTER để kết thúc nhập mã cuối</string> <!--activity_scanner_setting.xml-->
+    <string name="label_enable_sound">Âm thanh thông báo</string> <!--activity_scanner_setting.xml-->
+    <string name="label_enable_vibration">Thông báo rung</string> <!--activity_scanner_setting.xml-->
+    <string name="label_shipping_status">Trạng thái hiện tại</string>
+    <string name="label_pallet_number">Pallet</string>
+    <string name="label_box_number">Mã hàng</string>
+    <string name="label_sn_qrcode">QR Code</string>
+    <string name="label_sn_qrcode_2">QR</string>
+    <string name="label_input_date">Nhập dữ liệu</string>
+    <string name="label_pass">Đã kiểm</string>
+    <string name="label_waiting">Chưa kiểm</string>
+    <string name="label_show_keyboard">Hiển thị bàn phím</string>
+    <string name="label_hide_keyboard">Ẩn bàn phím</string>
+    <string name="label_pallet_no">Số pallet</string>
+    <string name="label_carton_no">Số thùng</string>
+    <string name="label_sn">Số seri</string>
+    <string name="label_stock_in_process">Nhập kho theo lệnh sản xuất</string>
+    <string name="label_stock_in_os">Công tác nhập kho đơn hàng gia công</string>
+    <string name="label_pn_invoice">Mã hàng /\nHóa đơn</string>
+    <string name="title_activity_tembo_pallet_label_print">In nhãn pallet Tembo</string>
+    <string name="input_serial_number">Nhập số serial</string>
+    <string name="label_samsara_printer_info">Thông tin máy in Samsara</string>
+    <string name="label_import_ezflow_form_no">Nhập số đơn trên biểu mẫu</string> <!--TransferLocatorFormActivity-->
+    <string name="label_import_process_no">Nhập số thứ tự quy trình</string> <!--TransferLocatorFormActivity-->
+    <string name="label_import_application_department">Nhập phòng ban xin phép</string> <!--TransferLocatorFormActivity-->
+    <string name="label_import_application_name">Nhập người xin phép</string> <!--TransferLocatorFormActivity-->
+    <string name="label_select_operation_mode">Chọn phương thức làm việc</string> <!--TransferLocatorTriggerActivity-->
+    <string name="button_manual_trigger">Thủ công\nKích hoạt</string> <!--TransferLocatorTriggerActivity-->
+    <string name="button_detail_pick">Chi tiết\nChọn</string> <!--TransferLocatorTriggerActivity-->
+    <string name="label_transfer_locator_trigger_main">Kích hoạt biểu mẫu chuyển kho-%1$s</string> <!--TransferLocatorTriggerActivity-->
+    <string name="label_transfer_info">Mã hàng: %1$s\nTên hàng: %2$s\nKho: %3$s Vị trí lưu: %4$s\nDC:%5$s QTY:%6$d</string>
+    <string name="button_detail">Chi tiết</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_item_inventory_summary">Tổng số lượng tồn kho %1$d Tổng số lượng chuyển kho %2$d</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="msg_input_transfer_qty_larger_than_original">Số lượng chuyển kho không được lớn hơn số lượng tồn kho</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="msg_input_transfer_qty_larger_than_one">Số lượng chuyển kho phải lớn hơn 0</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_manual_trigger">Kích hoạt thủ công</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_manual_trigger_detail">Chi tiết kích hoạt thủ công</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_detail_pick">Chi tiết Chọn</string> <!--TransferLocatorTriggerPickActivity-->
+    <string name="button_trigger">Kích hoạt</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_transfer_qty">Tổng số lượng chuyển kho</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_import_transfer_qty">Số lượng chuyển kho</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_on_hand_qty">Số lượng tồn kho</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_on_hand_dc">DC</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_dc_inventory">DC %1$s * %2$d</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_subinventory_locator">%1$s %2$s</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="tv_transfer_qty">(%1$s)</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_detail_transfer_qty">DC %1$s * %2$d</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_transfer_data">Dữ liệu chuyển kho</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="msg_input_transfer_qty">Vui lòng nhập số lượng chuyển kho</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_item_description_2">Tên sản phẩm %1$s</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_wait_check_inquiry">Tra cứu chờ kiểm nghiệm</string> <!--WaitCheckDetailActivity-->
+    <string name="label_received_uncheck">Đã nhận nhưng chưa kiểm tra</string> <!--WaitCheckDetailActivity-->
+    <string name="label_check_not_in">Đã kiểm tra nhưng chưa nhập kho</string> <!--WaitCheckDetailActivity-->
+    <string name="label_wait_check_qty">Số lượng đã nhận</string> <!--WaitCheckDetailActivity-->
+
+</resources>

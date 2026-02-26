@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.BakeActivity">
+    <!--    android:text="@string/label_smt_material_split_packing"-->
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#A4C739"
+        android:text="@string/title_activity_complete_bake"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ap_title"
+        android:text="@string/label_Package"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_dc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:focusable="false"
+
+
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/bake_pcb"
+            style="@style/RadioButtonWh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/back_PCB"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/bake_bag"
+            style="@style/RadioButtonWh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/back_Tray_BGA"
+            android:textColor="@color/blue" />
+
+
+        <RadioButton
+            android:id="@+id/bake_other"
+            style="@style/RadioButtonWh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/back_Tray_Other"
+            android:textColor="@color/red" />
+
+        <RadioButton
+            android:id="@+id/bake_reel"
+            style="@style/RadioButtonWh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/back_Reel"
+            android:textColor="@color/green" />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio_group_dc"
+        android:text="@string/label_Bake_Temperature"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_dc2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:focusable="false"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+
+        <RadioButton
+            android:id="@+id/bake_t1"
+            style="@style/RadioButtonWh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_weight="1"
+            android:text="125\u2103"
+            android:textColor="@color/blue" />
+        <RadioButton
+            android:id="@+id/bake_t2"
+            style="@style/RadioButtonWh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="40\u2103"
+            android:textColor="#000000" />
+
+
+    </RadioGroup>
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_cancel"
+        android:layout_below="@+id/radio_group_dc2"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:isScrollContainer="true">
+
+
+            <LinearLayout
+                android:id="@+id/reelIdLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/label_import_reelid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/import_qrcode"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/edittext_reelid"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/grey"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:inputType="textCapCharacters"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp" />
+
+                <ListView
+                    android:id="@+id/datalist"
+                    android:layout_width="match_parent"
+                    android:layout_height="462dp"
+                    android:orientation="vertical" />
+
+
+            </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_cancel"
+        android:layout_alignBottom="@+id/button_cancel"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/button_confirm2"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_button"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/button_cancel2"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

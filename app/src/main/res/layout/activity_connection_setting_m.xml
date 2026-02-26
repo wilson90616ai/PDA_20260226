@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/current_connection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_current_connection"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/connection_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="visible"
+        android:cacheColorHint="#FFFFFF"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#00008B"
+        android:text="@string/label_add_connection_settings"
+        android:textColor="#FFFFFF"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/select_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00008B"
+        android:text="@string/label_select_connection_settings"
+        android:textColor="#FFFFFF"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/settings_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/connection_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_underline"
+            android:hint="@string/label_connection_name"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#808080" />
+
+        <EditText
+            android:id="@+id/ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_underline"
+            android:hint="IP"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#808080" />
+
+        <EditText
+            android:id="@+id/port"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_underline"
+            android:hint="PORT"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#808080" />
+
+        <EditText
+            android:id="@+id/sfc_ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_underline"
+            android:hint="SFC IP"
+            android:lines="1"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#808080" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/api_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_underline"
+                android:hint="API 1"
+                android:lines="1"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="20dp"
+                android:textColor="#000000"
+                android:textColorHint="#808080" />
+
+            <EditText
+                android:id="@+id/api_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_underline"
+                android:hint="API 2"
+                android:lines="1"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="20dp"
+                android:textColor="#000000"
+                android:textColorHint="#808080" />
+
+            <EditText
+                android:id="@+id/api_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_underline"
+                android:hint="API 3"
+                android:lines="1"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="20dp"
+                android:textColor="#000000"
+                android:textColorHint="#808080" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/erp_ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_underline"
+            android:hint="ERP IP"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#808080" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00008B"
+            android:text="@string/label_connection_save"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>

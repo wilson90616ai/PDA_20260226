@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.BakeActivity">
+    <!--    android:text="@string/label_smt_material_split_packing"-->
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#A4C739"
+        android:text="@string/title_activity_bake"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_below="@+id/ap_title"
+        android:layout_marginTop="30sp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/label_backstart"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_white_circle"
+                android:text="@string/label_backstart"
+                android:textSize="20sp"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/label_reprint"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_white_circle"
+                android:text="@string/label_reprint"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/label_complete"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_white_circle"
+                android:text="@string/label_complete"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/label_inquire"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_white_circle"
+
+                android:text="@string/label_inquire"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

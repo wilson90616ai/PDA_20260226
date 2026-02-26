@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_custom_skin">#77000000</color>
+    <color name="indigo">#4B0082</color>
+    <color name="blue_old">#0066FF</color>
+    <color name="blue">#000088</color>
+    <color name="black">#000000</color>
+    <color name="red">#f00</color>
+    <color name="grey">#AAAAAA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="purple">#800080</color>
+    <color name="green">#008000</color>
+    <color name="light_grey">#d3d3d3</color>
+    <color name="darkgrey">#A9A9A9</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="dimgrey">#696969</color>
+    <color name="aqua">#4CC4D6</color>
+    <color name="apptheme_color">#33b5e5</color>
+    <color name="wh_color">#33b5e5</color>
+    <color name="olivedrab">#6B8E23</color>
+    <color name="fire_brick">#B22222</color>
+    <color name="orange_red">#FF4500</color>
+    <color name="medium_blue">#0000CD</color>
+    <color name="hasto">#FBF08A</color>
+    <color name="hasto1">#090808</color>
+</resources>

@@ -1,0 +1,229 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.ShipmentCartonActivity" >
+
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#A4C739"
+        android:text="@string/label_picking"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label_carton_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ap_title"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:text="@string/label_pallet_data"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/label_part_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/label_carton_data"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:text="@string/label_part_no"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/label_air_plt_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/label_part_no"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="5dp"
+        android:text="@string/label_air_plt_qty"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/edittext_air_plt_qty"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/label_air_plt_qty"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/grey"
+        android:clickable="false"
+        android:ems="30"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:textColor="@color/blue"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/label_air_plt_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edittext_air_plt_qty"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:text="@string/label_air_plt_size"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/edittext_air_plt_size"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/label_air_plt_size"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/grey"
+        android:clickable="false"
+        android:ems="30"
+        android:gravity="center"
+        android:inputType="text"
+        android:lines="1"
+        android:textColor="@color/blue"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/label_sea_plt_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edittext_air_plt_size"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:text="@string/label_sea_plt_qty"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/edittext_sea_plt_qty"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/label_sea_plt_qty"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/grey"
+        android:clickable="false"
+        android:ems="30"
+        android:gravity="center"
+        android:inputType="text|numberDecimal"
+        android:lines="1"
+        android:textColor="@color/blue"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/label_sea_plt_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edittext_sea_plt_qty"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:text="@string/label_sea_plt_size"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/edittext_sea_plt_size"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/label_sea_plt_size"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/grey"
+        android:clickable="false"
+        android:ems="30"
+        android:gravity="center"
+        android:inputType="text"
+        android:lines="1"
+        android:textColor="@color/blue"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_cancel"
+        android:layout_alignBottom="@+id/button_cancel"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/custom_button"
+        android:paddingBottom="10dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip"
+        android:text="@string/button_confirm2"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/custom_button"
+        android:paddingBottom="10dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip"
+        android:text="@string/button_cancel2"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

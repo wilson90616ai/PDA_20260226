@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="servers">
+        <item>正式區(Formal)</item>
+        <item>測試區(Test)</item>
+        <item>其它(Other)</item>
+    </string-array>
+    <string-array name="printers">
+        <item>印表機1(Printer1)</item>
+        <item>印表機2(Printer2)</item>
+        <item>WIFI 列印</item>
+        <item>Codesoft1 列印</item>
+        <item>Codesoft2 列印</item>
+    </string-array>
+    <string-array name="printers_rma">
+        <item>印表機1(Printer1)</item>
+        <item>印表機2(Printer2)</item>
+        <item>WIFI列印</item>
+        <item>Fortinet</item>
+        <item>Codesoft1 列印</item>
+        <item>Codesoft2 列印</item>
+    </string-array>
+    <string-array name="printer_type">
+        <item>WIFI 列印</item>
+        <item>Codesoft1 列印</item>
+        <item>Codesoft2 列印</item>
+    </string-array>
+
+    <string-array name="printer_type02">
+        <item>Codesoft1 列印</item>
+        <item>Codesoft2 列印</item>
+    </string-array>
+
+    <string-array name="printersIP">
+<!--        <item>TSC TX300_1F_217</item>-->
+<!--        <item>TSC TX300_1F_216</item>-->
+<!--        <item>10.0.104.201</item>-->
+<!--        <item>10.0.104.202</item>-->
+<!--        <item>10.0.191.219</item>-->
+
+        <item>10.0.189.136</item>
+        <item>10.0.188.56</item>
+        <item>10.0.191.214</item>
+        <item>10.0.141.220</item>
+        <item>172.16.107.190</item>
+        <item>172.16.107.224</item>
+        <item>10.0.160.188</item>
+        <item>10.0.189.135</item>
+        <item>10.0.189.38</item>
+<!--        <item>PDF</item>-->
+    </string-array>
+    <string-array name="file_servers">
+        <item>檔案伺服器1</item>
+        <item>檔案伺服器2</item>
+    </string-array>
+    <string-array name="closed_date_users">
+        <item>100236</item>
+        <item>100073</item>
+        <item>102066</item>
+    </string-array>
+    <string-array name="origin_of_china">
+        <item>Made In China</item>
+        <item>Made In CHN</item>
+        <item>Made In CN</item>
+        <item>Product of China</item>
+        <item>Product of CHN</item>
+        <item>Product of CN</item>
+    </string-array>
+    <string-array name="origin_of_tw">
+        <item>Made In Taiwan</item>
+        <item>Made In TW</item>
+        <item>Product of Taiwan</item>
+        <item>Product of TW</item>
+    </string-array>
+    <string-array name="companies">
+        <item>神準</item>
+        <item>恩睿</item>
+        <item>EnGenius Networks</item>
+    </string-array>
+    <string-array name="subs">
+        <item>I311</item>
+        <item>I307</item>
+        <item>I341</item>
+        <item>C307</item>
+        <item>C311</item>
+        <item>C341</item>
+    </string-array>
+    <string-array name="customer">
+        <item>Fortinet</item>
+        <item>Samsara</item>
+        <item>Extreme</item>
+        <item>Engenius</item>
+        <item>Seasonic</item>
+        <item>Verkada</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="companies_ou">
+        <item>82</item>
+        <item>263</item>
+        <item>185</item>
+    </string-array>
+    <string-array name="senao_factories">
+        <item>華亞</item>
+        <item>華亞</item>
+        <item>華亞</item>
+    </string-array>
+    <string-array name="eng_factories">
+        <item>Singapore</item>
+    </string-array>
+    <string-array name="senao_org">
+        <item>86</item>
+        <item>86</item>
+        <item>86</item>
+    </string-array>
+    <string-array name="enrack_factories">
+        <item>新莊</item>
+    </string-array>
+    <string-array name="enrack_org">
+        <item>266</item>
+    </string-array>
+    <string-array name="eng_org">
+        <item>184</item>
+    </string-array>
+    <string-array name="Language">
+        <item>中文</item>
+        <item>English</item>
+        <item>Tiếng Việt</item>
+    </string-array>
+</resources>

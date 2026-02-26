@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context=".ui.AcceptanceListActivity">
+
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#A4C739"
+        android:text="@string/label_acceptance"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label_part_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/input_search_text"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ap_title"
+        android:paddingLeft="5dp"
+        android:text="@string/label_pn"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/input_search_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ap_title"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/label_part_no"
+        android:ems="30"
+        android:inputType="text"
+        android:lines="1"
+        android:textColor="@color/black" />
+
+
+
+    <TextView
+        android:id="@+id/label_total_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/input_search_text"
+        android:paddingLeft="5dp"
+        android:text="@string/label_total_qty"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/label_select_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/label_total_qty"
+        android:layout_toRightOf="@+id/label_total_qty"
+        android:text="@string/label_select_qty"
+        android:textColor="#000000"
+        android:layout_marginLeft="16dp" />
+
+    <LinearLayout
+        android:id="@+id/layout_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_total_qty"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        >
+
+
+        <Button
+            android:id="@+id/btn_select_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/button_select_all"
+            android:textColor="@color/blue"
+            android:background="@drawable/custom_button_aqua" />
+
+        <Button
+            android:id="@+id/btn_select_invert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_select_invert"
+            android:textColor="@color/red"
+            android:background="@drawable/custom_button_aqua"
+            android:layout_marginLeft="16dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_stock_in"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/input_search_text"
+        android:layout_below="@+id/input_search_text"
+        android:background="@drawable/custom_button"
+        android:paddingBottom="10dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip"
+        android:text="@string/button_stock_in"
+        android:textColor="#ffffff" />
+
+    <ListView
+        android:id="@+id/list_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="4dp"
+        android:background="#FFFFFF"
+        android:choiceMode="multipleChoice"
+        android:divider="@null"
+        android:dividerHeight="4dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/layout_selection">
+    </ListView>
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

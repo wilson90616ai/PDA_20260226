@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context=".ui.ShipmentPoActivity">
+
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#A4C739"
+        android:text="@string/label_picking"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_order_status"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label_order_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ap_title"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="5dp"
+        android:text="@string/label_order_status"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textview_order_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_part_no"
+        android:layout_toRightOf="@+id/label_order_status"
+        android:paddingLeft="5dp"
+        android:textColor="@color/blue"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/label_part_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_order_status"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="5dp"
+        android:text="@string/label_part_no"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/label_checking_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_part_no"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="5dp"
+        android:text="@string/label_checking_quantity"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_checking_quantity"
+        android:background="@color/white"
+        android:focusable="false"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <RadioButton
+            android:id="@+id/radio_none_po"
+            style="@style/RadioButtonWh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_box_none_po"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radio_po"
+            style="@style/RadioButtonWh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_box_po"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_below="@+id/radio_group"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/button_yes"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_no"
+        android:layout_alignBottom="@+id/button_no"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/button_yes"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_no"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="10dip"
+        android:text="@string/button_no"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+</RelativeLayout>

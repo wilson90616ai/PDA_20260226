@@ -1,0 +1,1469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ext_enuText">
+        <item>01.Shipping work</item>
+        <item>02.Order-related work</item>
+        <item>03.Receiving and warehousing operations</item>
+        <item>04.Query work</item>
+        <item>05.Label printing work</item>
+        <item>06.EasyFlow work</item>
+        <item>07.SMT work</item>
+        <item>08.Outsourcing work</item>
+        <item>09.Change Organization</item>
+        <item>10.Log out</item>
+        <!--XXX測試<item>11.TEST</item>-->
+    </string-array>
+
+    <string-array name="SubMenu1">
+        <item>01-01.Shipment picking operations</item>
+        <item>01-02.Shipment check operation</item>
+        <item>01-03.Pallet label printing</item>
+        <item>01-04.Shipment return operation</item>
+        <item>01-05.Barcode validation jobs</item>
+        <item>01-06.RMA shipment pick-up operations</item>
+        <item>01-07.RMA shipment confirmation work</item>
+        <item>01-08.Samsara\'s PO label printing</item>
+    </string-array>
+
+    <string-array name="SubMenu2">
+        <item>02-01.Order warehousing operations</item>
+        <item>02-02.Closing date setting</item>
+        <item>02-03.Orders for material deduction</item>
+        <item>02-04.Order the transfer of materials</item>
+        <item>02-05.Order issuance inspection operations</item>
+        <item>02-06.Transfer sub or loc operations</item>
+    </string-array>
+
+    <string-array name="SubMenu3">
+        <item>03-01.Receiving operations</item>
+        <item>03-02.Outsource receiving</item>
+        <item>03-03.Inventory inspections</item>
+        <item>03-04.Outsource inventory inspections</item>
+        <item>03-05.Check and batch into warehouse</item>
+    </string-array>
+
+    <string-array name="SubMenu4">
+        <item>04-01.Purchase overdelivery inquiry operation</item>
+        <item>04-02.Inventory inquiry jobs</item>
+        <item>04-03.Order underage inquiry operations</item>
+        <item>04-04.PO query and print job</item>
+        <item>04-05.Sn status query job(OOBA)</item>
+    </string-array>
+
+    <string-array name="SubMenu5">
+        <item>05-01.Customer supplied material incoming label printing job</item>
+        <item>05-02.Incoming label print job</item>
+        <item>05-03.Unpacking of customer-supplied materials</item>
+        <item>05-04.Material unpacking operations</item>
+        <item>05-05.Customer-supplied material label relabeling operation</item>
+        <item>05-06.Material label relabeling operations</item>
+        <item>05-07.Invoice serial number replenishment operation</item>
+        <item>05-08.Order label relabeling operations</item>
+        <item>05-09.Custom Label Printing Job</item>
+    </string-array>
+
+    <!--    #轉倉/呆料責任歸屬單,材料耗損,一般領(退)料單,表單查詢,簽核作業,轉倉表單觸發作業,轉倉表單撤銷作業,表單標籤補標作業等作業功能,表單作業(領料/退料/調撥/轉倉)-->
+    <string-array name="SubMenu6">
+        <item>06-01.Transfer/Waste material responsibility form</item>
+        <item>06-02.Material wear</item>
+        <item>06-03.General receipt (return) material list</item>
+        <item>06-04.Form query</item>
+        <item>06-05.Sign off</item>
+        <item>06-06.The rollover form triggers the job</item>
+        <item>06-07.The rollover form cancels the job</item>
+        <item>06-08.Form label labeling jobs</item>
+        <item>06-09.Form jobs(pick/return/transfer/move)</item>
+    </string-array>
+
+    <!--    #材料拆包作業,材料標籤補標作業-->
+    <string-array name="SubMenu7">
+        <item>07-01.Material unpacking operations</item>
+        <item>07-02.Material label relabeling operations</item>
+        <item>07-03.Bake reprint label</item>
+        <item>07-04.Bake operation</item>
+    </string-array>
+
+    <string-array name="SubMenu8">
+        <item>08-01.Outsourcing Material Packing Work</item>
+        <item>08-02.Outsourcing packing return</item>
+        <item>08-03.Outsourcing Shipment picking operations</item>
+        <item>08-04.Outsourcing Shipment picking return</item>
+        <item>08-05.Outsourcing Pallet and Box label printing</item>
+        <item>08-06.Outsourcing Check Receiving operations</item>
+        <item>08-07.Outsourcing Material Boxing and Shipment picking-Offline</item>
+        <item>08-08.Outsourcing Boxing and Shipment picking detail Search</item>
+        <item>08-09.Outsourcing Boxing and Shipment picking detail download</item>
+    </string-array>
+
+    <string-array name="SubMenu11">
+        <item>11-01.TEST</item>
+    </string-array>
+
+
+    <string name="title_test_name">Test</string>
+    <string name="title_test_name_production_line">For production line testing</string>
+    <string name="title_test_name2">Test2</string>
+
+
+    <string name="connect_error">Connect error</string>
+    <string name="db_return_error">DB return error msg</string>
+    <string name="can_not_connection">Connection error</string>
+    <string name="sever_return_info">Sever return info</string>
+    <string name="title_activity_connection_setting">connection settings</string>
+    <string name="search_result">result</string>
+    <string name="search_result1">%1$s result</string>
+    <string name="action_settings">settings</string>
+    <string name="button_return">return</string>
+    <string name="button_confirm2">Confirm</string>
+    <string name="button_cancel2">Cancel</string>
+    <string name="btn_ok">Confirm</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="holdon">Hold on</string>
+    <string name="data_reading">Data reading...</string>
+    <string name="label_printer_info">Printer info</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="input_printer_id">Enter Printer IP</string>
+    <string name="input_printer_port">Enter Printer Port</string>
+    <string name="input_printer_qty">Enter Qty</string>
+    <string name="printingLabel">Label printing</string>
+    <string name="cant_conect_printer">Cant connect with printer</string>
+    <string name="reprinting_due_to_issue_with_new_label">Reprinting required due to an issue with the new label</string>
+    <string name="reprinting_due_to_issue_with_sub_package_label">Reprinting required due to an issue with the sub-package label</string>
+    <string name="Print_OK">Print OK</string>
+    <string name="printLabalFailed">Print Labal Failed</string>
+    <string name="printer_connect_error">Printer connect error</string>
+    <string name="save_ip_port_qty_error">Save IP,Port,Qty error</string>
+    <string name="system_error">System error</string>
+    <string name="downloading_data">Downloading data</string>
+    <string name="print_error">Print error，plz reprint</string>
+    <string name="del_data">Deleting data</string>
+    <string name="data_uploading">Data uploading...</string>
+    <string name="data_updated_successfully">Data is updated successfully</string>
+    <string name="data_chking">Data checking...</string>
+    <string name="data_printing">Data printing...</string>
+    <string name="data_chk_success">Data check success</string>
+    <string name="data_printed_successfully">Data printed successfully</string>
+    <string name="saving_remarks">Saving remarks...</string>
+    <string name="saved_successfully">Saved successfully</string>
+    <string name="pick_printers">PDF417-choose printer</string>
+    <string name="print_with_codesoft">Print with codesoft</string>
+    <string name="print_with_new_type">Print with new type</string>
+    <string name="New_version_uses_WiFi_for_printing">New version uses WiFi for printing</string>
+    <string name="Print_Start">Start print</string>
+    <string name="is_del_data">Is del data?</string>
+    <string name="cant_be_null">Can not be null</string>
+    <string name="print_chk">Print checking</string>
+    <string name="print_error_">Print error, reprint?</string>
+    <string name="error">Error</string>
+    <string name="PDF417_label_for_Meraki_file_has_been_sent_to_file_server">The PDF417 label for Meraki file has been sent to the file server</string>
+    <string name="Pallet_label_for_Tembo_file_has_been_sent_to_file_server">The pallet label for Tembo file has been sent to the file server</string>
+    <string name="label_enter">Enter</string>
+    <string name="PDF417_label_for_file_has_been_sent_to_file_server">The PDF417 label for file has been sent to the file server</string>
+    <string name="label_total2">Total</string>
+    <string name="label_pages">Pages</string>
+    <string name="wo_chk">Checking WO</string>
+    <string name="verify_data">Verify data</string>
+    <string name="wareclerk_verify_data">Wareclerk verify data</string>
+    <string name="Merge_code_data_verification">Merge code verifying</string>
+    <string name="Checking_line">Line data checking...</string>
+    <string name="Month_accounting">Month accounting period reconciliation...</string>
+    <string name="Data_debiting_processing">Data debiting processing...</string>
+    <string name="Debit_processing">Debit processing...</string>
+    <string name="issue_processing">Issue processing...</string>
+    <string name="button_confirm3">Confirm</string>
+    <string name="button_cancel3">Cancel</string>
+    <string name="button_deduct3">Deduction</string>
+    <string name="Deduction_completed">Deduction completed</string>
+    <string name="retrive">Receiving...</string>
+    <string name="Receiving_processing">Receiving processing...</string>
+    <string name="Perform_delete">Make sure to delete?</string>
+    <string name="choose_u_want_to_del">Choose you want to del</string>
+    <string name="recorded">Recorded processing...</string>
+    <string name="sku_verifying">SKU verifying...</string>
+    <string name="Required">Required</string>
+    <string name="choose_printer">Choose printer</string>
+    <string name="data_setting">Setting data...</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="chking_form">Form chking...</string>
+    <string name="reading_form_no_data">Form no data reading...</string>
+    <string name="sn_checking">SN checking...</string>
+    <string name="chk_box_no">Box no checking...</string>
+    <string name="stock_proccessing">Stock proccessing...</string>
+    <string name="set_printer_name">Setting printer name</string>
+    <string name="open_bt">Open BT</string>
+    <string name="cant_find_printer">Cant find printer</string>
+    <string name="bt_connect_ok">BT connect ok</string>
+    <string name="not_connect_btprinter">Cant connect BT printer</string>
+    <string name="label_printer_ip">Printer IP</string>
+    <string name="label_printer_port">Printer Port</string>
+    <string name="data_updating">Data updating...</string>
+    <string name="Invoice_checking">Invoice checking...</string>
+
+
+    <!--登入頁-->
+    <string name="label_login_name"><b>Account</b></string>
+    <string name="label_login_password"><b>Password</b></string>
+    <string name="label_company">Company</string>
+    <string name="label_factory">Factory</string>
+    <string name="label_Language">Language</string>
+    <string name="button_login"><b>Log in</b></string>
+    <string name="button_login_cancel"><b>Cancel</b></string>
+    <string name="label_printer_setting">BT printer settings</string>
+    <string name="label_bt_connect">BT connection</string>
+    <string name="label_bt_disconnect">BT dis-\nconnection</string>
+    <string name="change_language">change Chinese</string>
+    <string name="account_password_is_not_null">account or password is not null</string>
+    <string name="b_t_error">BT error</string>
+    <string name="Disconnected_successfully">Disconnected successfully</string>
+    <string name="Failed_to_disconnect">Failed to disconnect</string>
+    <string name="processing">Data processing...</string>
+    <string name="Update">Update</string>
+    <string name="New_version">New version</string>
+    <string name="do_u_want_to_download">Do you want to update?</string>
+    <string name="button_confirm">OK</string>
+    <string name="we_need_permission">We need permission?</string>
+    <string name="later">Later</string>
+    <string name="file_downloaded">File_downloaded</string>
+    <string name="download_error">"Download_error: "</string>
+    <string name="chk_update">Checking for updates</string>
+    <string name="Logging">Logging</string>
+    <string name="download_new_version">Download new version</string>
+    <string name="button_connection_setting"><b>Connection settings</b></string>
+    <string name="set_SFC_IP">Please set the SFC IP</string>
+    <string name="set_API_1">Please set the API 1</string>
+    <string name="set_API_2">Please set the API 2</string>
+    <string name="set_API_3">Please set the API 3</string>
+
+
+    <!--連線設定-->
+    <string name="label_current_connection">Current connection</string>
+    <string name="label_add_connection_settings">Add connection settings</string>
+    <string name="label_select_connection_settings">Select connection setting</string>
+    <string name="label_connection_name">Connection name</string>
+    <string name="label_connection_save">Save</string>
+    <string name="label_fill_in_all_required_fields">Fill in all required fields</string>
+    <string name="label_device_updated">Device updated</string>
+    <string name="label_device_saved">Device saved</string>
+    <string name="label_delete_settings">Delete settings</string>
+    <string name="label_delete_this_setting">Do you want to delete the settings?</string>
+    <string name="label_delete2">Delete</string>
+    <string name="label_setting_deleted">Setting deleted</string>
+    <string name="label_connection_setting_selected">Connection setting selected</string>
+    <string name="label_select_a_setting">Select a setting</string>
+
+
+    <!--連線設定-設定頁-->
+    <string name="label_connection_setting">Connection setting</string>
+    <string name="label_server">Server</string>
+    <string name="label_server_ip">serv. ip</string>
+    <string name="label_server_port">PORT</string>
+    <string name="button_confirm_setting">OK</string>
+    <string name="button_cancel_setting">Cancel</string>
+    <string name="label_connect_test">Connect test</string>
+    <string name="setting_connect_server_first">Setting connect server first</string>
+    <string name="ip_or_port_is_not_null">IP or port cant be null</string>
+
+
+    <!--藍芽印表機設定-->
+    <string name="name_of_printer_is_not_null">Name of printer cant be null</string>
+    <string name="label_printer_name">Name of printer</string>
+    <string name="cant_find_bt_printer">Cant find BT printer</string>
+    <string name="result_of_print">Result of print</string>
+    <string name="label_rotate_print">Landscape printing</string>
+    <string name="label_printer_test">Test print</string>
+    <string name="label_empty"><b></b></string>
+
+
+    <!--選單-->
+    <string name="You_do_not_have_permission">You do not have permission</string>
+
+
+    <!--SMT相關作業 >> 材料拆包作業(Material split packing label)-->
+    <string name="label_smt_material_split_packing_eng">Material split packing label</string>
+    <string name="label_material_split_packing1">%1$s material split packing \n%2$s</string>
+    <string name="label_qrcode">QR Code</string>
+    <string name="label_reel_id">Reel ID</string>
+    <string name="label_pn">SKU</string>
+    <string name="label_import_reel_id">Import Reel ID</string>
+    <string name="label_import_original_qty">Import Original Qty</string>
+    <string name="label_import_split_qty">Import Split Qty</string>
+    <string name="label_import_po">Import PO</string>
+    <string name="label_import_qrcode">Import QR Code</string>
+    <string name="import_qrcode">Import QR Code</string>
+    <string name="label_import_vendor_code">Import V/C</string>
+    <string name="label_import_dc">Import D/C</string>
+    <string name="label_import_pn">Import P/N</string>
+    <string name="enter_sku">Enter SKU</string>
+    <string name="sku_len_must_be_12">SKU length must be 12</string>
+    <string name="enter_dc">Enter D/C</string>
+    <string name="dc_len_greater_10">D/C len greater 10</string>
+    <string name="dc_incorrect">D/C incorrect</string>
+    <string name="enter_vc">Enter V/C</string>
+    <string name="vc_len_must_be_six">V/C len must be six</string>
+    <string name="enter_origin_qty">Enter origin qty</string>
+    <string name="original_qty_must_more_than_0">Original qty must more than 0</string>
+    <string name="enter_split_qty">Enter Split qty</string>
+    <string name="split_qty_more_than_0">Split qty more than 0</string>
+    <string name="spilt_qty_cant_more_than_original_qty">Spilt qty cant more than original qty</string>
+    <string name="reelid_len_must_be_28_24">Reelid length  must be 28 or 34</string>
+    <string name="enter_qrcode">Enter QR Code</string>
+    <string name="reelid_incorrect_len_must_be_34">Reel ID incorrect len must be 34</string>
+    <string name="qr_qty_is_not_null">QR Code qty cant be null</string>
+    <string name="num_has_greater_0">The numeric value must be greater than 0</string>
+
+
+    <!--SMT相關作業 >> 材料標籤補標作業(Material reprint label)-->
+    <string name="label_smt_print_material_label1">%1$s material reprint \n%2$s</string>
+    <string name="import_qty">Import Qty</string>
+    <string name="label_smt_material_label_print_eng">(Material reprint label)</string>
+
+
+    <!--SMT相關作業 >> 濕敏元件狀態管制作業(Humidity sensor operate)-->
+    <string name="title_humidity_sensor">%1$s humidity sensor operate</string>
+    <string name="label_print">Printer</string>
+    <string name="label_wifi">Wifi</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="label_qrcode2">QR Code</string>
+    <string name="enter_reelid">Enter Reel ID</string>
+    <string name="label_import_original_pack_qty">Import original packing Qty</string>
+    <string name="label_sys_msl">MSL / Floor Life</string>
+    <string name="label_import_floor_life">Import floor life:</string>
+    <string name="import_original_pack_qty">Enter original packing Qty</string>
+    <string name="import_msl">Enter MSL</string>
+    <string name="import_floor_life">Enter floor life</string>
+
+
+    <!--SMT相關作業 >> 序號狀態查詢作業(含OOBA查詢作業)-->
+    <string name="n_ooba">%1$s SN status\n(OOBA)</string>
+    <string name="label_select_query_condition">Select query condition</string>
+    <string name="label_all">All</string>
+    <string name="ship">Ship</string>
+    <string name="unship">Unship</string>
+    <string name="label_import_SN">Import S/N</string>
+    <string name="label_import_CNo">Import C/No</string>
+    <string name="label_import_part_number">Import P/N</string>
+    <string name="triple_point">...</string>
+    <string name="label_estimated_shipping_date_S">Estimated shipping date-Start</string>
+    <string name="label_estimated_shipping_date_E">Estimated shipping date-End</string>
+    <string name="enter_WO">Enter W/O number</string>
+    <string name="label_OOBA_data">Show OOBA data only</string>
+    <string name="label_OOBA_data_yyyymmdd">Show OOBA data only:yyyymmdd</string>
+    <string name="enter_sn">Enter SN</string>
+    <string name="enter_box_nu">Enter box</string>
+    <string name="enter_estimated_shipping_date1">Enter estimated shipping date 1</string>
+    <string name="enter_estimated_shipping_date2">Enter estimated shipping date 2</string>
+    <string name="enter_wo">Enter WO</string>
+    <string name="enter_condictions">Enter condictions</string>
+    <string name="cant_query_form_no">Cant query form no</string>
+    <string name="select_form_no">Select form no</string>
+    <string name="cant_query_seq">Cant query seq</string>
+    <string name="select_seq">Select seq</string>
+    <string name="select_no_department">No department data</string>
+    <string name="Select_department">Select department</string>
+    <string name="Select_no_applicant">No applicant data</string>
+    <string name="Select_the_applicant">Select applicant</string>
+    <string name="list_item_processs_no">%1$s\n%2$s - %3$s\n%4$s - %5$s</string>
+    <string name="list_item_doc_no">%1$s\n%2$s - %3$s\n%4$s - %5$s</string>
+    <string name="list_item_applicant">"%1$s - %2$s"</string>
+    <string name="list_item_apply_dept">"%1$s - %2$s"</string>
+
+    <!--SMT相關作業 >> 序號狀態查詢作業(含OOBA查詢作業) >> 查詢結果-->
+    <string name="cant_find_condictions">Cant find condictions</string>
+    <string name="no_data">No data</string>
+    <string name="sfis_label_status">SFIS Status</string>
+    <string name="oracle_label_status">Oracle Status</string>
+    <string name="plan_ship_week">Estimated shipment week</string>
+    <string name="label_item_number">SKU</string>
+    <string name="item_name">SKU</string>
+    <string name="box_num">Box No</string>
+    <string name="num">Qty</string>
+    <string name="wo_num">Work Order</string>
+    <string name="sets">Sets</string>
+    <string name="inspection_form">Inspection form</string>
+    <string name="production_day">Production day</string>
+    <string name="Inspection_date">Inspection date</string>
+    <string name="Storage_day">Storage day</string>
+    <string name="sales_day">Sales day</string>
+    <string name="Shipping_DN">Shipping DN</string>
+    <string name="Shipping_customers">Shipping customers</string>
+    <string name="Shipping_box_number">Shipping box number</string>
+    <string name="Shipping_board_number">Shipping board number</string>
+    <string name="oe">Shipping OE</string>
+    <string name="Shipping_po">Shipping PO</string>
+    <string name="sn_query_enter_sku">SN query-enter sku</string>
+
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業-->
+    <string name="label_picking">%1$s shippment picking</string>
+    <string name="label_employee_id">Employee id</string>
+    <string name="label_dn_number">DN number</string>
+    <string name="label_customer">Customer</string>
+    <string name="label_planning_shipping_date">Planning shipping date</string>
+    <string name="label_order_status">Order status</string>
+    <string name="label_item_no">SKU</string>
+    <string name="button_check_fifo">Check fifo</string>
+    <string name="button_delete">Delete</string>
+    <string name="label_status">Status</string>
+    <string name="dn_num_is_not_null">DN num cant be null</string>
+    <string name="cant_resolve_dn">Cant resolve DN</string>
+    <string name="del_dn">Delete DN?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="Make_sure_to_del_SKU">Make sure to del SKU?</string>
+    <string name="first_in_first_out">FIFO inspection...</string>
+    <string name="first_in_first_out_ok">FIFO OK</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 清單-->
+    <string name="label_shipment_id">SKU</string>
+    <string name="label_shipment_quantity">Quantity</string>
+    <string name="label_item_description">Item desc</string>
+    <string name="label_shipment_control">Control</string>
+    <string name="label_checking_pass">Picked quantity</string>
+    <string name="label_wait_for_checking">Wait for picking</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 單箱資料確認-->
+    <string name="label_carton_data">Check carton pack data</string>
+    <string name="label_part_no">SKU</string>
+    <string name="label_pack_qty">Pack Qty</string>
+    <string name="label_carton_weight">Carton Weight</string>
+    <string name="label_carton_cuft">Carton CUFT</string>
+    <string name="label_carton_size">Carton Size</string>
+    <string name="cant_find_single_box">Cant find single box</string>
+    <string name="single_box_qty_is_not_null">Single box Qty cant be null</string>
+    <string name="single_box_weight_is_not_null">Single box weight cant be null</string>
+    <string name="single_box_volume_is_not_null">Single box volume cant be null</string>
+    <string name="single_box_size_is_not_null">Single box size cant be null</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 單箱資料確認 >> 棧板資料確認-->
+    <string name="label_pallet_data">Check pallet data</string>
+    <string name="label_air_plt_qty">Air PLT Qty</string>
+    <string name="label_air_plt_size">Air PLT size</string>
+    <string name="label_sea_plt_qty">Sea PLT Qty</string>
+    <string name="label_sea_plt_size">Sea PLT size</string>
+    <string name="cant_find_sku">Cant find SKU</string>
+    <string name="cant_find_box">Cant find box</string>
+    <string name="cant_find_pallet">Cant find pallet</string>
+    <string name="air_pallet_qty_is_not_null">Air pallet Qty cant be null</string>
+    <string name="air_pallet_size_is_not_null">Air pallet size cant be null</string>
+    <string name="shipping_pallet_qty_is_not_null">Shipping pallet Qty cant be null</string>
+    <string name="shipping_pallet_size_is_not_null">Shipping pallet size cant be null</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 單箱資料確認 >> 棧板資料確認 >> 棧板資訊-->
+    <string name="label_pallet_number2">Pallet num</string>
+    <string name="label_checking_quantity">To be picked</string>
+    <string name="label_pack_qty2">Carton Qty</string>
+    <string name="label_origin">Import country of origin</string>
+    <string name="label_rev">Import REV</string>
+    <string name="import_cn">Import C/No</string>
+    <string name="import_frac_weight">Frac figure weight</string>
+    <string name="location_is_not_null">Location cant be null</string>
+    <string name="origin_has_problem">Origin has problem</string>
+    <string name="version_is_not_null">Version cant be null</string>
+    <string name="format_error_atleast_1_Eng_word">Format error(atleast 1 Eng word)</string>
+    <string name="label_part_no2">SKU %1$s</string>
+    <string name="label_picking_qty">Should pick %1$d picked %2$d unpicked %3$d</string>
+    <string name="label_pack_qty3">Carton Qty %1$d</string>
+    <string name="pallet_nu_uncorrect">Pallet num uncorrect</string>
+    <string name="lotcode">Enter lotcode</string>
+    <string name="enter_version">Enter version</string>
+    <string name="enter_origin">Enter origin</string>
+    <string name="enter_box_no">Enter box</string>
+    <string name="enter_qty">Enter Qty</string>
+    <string name="exceeded_qty_to_be_picked">Exceeded the quantity to be picked</string>
+    <string name="qty_cant_more_than_box_num">Qty cant more than box Qty</string>
+    <string name="enter_zero_carton_weight">Enter zero carton weight</string>
+    <string name="label_pallet_number4">Pallet num:%1$s</string>
+    <string name="label_unable_determine_lotcode_permissionC">Unable to determine Lotcode permission C</string>
+    <string name="label_unable_determine_lotcode_permission">Unable to determine Lotcode permission</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 單箱資料確認 >> 棧板資料確認 >> PO資訊-->
+    <string name="label_box_none_po">Not assign po</string>
+    <string name="label_box_po">Assign po</string>
+    <string name="label_part_no_2">SKU %1$s</string>
+    <string name="label_oe_po">OE:%1$s PO:%2$s</string>
+    <string name="label_pick_qty">Should pick %1$s picked %2$s unpicked %3$s</string>
+    <string name="del_oe">Delete OE?</string>
+
+    <!--01.出貨相關作業 >> 01-01.出貨撿料作業 >> 單箱資料確認 >> 棧板資料確認 >> 撿料-->
+    <string name="label_prechecking_quantity">Prechecking Qty</string>
+    <string name="label_pallet_check2">PLT</string>
+    <string name="label_box_check2">Box</string>
+    <string name="label_sn_check2">SN</string>
+    <string name="label_sn_qrcode2">QR\nCode</string>
+    <string name="sn_is_not_null">SN cant be null</string>
+    <string name="box_num_is_not_null">Box num cant be null</string>
+    <string name="QR_CODE_is_not_null">QR CODE cant be null</string>
+    <string name="Unable_parse_SN_from_QR_Code">Unable to parse SN from QRCode</string>
+    <string name="label_pallet_number3">Pallet num %1$s</string>
+    <string name="enter_pallet_nu">Enter pallet num</string>
+    <string name="qty_cant_more_than_unchk">Qty cant more than uncheck</string>
+    <string name="enter_box_weight">Enter box weight</string>
+    <string name="Unable_parse_QR_Code">Unable to parse QRCode</string>
+    <string name="data_chking_plt_carton">Checking within the same pallet and box...</string>
+    <string name="qr_code_format_incorrect_cant_resolve_sn">QR code format incorrect cant resolve SN</string>
+    <string name="sn_repeat_check">SN repeat plz check！</string>
+    <string name="label_revise_pallet_no">Do you revise pallet number</string>
+    <string name="label_input_pallet_no">Import pallet number</string>
+    <string name="label_sn_seq">%1$d/%2$s</string>
+    <string name="label_prechecking_quantity2">Prechecking %1$d</string>
+    <string name="wrong_po_print_oe_po_question">Does not match the current OE to be picked. This serial number\'s OE: %1$s, PO: %2$s. Do you want to print the PO/OE label?</string>
+    <string name="data_querying">Data querying...</string>
+    <string name="SonicWALL_has_not_completed_OOBA">SonicWALL has not completed OOBA yet</string>
+    <string name="label_SN">SN</string>
+    <string name="label_Box">Box</string>
+    <string name="label_pallet2">Pallet</string>
+    <string name="OOBA_already_picked">OOBA already picked</string>
+    <string name="OOBA_not_picked">OOBA not picked </string>
+    <string name="OOBA_not_picked2"> units.</string>
+    <string name="OOBA_not_stocked_in">Among them, </string>
+    <string name="OOBA_not_stocked_in2"> OOBA units have not been stocked in.</string>
+    <string name="warn">Warn</string>
+    <string name="OutSourcing">OutSourcing</string>
+    <string name="isOutSourcing">Is outSourcing</string>
+    <string name="is_not_OutSourcing">Is not outSourcing</string>
+    <string name="OutSourcing_info">OutSourcing info</string>
+    <string name="hassubloc">Viewable storage location information</string>
+    <string name="Can_not_find_MERAKI_PO">Can not find MERAKI Po, please contact MIS</string>
+    <string name="Can_not_find_Samsara_PO">Can not find Samsara Po, please contact MIS</string>
+    <string name="import_qty2">Import Qty</string>
+    <string name="label_input_pallet_no2">Pallet No</string>
+
+
+    <!--01.出貨相關作業 >> 01-02.出貨核對作業-->
+    <string name="label_shipment">Shipment check operation</string>
+    <string name="label_inventory_no">I/V No</string>
+    <string name="label_total_pallet_quantity">Pallet %1$d uncheck %2$d</string>
+    <string name="label_total_carton_quantity">Box %1$d uncheck %2$d</string>
+    <string name="label_pallet_num">Import pallet number</string>
+    <string name="label_shipping_way">Select shipping way</string>
+    <string name="label_container">Container</string>
+    <string name="label_pallet">Pallet</string>
+    <string name="label_carton">Carton</string>
+    <string name="label_pickup">Pickup</string>
+    <string name="label_container_condition">Input data</string>
+    <string name="label_container_num">Container number</string>
+    <string name="label_container_size">Container size</string>
+    <string name="label_seal_num">Seal number</string>
+    <string name="label_cargo_num">Cargo number</string>
+    <string name="label_car_size">Car size</string>
+    <string name="label_pickup_name">Customs broker/ Pickup Name</string>
+    <string name="import_sn">Import S/N</string>
+    <string name="label_shipping_remark">Ship remark</string>
+    <string name="label_print_shipping_doc">Do you print ship document?</string>
+    <string name="label_carton_num">Carton number</string>
+    <string name="label_serial_num">Serial number</string>
+    <string name="label_Detail">Detail</string>
+    <string name="label_shipment1">%1$s Shipment check operation</string>
+    <string name="enter_container_num">Enter container num</string>
+    <string name="enter_container_size">Enter container size</string>
+    <string name="enter_seal_num">Enter seal num</string>
+    <string name="enter_freight_num">Enter freight num</string>
+    <string name="qrcode_format_incorrect">QR Code format incorrect</string>
+    <string name="QR_Code_container_num_is_empty">QR Code container num is empty</string>
+    <string name="QR_Code_container_size_is_empty">QR Code container size is empty</string>
+    <string name="QR_Code_seal_num_is_empty">QR Code seal num is empty</string>
+    <string name="QR_Code_shipping_line_num_is_empty">QR Code shipping line num is empty</string>
+    <string name="enter_truck_tonnage">Enter truck tonnage</string>
+    <string name="enter_customs_broker_or_consignor">Enter customs broker or consignor</string>
+    <string name="pallet_num_is_not">Pallet num is not</string>
+    <string name="check">, please check</string>
+    <string name="Carton_number_mismatch">Carton number mismatch</string>
+    <string name="default_shipping_remark1">1. Please ask the customer (receiver) to sign (please sign the full name) and seal (send and receive seal) on the "dispatch slip" and "sales slip", and send the original copy back to Shenzhun Company。thanks！\n2. Compilation:28496495, tel:03&#8212;3289289, fax:03&#8212;3274888, The machinery use fee shall be paid by the customs broker TOTAL 5 PLT.\nPlease inform the customs broker of the location of the goods after the delivery is complete (door or pier)。Thanks！
+    </string>
+
+
+    <!--01.出貨相關作業 >> 01-03.出貨棧板標籤列印-->
+    <string name="title_activity_shipment_pallet_label_print">shipment pallet label print</string>
+    <string name="label_barcode2">Barcode</string>
+    <string name="input_dn_number">Import delivery number</string>
+    <string name="input_pallet_number">Import pallet number</string>
+    <string name="hint_dn_pallet">Input DN+Pallet No</string>
+    <string name="label_import_pallet_size">PLT size</string>
+    <string name="title_activity_shipment_pallet_label_print1">%1$s shipment pallet label print</string>
+    <string name="enter_dn">Enter DN</string>
+    <string name="qrcode_dn_is_null">QR Code DN is null</string>
+    <string name="qrcode_pallet_is_null">QR Code pallet is null</string>
+    <string name="org_must_input_num">Org must input num</string>
+    <string name="pick_file_server">TEMBO-pick file server</string>
+    <string name="label_extrem_printer_info">Extreme printer info</string>
+    <string name="Not_find_Extreme_description">Not find Extreme description, please contact MIS</string>
+    <string name="Samsara_printer_info_total">Samsara printer information:total </string>
+    <string name="printer_info_total_pages"> pages</string>
+    <string name="Verkada_LotCode_printer_info_total">Verkada(LotCode) printer information \ntotal </string>
+    <string name="Verkada_Model_SN_printer_info_total">Verkada(Model&amp;SN) printer information \ntotal </string>
+    <string name="label_sophos_printer_info">Sophos printer info</string>
+    <string name="no_pallet_id_mis">No pallet info, plz call MIS</string>
+    <string name="Extreme_pallet_info_not_found">Extreme pallet info not found, please contact MIS</string>
+
+
+    <!--01.出貨相關作業 >> 01-04.出貨刷退作業-->
+    <string name="label_shipment_return">shipment return</string>
+    <string name="label_return_quantity">Return quantity</string>
+    <string name="label_retrun_pallet_number">Pallet id</string>
+    <string name="label_dc_no">Other</string>
+    <string name="label_dn_no">Import DN</string>
+    <string name="dn_is_not_null">DN cant be null</string>
+    <string name="label_shipment_return1">%1$s Shipment return</string>
+    <string name="return_info_is_incorrect">The return info is incorrect, please re-enter</string>
+    <string name="Picking_data_has_been_deleted">Picking data has been deleted</string>
+
+
+    <!--01.出貨相關作業 >> 01-05.條碼驗證作業-->
+    <string name="label_barcode_verify">Barcode verify</string>
+    <string name="label_sn_no">SN</string>
+    <string name="label_barcode">Barcode</string>
+    <string name="enter_barcode">Enter barcode</string>
+    <string name="barcode_success">Barcode success</string>
+    <string name="barcode_error">Barcode error</string>
+    <string name="label_barcode_verify1">%1$s Barcode verify</string>
+    <string name="barcode_qty">Barcode Qty</string>
+    <string name="sn_qty_incorrect">SN Qty incorrect</string>
+    <string name="format_incorrect">Format incorrect</string>
+    <string name="barcode_sn">Barcode SN</string>
+    <string name="repeat">Repeat</string>
+    <string name="sn_name">SN</string>
+    <string name="already_exist_other_swiped_barcode">Already exist other swiped barcode</string>
+    <string name="sn_barcode">SN barcode</string>
+    <string name="model_name">"Model name: %1$s"</string>
+    <string name="model_quantity">"Quantity: %1$s"</string>
+    <string name="read_pallet_pdf417_barcode">Read pallet pdf417 barcode</string>
+    <string name="barcode_2d_sn">Barcode 2D SN</string>
+    <string name="not_exist_in_this_pallet_data">Not exist in this pallet data</string>
+    <string name="not_exist_in_2d_barcode_missed_brush">Not exist in 2D barcode, missed brush?</string>
+    <string name="barcode_verification_error">Barcode verification error</string>
+    <string name="not_exist_in_2d_barcode">Not exist in 2D barcode</string>
+    <string name="barcode_verification_ok">Barcode verification ok</string>
+
+
+    <!--01.出貨相關作業 >> 01-06.RMA出貨撿貨作業-->
+    <string name="title_activity_rma_picking">RMA shipment pick-up</string>
+    <string name="rma_picking_summary">Pick box %1$d picked %2$d</string>
+    <string name="label_pallet_check">PLT</string>
+    <string name="label_box_check">Box</string>
+    <string name="label_import_pallet">Import pallet no</string>
+    <string name="Enter_pallet_no">Enter pallet no</string>
+    <string name="title_activity_rma_picking1">%1$s RMA shipment pick-up</string>
+    <string name="box_repeat">Box repeat</string>
+    <string name="wo_type_diff">WO type diff</string>
+
+
+    <!--01.出貨相關作業 >> 01-07.RMA出貨確認作業-->
+    <string name="title_activity_rma_verify">RMA shipment confirmation</string>
+    <string name="label_import_pallet_id">Import pallet id</string>
+    <string name="enter_pallet_id">Plz enter pallet id</string>
+    <string name="Make_sure_to_delete_the_pickup_data">Delete pickup data?</string>
+    <string name="title_activity_rma_verify1">%1$s RMA shipment confirmation</string>
+
+    <!--01.出貨相關作業 >> 01-07.RMA出貨確認作業 >> 清單-->
+    <string name="sn_list">SN list</string>
+
+
+    <!--01.出貨相關作業 >> 01-08.Samsara的PO標籤列印-->
+    <string name="title_activity_samsara_po">Print Samsara po label</string>
+    <string name="label_input_qrcode">Import QR code</string>
+    <string name="title_activity_samsara_po1">%1$s Print Samsara po label</string>
+
+
+    <!--02.製令相關作業 >> 02-01.製令入庫作業-->
+    <string name="label_stock_in">Order warehousing operations</string>
+    <string name="label_login_account">Account</string>
+    <string name="button_stock_in">Warehousing</string>
+    <string name="query_cons_cant_be_null">Query cons cant be null</string>
+    <string name="label_stock_in1">%1$s Order warehousing \noperations</string>
+    <string name="ru_sure_in_stock">In stock?</string>
+    <string name="Make_sure_delete_inbound_data">Make sure to delete the inbound data?</string>
+    <string name="label_stock_quantity">Should storage %1$d storaged %2$d unstorage %3$d</string>
+    <string name="label_prestocking_quantity">Prestock Qty</string>
+    <string name="label_warehousing_number">Warehousing number</string>
+    <string name="import_subinventory">Import subinventory</string>
+    <string name="import_locator">Locator</string>
+    <string name="label_combine_receipts">Would you like to combine the receipts for stocking?</string>
+    <string name="label_combine_receipts_eng">Do you combine receipts?</string>
+    <string name="label_receipt_no">Import receipts number</string>
+    <string name="label_quantity">Import Qty</string>
+    <string name="label_import_sn_start">Import S/N-first</string>
+    <string name="label_import_sn_end">Import S/N-last</string>
+    <string name="cant_find_storage">Cant find storage</string>
+    <string name="enter_stock_form">Enter stock form</string>
+    <string name="sku_incorrect">SKU incorrect</string>
+    <string name="enter_multiplier">Enter multiplier</string>
+    <string name="enter_multiplicand">Enter multiplicand</string>
+    <string name="enter_add">Enter add</string>
+    <string name="qty_greater_than_stock_qty">Qty greater than the qty that can be stored</string>
+    <string name="qty_cant_less_or_equals_0">Qty cant less or equals 0</string>
+    <string name="reelid_incorrect_len_must_be_34_or_28">Reel ID incorrect，len must be 28 or34</string>
+    <string name="choose_sn_box">Choose SN box</string>
+    <string name="enter_sn_start">Enter SN start</string>
+    <string name="enter_sn_end">Enter SN end</string>
+    <string name="chk_Storage_application_number">Check storage application number...</string>
+    <string name="reading_sub_lot">Sub_lot reading...</string>
+    <string name="read_in_stock_data">Read the data in the inbound application form...</string>
+    <string name="chk_sub_locate">Check sub and locate...</string>
+    <string name="sn_not_in_system">SN not in system</string>
+    <string name="sn_has_not_passed_customer_QC_approval">SN has not passed customer QC approval, please verify. SN:</string>
+    <string name="read_datecode">DateCode reading...</string>
+    <string name="sku">SKU:</string>
+    <string name="chk_ok">Check ok</string>
+    <string name="box_no_ok">Box no ok</string>
+    <string name="sn_correct">SN correct</string>
+    <string name="checkOK">Check ok</string>
+    <string name="datathrownerp">Data is thrown into ERP</string>
+    <string name="label_stocking_pass">Stocked qty</string>
+    <string name="label_wait_for_stocking">Unstocked qty</string>
+    <string name="label_sn_item_no_stock_no">SN / SKU / FORM</string>
+
+
+    <!--02.製令相關作業 >> 02-02.關帳日期設定-->
+    <string name="label_closed_date_set">Closed date set</string>
+    <string name="button_select_date">Select date</string>
+    <string name="button_date_reset">Date reset</string>
+    <string name="button_date_set">Date set</string>
+    <string name="label_closed_date_set1">%1$s Closed date set</string>
+    <string name="select_a_date_first">Please select a date first</string>
+    <string name="Determine_the_reset_closing_date">Determine the reset closing date?</string>
+    <string name="set_a_closing_date">Make sure to set closing date?</string>
+
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業-->
+    <string name="label_material_sending">Order issuing work</string>
+    <string name="label_import_line_number">Line number</string>
+    <string name="label_import_merge_number">Merge number</string>
+    <string name="label_import_wh_number">W/H number</string>
+    <string name="label_import_wo_number">W/O number</string>
+    <string name="label_import_item_part">P/N prefix</string>
+    <string name="cant_find_shipping_info">Cant find shipping info</string>
+    <string name="title_activity_material_sending_debit1">%1$s Order issue material \ndeduction operation</string>
+    <string name="title_activity_material_sending_transfer1">%1$s Order delivery and \ntransfer operation</string>
+    <string name="title_activity_material_lack_query1">%1$s Inquiry about order \nshortage</string>
+    <string name="label_material_sending1">%1$s Order issuing work</string>
+    <string name="enter_line">Enter line</string>
+    <string name="label_import_merge_no">Import merge no</string>
+    <string name="enter_warehouse_clerk">Enter warehouse clerk</string>
+    <string name="qty_greater_than_stock">Qty greater than stock</string>
+    <string name="do_u_want_to_transfer">, do you want to transfer?</string>
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業 >> 製令欠料查詢作業-->
+    <string name="title_activity_material_lack_query">Inquiry about order shortage</string>
+    <string name="label_sn_item_no">SN / SKU</string>
+    <string name="No_data_found">No data found</string>
+    <string name="button_debit">Debit</string>
+    <string name="confirm_exec_debit">Confirm the execution of the debit?</string>
+    <string name="Insufficient_stock_Qty">Insufficient stock Qty</string>
+    <string name="r_u_sure_to_del_data">Delete issue data?</string>
+    <string name="r_u_sure_to_del_transfer_sub_data">Delete transfer data?</string>
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業 >> 製令發料作業-->
+    <string name="title_activity_material_sending_debit">Order issue material deduction operation</string>
+    <string name="label_line_number">Line</string>
+    <string name="label_merge_number">Merge number</string>
+    <string name="label_total_sending_qty">Total sending Qty</string>
+    <string name="label_send_qty">Send Qty</string>
+    <string name="label_unsend_qty">Unsend Qty</string>
+    <string name="label_sn_check">SN</string>
+    <string name="cant_find_material_stock_data">Cant find material stock data</string>
+    <string name="dc_not_in_this_sub_loc">D/C not in this sub loc</string>
+    <string name="enter_sub">Enter sub</string>
+    <string name="sub_controlled_enter_correct_sub">The Sub is controlled, plz enter the correct sub</string>
+    <string name="enter_loc">Enter loc</string>
+    <string name="enter_other_loc">Enter other loc</string>
+    <string name="find_older_dc">Find older D/C:</string>
+    <string name="do_u_want_to_transfer_debit">, do you want_to_transfer/debit?</string>
+    <string name="choose_sku">Choose SKU</string>
+    <string name="label_workorder_no">Workorder no</string>
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業 >> 製令發料作業 >> 製令發料扣帳作業-->
+    <string name="sub_lot_incorrect">Sub/Lot incorrect, plz enter again</string>
+    <string name="shipped_plz_perform_debit">Shipped ok, plz exec debit</string>
+    <string name="Shipped">Shipped</string>
+    <string name="debit_ok">Debit ok</string>
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業 >> 製令發料作業 >> 製令發料扣帳作業 >> 製令發料扣帳作業-->
+    <string name="label_subinventory_transfer_qty">Sub transfer Qty</string>
+    <string name="label_subinventory_transfer_no">Sub transfer no</string>
+    <string name="label_subinventory_transfer">Exec subinventory transfer?</string>
+    <string name="label_subinventory_transfer_eng">Do you execute subinventory transfer?</string>
+    <string name="cant_find_stock">Cant find stock</string>
+    <string name="cant_find_debit_data">Cant find debit data</string>
+    <string name="this_sub_is_controlled_cant_used">This sub is controlled cant used</string>
+    <string name="target_loc_cant_be_the_same_as_source_loc">The target location cant be the same as the source location</string>
+    <string name="transfer_processing">Transfer processing...</string>
+    <string name="transfer_ok">Transfer ok</string>
+    <string name="print_error_msg">Vendor Code not found, so we cant get Reel ID to print label</string>
+
+    <!--02.製令相關作業 >> 02-03.製令發料扣帳作業 >> 製令發料作業 >> 製令發料轉倉作業-->
+    <string name="title_activity_material_sending_transfer">Order delivery and transfer operation</string>
+    <string name="import_subinventory_from">Subinventory out</string>
+    <string name="import_locator_from">Locator out</string>
+    <string name="import_subinventory_to">Subinventory in</string>
+    <string name="import_locator_to">Locator in</string>
+    <string name="button_complete">Complete</string>
+    <string name="perform_debit">Perform debit</string>
+
+
+    <!--02.製令相關作業 >> 02-05.製令發料檢核作業-->
+    <string name="title_activity_material_sending_check">Checking and issuing orders</string>
+    <string name="title_activity_material_sending_check1">%1$s Checking and issuing \norders</string>
+    <string name="label_inventory">Inventory qty</string>
+
+    <!--02.製令相關作業 >> 02-05.製令發料檢核作業 >> 清單-->
+    <string name="Delete_chking_data">Delete chking data?</string>
+    <string name="label_datecode">DC</string>
+
+    <!--02.製令相關作業 >> 02-05.製令發料檢核作業 >> 清單 >> 處理-->
+    <string name="label_wo_no">Order number</string>
+    <string name="label_temp_issue_qty">Temp qty</string>
+    <string name="chk_ok_exec_debit">Check ok, plz exec debit</string>
+
+
+    <!--02.製令相關作業 >> 02-06.轉倉轉儲位作業-->
+    <string name="title_activity_transfer_subinventory_locator">Dump location operation</string>
+    <string name="label_subinventory_from">Out subinventory</string>
+    <string name="label_locator_from">Out locator</string>
+    <string name="label_subinventory_to">In subinventory</string>
+    <string name="label_locator_to">In locator</string>
+    <string name="label_reference">Reference</string>
+    <string name="default_reference">Transfer sub_loc, Order issued</string>
+    <string name="Controlled_subinventory">Controlled subinventory</string>
+    <string name="title_activity_transfer_subinventory_locator1">%1$s Dump location operation</string>
+    <string name="out_and_in_loc_not_same">Out and in loc not same</string>
+    <string name="Enter_remarks">Enter remarks</string>
+
+    <!--02.製令相關作業 >> 02-06.轉倉轉儲位作業 >> 轉倉轉儲位作業-->
+    <string name="label_total_inventory_qty">Total inventory Qty</string>
+    <string name="label_total_transfer_subinventory_qty">Transfer subinventory Qty</string>
+    <string name="cant_find_data">Cant find data</string>
+    <string name="label_sn_value">SN:%1$s</string>
+    <string name="label_box_value">Box no:%1$s</string>
+    <string name="continue_with_warehouse_and_location_transfer">, would you like to continue with the warehouse and location transfer?</string>
+    <string name="sn_box_has_finished">SN / boxno has finished</string>
+    <string name="process_ok">Process ok</string>
+    <string name="Processed_OK_plz_perform_debit">Processed ok, plz exec debit</string>
+    <string name="label_datecode_qty">DC  %1$s  x  %2$s</string>
+    <string name="label_datecode_pass">( %1$s )</string>
+    <string name="cant_transfer_qty_over_stock">Cant transfer Qty over stock</string>
+
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業-->
+    <string name="label_material_receiving">Receiving</string>
+    <string name="label_mode_selection">Selection operation mode</string>
+    <string name="label_receipts">\n\n\nReceipts\n</string>
+    <string name="label_temporarily_receipts">\n\n\nTemporarily\nReceipts</string>
+    <string name="label_temporarily_employ">\n\n\nTemporarily\nemploy</string>
+    <string name="label_delete">\n\n\nDelete\n</string>
+    <string name="label_error">\n\n\nError</string>
+    <string name="label_delivery">\n\n\nDelivery</string>
+    <string name="label_material_receiving_outsourcing1">%1$s Receiving outsourcing</string>
+    <string name="label_material_receiving1">%1$s Receiving</string>
+    <string name="label_receiving_outsourcing1">%1$s Receiving outsourcing - \n%2$s</string>
+    <string name="label_delete3">Delete </string>
+    <string name="label_receiving1">%1$s Receiving - \n%2$s</string>
+    <string name="server_return_warn">Server return warn</string>
+    <string name="label_reason">Reason</string>
+    <string name="label_receive_temp_qty">Temp qty</string>
+    <string name="label_received">Received</string>
+    <string name="label_unreceived">Unreceived</string>
+    <string name="label_total_inventory">Total inventory</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業-->
+    <string name="cant_find_method">Cant find method</string>
+    <string name="label_material_receiving_outsourcing">Receiving outsourcing</string>
+    <string name="label_import_vendor_name">Import V/N</string>
+    <string name="import_pn">Import P/N</string>
+    <string name="label_Organization">Organization</string>
+    <string name="Does_not_match_current_ORG">Does not match the current ORG!</string>
+    <string name="enter_vendor_name">Please enter the vendor name</string>
+    <string name="Receiving">Receiving</string>
+    <string name="Pending_inspection">Pending Inspection</string>
+    <string name="Select_vendor">Select Vendor</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業 >> 收料作業-->
+    <string name="label_vendor_name">Vendor name</string>
+    <string name="label_remittance_yn">Remittance:%1$s</string>
+    <string name="label_vendor_info">%1$s-%2$s</string>
+    <string name="label_combine">\n\n\nCombine\n</string>
+    <string name="label_invoice">\n\n\nInvoice\n</string>
+    <string name="label_combine_invoice">\n\n\nCombine\nInvoice</string>
+    <string name="label_po_sec">\n\n\nPO\n</string>
+    <string name="cant_find_vc_data">Cant find vc data</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業 >> 收料作業 >> 清單-->
+    <string name="label_material_receiving_list">Material receiving</string>
+    <string name="hint_receiving_list">Filter:P/N, Invoice NO, PO</string>
+    <string name="label_rec_id">REC ID:%1$s</string>
+    <string name="label_vendor_site">Vendor site</string>
+    <string name="receiving">Receiving</string>
+    <string name="combine">Combine</string>
+    <string name="invoice">Invoice</string>
+    <string name="po">PO</string>
+    <string name="combine_invoice">Combine Invoice</string>
+    <string name="Insufficient_pre_delivery_qty">Insufficient pre-delivery Qty</string>
+    <string name="ru_del_data">Do you want to del data?</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業 >> 收料作業 >> 清單 >> 收料作業-->
+    <string name="label_invoice_no">Invoice no</string>
+    <string name="label_po">PO</string>
+    <string name="label_control">Control</string>
+    <string name="label_part_number">SKU</string>
+    <string name="label_po_qty">PO qty</string>
+    <string name="label_deliverable_qty">Deliverable qty</string>
+    <string name="label_predeliver">Predeliver</string>
+    <string name="label_pda_received">Received</string>
+    <string name="label_pda_unreceived">Unreceived</string>
+    <string name="label_temp_qty">Temp qty</string>
+    <string name="gen_invoice_no">Gen invoice no</string>
+    <string name="label_import_invoice_no">Import invoice number</string>
+    <string name="label_import_locator">Import locator</string>
+    <string name="Please_enter_ORG">Please enter ORG:</string>
+    <string name="label_import_x_board_qty">Import X Board Qty</string>
+    <string name="label_import_qty">Import Qty</string>
+    <string name="label_import_single_box_qty">Import Single Box Qty</string>
+    <string name="label_import_receipts_qty">Import Receipts Qty</string>
+    <string name="label_import_sn">Import S/N</string>
+    <string name="cant_find_receipt_data">Cant find receipt data</string>
+    <string name="label_Del">Delete</string>
+    <string name="enter_invoice">Enter invoice</string>
+    <string name="enter_correct_invoice">Enter correct invoice(len>10)</string>
+    <string name="qr_code_has_error">QR Code reel Id has error</string>
+    <string name="vc_incorrect">V/C incorrect</string>
+    <string name="qrcode_qty_error">QR Code qty error</string>
+    <string name="cant_greater_than_predeliver">Cant greater than predeliver</string>
+    <string name="cant_greater_than_poqty">Cant greater than po qty</string>
+    <string name="receipts_qty_cant_less_than_or_equals_0">Receipts qty cant less than or equals 0</string>
+    <string name="greater_than_po_qty">Greater than po qty</string>
+    <string name="greater_than_deliverable_qty">Greater than deliverable qty</string>
+    <string name="enter_x_board_qty">Enter x board qty</string>
+    <string name="Plz_Import_Single_Box_Qty">Plz Import Single Box Qty</string>
+    <string name="Plz_Import_Receipts_Qty">Plz Import Receipts Qty</string>
+    <string name="qrcode_has_error_reelid_len_34">QR Code has error,reelid len must be 34</string>
+    <string name="qrcode_has_error_qty_is_not_null">QR Code has error, qty cant be null</string>
+    <string name="qrcode_has_error_qty_is_greater_than_0">QR Code has error, qty must be more than 0</string>
+    <string name="qrcode_has_error_qty_is_not_resolved">QR Code has error, qty cant be resolved</string>
+    <string name="org_is_not_null">Org cant be null</string>
+    <string name="qrcode_parsing_length_mismatch_unable_proceed">QR code parsing length mismatch, unable to proceed!</string>
+    <string name="greater_than_deliverable_qty_Overcharge">Greater than deliverable qty, Overcharge?</string>
+    <string name="Label_printing_error_occurred">Label printing error occurred, please reprint</string>
+    <string name="This_material_is">This material is:</string>
+    <string name="would_you_like_to_continue">, would you like to continue?</string>
+    <string name="btn_print">Print</string>
+    <string name="material_from_senao">From SENAO</string>
+    <string name="DcQrCode_Original">Original QR Code</string>
+    <string name="material_from_senao_YN">From SENAO Yes/No?</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業 >> 收料作業 >> 發票/儲位資料-->
+    <string name="txt_gen_invoice_no">Gen invoice no-%1$s</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 收料作業 >> 收料作業 >> 發票清單-->
+    <string name="label_invoice_no_eng">Invoice No</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 刪除異常-->
+    <string name="label_del_error">Delete Error Data</string>
+    <string name="label_pn_po_invoice_vendor">SKU / PO / Invoice / Vender</string>
+    <string name="label_total_qty">Total qty %1$d</string>
+    <string name="label_select_qty">Select qty %1$d</string>
+    <string name="button_select_all">Select all</string>
+    <string name="button_select_invert">Select invert</string>
+    <string name="label_receiving">Receiving - %1$s</string>
+    <string name="label_del_delivery">Delete Delivery Data</string>
+
+    <!--03.收料入庫相關作業 >> 03-01.收料作業 >> 暫收入帳-->
+    <string name="label_temp_employ">Temporarily employ</string>
+    <string name="label_pn_vendor">SKU / Vender</string>
+    <string name="ru_sure_to_bill">Are you sure excuting the billing?</string>
+    <string name="plz_sel_item">Please select the bill items</string>
+
+
+    <!--03.收料入庫相關作業 >> 03-03.驗收入庫作業-->
+    <string name="label_acceptance">Inventory inspections</string>
+    <string name="label_import_part_no">Import SKU</string>
+    <string name="label_import_receipt_no">Receipts No</string>
+    <string name="label_import_receiving_id">TRX ID No</string>
+    <string name="label_acceptance_outsourcing1">%1$s Outsource inventory \ninspections</string>
+    <string name="label_acceptance1">%1$s Inventory inspections</string>
+    <string name="Receipt_id_number_data_checking">Receipt id checking...</string>
+    <string name="Material_receipt_number_data_checking">Receipt form checking...</string>
+    <string name="enter_recived_num">Enter recived num</string>
+    <string name="enter_recived_id">Enter recived id</string>
+
+    <!--03.收料入庫相關作業 >> 03-03.驗收入庫作業 >> 清單-->
+    <string name="cant_find_acceptance_stock_data">Cant find acceptance stock data</string>
+    <string name="not_in_day">Check not in dure %1$d day</string>
+    <string name="label_uncheck_qty">Uncheck qty</string>
+    <string name="label_item_loc">Warehouse clerk</string>
+    <string name="label_item_loc_desc">Sub / Loc</string>
+    <string name="label_stock_in_qty">Stock temp in qty</string>
+    <string name="label_not_in_qty">Not in qty</string>
+    <string name="label_stock_in_xb_qty">Stock in X board qty</string>
+    <string name="label_not_in_xb_qty">Not in X board qty</string>
+    <string name="label_acc_receipt_no">Acc receipt no</string>
+    <string name="label_trx_id">Trx ID</string>
+
+    <!--03.收料入庫相關作業 >> 03-03.驗收入庫作業 >> 清單 >>處理-->
+    <string name="label_xb_quantity">X board should storage %1$d storaged %2$d unstorage %3$d</string>
+    <string name="label_receipt_number">Receipt number</string>
+    <string name="label_receipt_id">TRX ID</string>
+    <string name="label_sub">Sub</string>
+    <string name="label_loc">Loc</string>
+    <string name="label_dc">D/C</string>
+    <string name="label_xb_qty_smaller_than_db">Should num ok,but X Board num less than X Board should num?</string>
+    <string name="label_xb_qty_larger_than_db">X Board num more than X Board should num</string>
+    <string name="label_acceptance_stockin_quantity">Should %1$s has %2$s not %3$s</string>
+    <string name="label_acceptance_xb_quantity">X Board should %1$s has %2$s not %3$s</string>
+
+
+    <!--03.收料入庫相關作業 >> 03-05.驗收入庫批次作業-->
+    <string name="Incoming_inspection_and_stocking_batch_process_is_under_construction">03-05.Incoming inspection and stocking batch process is under construction</string>
+
+
+    <!--04.查詢相關作業 >> 04-01.進貨超交查詢作業-->
+    <string name="title_activity_overtake">Overtake search operate</string>
+    <string name="label_import_item_number">Import P/N</string>
+    <string name="default_shipping_remark">Data</string>
+    <string name="title_activity_overtake1">%1$s Purchase Overdelivery</string>
+    <string name="sku_len_can_not_less_than_12">SKU len can not less than 12!</string>
+    <string name="over_delivery">Over-delivery</string>
+    <string name="acceptable_for_receipt">Acceptable for receipt</string>
+    <string name="total_receivable">Total receivable</string>
+    <string name="state">State</string>
+    <string name="Demand_range">Demand range</string>
+    <string name="Days_of_control">Days of control</string>
+    <string name="Buyer">Buyer</string>
+    <string name="Warehouse_clerk">Warehouse clerk</string>
+    <string name="SKU">SKU</string>
+    <string name="Description">Description</string>
+    <string name="no_receivable_quantity"> no receivable qty</string>
+
+
+    <!--04.查詢相關作業 >> 04-02.庫存查詢作業-->
+    <string name="label_item_on_hand">Inventory inquiry</string>
+    <string name="label_on_hand_query_conditions">Select a query contitions</string>
+    <string name="label_wait_inspect">Wait inspect</string>
+    <string name="label_on_hand">Stock</string>
+    <string name="label_item_on_hand1">%1$s Inventory inquiry</string>
+    <string name="sku_len_incorrect">SKU len incorrect</string>
+    <string name="label_not_in_storage_qty">Not in storage qty</string>
+    <string name="label_total">Total Qty</string>
+
+    <!--04.查詢相關作業 >> 04-02.庫存查詢作業 >> 清單-->
+    <string name="hint_item_on_hand_list_search">SKU</string>
+    <string name="label_qty">Qty</string>
+
+
+    <!--04.查詢相關作業 >> 04-04.PO查詢及列印作業-->
+    <string name="title_activity_shippment_query_po">PO Inquiry and Printing Operation</string>
+    <string name="txt_po">PO:%1$s</string>
+    <string name="txt_oe">OE:%1$s</string>
+    <string name="title_activity_shippment_query_po1">%1$s PO Inquiry and Printing \nOperation</string>
+    <string name="plz_enter_query_condictions">Enter query condictions</string>
+    <string name="Print">Print</string>
+    <string name="print_oe_po_question">OE:%1$s, PO:%2$s, would you like to print the PO/OE label?</string>
+    <string name="get_data_success">Get data success</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-01.客供材料進貨標籤列印作業-->
+    <string name="label_customer_material_receipts_label">Customer material receipts label\n%1$s</string>
+    <string name="label_rb_pn">Senao SKU</string>
+    <string name="label_rb_cpn">Customer SKU</string>
+    <string name="label_import_pack_qty">Import Pack Qty</string>
+    <string name="label_import_po_qty">Import PO &amp; Qty(Optional)</string>
+    <string name="hint_import_po_qty">PO, Count(Please separate with commas)</string>
+    <string name="btn_input">Input</string>
+    <string name="label_list_summary">PO count:%1$d, summary:%2$d</string>
+    <string name="label_customer_material_receipts_label_eng">Customer material receipts label</string>
+    <string name="label_customer_material_receipts_label1">%1$s Customer material receipts label\n%2$s</string>
+    <string name="plz_enter_po_num_and_qty">Please enter po num and qty</string>
+    <string name="enter_orig_qty">Enter original qty</string>
+    <string name="format_not_match">The format does not match, please re-enter</string>
+    <string name="repeat_po">Repeat po</string>
+    <string name="enter_po_qty_greater_than_total">Enter po qty greater than total</string>
+    <string name="po_num_has_inputed">PO num has inputed</string>
+    <string name="enter_senao_sku">Enter senao SKU</string>
+    <string name="enter_cust_sku">Enter cust SKU</string>
+    <string name="enter_packing_base">Enter packing base</string>
+    <string name="Qty_in_PO_list_does_not_match_total_qty">Qty in the PO list does not match the total qty</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-02.進貨標籤列印作業-->
+    <string name="title_activity_custom_print">ShipmentActivity</string>
+    <string name="label_codesoft">Codesoft</string>
+    <string name="label_print_material_label">%1$s Incoming Goods Label \nPrinting Operation</string>
+    <string name="label_import_coo">Import COO</string>
+    <string name="enter_coo">Enter COO</string>
+    <string name="invalid_update_info">Invalid update information</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-03.客供材料拆包作業-->
+    <string name="label_customer_material_split_packing">Customer material split packing\n%1$s</string>
+    <string name="hint_optional">(Not necessary)</string>
+    <string name="label_customer_material_split_packing_eng">Customer Material split packing label</string>
+    <string name="label_customer_material_split_packing1">%1$s Customer material split \npacking\n%2$s</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-04.材料拆包作業-->
+    <string name="label_material_split_packing">Material split packing\n%1$s</string>
+    <string name="label_material_split_packing_eng">Material split packing label</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-05.客供材料標籤補標作業-->
+    <string name="label_customer_material_label_reprint">Customer material reprint label\n%1$s</string>
+    <string name="label_customer_material_label_reprint_eng">Customer Material reprint label</string>
+    <string name="label_customer_material_label_reprint1">%1$s Customer material reprint \nlabel\n%2$s</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-06.材料標籤補標作業-->
+    <string name="label_print_label">Material label relabeling operations</string>
+    <string name="label_print_label1">%1$s Material label relabeling</string>
+    <string name="PO_is_empty_do_you_want_to_continue_printing">PO is empty, do you want to continue printing?</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-07.發票流水號補標作業-->
+    <string name="label_print_invoice_seq">Invoice seq relabeling operations</string>
+    <string name="label_import_invoice_seq">Import invoice seq</string>
+    <string name="label_vendor_no_name">Vendor\n%1$s</string>
+    <string name="label_print_invoice_seq1">%1$s Invoice seq relabeling \noperations</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-08.製令標籤補標作業-->
+    <string name="label_wo_label_print">WO label supplementary work</string>
+    <string name="label_import_line">Import Line</string>
+    <string name="label_import_remark">Import Remark</string>
+    <string name="label_wo_label_print1">%1$s WO label supplementary \nwork</string>
+
+
+    <!--05.標籤列印相關作業 >> 05-09.自訂標籤列印作業-->
+    <string name="For_NoInspection_Use_Only">For No-Inspection Use Only(enter Reel ID only)</string>
+    <string name="Wifi_not_yet_developed">Wifi not yet developed</string>
+    <string name="Codesoft_not_yet_developed">Codesoft not yet developed</string>
+    <string name="enter_data">Plz enter data</string>
+
+
+    <!--06.EasyFlow表單相關-->
+    <string name="Transfer_Waste_material_responsibility_form_under_construction">06-01.Transfer/Waste material responsibility form is under construction</string>
+    <string name="Material_wear_under_construction">06-02.Material wear is under construction</string>
+    <string name="General_receipt_return_material_list_under_construction">06-03.General receipt (return) material list is under construction</string>
+    <string name="Form_query_under_construction">06-04.Form query is under construction</string>
+    <string name="Sign_off_under_construction">06-05.Sign off is under construction</string>
+    <string name="Rollover_form_triggers_job_under_construction">06-06.The rollover form triggers the job is under construction</string>
+    <string name="Rollover_form_cancels_job_under_construction">06-07.轉The rollover form cancels the job is under construction</string>
+    <string name="Form_label_labeling_jobs_under_construction">06-08.Form label labeling jobs is under construction</string>
+    <string name="Form_jobs_pick_return_transfer_move_under_construction">06-09.Form jobs(pick/return/transfer/move) is under construction</string>
+
+
+    <!--07.SMT相關作業 >> 07-04.烘烤作業-->
+    <string name="title_activity_bake">Bake Operation</string>
+    <string name="label_backstart">\nStart\n</string>
+    <string name="label_reprint">\nReprint\n</string>
+    <string name="label_complete">\nComplete\n</string>
+    <string name="label_inquire">\nInquire\n</string>
+
+    <!--07.SMT相關作業 >> 07-04.烘烤作業 >> 烘烤作業-開始-->
+    <string name="title_activity_start_bake">%1$s Bake Operation-Start</string>
+    <string name="label_Package">Package</string>
+    <string name="back_PCB">PCB</string>
+    <string name="back_Tray_BGA">Tray(BGA)</string>
+    <string name="back_Tray_Other">Tray(Other)</string>
+    <string name="back_Reel">Reel</string>
+    <string name="label_Bake_Temperature">Bake Temperature</string>
+    <string name="import_bakeloc">Enter Bake Locator</string>
+    <string name="button_start_bake">Start Bake</string>
+    <string name="Successfully_recorded_baking_start_time">Successfully recorded baking start time</string>
+    <string name="enter_bakeloc">Enter bake locator</string>
+    <string name="plz_input_package">Plz choose package</string>
+    <string name="label_Bake_Time">Bake Time</string>
+    <string name="label_No_bake_data">No bake data</string>
+
+    <!--07.SMT相關作業 >> 07-04.烘烤作業 >> 烘烤作業-完成-->
+    <string name="title_activity_complete_bake">%1$s Bake Operation-Complete</string>
+    <string name="Unable_update_completion_time">Unable to update the completion time!</string>
+    <string name="Baking_not_yet_completed">Baking not yet completed!</string>
+    <string name="No_ongoing_baking_data">No ongoing baking data</string>
+    <string name="Still_requires">Still requires </string>
+    <string name="force_end_baking_process_and_send_notification"> hours. Do you want to force end the baking process and send a notification email?</string>
+    <string name="input_who_dicision">Input who decided</string>
+    <string name="Item_has_been_deleted">Item has been deleted</string>
+
+    <!--07.SMT相關作業 >> 07-04.烘烤作業 >> 烘烤作業-補印-->
+    <string name="title_activity_reprint_bake">%1$s Bake Operation-Reprint</string>
+
+    <!--07.SMT相關作業 >> 07-04.烘烤作業 >> 烘烤作業-查詢-->
+    <string name="title_activity_query_bake">%1$s Bake Operation-Query</string>
+    <string name="Start_Date">Start Date</string>
+    <string name="End_Date">End Date</string>
+    <string name="Still_in_baking_standard_baking_time_is">Still in baking process, standard baking time is</string>
+    <string name="Baking_time_reached_but_not_yet_completed">Baking time reached, but not yet completed</string>
+    <string name="Remaining_Time">Remaining Time</string>
+
+
+    <!--08.外包相關作業-->
+    <string name="Outsourcing_Material_Packing_Work_under_construction">08-01.Outsourcing Material Packing Work is under construction</string>
+    <string name="Outsourcing_packing_return_under_construction">08-02.Outsourcing packing return is under construction</string>
+    <string name="Outsourcing_Shipment_picking_operations_under_construction">08-03.Outsourcing Shipment picking operations is under construction</string>
+    <string name="Outsourcing_Shipment_picking_return_under_construction">08-04.Outsourcing Shipment picking return is under construction</string>
+    <string name="Outsourcing_Pallet_Box_label_printing_under_construction">08-05.Outsourcing Pallet and Box label printing is under construction</string>
+    <string name="Outsourcing_Check_Receiving_operations_under_construction">08-06.Outsourcing Check Receiving operations is under construction</string>
+    <string name="Outsourcing_Boxing_Shipment_picking_detail_Search_under_construction">08-08.Outsourcing Boxing and Shipment picking detail Search is under construction</string>
+    <string name="Outsourcing_Boxing_Shipment_picking_detail_download_under_construction">08-09.Outsourcing Boxing and Shipment picking detail download is under construction</string>
+
+
+    <!--08.外包相關作業 >> 08-07.外包材料裝箱及出貨撿料離線作業-->
+    <string name="title_activity_outsourceing_material_and_shipment_picking">Outsourceing material and shipment picking</string>
+    <string name="input_Merge_number">Input Merge number</string>
+    <string name="add_and_rivise">Add/revise</string>
+    <string name="download_file">Download file</string>
+    <string name="input_email">Input E-Mail</string>
+    <string name="storage_path">Storage path</string>
+    <string name="merge_no_not_null">Merge no cant be null</string>
+    <string name="Outsourceing_Merge_Number">Merge number</string>
+    <string name="Outsourceing_Pallet">Pallet No</string>
+    <string name="Outsourceing_Box">Box</string>
+    <string name="Outsourceing_Carton_Weight">Carton Weight</string>
+    <string name="Outsourceing_SKU">SKU</string>
+    <string name="Outsourceing_Description">Description</string>
+    <string name="Outsourceing_Qty">Qty</string>
+    <string name="Outsourceing_DC">DC</string>
+    <string name="Outsourceing_Reel_Id">Reel Id</string>
+    <string name="Outsourceing_Pallet2">Pallet</string>
+
+    <!--08.外包相關作業 >> 08-07.外包材料裝箱及出貨撿料離線作業 >> 方法-->
+    <string name="label_picking_package">Method of picking package</string>
+    <string name="import_cn2">Import C/No</string>
+
+    <!--08.外包相關作業 >> 08-07.外包材料裝箱及出貨撿料離線作業 >> 方法 >> 清單-->
+    <string name="ban_num">Pallet No</string>
+    <string name="label_carton_qty">Carton Qty</string>
+    <string name="label_reel_id2">Reel ID %1$s</string>
+    <string name="label_carton_weight2">Carton Weight</string>
+    <string name="c_weight_is_not_null">Carton weight cant be null</string>
+    <string name="carton_duplicate">Carton ID and Reel ID duplicate</string>
+    <string name="reelid_duplicate">Reel ID duplicate</string>
+    <string name="carton_weight_not_equal">Carton Weight not Equal</string>
+    <string name="label_shipment_weight">Weight</string>
+    <string name="label_serial_number">Box</string>
+
+
+    <!--AndroidManifest.xml-->
+    <string name="app_name">warehouse</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_scanner_setting">scanner settings</string>
+    <string name="title_activity_shipment">ShipmentActivity</string>
+    <string name="title_activity_shipment_carton">ShipmentCartonActivity</string>
+    <string name="title_activity_shipment_pallet">ShipmentPalletActivity</string>
+    <string name="title_activity_transfer_rollover">TransferRolloverActivity</string>
+    <string name="title_activity_shipment_create_pallet">ShipmentCreatePalletActivity</string>
+    <string name="title_activity_shipment_picking">ShipmentPickingActivity</string>
+    <string name="title_activity_shipping_verify_main">ShippingVerifyMainActivity</string>
+    <string name="title_activity_printer_setting">BT printer settings</string>
+    <string name="title_activity_stock_in">Work Order Storage Operation</string>
+    <string name="title_activity_print_label">Material label</string>
+    <string name="title_activity_stock_in_process">Work Order Storage Operation</string>
+    <string name="title_activity_material_receiving">Receiving Operation</string>
+    <string name="title_activity_material_receiving_list">Receiving Operation</string>
+    <string name="title_activity_material_receiving_process">Receiving Operation</string>
+    <string name="title_activity_material_sending">WO material sending</string>
+    <string name="title_activity_material_sending_list">WO material sending</string>
+    <string name="title_activity_material_sending_process">WO material sending</string>
+    <string name="title_activity_material_sending_subinventory_transfer">WO material sending</string>
+    <string name="title_activity_acceptance">Inventory inspections</string>
+    <string name="title_activity_wait_check_inquiry">Pending query job</string>
+    <string name="title_activity_wait_check_list">Pending query job</string>
+    <string name="title_activity_wait_check_search">Pending query job</string>
+    <string name="title_activity_acceptance_process">AcceptanceProcessActivity</string>
+    <string name="title_activity_acceptance_batch">Acceptance batch</string>
+    <string name="title_activity_shipment_po">Shipment Po Activity</string>
+
+
+    <!--還沒處理：
+        1) AcceptanceBatchActivity + AcceptanceBatchListActivity ==>驗收入庫批次作業 (還在施工)
+        2) TransferLocatorFormActivity + TransferLocatorFormListActivity + TransferLocatorFormProcessActivity ==>轉倉/呆料責任歸屬單 (還在施工)
+        3) TransferLocatorRevokeActivity + TransferLocatorRevokeListActivity ==>轉倉表單撤銷作業 (還在施工)
+        4) TransferLocatorTriggerActivity + TransferLocatorTriggerManualActivity + TransferLocatorTriggerManualDetailActivity + TransferLocatorTriggerPickActivity ==>轉倉表單觸發作業 (還在施工)
+        5) TransferRolloverActivity ==>表單作業(領料/退料/調撥/轉倉) (還在施工)
+        6) WaitCheckInquiryActivity + WaitCheckListActivity + WaitCheckDetailActivity + WaitCheckDetailActivity ==>待驗查詢作業 (還在施工)
+    -->
+
+
+    <!--沒有使用-->
+    <string name="label_smt_material_split_packing">Material split packing\n%1$s</string>
+    <string name="label_receiving_outsourcing">Receiving_outsourcing - %1$s</string>
+    <string name="barcode_failure">barcode failure</string>
+    <string name="label_connection_status"><b>status</b></string>
+    <string name="label_connection_status_connected"><b>connection works normally</b></string>
+    <string name="label_connection_status_disconnected"><b>Failed connection</b></string>
+    <string name="label_employeeid"><b>employeeid XXX</b></string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_show_kb">show\nkeyboard</string>
+    <string name="button_hide_kb">hide\nkeyboard</string>
+    <string name="button_deduct">Deduction</string>
+    <string name="button_picking">Picking</string> <!--activity_rma_menu.xml-->
+    <string name="button_confirm4">Confirm</string> <!--activity_rma_menu.xml-->
+    <string name="title_activity_shipment_detail">ShipmentDetailActivity</string>
+    <string name="title_activity_shipment_create_pallet_detail">ShipmentCreatePalletDetailActivity</string>
+    <string name="title_activity_compare">CompareActivity</string>
+    <string name="title_activity_shipping_verify">ShippingVerifyActivity</string>
+    <string name="title_activity_shipping_verify_check">ShippingVerifyCheckActivity</string>
+    <string name="title_activity_shipping_verify_container">ShippingVerifyContainerActivity</string>
+    <string name="title_activity_shipping_verify_pallet">ShippingVerifyPalletActivity</string>
+    <string name="title_activity_shipping_verify_pickup">ShippingVerifPickupActivity</string>
+    <string name="title_activity_shipping_verify_print">ShippingVerifyPrintActivity</string>
+    <string name="title_activity_shipping_verify_remark">ShippingVerifyRemartActivity</string>
+    <string name="custom_ui_roi">Camera overlay with ROI</string>
+    <string name="custom_ui">Custom camera overlay</string>
+    <string name="default_ui_no_dialog">Default overlay, no dialog</string>
+    <string name="default_ui_no_logo">Default overlay</string>
+    <string name="Back">Back</string>
+    <string name="LightOff">Light: off</string>
+    <string name="LightOn">Light: on</string>
+    <string name="print_1">Printer 1</string>
+    <string name="print_2">Printer 2</string>
+    <string name="pdf417">PDF417 Label for Meraki</string>
+    <string name="title_activity_wo_label_print">Mandatory label supplementary work</string>
+    <string name="label_acceptance_batch">acceptance batch</string> <!--activity_acceptance_batch.xml-->
+    <string name="label_acceptance_batch_outsourcing">acceptance batch outsourcing</string> <!--AcceptanceBatchActivity + AcceptanceBatchListActivity-->
+    <string name="title_activity_stock_time_set_detail">StockTimeSetDetailActivity</string>
+    <string name="label_import_seq">Import Serial No</string>
+    <string name="label_invoice_seq">NO:%1$s</string>
+    <string name="label_transfer_locator_trigger">The rollover form triggers the job</string> <!--activity_transfer_locator_trigger.xml-->
+    <string name="label_transfer_rollover">%1$s Form jobs(pick/return/transfer/move)</string> <!--activity_transfer_rollover.xml-->
+    <string name="label_transfer_locator_revoke">The rollover form cancels the job</string> <!--activity_transfer_locator_revoke.xml-->
+    <string name="label_transfer_locator_form">Transfer/Waste material responsibility form</string> <!--activity_transfer_locator_form.xml-->
+    <string name="title_activity_transfer_revoke">TransferRevokeActivity</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="label_ezflow_no">Ezflow No</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="label_flow_seq">flow seq</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="label_apply_department">Apply Department</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="label_applicant">Applicant</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="label_number_of_application">Total number of application materials</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="label_number_of_received">The total number of materials received</string>
+    <string name="label_work_item_name">Current point</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="hint_transfer_form_list">Status / Warehouse clerk / SKU</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_work_item">Checkpoint</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_type">type</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_form_no">Form No</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_total_number">Total Number</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_number_of_processed">Processed</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_number_of_unprocessed">Unprocessed</string> <!--activity_transfer_locator_form_list.xml-->
+    <string name="label_out_subinventory">Out Subinventory</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_out_locator">Out Locator</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_warehouse_clerk">Warehouse clerk</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_detail_status">status</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_due_number">should passed</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_number_of_credited">passed</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_number_of_uncredited">unpassed</string> <!--TransferLocatorFormListActivity-->
+    <string name="label_onhand">quantity in stock</string> <!--TransferLocatorFormListActivity-->
+    <string name="hint_revoke">Long press to dismiss form</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="error_msg_revoke">The material has been received and cannot be revoked. The details are as follows:</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="title_activity_transfer_excess_material_responsibility_duty">Transfer/Waste material responsibility form</string>
+    <string name="label_in_subinventory">In Subinventory</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_in_locator">In Locator</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_storage_qty">Quantity in Stock</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_temp_receive_qty">temp receive qty</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_wait_inspect_qty">wait inspect qty</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_inspected_qty">Inspected Qty</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="get_data">getting data</string> <!--TransferLocatorFormActivity-->
+    <string name="chk_del_dc">Is it delete \n%s %s \nDC %s * %d?</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="vc_data_chking">Vendor code data checking...</string> <!--AcceptanceBatchActivity-->
+    <string name="chse_warhousing_item">Chse warhousing item</string> <!--AcceptanceBatchListActivity-->
+    <string name="Make_sure_to_revoke_this_form">Make sure to revoke this form?</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="Direct_supervisor">Direct supervisor</string> <!--TransferLocatorRevokeListActivity-->
+    <string name="cant_enter_this_loc">Cant enter this loc</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="Processed_OK">Processed OK</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="cant_transfer_qty_over_">Cant transfer qty over should num</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="only_307">Only 307</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="qty_more_than_should_num">qty more than should num</string> <!--TransferLocatorFormProcessActivity-->
+    <string name="label_acceptance_outsourcing">Outsource inventory inspections</string>
+    <string name="button_read_barcode">read barcode</string>
+    <string name="UseWith">Use with</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission. The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Barcode Reader Sample</string>
+    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="label_compare">compare</string>
+    <string name="label_input_shipment_id">Enter Sku</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_issuer_name">Account</string>
+    <string name="prompt_issuer_password">Password</string>
+    <string name="error_login_failed">The account does not exist or the password is wrong</string>
+    <string name="error_field_required">This field cannot be empty</string>
+    <string name="button_connect"><b>Connection</b></string>
+    <string name="button_disconnect"><b>Disconnected</b></string>
+    <string name="pick_vendor">Pick vendor</string>
+    <string name="delete">delete</string>
+    <string name="label_material_receiving_process">Material receiving process</string>
+    <string name="label_part_desc">Part desc</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_import_quantity">Import Quantity</string>
+    <string name="error_data">Error data</string>
+    <string name="predeliver_data">Predeliver data</string>
+    <string name="label_unit_price">Unit price</string>
+    <string name="label_subinventory">Sub</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_locator">Loc</string> <!--TransferLocatorFormListActivity-->
+    <string name="import_transfer_subinventory">Subinventory in</string>
+    <string name="import_transfer__locator">Locator in</string>
+    <string name="label_remark">remark</string>
+    <string name="label_rma_picking">RMA shippment picking</string>
+    <string name="label_scanner_setting">Scanner setting</string> <!--activity_scanner_setting.xml-->
+    <string name="label_enable_enter">Enable enter</string> <!--activity_scanner_setting.xml-->
+    <string name="label_enable_sound">Sound note</string> <!--activity_scanner_setting.xml-->
+    <string name="label_enable_vibration">Vibration note</string> <!--activity_scanner_setting.xml-->
+    <string name="label_shipping_status">status</string>
+    <string name="label_pallet_number">Pallet</string>
+    <string name="label_box_number">sku</string>
+    <string name="label_sn_qrcode">QR Code</string>
+    <string name="label_sn_qrcode_2">QR</string>
+    <string name="label_input_date">Input date</string>
+    <string name="label_pass">Pass</string>
+    <string name="label_waiting">Waiting</string>
+    <string name="label_show_keyboard">Show keyboard</string>
+    <string name="label_hide_keyboard">Hide keyboard</string>
+    <string name="label_pallet_no">Pallet NO</string>
+    <string name="label_carton_no">Carton NO</string>
+    <string name="label_sn">SN</string>
+    <string name="label_stock_in_process">Order warehousing operations</string>
+    <string name="label_stock_in_os">Outsourced Order warehousing operations</string>
+    <string name="label_pn_invoice">P/N /\nInvoice NO</string>
+    <string name="title_activity_tembo_pallet_label_print">Tembo pallet label print</string>
+    <string name="input_serial_number">Import SN</string>
+    <string name="label_samsara_printer_info">Samsara printer info</string>
+    <string name="label_import_ezflow_form_no">Enter form document number</string> <!--TransferLocatorFormActivity-->
+    <string name="label_import_process_no">Enter process serial number</string> <!--TransferLocatorFormActivity-->
+    <string name="label_import_application_department">Enter application department</string> <!--TransferLocatorFormActivity-->
+    <string name="label_import_application_name">Enter application name</string> <!--TransferLocatorFormActivity-->
+    <string name="label_select_operation_mode">Select operation mode</string> <!--TransferLocatorTriggerActivity-->
+    <string name="button_manual_trigger">Manual\nTrigger</string> <!--TransferLocatorTriggerActivity-->
+    <string name="button_detail_pick">Detail\nPick</string> <!--TransferLocatorTriggerActivity-->
+    <string name="label_transfer_locator_trigger_main">Transfer locator trigger-%1$s</string> <!--TransferLocatorTriggerActivity-->
+    <string name="label_transfer_info">SKU:%1$s\nSKU_Desc:%2$s\nSub:%3$s Loc:%4$s\nDC:%5$s QTY:%6$d</string>
+    <string name="button_detail">DETAIL</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_item_inventory_summary">Total qty%1$d transfer qty%2$d</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="msg_input_transfer_qty_larger_than_original">Transfer qty cannot be greater than the stock qty</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="msg_input_transfer_qty_larger_than_one">Transfer qty must be greater tha 0</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_manual_trigger">Manual trigger</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_manual_trigger_detail">Manual trigger detail</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_detail_pick">Detail pick</string> <!--TransferLocatorTriggerPickActivity-->
+    <string name="button_trigger">Trigger</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_transfer_qty">Transfer qty</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_import_transfer_qty">Import Qty</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_on_hand_qty">Inventory qty</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_on_hand_dc">DC</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_dc_inventory">DC %1$s * %2$d</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_subinventory_locator">%1$s %2$s</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="tv_transfer_qty">(%1$s)</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_detail_transfer_qty">DC %1$s * %2$d</string> <!--TransferLocatorTriggerManualDetailActivity-->
+    <string name="label_transfer_data">Transfer data</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="msg_input_transfer_qty">Enter transfer qty</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_item_description_2">Item %1$s</string> <!--TransferLocatorTriggerManualActivity-->
+    <string name="label_wait_check_inquiry">Wait check inquiry</string> <!--WaitCheckDetailActivity-->
+    <string name="label_received_uncheck">Received uncheck</string> <!--WaitCheckDetailActivity-->
+    <string name="label_check_not_in">Check not in</string> <!--WaitCheckDetailActivity-->
+    <string name="label_wait_check_qty">Check qty</string> <!--WaitCheckDetailActivity-->
+
+</resources>

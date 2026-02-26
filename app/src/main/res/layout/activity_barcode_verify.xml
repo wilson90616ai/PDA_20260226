@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context=".ui.BarcodeVerifyActivity">
+
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#A4C739"
+        android:text="@string/label_barcode_verify"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/layoutInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ap_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/label_sn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/input_sn_no"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ap_title"
+            android:paddingLeft="5dp"
+            android:text="@string/label_sn_no"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/input_sn_no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ap_title"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_toRightOf="@+id/label_sn_no"
+            android:layout_weight="1"
+            android:ems="30"
+            android:inputType="text"
+            android:lines="1"
+            android:textColor="@color/blue" />
+
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/switchLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/layoutInput"
+        android:layout_marginRight="4dp"
+        android:text="Light"
+        android:textColor="@color/black"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/snQrCodeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switchLight"
+        android:orientation="horizontal"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp">
+
+        <TextView
+            android:id="@+id/label_2d_bardcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="@string/label_barcode"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/edittext_import_sn_qrcode"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@color/grey"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:padding="4dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonLayout"
+        android:layout_below="@+id/snQrCodeLayout"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:choiceMode="singleChoice"
+        android:divider="@null"
+        android:dividerHeight="4dp"
+        android:orientation="vertical" />
+
+    <RelativeLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="56dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <Button
+            android:id="@+id/button_confirm"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button_cancel"
+            android:layout_alignBottom="@+id/button_cancel"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/button_confirm2"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/button_cancel2"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

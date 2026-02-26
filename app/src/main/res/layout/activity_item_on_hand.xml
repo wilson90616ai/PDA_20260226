@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.ItemOnHandActivity">
+
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#A4C739"
+        android:text="@string/label_item_on_hand"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label_conditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_on_hand_query_conditions"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:padding="8dp"
+        android:layout_below="@+id/ap_title"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_type"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:orientation="horizontal"
+        android:layout_below="@+id/label_conditions"
+        android:visibility="visible">
+
+        <RadioButton
+            android:id="@+id/radio_all"
+            style="@style/RadioButtonWh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_all"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/radio_wait_inspect"
+            style="@style/RadioButtonWh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_wait_inspect"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/radio_on_hand"
+            style="@style/RadioButtonWh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_on_hand"
+            android:textColor="#000000" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/pnLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_cancel"
+        android:layout_below="@+id/radio_group_type"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/label_import_pn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_import_pn"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+<!--            <CheckBox-->
+<!--                android:id="@+id/cb_pn"-->
+<!--                style="@style/CheckBoxAppTheme"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:visibility="gone" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:gravity="center"-->
+<!--                android:text="(必填)"-->
+<!--                android:textColor="@color/red"-->
+<!--                android:textSize="14dp"-->
+
+<!--                >-->
+
+<!--            </TextView>-->
+
+            <EditText
+                android:id="@+id/edittext_pn"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/hasto"
+                android:clickable="false"
+                android:ems="30"
+                android:gravity="center"
+                android:hint="@string/Required"
+                android:inputType="textCapCharacters"
+                android:lines="1"
+                android:maxLength="12"
+
+                android:textColor="@color/red"
+                android:textColorHint="@color/red"
+                android:textCursorDrawable="@drawable/solid_shape_bottom_line"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/label_import_subinventory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/import_subinventory"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_subinventory"
+                style="@style/CheckBoxAppTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edittext_subinventory"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/grey"
+                android:clickable="false"
+                android:ems="30"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:lines="1"
+                android:textColor="@color/blue"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/label_import_locator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_import_locator"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_locator"
+                android:layout_width="wrap_content"
+                style="@style/CheckBoxAppTheme"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edittext_locator"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/grey"
+                android:clickable="false"
+                android:ems="30"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:lines="1"
+                android:maxLength="10"
+                android:textColor="@color/blue"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_cancel"
+        android:layout_alignBottom="@+id/button_cancel"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/custom_button"
+        android:paddingBottom="10dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip"
+        android:text="@string/button_confirm2"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/custom_button"
+        android:paddingBottom="10dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="10dip"
+        android:text="@string/button_cancel2"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

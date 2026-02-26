@@ -1,0 +1,4 @@
+#Tue Feb 24 16:12:00 CST 2026
+base.0=D\:\\gitlab\\pda_android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

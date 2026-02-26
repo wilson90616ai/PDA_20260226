@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context=".ui.MaterialReceivingModeActivity">
+
+    <TextView
+        android:id="@+id/ap_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#A4C739"
+        android:text="@string/label_material_receiving"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ap_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_return"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/label_mode_selection"
+        android:layout_below="@+id/ap_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="#FFFFFF"
+        android:textColor="@color/black"
+        android:padding="8dp" />
+
+    <LinearLayout
+        android:id="@+id/list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_below="@+id/label_mode"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/btn_receipts"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_green"
+                android:text="@string/label_receipts"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_temp_receipts"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:background="@drawable/custom_button_green"
+                android:text="@string/label_temporarily_receipts"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/btn_temp_employ"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:background="@drawable/custom_button_green"
+                android:text="@string/label_temporarily_employ"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_del"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_green"
+                android:enabled="false"
+                android:text="@string/label_delete"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/submenu_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label_status"
+        android:layout_below="@+id/label_mode"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/btn_error"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_green"
+            android:padding="4dp"
+            android:text="@string/label_error"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_delivery"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_green"
+            android:padding="4dp"
+            android:text="@string/label_delivery"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/label_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#A4C739"
+        android:clickable="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
